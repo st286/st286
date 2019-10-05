@@ -1,5 +1,5 @@
-# Homebrew: The missing package manager for macOS (or Linux)
-
+# Homebrew
+     The missing package manager for macOS (or Linux)    
 ## Install (uninstall) Homebrew  
 ```shell
 # Install
@@ -10,7 +10,7 @@
 
 ## Link
 
-[office site](https://brew.sh)  
-[Documentation](https://docs.brew.sh)  
+1. [office site](https://brew.sh)  
+2. [Documentation](https://docs.brew.sh)  
 
 ## Homebrew(cask) package installed on my Mac
