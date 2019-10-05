@@ -1,7 +1,9 @@
 # Homebrew
-**The missing package manager for macOS (or Linux)**  
-     
-## Install (uninstall) Homebrew  
+**The missing package manager for macOS (or Linux)**
+
+
+## Install (uninstall) Homebrew
+
 ```shell
 # Install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
