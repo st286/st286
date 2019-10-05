@@ -1,5 +1,5 @@
-# My first git readme md
+# Apple macOS
 
-My first git readme.md
+## [Homebrew](./macOS/brew-uage.md)
 
 ## the second change
