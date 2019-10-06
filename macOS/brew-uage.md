@@ -39,10 +39,10 @@
 | package | note |
 | ------- | ---------- |
 | atom | [code editor by Github](https://golang.org) |
-| ccleaner | [mac cleaner](https://www.ccleaner.com/ccleaner-mac) |
-| ezip | [压缩解压](https://ezip.awehunt.com/) |
+| ccleaner | [mac cleaner. a tool for fixing a slow Mac](https://www.ccleaner.com/ccleaner-mac) |
+| ezip | [Perfect handling of encryption and decryption](https://ezip.awehunt.com/) |
 | firefox | [browser](https://www.mozilla.org/firefox/) |
-| iina | [media player](https://iina.io/) |
+| iina | [The modern media player for macOS](https://iina.io/) |
 | mos | [tool used to smooth scrolling and set scroll direction independently for mouse](https://mos.caldis.me/) |
 | OpenConnect-GUI | [VPN client cisco anyconnect](https://openconnect.github.io/openconnect-gui/) |
 | v2rayU | [client of V2ray](https://github.com/yanue/V2rayU) |
