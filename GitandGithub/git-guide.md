@@ -1,5 +1,3 @@
-[Top return](../README.md)
-
 ##  Git and Github Guide
 
   [git - 简明指南](https://rogerdudler.github.io/git-guide/index.zh.html)
@@ -11,4 +9,4 @@
   [IBM Git 和 GitHub入门](https://www.ibm.com/developerworks/cn/opensource/os-cn-git-and-github-1/index.html?ca=drs-)
 
 
-[Top return](../README.md)
+[Top Return](../README.md)
