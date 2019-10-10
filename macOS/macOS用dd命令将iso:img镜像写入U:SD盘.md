@@ -25,7 +25,7 @@ rdisk 中加入r可以让写入速度加快
 **查看磁盘进度，可以用iostat命令查看磁盘写入状态**
 >      iostat -w 2
 
-** 操作完毕后将U盘弹出**
+**操作完毕后将U盘弹出**
 >      diskutil eject /dev/disk2
 
 ---
