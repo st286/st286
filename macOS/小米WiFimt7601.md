@@ -10,11 +10,13 @@ sudo apt-get install mt7601-sta-dkms
 
 ## 0x4C4A/install_mt7601.sh
 
+```shell
 #!/bin/sh
->sudo add-apt-repository ppa:thopiekar/mt7601
+sudo add-apt-repository ppa:thopiekar/mt7601
 sudo apt-get update
 sudo apt-get install build-essential # Without build-essential failed to compile on fresh Linux Mint installation
 sudo apt-get install mt7601-sta-dkms
+```
 
 ---
 
@@ -26,9 +28,11 @@ Bus 004 Device 002: ID 148f:7601 Ralink Technology, Corp. MT7601U Wireless Adapt
 But ifconfig -a show only eth0 adapter. No ra0 link :(
 
 I've tried
->sudo apt-add-repository ppa:thopiekar/mt7601
+```shell
+sudo apt-add-repository ppa:thopiekar/mt7601
 sudo apt-get update
 sudo apt-get install mt7601-sta-dkms
+```
 
 But still no results.
 
@@ -38,17 +42,26 @@ On a NanoPi Neo2 I got the mainline kernel
 ARMBIAN 5.38.180128 nightly Debian GNU/Linux 9 (stretch) 4.14.15-sunxi64
 
 and there the mt7601 is available without a special repository:
->root@nanopineo2:~# find / -name mt7601*
+
+
+```shell
+root@nanopineo2:~# find / -name mt7601*
 /lib/modules/4.14.15-sunxi64/kernel/drivers/net/wireless/mediatek/mt7601u
 /lib/modules/4.14.15-sunxi64/kernel/drivers/net/wireless/mediatek/mt7601u/mt7601u.ko
 /lib/firmware/mt7601u.bin
 /lib/firmware/mt7601.bin
+```
 
 Did you try to
->modprobe mt7601
+```shell
+modprobe mt7601
+```
 
 and then
->ifconfig wlan0 up
+
+```shell
+ifconfig wlan0 up
+```
 
 or create a WiFi connection inside of nmtui?
 
