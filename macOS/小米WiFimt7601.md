@@ -2,9 +2,11 @@
 
 ## Ubuntu16.04 使用小米WiFi 变无线网卡
 
->sudo add-apt-repository ppa:thopiekar/mt7601
+```shell
+sudo add-apt-repository ppa:thopiekar/mt7601
 sudo apt-get update
 sudo apt-get install mt7601-sta-dkms
+```
 
 ---
 
