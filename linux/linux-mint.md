@@ -8,7 +8,7 @@ https://www.linuxmint.com/
 
 https://www.linuxmint.com/download.php
 
-**Xfce 64bit Edition**
+Xfce 64bit Edition
 
 #### Write ISO to USB key
 
