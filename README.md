@@ -3,7 +3,7 @@
 ## Linux
 
  1.  [The linux command line 中文版](https://www.kancloud.cn/thinkphp/linux-command-line/39431)
-
+ 2.  [Go语言入门教程，Golang入门教程（非常详细](http://c.biancheng.net/golang/)
 
 ---
 
