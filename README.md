@@ -15,9 +15,13 @@
 ## macOS (apple)
 
  1.  [MacOS终端走代理](https://github.com/mrdulin/blog/issues/18)
+ 
  2.  [MacOS终端命令](https://github.com/qLzhu/macCommand)
+ 
  3.  [Some Useful Sites](./macOS/useful-sites.md)
+ 
  4.  [Homebrew: Package manage](./macOS/brew-uage.md)
+ 
  5.  [How to write iso/img to U key](./macOS/macOS用dd命令将iso:img镜像写入U:SD盘.md)
 
 ---
@@ -25,6 +29,7 @@
 ## Windows (microsoft)
 
  1. [MobaXterm -- Enhanced terminal for Windows](https://mobaxterm.mobatek.net)
+ 
  2. [5 Best SSH Clients for Windows](https://activedirectorypro.com/ssh-clients-for-windows/)
 
 ---
