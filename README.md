@@ -9,6 +9,10 @@
  3.  [IBM -- 学习 Linux -- LPIC-1 路线图](https://www.ibm.com/developerworks/cn/linux/l-lpic1-v3-map/)
  
  4.  [Go语言入门教程，Golang入门教程（非常详细)](http://c.biancheng.net/golang/)
+ 
+ #### 5. linux command
+         
+         1. [tar](https://www.jianshu.com/p/b91d7491381b)
 
 ---
 
