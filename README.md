@@ -12,7 +12,7 @@
  
  #### 5. linux command
          
-         1. [tar](https://www.jianshu.com/p/b91d7491381b)
+   [tar](https://www.jianshu.com/p/b91d7491381b)
 
 ---
 
