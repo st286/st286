@@ -10,7 +10,7 @@
  
  4.  [Go语言入门教程，Golang入门教程（非常详细)](http://c.biancheng.net/golang/)
  
- #### 5. linux command
+ ####  5.  linux command
          
    [tar](https://www.jianshu.com/p/b91d7491381b)
 
