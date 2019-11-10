@@ -16,6 +16,12 @@
 
 ---
 
+## Python
+
+  1. [草根学 Python](https://www.readwithu.com)
+
+---
+
 ## macOS (apple)
 
  1.  [MacOS终端走代理](https://github.com/mrdulin/blog/issues/18)
