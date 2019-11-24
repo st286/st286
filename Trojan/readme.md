@@ -49,8 +49,8 @@ Installation guide on various platforms can be found in the [wiki](https://githu
 创建 CA 模板 ca.tmpl，内容为（cn 与 organization 可以随便写，但是为了避免可能发生的问题，服务器证书的 cn 填 VPS 的 IP 或域名）：
 
 ```shell
-cn = "ff"
-organization = "ff"
+cn = "ff" (这里，修改)
+organization = "ff" (这里，修改)
 serial = 1
 expiration_days = 3650
 ca
@@ -72,8 +72,8 @@ crl_signing_key
 创建文件 server.tmpl，内容为：
 
 ```shell
-cn = "xxx.xxx.xxx.xxx"
-organization = "ff"
+cn = "xxx.xxx.xxx.xxx" (这里，修改)
+organization = "ff" (这里，修改)
 expiration_days = 3650
 signing_key
 encryption_key
