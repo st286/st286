@@ -30,7 +30,7 @@ Installation guide on various platforms can be found in the [wiki](https://githu
 
 `sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"`
 
-# or 
+ or 
 
 `sudo bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"`
 
@@ -43,9 +43,8 @@ Installation guide on various platforms can be found in the [wiki](https://githu
 
 先安装所需的工具：
 
-```shell
-apt install gnutls-bin gnutls-doc 
-```
+`apt install gnutls-bin gnutls-doc`
+
 
 创建 CA 模板 ca.tmpl，内容为（cn 与 organization 可以随便写，但是为了避免可能发生的问题，服务器证书的 cn 填 VPS 的 IP 或域名）：
 
@@ -89,4 +88,50 @@ tls_www_server
 
 `certtool --generate-certificate --load-privkey server-key.pem --load-ca-certificate ca-cert.pem --load-ca-privkey ca-key.pem --template server.tmpl --outfile server-cert.pem`
 
+
+### 配置文件
+
+#### 服务端配置文件
+
+`nano /usr/local/etc/trojan/config.json`
+
+`......
+ ......
+     "password": [
+        "Password1", (这里，修改为自己的密码)
+        "Password2"。(这里，修改为自己的密码)
+    ],
+    "log_level": 1,
+"ssl": {
+        "cert": "/.../server-cert.pem", （这里，修改为自己的证书；注意：文件路径用绝对地址）
+        "key": "/.../server-key.pem",   （这里，修改为自己的密钥；注意：文件路径用绝对地址）
+        "key_password": "",
+        "cipher": "ECDHE-ECDSA-CHACHA20-
+        ......
+        ......`
+
+#### 客户端配置文件
+
+客户端配置文件里的config.json
+
+`{
+    "run_type": "client",
+    "local_addr": "127.0.0.1",
+    "local_port": 1080,
+    "remote_addr": "你的 VPS 的 IP",(这里，修改)
+    "remote_port": 443,
+    "password": ["Password1"],(这里，修改为自己的密码)
+    "append_payload": true,
+    "log_level": 1,
+    "ssl": {
+        "verify": true,
+        "verify_hostname": true,
+        "cert": "ca-cert.pem",  （这里，修改为自己的证书)
+        "cipher": "ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA:AES128-SHA:AES256-SHA:DES-CBC3-SHA",
+        "sni": "你的 VPS 的 IP",(这里，修改)
+        "alpn": [
+        ......
+        ......`
+        
+### 运行Trojan
 
