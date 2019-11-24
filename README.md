@@ -18,7 +18,7 @@
 
 ## Trojan 
 
- [教程](./trojan/readme.md)
+ [教程](trojan/readme.md)
 
  [自建梯子教程 --Trojan版本](https://trojan-tutor.github.io/2019/04/10/p41.html)
  
