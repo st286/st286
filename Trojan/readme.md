@@ -40,7 +40,22 @@ Installation guide on various platforms can be found in the [wiki](https://githu
     
 ### 创建 CA 证书
 
-先安装所需的工具：
+**注意!!!生成证书、密钥文件后，要修改权限为 600 即：**
+
+```shell
+# 进入所在目录
+chmod 600 *
+# 如下
+-rw------- 1 root root 1484 Nov 24 03:01 ca-cert.pem
+-rw------- 1 root root 8167 Nov 24 02:58 ca-key.pem
+-rw------- 1 root root  132 Nov 24 02:54 ca.tmpl
+-rw------- 1 root root 1273 Nov 24 03:30 config.json
+-rw------- 1 root root 1586 Nov 24 03:02 server-cert.pem
+-rw------- 1 root root 8177 Nov 24 03:02 server-key.pem
+-rw------- 1 root root  121 Nov 24 02:56 server.tmpl
+```
+
+**先安装所需的工具：**
 
 `apt install gnutls-bin gnutls-doc`
 
@@ -91,6 +106,8 @@ tls_www_server
 ### 配置文件
 
 #### 服务端配置文件
+
+**注意!!! 配置文件中的证书、密钥文件，其路径要用绝对地址**
 
 `nano /usr/local/etc/trojan/config.json`
 
@@ -174,6 +191,8 @@ WantedBy=multi-user.target
 `systemctl status trojan`
 
 ---
+
+## 安装Nginx
 
 
 
