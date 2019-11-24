@@ -30,15 +30,14 @@ Installation guide on various platforms can be found in the [wiki](https://githu
 
 ```shell
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"
-# or 
+## or 
 sudo bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"
 ```
 
 安装后，配置文件和service文件在：
 
-    /usr/local/etc/trojan/config.json
-
-    /etc/systemd/system/trojan.service
+    `/usr/local/etc/trojan/config.json`
+    `/etc/systemd/system/trojan.service`
     
 ### 创建 CA 证书
 
@@ -67,9 +66,7 @@ crl_signing_key
 
 生成 CA 证书：
 
-```shell
-certtool --generate-self-signed --load-privkey ca-key.pem --template ca.tmpl --outfile ca-cert.pem
-```
+`certtool --generate-self-signed --load-privkey ca-key.pem --template ca.tmpl --outfile ca-cert.pem`
 
 创建服务器证书模板 ：
 
@@ -86,13 +83,10 @@ tls_www_server
 
 生成服务器证书密钥：
 
-```shell
-certtool --generate-privkey --outfile server-key.pem
-```
+`certtool --generate-privkey --outfile server-key.pem`
 
 生成服务器证书：
 
-```shell
-certtool --generate-certificate --load-privkey server-key.pem --load-ca-certificate ca-cert.pem --load-ca-privkey ca-key.pem --template server.tmpl --outfile server-cert.pem
-```
+`certtool --generate-certificate --load-privkey server-key.pem --load-ca-certificate ca-cert.pem --load-ca-privkey ca-key.pem --template server.tmpl --outfile server-cert.pem`
+
 
