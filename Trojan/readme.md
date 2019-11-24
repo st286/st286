@@ -15,15 +15,7 @@ Installation guide on various platforms can be found in the [wiki](https://githu
 
 ## 教程 --Trojan
 
-**下面教程主要参考：**
-
-[Trojan 的安装与配置](https://www.oixxu.com/anti-gfw-tool-trojan-install-configuration/)
-
-[自建-Trojan](https://trojan-tutor.github.io/2019/04/10/p41.html)
-
-[Trojan搭建教程适用于Debian9](https://vave.men/trojan.html)
-
-### Installation
+### 安装
 
 **Quickstart Script**
 
@@ -189,6 +181,15 @@ WantedBy=multi-user.target
 查看运行状态
 
 `systemctl status trojan`
+
+
+**上面教程主要参考：**
+
+[Trojan 的安装与配置](https://www.oixxu.com/anti-gfw-tool-trojan-install-configuration/)
+
+[自建-Trojan](https://trojan-tutor.github.io/2019/04/10/p41.html)
+
+[Trojan搭建教程适用于Debian9](https://vave.men/trojan.html)
 
 ---
 
