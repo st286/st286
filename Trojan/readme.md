@@ -191,9 +191,34 @@ WantedBy=multi-user.target
 
 [Trojan搭建教程适用于Debian9](https://vave.men/trojan.html)
 
+
+**Here, we will present a list of things you should do before you start a trojan server:**
+
+  1. setup an HTTP server and make it useful in some sense (to deceive GFW).
+  2. register a domain name for your server.
+  3. Apply for or self-sign (NOT RECOMMENDED) an SSL certificate.
+  4. Correctly write the config file.
+
 ---
 
 ## 安装Nginx
+
+**Why does install nginx**
+
+For Setup an HTTP server and make it useful in some sense (to deceive GFW).
+
+
+
+
+
+
+## Mobile Platforms
+
+### IOS
+
+`Pharos Pro` and `Shadowrocket` have implemented trojan protocol.
+
+
 
 
 
