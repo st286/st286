@@ -1,5 +1,4 @@
 # Trojan
------
 
 An unidentifiable mechanism that helps you bypass GFW. 
 Trojan features multiple protocols over TLS to avoid both active/passive detections and ISP QoS limitations.
@@ -139,17 +138,18 @@ tls_www_server
         
 ### 运行Trojan
 
-试运行，运行成功后，Ctrl+C关闭。
+**试运行，运行成功后，Ctrl+C关闭**
 
 `./trojan -c /usr/local/etc/trojan/config.json`
 
-把命令运行为server
+**把命令运行为server.(下面的trojan.service,安装trojan时，可能已存在。如存在，应该不用修改)**
 
-因为命令./trojan -c /usr/local/etc/trojan/config.json是运行在前台的，我们需要利用systemd来把该命令运行为service，运行以下命令进行修改。
+因为命令`./trojan -c /usr/local/etc/trojan/config.json`是运行在前台的，我们需要利用systemd来把该命令运行为service，运行以下命令进行修改。
 
-vi /etc/systemd/system/trojan.service
+`nano /etc/systemd/system/trojan.service`
+
 填写以下内容：
-
+```shell
 [Unit]
 After=network.target 
  
@@ -159,12 +159,21 @@ Restart=always
  
 [Install]
 WantedBy=multi-user.target
-11.运行启动Trojan.
+```
 
-systemctl start trojan
+**运行启动Trojan**
+
+`systemctl start trojan`
+
 设置开机启动
 
-systemctl enable trojan
+`systemctl enable trojan`
+
 查看运行状态
 
-systemctl status trojan
+`systemctl status trojan`
+
+---
+
+
+
