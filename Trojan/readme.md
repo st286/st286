@@ -95,7 +95,8 @@ tls_www_server
 
 `nano /usr/local/etc/trojan/config.json`
 
-`......
+```shell
+ ......
  ......
      "password": [
         "Password1", (这里，修改为自己的密码)
@@ -108,13 +109,15 @@ tls_www_server
         "key_password": "",
         "cipher": "ECDHE-ECDSA-CHACHA20-
         ......
-        ......`
+        ......
+```
 
 #### 客户端配置文件
 
 客户端配置文件里的config.json
 
-`{
+```shell
+{
     "run_type": "client",
     "local_addr": "127.0.0.1",
     "local_port": 1080,
@@ -127,11 +130,12 @@ tls_www_server
         "verify": true,
         "verify_hostname": true,
         "cert": "ca-cert.pem",  （这里，修改为自己的证书)
-        "cipher": "ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA:AES128-SHA:AES256-SHA:DES-CBC3-SHA",
+        "cipher": "ECDHE-ECDSA-AES128-GCM-SHA256:......",
         "sni": "你的 VPS 的 IP",(这里，修改)
         "alpn": [
         ......
-        ......`
+        ......
+```
         
 ### 运行Trojan
 
