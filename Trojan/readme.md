@@ -15,7 +15,7 @@ Installation guide on various platforms can be found in the [wiki](https://githu
 
 ## 教程 --Trojan
 
-### 安装
+### 1.安装
 
 **Quickstart Script**
 
@@ -30,7 +30,7 @@ Installation guide on various platforms can be found in the [wiki](https://githu
     /usr/local/etc/trojan/config.json
     /etc/systemd/system/trojan.service
     
-### 创建 CA 证书
+### 2.创建 CA 证书
 
 **注意!!!生成证书、密钥文件后，要修改权限为 600 即：**
 
@@ -95,7 +95,7 @@ tls_www_server
 `certtool --generate-certificate --load-privkey server-key.pem --load-ca-certificate ca-cert.pem --load-ca-privkey ca-key.pem --template server.tmpl --outfile server-cert.pem`
 
 
-### 配置文件
+### 3.配置文件
 
 #### 服务端配置文件
 
@@ -145,7 +145,7 @@ tls_www_server
         ......
 ```
         
-### 运行Trojan
+### 4.运行Trojan
 
 **试运行，运行成功后，Ctrl+C关闭**
 
