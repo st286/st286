@@ -139,3 +139,32 @@ tls_www_server
         
 ### 运行Trojan
 
+试运行，运行成功后，Ctrl+C关闭。
+
+`./trojan -c /usr/local/etc/trojan/config.json`
+
+把命令运行为server
+
+因为命令./trojan -c /usr/local/etc/trojan/config.json是运行在前台的，我们需要利用systemd来把该命令运行为service，运行以下命令进行修改。
+
+vi /etc/systemd/system/trojan.service
+填写以下内容：
+
+[Unit]
+After=network.target 
+ 
+[Service]
+ExecStart=/root/trojan/build/trojan -c /usr/local/etc/trojan/config.json
+Restart=always
+ 
+[Install]
+WantedBy=multi-user.target
+11.运行启动Trojan.
+
+systemctl start trojan
+设置开机启动
+
+systemctl enable trojan
+查看运行状态
+
+systemctl status trojan
