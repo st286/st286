@@ -28,16 +28,16 @@ Installation guide on various platforms can be found in the [wiki](https://githu
 
 **Quickstart Script**
 
-```shell
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"
-## or 
-sudo bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"
-```
+`sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"`
+
+# or 
+
+`sudo bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"`
 
 安装后，配置文件和service文件在：
 
-    `/usr/local/etc/trojan/config.json`
-    `/etc/systemd/system/trojan.service`
+    /usr/local/etc/trojan/config.json
+    /etc/systemd/system/trojan.service
     
 ### 创建 CA 证书
 
