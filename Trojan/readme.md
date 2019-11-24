@@ -25,6 +25,18 @@ Installation guide on various platforms can be found in the [wiki](https://githu
 
 `sudo bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"`
 
+用法：
+```shell
+usage: ./trojan [-htv] [-l LOG] [-k KEYLOG] [[-c] CONFIG]
+options:
+  -c [ --config ] CONFIG specify config file
+  -h [ --help ]          print help message
+  -k [ --keylog ] KEYLOG specify keylog file location (OpenSSL >= 1.1.1)
+  -l [ --log ] LOG       specify log file location
+  -t [ --test ]          test config file
+  -v [ --version ]       print version and build info
+```
+
 安装后，配置文件和service文件在：
 
     /usr/local/etc/trojan/config.json
