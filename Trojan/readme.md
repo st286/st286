@@ -25,7 +25,7 @@ Installation guide on various platforms can be found in the [wiki](https://githu
 
 `sudo bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"`
 
-OR on Debian 10
+**OR on Debian 10**
 
 `apt install trojan`
 
@@ -225,9 +225,6 @@ WantedBy=multi-user.target
 **Why does install nginx**
 
 For Setup an HTTP server and make it useful in some sense (to deceive GFW).
-
-
-
 
 
 
