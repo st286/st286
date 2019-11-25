@@ -25,6 +25,10 @@ Installation guide on various platforms can be found in the [wiki](https://githu
 
 `sudo bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"`
 
+OR on Debian 10
+
+`apt install trojan`
+
 用法：
 ```shell
 usage: ./trojan [-htv] [-l LOG] [-k KEYLOG] [[-c] CONFIG]
@@ -41,6 +45,9 @@ options:
 
     /usr/local/etc/trojan/config.json
     /etc/systemd/system/trojan.service
+    
+    # on debian 10 install by apt:
+    /etc/trojan/config.json
     
 ### 2.创建 CA 证书
 
@@ -175,7 +182,7 @@ tls_www_server
 After=network.target 
  
 [Service]
-ExecStart=/root/trojan/build/trojan -c /usr/local/etc/trojan/config.json
+ExecStart=/usr/bin/trojan -c /etc/trojan/config.json (这里，修改为自己的；注意：路径用绝对地址)
 Restart=always
  
 [Install]
