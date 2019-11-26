@@ -5,6 +5,8 @@ Trojan features multiple protocols over TLS to avoid both active/passive detecti
 
 [Trojan Github ](https://trojan-gfw.github.io/trojan/)
 
+[Trojan released 发布版本](https://github.com/trojan-gfw/trojan/releases/)
+
 ## Documentations
 
 An online documentation can be found [here](https://trojan-gfw.github.io/trojan/).
