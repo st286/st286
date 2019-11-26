@@ -1,6 +1,6 @@
 # Trojan
 
-An unidentifiable mechanism that helps you bypass GFW. 
+An unidentifiable mechanism that helps you bypass GFW. LsxRyu7L3DCh-www
 Trojan features multiple protocols over TLS to avoid both active/passive detections and ISP QoS limitations.
 
 [Trojan Github ](https://trojan-gfw.github.io/trojan/)
