@@ -189,6 +189,25 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
+OR 
+
+```shell
+[Unit]
+Description=trojan
+Documentation=https://trojan-gfw.github.io/trojan/config https://trojan-gfw.github.io/trojan/
+After=network.target network-online.target nss-lookup.target mysql.service mariadb.service mysqld.service
+
+[Service]
+Type=simple
+StandardError=journal
+ExecStart="/usr/local/bin/trojan" "/usr/local/etc/trojan/config.json"  (这里，修改为自己的；注意：路径用绝对地址)
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target
+```
+
+
 **运行启动Trojan**
 
 `systemctl start trojan`
