@@ -158,7 +158,7 @@ tls_www_server
         "verify_hostname": true,
         "cert": "ca-cert.pem",  （这里，修改为自己的证书)
         "cipher": "ECDHE-ECDSA-AES128-GCM-SHA256:......",
-        "sni": "你的 VPS 的 IP",(这里，修改)
+        "sni": "",
         "alpn": [
         ......
         ......
@@ -245,7 +245,11 @@ WantedBy=multi-user.target
 
 For Setup an HTTP server and make it useful in some sense (to deceive GFW).
 
+## Client客户端使用
 
+[根据自己系统下载Trojan版本](https://github.com/trojan-gfw/trojan/releases/)
+
+根据 里面的根据exmaple设置。
 
 ## Mobile Platforms
 
