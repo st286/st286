@@ -129,7 +129,9 @@ fi
 
 chmod 600 ca-key.pem ca-cert.pem server-key.pem server-cert.pem
 
-
 echo Configuration and keys is in the  "$INSTALLPREFIX/etc/$NAME"
+
+echo 27 Nov 2019, St4swift.
+
 echo All Done!
 
