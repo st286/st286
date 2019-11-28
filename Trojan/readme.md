@@ -18,6 +18,6 @@
 修改 服务器、客户端配置文件：config.json、client.json ( 密码和证书、密钥 )。
 
 
-## [详细安装参考这里](./install.md)
+### 详细安装参考[这里](./install.md)
     
     
