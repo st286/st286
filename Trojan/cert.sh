@@ -14,9 +14,8 @@ apt install gnutls-bin gnutls-doc
 
 echo "Generate template: ca.tmpl and server.tmpl "
 
-
 cat > ca.tmpl << EOF
-cn = "$(date)"
+cn = "_ip_"
 organization = "$(date)"
 serial = 1
 expiration_days = 3650
@@ -26,10 +25,8 @@ cert_signing_key
 crl_signing_key
 EOF
 
-sleep 2s
-
 cat > server.tmpl << EOF
-cn = "$(date)"
+cn = "_ip_"
 organization = "$(date)"
 expiration_days = 3650
 signing_key
