@@ -50,7 +50,7 @@ else
 fi
 
 echo Installing $NAME client config to $CLIENTPATH...
-if ! [[ -f "$CLIENTPATH" ]] || prompt "The server config already exists in $CLIENTPATH, overwrite?"; then
+if ! [[ -f "$CLIENTPATH" ]] || prompt "The client config already exists in $CLIENTPATH, overwrite?"; then
     install -Dm644 examples/client.json-example "$CLIENTPATH"
 else
     echo Skipping installing $NAME client config...
@@ -143,8 +143,20 @@ chmod 600 ca-key.pem ca-cert.pem server-key.pem server-cert.pem
 pswd1=$(cat /proc/sys/kernel/random/uuid)
 pswd2=$(cat /proc/sys/kernel/random/uuid)
 
-sed -i "s/example.com/$ip/;s/password1/$pswd1/" client.json
-sed -i "s/password1/$pswd1/;s/password2/$pswd2/;s/certificate.crt/server-cert.pem/;s/private.key/server-key.pem/" config.json
+echo Update $NAME server config to $CONFIGPATH...
+if ! [[ -f "$CONFIGPATH" ]] || prompt "The server config already exists in $CONFIGPATH, UPDATE?"; then
+    sed -i "s/password1/$pswd1/;s/password2/$pswd2/;s/certificate.crt/server-cert.pem/;s/private.key/server-key.pem/" config.json
+else
+    echo Skipping UPDATE $NAME server config...
+fi
+
+echo Update $NAME client config to $CLIENTPATH...
+if ! [[ -f "$CLIENTPATH" ]] || prompt "The client config already exists in $CLIENTPATH, UPDATE?"; then
+    sed -i "s/example.com/$ip/;s/password1/$pswd1/" client.json
+else
+    echo Skipping UPDATE $NAME client config...
+fi
+
 
 echo Configuration and keys is in the  "$INSTALLPREFIX/etc/$NAME"
 
