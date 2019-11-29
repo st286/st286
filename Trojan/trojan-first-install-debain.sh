@@ -86,7 +86,7 @@ fi
 echo Deleting temp directory $TMPDIR...
 rm -rf "$TMPDIR"
 
-#------------------------------------------------
+##==============================
 echo Entering the directory "$INSTALLPREFIX/etc/$NAME"
 cd "$INSTALLPREFIX/etc/$NAME"
 
@@ -118,7 +118,10 @@ tls_www_server
 EOF
 
 echo "Add ip to ca.tmpl and server.tmpl"
+
+# Get host ip address
 ip=$(curl -s http://api.ipify.org)
+
 sed -i "s/_ip_/$ip/" ca.tmpl
 sed -i "s/_ip_/$ip/" server.tmpl
 
@@ -135,9 +138,20 @@ fi
 
 chmod 600 ca-key.pem ca-cert.pem server-key.pem server-cert.pem
 
+#Generate server and client configuration files
+
+pswd1=$(cat /proc/sys/kernel/random/uuid)
+pswd2=$(cat /proc/sys/kernel/random/uuid)
+
+sed -i "s/example.com/$ip/;s/password1/$pswd1/" client.json
+sed -i "s/password1/$pswd1/;s/password2/$pswd2/;s/certificate.crt/server-cert.pem/;s/private.key/server-key.pem/" config.json
+
 echo Configuration and keys is in the  "$INSTALLPREFIX/etc/$NAME"
 
-echo 29 Nov 2019, St4swift.
+cat config.json
+cat client.json
+
+echo 29 Nov 2019, by St4swift.
 
 echo All Done!
 
