@@ -145,7 +145,7 @@ pswd2=$(cat /proc/sys/kernel/random/uuid)
 
 echo Update $NAME server config to $CONFIGPATH...
 if ! [[ -f "$CONFIGPATH" ]] || prompt "The server config already exists in $CONFIGPATH, UPDATE?"; then
-    sed -i "s/password1/$pswd1/;s/password2/$pswd2/;s/certificate.crt/server-cert.pem/;s/private.key/server-key.pem/" config.json
+    sed -i "s/password1/$pswd1/;s/password2/$pswd2/;s#/path/to/certificate.crt#$INSTALLPREFIX/etc/$NAME/server-cert.pem#;s#/path/to/private.key#$INSTALLPREFIX/etc/$NAME/server-key.pem#" config.json
 else
     echo Skipping UPDATE $NAME server config...
 fi
@@ -159,10 +159,14 @@ fi
 
 
 echo Configuration and keys is in the  "$INSTALLPREFIX/etc/$NAME"
-
+echo ""
+echo Server config.json:
 cat config.json
+echo ""
+echo Client client.json:
 cat client.json
 
+echo ""
 echo 29 Nov 2019, by St4swift.
 
 echo All Done!
