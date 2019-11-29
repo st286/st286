@@ -86,6 +86,7 @@ fi
 echo Deleting temp directory $TMPDIR...
 rm -rf "$TMPDIR"
 
+echo Entering the directory "$INSTALLPREFIX/etc/$NAME"
 cd "$INSTALLPREFIX/etc/$NAME"
 
 echo "Installing gnutls-bin and gnutls-doc "
@@ -93,11 +94,11 @@ echo "Installing gnutls-bin and gnutls-doc "
 apt update
 apt install gnutls-bin gnutls-doc
 
-echo "Generate template: ca.tmpl and server.tmpl "
+echo "Generate template files: ca.tmpl and server.tmpl "
 
 cat > ca.tmpl << EOF
-cn = "$(date)"
-organization = "$(date)"
+cn = "_ip_"
+organization = "st4swift.io"
 serial = 1
 expiration_days = 3650
 ca
@@ -106,16 +107,20 @@ cert_signing_key
 crl_signing_key
 EOF
 
-sleep 2s
-
 cat > server.tmpl << EOF
-cn = "$(date)"
-organization = "$(date)"
+cn = "_ip_"
+organization = "st4swift.io"
 expiration_days = 3650
 signing_key
 encryption_key
 tls_www_server
 EOF
+
+echo "Add ip to ca.tmpl and server.tmpl"
+ip=$(curl -s http://api.ipify.org)
+sed -i "s/_ip_/$ip/" ca.tmpl
+sed -i "s/_ip_/$ip/" server.tmpl
+
 
 #生成 CA密钥\证书,生成服务器证书密钥\证书
 if ! [[ -f "ca-key.pem" ]] || prompt "The ca-key.pem already exists, overwrite?"; then
@@ -131,7 +136,7 @@ chmod 600 ca-key.pem ca-cert.pem server-key.pem server-cert.pem
 
 echo Configuration and keys is in the  "$INSTALLPREFIX/etc/$NAME"
 
-echo 27 Nov 2019, St4swift.
+echo 29 Nov 2019, St4swift.
 
 echo All Done!
 
