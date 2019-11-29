@@ -86,13 +86,14 @@ fi
 echo Deleting temp directory $TMPDIR...
 rm -rf "$TMPDIR"
 
+#------------------------------------------------
 echo Entering the directory "$INSTALLPREFIX/etc/$NAME"
 cd "$INSTALLPREFIX/etc/$NAME"
 
-echo "Installing gnutls-bin and gnutls-doc "
+echo "Install gnutls-bin and gnutls-doc curl"
 
 apt update
-apt install gnutls-bin gnutls-doc
+apt install gnutls-bin gnutls-doc curl
 
 echo "Generate template files: ca.tmpl and server.tmpl "
 
