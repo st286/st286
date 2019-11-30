@@ -153,6 +153,8 @@ pswd4=$(cat /proc/sys/kernel/random/uuid)
 
 sed -i "s/_passwd1_/$pswd1/;s/_passwd2_/$pswd2/;s/_passwd3_/$pswd3/;s/_passwd4_/$pswd4/" config.json
 
+cd 
+
 servicr v2ray restart
 
 echo All Done!
