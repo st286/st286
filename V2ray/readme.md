@@ -1,6 +1,7 @@
 
 ## 安装 Vr2ay
 
+```shell
   # installation:
   bash <(curl -L -s https://install.direct/go.sh)
   
@@ -9,5 +10,7 @@
 
   # Help:
 	bash <(curl -L -s https://install.direct/go.sh) -h
+
+```
 
 
