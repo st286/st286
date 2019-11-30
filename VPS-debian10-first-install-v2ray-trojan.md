@@ -3,10 +3,12 @@ set -euo pipefail
 
 # Code by St4swift, 30Nov2019
 
-[ $(id -u) != "0" ] && { echo "Error: You must be root to run this scipt."; exit 1; }
+if [[ $(id -u) != 0 ]]; then
+    echo Please run this script as root.
+    exit 1
+fi
 
 # 更换.bashrc
-
 cat > .bashrc << EOF
 # ~/.bashrc: executed by bash(1) for non-login shells.
 
@@ -36,9 +38,6 @@ source .bashrc
 apt update && apt upgrade -y
 apt install curl wget htop nload lsof
 
-
-
-
 # 安装nginx,用于trojan
 apt update
 apt install nginx
@@ -47,4 +46,114 @@ apt install nginx
 
 wget https://raw.githubusercontent.com/st286/st286.github.io/master/Trojan/trojan-first-install-debain.sh 
 bash trojan-first-install-debain.sh
+
+
+# 安装v2ray
+apt update && apt upgrade -y
+
+wget -O v2ray-install.sh https://install.direct/go.sh
+bash v2ray-install.sh
+
+# 更新配置config.json
+cd /etc/v2ray/
+
+cat > config.json << EOF
+{
+    "log": {
+        "access": "/var/log/v2ray/access.log",
+        "error": "/var/log/v2ray/error.log",
+        "loglevel": "warning"
+    },
+    "inbound": {
+        "port": 47 ,
+        "protocol": "vmess",
+        "settings": {
+            "clients": [
+                {
+                 // One:
+                    "id": "_passwd1_",
+                    "level": 1,
+                    "alterId": 64
+                },
+                {
+                 // Two:
+                    "id": "_passwd2_",
+                    "level": 1,
+                    "alterId": 64
+                },
+		            {
+		              // Three: 
+                    "id": "_passwd3_",
+                    "level": 1,
+                    "alterId": 64
+                }
+            ],
+	 "streamSettings": {
+	      "network": "tcp"
+	  },
+            "detour": {
+                "to": "mydetour"
+            }
+        }
+    },
+    "inbounddetour": [
+        {
+            "protocol": "vmess",
+            "port": "2000-50000",
+            "tag": "mydetour",
+            "settings": {
+                "default": {
+                    "level": 1,
+                    "alterid": 32
+                }
+            },
+            "allocate": {
+                "strategy": "random",
+                "concurrency": 2,
+                "refresh": 3
+            }
+        },
+        {
+            "protocol": "shadowsocks",
+            "port": 225,
+            "settings": {
+                "method": "aes-256-gcm",
+                "password": "_passwd4_"
+            }
+        }
+    ],
+    "outbounds": [{
+      "protocol": "freedom",
+        "settings": {
+  	  "domainStrategy": "AsIs",
+  	  "userLevel": 0
+        }
+    },{
+      "protocol": "blackhole",
+      "settings": {},
+      "tag": "blocked"
+    }],
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "ip": ["geoip:private"],
+          "outboundTag": "blocked"
+        }
+      ]
+    }
+}
+EOF
+
+
+pswd1=$(cat /proc/sys/kernel/random/uuid)
+pswd2=$(cat /proc/sys/kernel/random/uuid)
+pswd3=$(cat /proc/sys/kernel/random/uuid)
+pswd4=$(cat /proc/sys/kernel/random/uuid)
+
+sed -i "s/_passwd1_/$pswd1/;s/_passwd2_/$pswd2/;s/_passwd3_/$pswd3/;s/_passwd4_/$pswd4/" config.json
+
+servicr v2ray restart
+
+echo All Done!
 
