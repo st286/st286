@@ -18,6 +18,12 @@ function prompt() {
     done
 }
 
+forbashrc="IyB+Ly5iYXNocmM6IGV4ZWN1dGVkIGJ5IGJhc2goMSkgZm9yIG5vbi1sb2dpbiBzaGVsbHMuCgojIE5vdGU6IFBTMSBhbmQgdW1hc2sgYXJlIGFscmVhZHkgc2V0IGluIC9ldGMvcHJvZmlsZS4gWW91IHNob3VsZCBub3QKIyBuZWVkIHRoaXMgdW5sZXNzIHlvdSB3YW50IGRpZmZlcmVudCBkZWZhdWx0cyBmb3Igcm9vdC4KIFBTMT0nJHtkZWJpYW5fY2hyb290OisoJGRlYmlhbl9jaHJvb3QpfVxoOlx3XCQgJwogdW1hc2sgMDIyCgojIFlvdSBtYXkgdW5jb21tZW50IHRoZSBmb2xsb3dpbmcgbGluZXMgaWYgeW91IHdhbnQgYGxzJyB0byBiZSBjb2xvcml6ZWQ6CiBleHBvcnQgTFNfT1BUSU9OUz0nLS1jb2xvcj1hdXRvJwogZXZhbCAiYGRpcmNvbG9yc2AiCiBhbGlhcyBscz0nbHMgJExTX09QVElPTlMnCiBhbGlhcyBsbD0nbHMgJExTX09QVElPTlMgLWwnCiBhbGlhcyBsPSdscyAkTFNfT1BUSU9OUyAtbEEnCgojIFNvbWUgbW9yZSBhbGlhcyB0byBhdm9pZCBtYWtpbmcgbWlzdGFrZXM6CiBhbGlhcyBybT0ncm0gLWknCiBhbGlhcyBjcD0nY3AgLWknCiBhbGlhcyBtdj0nbXYgLWknCgojIGVkaXQgYnkgU3Q0c3dpZnQgMzBOb3YyMDE5"
+
+base64 -d <<< ${forbashrc} > for-bashrc
+
+
+
 # 更新package,并安装一些工具
 apt update && apt upgrade -y
 apt install curl wget htop nload lsof
@@ -156,4 +162,6 @@ echo "V2ray   configuration  in   /etc/v2ray/"
 echo "Nginx   config...      in   /var/www/html/"
 echo " "
 echo All Done!
+
+
 
