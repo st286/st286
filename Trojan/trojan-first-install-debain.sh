@@ -181,6 +181,10 @@ echo Client client.json:
 cat client.json
 
 echo ""
+
+systemctl status trojan
+
+echo ""
 echo 30 Nov 2019, by St4swift.
 
 echo All Done!
