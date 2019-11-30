@@ -1,6 +1,12 @@
 
 ## 安装 Vr2ay
 
+`wget -O v2ray-install.sh https://install.direct/go.sh`
+
+`bash v2ray-install.sh`
+
+
+OR
 ```shell
   # installation:
   
