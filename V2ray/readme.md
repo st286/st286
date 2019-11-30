@@ -13,4 +13,13 @@
 
 ```
 
+## 启动v2ray
 
+```shell
+	service v2ray start 
+	
+	systemctl start v2ray
+	
+	restart  enabled
+
+```
