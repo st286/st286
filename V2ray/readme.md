@@ -3,12 +3,15 @@
 
 ```shell
   # installation:
-  bash <(curl -L -s https://install.direct/go.sh)
+  
+  	bash <(curl -L -s https://install.direct/go.sh)
   
   # Upgrade:
+  
 	 bash <(curl -L -s https://install.direct/go.sh) -c
 
   # Help:
+  
 	bash <(curl -L -s https://install.direct/go.sh) -h
 
 ```
@@ -20,6 +23,6 @@
 	
 	systemctl start v2ray
 	
-	restart  enabled
+	restart  enable  status
 
 ```
