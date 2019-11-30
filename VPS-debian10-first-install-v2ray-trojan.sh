@@ -26,6 +26,7 @@ if ! [[ -f ".bashrc" ]] || prompt "The .bashrc already exists, Update?"; then
     mv  .bashrc  .bashrc-old
     cp  for-bashrc .bashrc
     source .bashrc
+    echo ".bashrc update... done!"
 else
     "echo Skipping Update .bashrc"
 fi
