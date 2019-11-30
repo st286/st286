@@ -137,11 +137,11 @@ pswd4=$(cat /proc/sys/kernel/random/uuid)
 
 sed -i "s/_passwd1_/$pswd1/;s/_passwd2_/$pswd2/;s/_passwd3_/$pswd3/;s/_passwd4_/$pswd4/" config-install.json
 
-if ! [[ -f "config.json" ]] || prompt "The config.json already exists, UPDATE?"; then
+if ! [[ -f "config.json" ]] || prompt "The V2ray config.json already exists, Update?"; then
     mv config.json config-old.json
     cp config-install.json config.json
 else
-    echo Skipping UPDATE config.json
+    echo Skipping Update V2ray config.json
 fi
 
 
