@@ -40,3 +40,10 @@ install -Dm755 "$NAME" "$BINARYPATH"
 
 echo Deleting temp directory $TMPDIR...
 rm -rf "$TMPDIR"
+
+echo ""
+echo restart trojan
+
+systemctl restart trojan
+
+echo ""
