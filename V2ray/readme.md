@@ -1,5 +1,5 @@
 
-## 安装 Vr2ay
+## 安装 V2ray
 
 `wget -O v2ray-install.sh https://install.direct/go.sh`
 
