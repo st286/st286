@@ -28,7 +28,7 @@ if ! [[ -f ".bashrc" ]] || prompt "The .bashrc already exists, Update?"; then
     source .bashrc
     echo ".bashrc update... done!"
 else
-    "echo Skipping Update .bashrc"
+    echo "Skipping Update .bashrc"
 fi
 
 
