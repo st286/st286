@@ -18,8 +18,7 @@
 
 ## Trojan 
 
-
-
+[一键安装Trojan](./Trojan)
 
 ---
 
