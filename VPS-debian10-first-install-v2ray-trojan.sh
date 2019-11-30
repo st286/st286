@@ -8,6 +8,15 @@ if [[ $(id -u) != 0 ]]; then
     exit 1
 fi
 
+function prompt() {
+    while true; do
+        read -p "$1 [y/N] " yn
+        case $yn in
+            [Yy] ) return 0;;
+            [Nn]|"" ) return 1;;
+        esac
+    done
+}
 
 # 更新package,并安装一些工具
 apt update && apt upgrade -y
