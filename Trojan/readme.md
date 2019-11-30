@@ -30,7 +30,7 @@
 
 ## client side 客户端
 
-scp 配置和证书, client.json、ca-key.pem（在服务器端目录/usr/local/etc/trojan/中）， 修改客户端配置文件 client.json ( 密码和证书、密钥 )
+scp 配置和证书, client.json、ca-.pem（在服务器端目录/usr/local/etc/trojan/中）， 修改客户端配置文件 client.json ( 密码和证书、密钥 )
 
 
 ### 详细安装参考[这里](./install.md)
