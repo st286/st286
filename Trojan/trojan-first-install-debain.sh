@@ -132,25 +132,25 @@ if ! [[ -f "ca-key.pem" ]] || prompt "The ca-key.pem already exists, overwrite?"
     certtool --generate-self-signed --load-privkey ca-key.pem --template ca.tmpl --outfile ca-cert.pem
     certtool --generate-privkey --outfile server-key.pem
     certtool --generate-certificate --load-privkey server-key.pem --load-ca-certificate ca-cert.pem --load-ca-privkey ca-key.pem --template server.tmpl --outfile server-cert.pem
+    chmod 600 ca-key.pem ca-cert.pem server-key.pem server-cert.pem
 else
     echo Skipping generate ca-key.pem...
 fi
 
-chmod 600 ca-key.pem ca-cert.pem server-key.pem server-cert.pem
 
 #Generate server and client configuration files
 
 pswd1=$(cat /proc/sys/kernel/random/uuid)
 pswd2=$(cat /proc/sys/kernel/random/uuid)
 
-echo Update $NAME server config to $CONFIGPATH...
+echo Update $NAME server config.json to $INSTALLPREFIX/etc/$NAME...
 if ! [[ -f "$CONFIGPATH" ]] || prompt "The server config already exists in $CONFIGPATH, UPDATE?"; then
     sed -i "s/password1/$pswd1/;s/password2/$pswd2/;s#/path/to/certificate.crt#$INSTALLPREFIX/etc/$NAME/server-cert.pem#;s#/path/to/private.key#$INSTALLPREFIX/etc/$NAME/server-key.pem#" config.json
 else
     echo Skipping UPDATE $NAME server config...
 fi
 
-echo Update $NAME client config to $CLIENTPATH...
+echo Update $NAME client.json to $INSTALLPREFIX/etc/$NAME...
 if ! [[ -f "$CLIENTPATH" ]] || prompt "The client config already exists in $CLIENTPATH, UPDATE?"; then
     sed -i "s/example.com/$ip/;s/password1/$pswd1/" client.json
 else
