@@ -31,7 +31,7 @@ bash VPS-debian10-first-install-v2ray-trojan.sh
 
 ## V2ray
 
-[]()
+[安装V2ray](./v2ray)
 
 ---
 
