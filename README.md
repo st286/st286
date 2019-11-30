@@ -19,9 +19,7 @@
 ## Trojan 
 
 
- [自建梯子教程 --Trojan版本](https://trojan-tutor.github.io/2019/04/10/p41.html)
- 
- [一键安装trojan-gfw v2.0](https://github.com/wangsun88/trojan-wiz)
+
 
 ---
 
