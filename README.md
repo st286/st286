@@ -27,11 +27,11 @@ bash VPS-debian10-first-install-v2ray-trojan.sh
 
 ## Trojan 
 
-[一键安装Trojan](./Trojan)
+   [一键安装Trojan](./Trojan)
 
 ## V2ray
 
-[安装V2ray](./V2ray)
+   [安装V2ray](./V2ray)
 
 ---
 
