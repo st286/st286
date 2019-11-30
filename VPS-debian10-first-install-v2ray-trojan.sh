@@ -32,7 +32,7 @@ bash v2ray-install.sh
 # 更新配置config.json
 cd /etc/v2ray/
 
-cat > config.json << EOF
+cat > config-install.json << EOF
 {
     "log": {
         "access": "/var/log/v2ray/access.log",
@@ -126,11 +126,23 @@ pswd2=$(cat /proc/sys/kernel/random/uuid)
 pswd3=$(cat /proc/sys/kernel/random/uuid)
 pswd4=$(cat /proc/sys/kernel/random/uuid)
 
-sed -i "s/_passwd1_/$pswd1/;s/_passwd2_/$pswd2/;s/_passwd3_/$pswd3/;s/_passwd4_/$pswd4/" config.json
+sed -i "s/_passwd1_/$pswd1/;s/_passwd2_/$pswd2/;s/_passwd3_/$pswd3/;s/_passwd4_/$pswd4/" config-install.json
+
+if ! [[ -f "config.json" ]] || prompt "The config.json already exists, UPDATE?"; then
+    mv config.json config-old.json
+    cp config-install.json config.json
+else
+    echo Skipping UPDATE config.json
+fi
+
 
 cd 
 
 service v2ray start
 
+echo " "
+echo "trojan configuration in /usr/local/etc/trojan/"
+echo "v2ray configuration in /etc/v2ray/"
+echo " "
 echo All Done!
 
