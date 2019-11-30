@@ -23,9 +23,15 @@ wget https://raw.githubusercontent.com/st286/st286.github.io/master/VPS-debian10
 bash VPS-debian10-first-install-v2ray-trojan.sh
 ```
 
+---
+
 ## Trojan 
 
 [一键安装Trojan](./Trojan)
+
+## V2ray
+
+[]()
 
 ---
 
