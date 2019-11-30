@@ -18,9 +18,17 @@ function prompt() {
     done
 }
 
+# 更换.bashrc
 forbashrc="IyB+Ly5iYXNocmM6IGV4ZWN1dGVkIGJ5IGJhc2goMSkgZm9yIG5vbi1sb2dpbiBzaGVsbHMuCgojIE5vdGU6IFBTMSBhbmQgdW1hc2sgYXJlIGFscmVhZHkgc2V0IGluIC9ldGMvcHJvZmlsZS4gWW91IHNob3VsZCBub3QKIyBuZWVkIHRoaXMgdW5sZXNzIHlvdSB3YW50IGRpZmZlcmVudCBkZWZhdWx0cyBmb3Igcm9vdC4KIFBTMT0nJHtkZWJpYW5fY2hyb290OisoJGRlYmlhbl9jaHJvb3QpfVxoOlx3XCQgJwogdW1hc2sgMDIyCgojIFlvdSBtYXkgdW5jb21tZW50IHRoZSBmb2xsb3dpbmcgbGluZXMgaWYgeW91IHdhbnQgYGxzJyB0byBiZSBjb2xvcml6ZWQ6CiBleHBvcnQgTFNfT1BUSU9OUz0nLS1jb2xvcj1hdXRvJwogZXZhbCAiYGRpcmNvbG9yc2AiCiBhbGlhcyBscz0nbHMgJExTX09QVElPTlMnCiBhbGlhcyBsbD0nbHMgJExTX09QVElPTlMgLWwnCiBhbGlhcyBsPSdscyAkTFNfT1BUSU9OUyAtbEEnCgojIFNvbWUgbW9yZSBhbGlhcyB0byBhdm9pZCBtYWtpbmcgbWlzdGFrZXM6CiBhbGlhcyBybT0ncm0gLWknCiBhbGlhcyBjcD0nY3AgLWknCiBhbGlhcyBtdj0nbXYgLWknCgojIGVkaXQgYnkgU3Q0c3dpZnQgMzBOb3YyMDE5"
-
 base64 -d <<< ${forbashrc} > for-bashrc
+
+if ! [[ -f ".bashrc" ]] || prompt "The .bashrc already exists, Update?"; then
+    mv  .bashrc  .bashrc-old
+    cp  for-bashrc .bashrc
+    source .bashrc
+else
+    "echo Skipping Update .bashrc"
+fi
 
 
 
@@ -135,7 +143,6 @@ cat > config-install.json << EOF
 }
 EOF
 
-
 pswd1=$(cat /proc/sys/kernel/random/uuid)
 pswd2=$(cat /proc/sys/kernel/random/uuid)
 pswd3=$(cat /proc/sys/kernel/random/uuid)
@@ -149,7 +156,6 @@ if ! [[ -f "config.json" ]] || prompt "The V2ray config.json already exists, Upd
 else
     echo Skipping Update V2ray config.json
 fi
-
 
 cd 
 
