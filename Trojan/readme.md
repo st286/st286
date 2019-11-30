@@ -15,7 +15,6 @@
 
 **配置文件和证书、密钥文件在目录： /usr/local/etc/trojan/**
 
-**修改 服务器、客户端配置文件：config.json、client.json ( 密码和证书、密钥 )**
 
 **运行启动Trojan**
 
@@ -28,6 +27,10 @@
 **查看运行状态**
 
     systemctl status trojan
+
+## client side 客户端
+
+scp 配置和证书, client.json、ca-key.pem（在服务器端目录/usr/local/etc/trojan/中）， 修改客户端配置文件 client.json ( 密码和证书、密钥 )
 
 
 ### 详细安装参考[这里](./install.md)
