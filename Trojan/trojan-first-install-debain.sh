@@ -119,14 +119,18 @@ EOF
 
 echo "Add ip to ca.tmpl and server.tmpl"
 
+
+
 # Get host ip address
+## 生成密钥、证书（IP方式）
+
 ip=$(curl -s http://api.ipify.org)
 
 sed -i "s/_ip_/$ip/" ca.tmpl
 sed -i "s/_ip_/$ip/" server.tmpl
 
 
-#生成 CA密钥\证书,生成服务器证书密钥\证书
+#生成 CA密钥\证书,生成服务器证书密钥\证书 
 if ! [[ -f "ca-key.pem" ]] || prompt "The ca-key.pem already exists, overwrite?"; then
     certtool --generate-privkey --outfile ca-key.pem
     certtool --generate-self-signed --load-privkey ca-key.pem --template ca.tmpl --outfile ca-cert.pem
@@ -164,7 +168,10 @@ fi
 
 systemctl enable trojan
 systemctl start trojan
+echo ""
+echo "Trojan running..."
 
+echo ""
 echo Configuration and keys is in the  "$INSTALLPREFIX/etc/$NAME"
 echo ""
 echo Server config.json:
