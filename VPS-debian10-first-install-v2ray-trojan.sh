@@ -150,8 +150,10 @@ cd
 service v2ray start
 
 echo " "
-echo "trojan configuration in /usr/local/etc/trojan/"
-echo "v2ray configuration in /etc/v2ray/"
+echo "Installed  Trojan, V2ray, and Nginx now!"
+echo "Trojan  configuration  in   /usr/local/etc/trojan/"
+echo "V2ray   configuration  in   /etc/v2ray/"
+echo "Nginx   config...      in   /var/www/html/"
 echo " "
 echo All Done!
 
