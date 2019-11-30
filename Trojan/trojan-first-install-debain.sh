@@ -143,6 +143,7 @@ fi
 pswd1=$(cat /proc/sys/kernel/random/uuid)
 pswd2=$(cat /proc/sys/kernel/random/uuid)
 
+## 将password、服务器证书、密钥，设置入config.json (服务器端)
 echo Update $NAME server config.json to $INSTALLPREFIX/etc/$NAME...
 if ! [[ -f "$CONFIGPATH" ]] || prompt "The server config already exists in $CONFIGPATH, UPDATE?"; then
     sed -i "s/password1/$pswd1/;s/password2/$pswd2/;s#/path/to/certificate.crt#$INSTALLPREFIX/etc/$NAME/server-cert.pem#;s#/path/to/private.key#$INSTALLPREFIX/etc/$NAME/server-key.pem#" config.json
@@ -150,6 +151,7 @@ else
     echo Skipping UPDATE $NAME server config...
 fi
 
+## 将IP、password，设置入client.json (客户端)
 echo Update $NAME client.json to $INSTALLPREFIX/etc/$NAME...
 if ! [[ -f "$CLIENTPATH" ]] || prompt "The client config already exists in $CLIENTPATH, UPDATE?"; then
     sed -i "s/example.com/$ip/;s/password1/$pswd1/" client.json
@@ -157,6 +159,11 @@ else
     echo Skipping UPDATE $NAME client config...
 fi
 
+
+##启动trojan, 设置开机启动
+
+systemctl enable trojan
+systemctl start trojan
 
 echo Configuration and keys is in the  "$INSTALLPREFIX/etc/$NAME"
 echo ""
