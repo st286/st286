@@ -19,7 +19,7 @@ function prompt() {
     done
 }
 
-if prompt "This script will install Trojan, V2ray, Nginx, and replace .bashrc, continue installing ???"; then
+if prompt "This script will install V2ray , continue installing ???"; then
 	echo "Continue Installing..."
 else
 	echo "Exit!"
