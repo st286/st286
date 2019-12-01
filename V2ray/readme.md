@@ -1,6 +1,11 @@
 
 ## 安装 V2ray
 
+  `wget -O v2ray-first-install.sh  https://raw.githubusercontent.com/st286/st286.github.io/master/V2ray/v2ray-first-install.sh`
+
+  `bash v2ray-first-install.sh`
+
+### OR
 `wget -O v2ray-install.sh https://install.direct/go.sh`
 
 `bash v2ray-install.sh`
@@ -17,7 +22,8 @@
   2. 运行 service v2ray start 来启动 V2Ray 进程；
   3. 之后可以使用 service v2ray start|stop|status|reload|restart|force-reload 控制 V2Ray 的运行。
 
-OR
+### OR
+
 ```shell
   # installation:
   
