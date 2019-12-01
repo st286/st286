@@ -20,7 +20,7 @@ function prompt() {
 }
 
 if prompt "This script will install V2ray , continue installing ???"; then
-	echo "Continue Installing..."
+	echo "V2ray Installing..."
 else
 	echo "Exit!"
 	exit 1
