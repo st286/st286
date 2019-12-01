@@ -142,3 +142,8 @@ cd
 
 service v2ray start
 
+echo ""
+echo "V2ray installed!"
+
+
+
