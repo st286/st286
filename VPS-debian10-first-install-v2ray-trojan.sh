@@ -51,13 +51,13 @@ apt install nginx
 
 # 安装trojan
 
-wget -o trojan-first-install-debain.sh  https://raw.githubusercontent.com/st286/st286.github.io/master/Trojan/trojan-first-install-debain.sh 
+wget -O trojan-first-install-debain.sh  https://raw.githubusercontent.com/st286/st286.github.io/master/Trojan/trojan-first-install-debain.sh 
 bash trojan-first-install-debain.sh
 
 
 # 安装v2ray
 
-wget -o v2ray-first-install.sh  https://raw.githubusercontent.com/st286/st286.github.io/master/V2ray/v2ray-first-install.sh
+wget -O v2ray-first-install.sh  https://raw.githubusercontent.com/st286/st286.github.io/master/V2ray/v2ray-first-install.sh
 bash v2ray-first-install.sh
 
 
