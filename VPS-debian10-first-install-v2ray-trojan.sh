@@ -98,7 +98,7 @@ cat > config-install.json << EOF
     "inbounddetour": [
         {
             "protocol": "vmess",
-            "port": "2000-50000",
+            "port": "20000-50000",
             "tag": "mydetour",
             "settings": {
                 "default": {
