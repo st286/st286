@@ -1,9 +1,10 @@
 
 ## 安装 V2ray
+```shell
+  wget -O v2ray-first-install.sh  https://raw.githubusercontent.com/st286/st286.github.io/master/V2ray/v2ray-first-install.sh
 
-  `wget -O v2ray-first-install.sh  https://raw.githubusercontent.com/st286/st286.github.io/master/V2ray/v2ray-first-install.sh`
-
-  `bash v2ray-first-install.sh`
+  bash v2ray-first-install.sh
+```
 
 ### OR
 `wget -O v2ray-install.sh https://install.direct/go.sh`
