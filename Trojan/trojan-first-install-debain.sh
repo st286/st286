@@ -16,6 +16,14 @@ if [[ $(id -u) != 0 ]]; then
     exit 1
 fi
 
+
+if prompt "This script will install Trojan, continue installing ???"; then
+	echo "Trojan Installing..."
+else
+	echo "Exit!"
+	exit 1
+fi
+
 NAME=trojan
 VERSION=1.13.0
 TARBALL="$NAME-$VERSION-linux-amd64.tar.xz"
