@@ -19,7 +19,7 @@
 ## VPS(New, Debian10) Setup:
 
 ```shell
-wget https://raw.githubusercontent.com/st286/st286.github.io/master/VPS-debian10-first-install-v2ray-trojan.sh
+wget -O VPS-debian10-first-install-v2ray-trojan.sh  https://raw.githubusercontent.com/st286/st286.github.io/master/VPS-debian10-first-install-v2ray-trojan.sh
 bash VPS-debian10-first-install-v2ray-trojan.sh
 ```
 
