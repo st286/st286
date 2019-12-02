@@ -8,7 +8,7 @@
 
 ## VPS(New, Debian10) Setup:
 
-本脚本在新的VPS（debian10）上安装 v2ray、trojan(nginx):
+   在新的VPS（debian10）上安装 v2ray、trojan(nginx):
 
 ```shell
 wget -O VPS-debian10-first-install-v2ray-trojan.sh  https://raw.githubusercontent.com/st286/st286.github.io/master/VPS-debian10-first-install-v2ray-trojan.sh
