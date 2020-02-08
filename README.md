@@ -30,6 +30,10 @@ bash VPS-debian10-first-install-v2ray-trojan.sh
 ## Python
 
   1. [草根学 Python](https://www.readwithu.com)
+  
+  2. [Python最佳实践指南！](https://pythonguidecn.readthedocs.io/zh/latest/index.html)
+  
+  3. [易百教学程](https://www.yiibai.com)
 
 ---
 
