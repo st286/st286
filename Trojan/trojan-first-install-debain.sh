@@ -25,7 +25,7 @@ else
 fi
 
 NAME=trojan
-VERSION=1.13.0
+VERSION=1.14.1
 TARBALL="$NAME-$VERSION-linux-amd64.tar.xz"
 DOWNLOADURL="https://github.com/trojan-gfw/$NAME/releases/download/v$VERSION/$TARBALL"
 TMPDIR="$(mktemp -d)"
@@ -193,7 +193,7 @@ echo ""
 systemctl status trojan
 
 echo ""
-echo 30 Nov 2019, by St4swift.
+echo Feb8,2020 by St4swift.
 
 echo "Trojan installed!"
 
