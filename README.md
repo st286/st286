@@ -9,6 +9,8 @@
   3. [易百教学程](https://www.yiibai.com)
   
   4. [How To Install PIP to Manage Python Packages in Linux](https://www.tecmint.com/install-pip-in-linux/)
+  
+  5. [Pipenv vs virtualenv vs conda environment](https://medium.com/@krishnaregmi/pipenv-vs-virtualenv-vs-conda-environment-3dde3f6869ed)
 
 ---
 
