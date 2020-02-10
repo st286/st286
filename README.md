@@ -17,7 +17,7 @@
          #### Installing Atom on Linux
          
          To install Atom on Debian, Ubuntu, or related distributions, add our official
-package repository to your system by running the following commands. [See](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
+package repository to your system by running the following commands. [See here](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
 
 
 
