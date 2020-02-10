@@ -7,6 +7,8 @@
   2. [Python最佳实践指南！](https://pythonguidecn.readthedocs.io/zh/latest/index.html)
   
   3. [易百教学程](https://www.yiibai.com)
+  
+  4. [How To Install PIP to Manage Python Packages in Linux](https://www.tecmint.com/install-pip-in-linux/)
 
 ---
 
