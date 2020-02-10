@@ -1,12 +1,33 @@
 
 
+## Python
+
+  1. [草根学 Python](https://www.readwithu.com)
+  
+  2. [Python最佳实践指南！](https://pythonguidecn.readthedocs.io/zh/latest/index.html)
+  
+  3. [易百教学程](https://www.yiibai.com)
+
+---
+
+## TextEditor
+
+   1. [Atom ](https://atom.io/)
+   
+         #### Installing Atom on Linux
+         
+         To install Atom on Debian, Ubuntu, or related distributions, add our official
+package repository to your system by running the following commands. [See](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
+
+
+
 ## Linux
 
 [学习Linux](./linux)
 
 ---
 
-## VPS(New, Debian10) Setup:
+## VPS(New, Debian10) proxy (v2ray & trojan) Setup:
 
    在新的VPS（debian10）上安装 v2ray、trojan(nginx):
 
@@ -24,16 +45,6 @@ bash VPS-debian10-first-install-v2ray-trojan.sh
 ## V2ray
 
    [安装V2ray](./V2ray)
-
----
-
-## Python
-
-  1. [草根学 Python](https://www.readwithu.com)
-  
-  2. [Python最佳实践指南！](https://pythonguidecn.readthedocs.io/zh/latest/index.html)
-  
-  3. [易百教学程](https://www.yiibai.com)
 
 ---
 
