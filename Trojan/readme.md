@@ -3,7 +3,7 @@
 
 [Trojan released 最新发布版本](https://github.com/trojan-gfw/trojan/releases/)
 
-在 Debian 10 安装成功
+在 Debian 10 (ubuntu 18,19) 安装成功
 
 ```shell
     wget https://raw.githubusercontent.com/st286/st286.github.io/master/Trojan/trojan-first-install-debain.sh
