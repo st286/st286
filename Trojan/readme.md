@@ -27,6 +27,10 @@
 **查看运行状态**
 
     systemctl status trojan
+    
+ **更新Trojan**
+ 
+    用update.sh脚本
 
 ## client side 客户端
 
