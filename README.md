@@ -3,6 +3,9 @@
   1. [笨办法学C 中文版](https://wizardforcel.gitbooks.io/lcthw/content/)
   
   2. [C语言学习资源整理](https://zhuanlan.zhihu.com/p/23677249)
+  
+  3. [make](https://www.gnu.org/software/make/manual/html_node/index.html#Top0)
+            [Make 命令教程](http://www.ruanyifeng.com/blog/2015/02/make.html)
 
 ## Python
 
