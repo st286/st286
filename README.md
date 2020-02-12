@@ -6,6 +6,7 @@
   
   3. [GNU make](https://www.gnu.org/software/make/manual/html_node/index.html#Top0)     
      [Make 命令教程](http://www.ruanyifeng.com/blog/2015/02/make.html)
+     [Makefile使用(简书)](https://www.jianshu.com/p/8dc048ae1e11)
 
 ## Python
 
