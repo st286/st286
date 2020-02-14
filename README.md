@@ -23,20 +23,11 @@
 
 ---
 
-## TextEditor
-
-   1. [Atom ](https://atom.io/)
-   
-         #### Installing Atom on Linux
-         
-         To install Atom on Debian, Ubuntu, or related distributions, add our official
-package repository to your system by running the following commands. [See here](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
-
-
-
 ## Linux
 
 [学习Linux](./linux)
+
+[linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
 
 ---
 
@@ -86,3 +77,16 @@ bash VPS-debian10-first-install-v2ray-trojan.sh
 ## Git and Github
 
  1.  [Git and Github - Guide](./GitandGithub/git-guide.md)
+ 
+ 
+## TextEditor
+
+   1. [Atom ](https://atom.io/)
+   
+         #### Installing Atom on Linux
+         
+         To install Atom on Debian, Ubuntu, or related distributions, add our official
+package repository to your system by running the following commands. [See here](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
+
+
+
