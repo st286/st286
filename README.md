@@ -8,6 +8,25 @@
      [Make 命令教程](http://www.ruanyifeng.com/blog/2015/02/make.html)    
      [Makefile使用(简书)](https://www.jianshu.com/p/8dc048ae1e11)   
      [ Valgrind](http://valgrind.org/)
+     
+     
+
+## Linux
+
+[学习Linux](./linux)
+
+[linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
+
+[编译Lean的Openwrt固件全攻略](https://imgki.com/archives/openwrt-lean.html)
+
+[openwrt office](https://github.com/openwrt/openwrt)
+
+[openwrt-trojan](https://github.com/trojan-gfw/openwrt-trojan)
+
+[Lead openwrt](https://github.com/coolsnowwolf/lede)
+
+---
+
 
 ## Python
 
@@ -23,13 +42,6 @@
 
 ---
 
-## Linux
-
-[学习Linux](./linux)
-
-[linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
-
----
 
 ## VPS(New, Debian10) proxy (v2ray & trojan) Setup:
 
