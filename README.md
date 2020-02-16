@@ -17,15 +17,8 @@
 
 [linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
 
-[编译Lean的Openwrt固件全攻略](https://imgki.com/archives/openwrt-lean.html)
 
-[openwrt office](https://github.com/openwrt/openwrt)
-
-[openwrt-trojan](https://github.com/trojan-gfw/openwrt-trojan)
-
-[Lead openwrt](https://github.com/coolsnowwolf/lede)
-
----
+## Opemwrt-lead编译(./opemwrt-lead)
 
 
 ## Python
