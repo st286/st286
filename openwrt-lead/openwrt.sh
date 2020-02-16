@@ -10,6 +10,8 @@
 ## 国内用户编译前最好准备好梯子
 ## 默认登陆IP 192.168.1.1, 密码 password
 
+## 取得固件，在bin/targets/x86/64中，img文件。注：这个bin目录在你克隆源码的lede路径下，非根目录下的bin目录
+
 
 USER_NAME=st
 
