@@ -1,7 +1,7 @@
 
 # 一键安装Trojan
 
-×× 注意：目前Trojan只用socks5代理 ××
+××注意：目前Trojan只用socks5代理××
 
 [Trojan released 最新发布版本](https://github.com/trojan-gfw/trojan/releases/)
 
