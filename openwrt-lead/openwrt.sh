@@ -12,7 +12,7 @@
 
 ## 取得固件，在bin/targets/x86/64中，img文件。注：这个bin目录在你克隆源码的lede路径下，非根目录下的bin目录
 
-
+echo "USER_NAME=st"
 USER_NAME=st
 
 if [[ $(id -u) != 0 ]]; then
