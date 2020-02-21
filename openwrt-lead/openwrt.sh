@@ -27,6 +27,8 @@ useradd -m $USER_NAME -d /home/$USER_NAME -s /bin/bash
 passwd $USER_NAME
 
 echo "visudo /etc/sudoers: add $USER_NAME    ALL=(ALL:ALL) ALL"
+read
+
 
 visudo
 
