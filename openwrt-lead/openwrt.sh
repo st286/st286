@@ -60,7 +60,7 @@ sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git
 
 
 
-cd /home/$USER_NAME
+cd "/home/$USER_NAME"
 
 sudo git clone https://github.com/coolsnowwolf/lede
 
