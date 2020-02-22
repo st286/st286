@@ -72,4 +72,17 @@ make menuconfig
 
 make &
 
+## exit and have a good day!
+
+
+## 再次编译
+##-------
+## cd lede
+## git pull 同步更新大雕源码
+## ./scripts/feeds update -a && ./scripts/feeds install -a 更新FEEDS
+## rm -rf ./tmp && rm -rf .config 清除编译配置和缓存
+## make menuconfig 进入编译配置菜单
+## make &
+## exit and have a good day!
+
 
