@@ -193,7 +193,7 @@ echo ""
 systemctl status trojan
 
 echo ""
-echo Feb8,2020 by St4swift.
+echo Mar23,2020 by St4swift.
 
 echo "Trojan installed!"
 
