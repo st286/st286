@@ -10,6 +10,21 @@
 ## [openwrt-trojan](https://github.com/trojan-gfw/openwrt-trojan)
 
 
+```shell
+USER_NAME=st
 
+##创建用户
+useradd -m $USER_NAME -d /home/$USER_NAME -s /bin/bash
+
+passwd $USER_NAME
+
+ #"visudo /etc/sudoers: add $USER_NAME    ALL=(ALL:ALL) ALL"
+
+visudo
+
+## 转换非root用户
+su $USER_NAME
+
+```
 
 
