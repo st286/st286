@@ -3,7 +3,9 @@
 
 ## [编译Lean的Openwrt固件全攻略](https://imgki.com/archives/openwrt-lean.html)
 
-## [Lead openwrt](https://github.com/coolsnowwolf/lede)
+## [Lienol openwrt passwall](https://github.com/Lienol/openwrt)
+
+## [Lead openwrt ssr-plus](https://github.com/coolsnowwolf/lede)
 
 ## [openwrt office](https://github.com/openwrt/openwrt)
 
