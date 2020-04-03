@@ -1,4 +1,4 @@
-# 编译Lean的Openwrt固件全攻略
+# 编译Openwrt固件全攻略
 
 
 ## [编译Lean的Openwrt固件全攻略](https://imgki.com/archives/openwrt-lean.html)
