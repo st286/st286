@@ -18,9 +18,9 @@
 [linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
 
 
-## Openwrt-lead编译
+## Openwrt 编译
 
-[编译Lean的Openwrt固件全攻略](./openwrt-lead)
+[编译Openwrt固件全攻略](./openwrt-lead)
 
 
 ## Python
