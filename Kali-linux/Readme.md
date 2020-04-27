@@ -30,32 +30,34 @@ Now Bluetooth should work. Try if it does after restart.
 
 
 
-### TWO:  Install Chinese input method on Kali System
+
+### Two:  Install Chinese input method on Kali System
+
 
 (Traditional chinese input method)
 
 
-0. Set ibus
+#### 0. Set ibus
 
-`sudo apt install ibus`
+`sudo apt install ibus zenity -y`
 
 `sudo im-config`  (maybe install zenity first)
 
-1. Install RIME
+#### 1. Install RIME
 
 `sudo apt-get install ibus-rime`
 
 https://github.com/rime/home/wiki/RimeWithIBus#ubuntu
 
 
-2. Select Input Language
+#### 2. Select Input Language
 
 `reboot` 
 
 System Setting — Region&Language — input Source, then click ‘+’ button, choose Chinese
 
 
-3. Ready to use
+#### 3. Ready to use
 
 Press Super + space to switch input method.
 
@@ -71,43 +73,59 @@ CUPS is the standards-based, open source printing system developed by Apple Inc.
 
 CUPS（前為Common Unix Printing System，即UNIX通用打印系統的縮寫，但現無官方全名[來源請求]）是一個類Unix操作系統的組合式印刷系統，允許一台電腦作為打印服务器。CUPS接受一個客戶端的電腦進程，並送到相應的打印機。
 
-CUPS是自由件，使用GNU通用公共许可证和GNU宽通用公共许可证的第2版。 
+CUPS是自由軟件，使用GNU通用公共许可证和GNU宽通用公共许可证的第2版。 
 
 
-Into Terminal , sudo su as root
+```shell
+#Into Terminal , sudo su as root
 
-You have to install the required packages and the dependencies .. Type the highlighted commands—-
+#You have to install the required packages and the dependencies 
 
 apt-get update
 apt-get install cups cups-client "foomatic-db"
 
-Now to find the USB Printer type-
+#Now to find the USB Printer type-
 
-netstat -ant | grep 631
+#netstat -ant | grep 631
 
-lsusb -this is used for list USB devices
+#lsusb -this is used for list USB devices
 
 systemctl enable cups
 service cups start
 
 system-config-printer
 
-Follow instructions to complete rest of the installation……
+#Follow instructions to complete rest of the installation……
+```
 
 
-### Four: wps office linux
+
+### Four: WPS-linux
 
 
-linux.wps.com
+[WPS](linux.wps.com)
 
-https://www.computerhope.com/issues/ch001752.htm
+[https://www.computerhope.com/issues/ch001752.htm]
+
+`sudo dpkg -i XXXX.deb`
+
 
 
 ### Five: some useful app
 
 
-gnome-disk-utility
+####  gnome-disk-utility
 
-安装使用 GoldenDict 查词神器 (Windows/Mac/Linux)[https://www.jianshu.com/p/b6b2c1d78d7c]
+`sudo apt install gnome-disk-utility -y`
+
+
+#### GoldedDict
+
+[安装使用 GoldenDict 查词神器 (Windows/Mac/Linux)](https://www.jianshu.com/p/b6b2c1d78d7c)
+
+`sudo apt install goldendict -y`
+
+
+
 
 
