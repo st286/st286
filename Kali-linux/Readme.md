@@ -10,20 +10,20 @@ This is just a short note to myself and all of you who might not get their Bluet
 
 Bluetooth does not seem to be installed with the default configuration of Kali Linux. To make it work, try the following:
 
-
-Install Bluetooth:
+```shell
+#Install Bluetooth:
 
 sudo apt-get install bluetooth
 
-Enable Bluetooth permanently:
+#Enable Bluetooth permanently:
 
 sudo systemctl enable bluetooth
 
 
-Start Bluetooth:
+#Start Bluetooth:
 
 sudo service bluetooth start
-
+```
 
 Now Bluetooth should work. Try if it does after restart.
 
