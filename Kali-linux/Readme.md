@@ -8,7 +8,7 @@
 # Kali Linux install Bluetooth, Chinese Input-Method, Printer, WPS, Disk-Utility, GoldenDict-dictionary
 
 
-shell script is install-kali-my.sh
+***shell script is install-kali-my.sh***
 
 
 ### One:   Fix Bluetooth (Kali Linux)
