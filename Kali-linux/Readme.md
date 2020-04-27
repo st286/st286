@@ -1,5 +1,5 @@
 
-## Kali Linux install Bluetooth, Chinese Input-Method, Printer, WPS, Disk-Utility, GoldenDict-dictionary:
+# Kali Linux install Bluetooth, Chinese Input-Method, Printer, WPS, Disk-Utility, GoldenDict-dictionary
 
 
 
