@@ -3,8 +3,12 @@
 [https://www.kali.org/docs/usb/dojo-kali-linux-usb-persistence-encryption/]
 
 
+
+---
 # Kali Linux install Bluetooth, Chinese Input-Method, Printer, WPS, Disk-Utility, GoldenDict-dictionary
 
+
+shell script is install-kali-my.sh
 
 
 ### One:   Fix Bluetooth (Kali Linux)
