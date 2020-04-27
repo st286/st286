@@ -1,3 +1,7 @@
+# Kali USB Persistence & Encrypted Persistence
+
+[https://www.kali.org/docs/usb/dojo-kali-linux-usb-persistence-encryption/]
+
 
 # Kali Linux install Bluetooth, Chinese Input-Method, Printer, WPS, Disk-Utility, GoldenDict-dictionary
 
