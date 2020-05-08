@@ -10,9 +10,11 @@
 ### (01) Verify signature
 
 On a system with GnuPG installed, do this by downloading the PGP signature (under Checksums) to the ISO directory, and verifying it with: 
+
 gpg --keyserver-options auto-key-retrieve --verify archlinux-version-x86_64.iso.sig
 
 Alternatively, from an existing Arch Linux installation run: 
+
 pacman-key -v archlinux-version-x86_64.iso.sig
 
 ### (02) Boot the live environment
@@ -24,37 +26,52 @@ pacman-key -v archlinux-version-x86_64.iso.sig
 ### (04) Connect to the internet
 
 ip link   or   ip add    or   ip route
+
 The connection may be verified with ping:
+
 ping archlinux.org    or   ping www.sina.com  ......
 
 iw dev # for wireless
 
 ip link set interface up|down
+
 ip link show dev eth0
+
 ip address show
+
 ip address add address/prefix_len broadcast + dev interface
+
 ip address del address/prefix_len dev interface
+
 ip route show     or   ip -6 route
 
 networking
+
 Network configuration/Ethernet#Device driver 
+
 Wireless network configuration#Getting some useful
 
 
 ### (05) Update the system clock
 
 timedatectl set-ntp true
+
 timedatectl status
+
 hwclock --systohc --utc (or --localtime) 
 
 
 ### (06) Partition the disks
 
     Use fdisk(msdos), parted(msdos gpt), or cfdisk to modify partition tables, for example fdisk /dev/sdX.
+    
 Swap space can be set on a swap file for file systems supporting it.
 
 fdisk -l
+
 lsblk
+
+
 
 The following partitions are required for a chosen device:
     One partition for the root directory /.
@@ -109,15 +126,20 @@ genfstab will later detect mounted file systems and swap space.
  nano   /etc/pacman.d/mirrorlist
 
 Server = http://mirrors.163.com/archlinux/$repo/os/$arch
+
 Server = http://mirrors.aliyun.com/archlinux/$repo/os/$arch
 
 ### (02) Install essential packages
 
 Use the pacstrap script to install the base package, Linux kernel and firmware for common hardware: 
 
- pacstrap  /mnt  base  base-devel  dhcpcd  git  nano  man-db  man-pages  texinfo
+ pacstrap  /mnt  base  base-devel 
 
  pacstrap  /mnt  linux  linux-firmware  
+ 
+ pacstrap /mnt dhcpcd iw iwd connman
+ 
+ pacstrap /mnt  nano  man-db  man-pages  texinfo
 
 
 ## (THREE) Configure the system
@@ -169,39 +191,51 @@ Root password
 
 Set the root password:
 
- passwd
+   passwd
 
 ## (FOUR) Boot loader (grub)
 
 Install grub
 
- pacman -S  grub
- pacman -S  grub  efibootmgr  os-prober (UEFI)
+   pacman -S  grub
+ 
+   pacman -S  grub  efibootmgr  os-prober (UEFI)
 
 Write into the disk
 
- grub-install --recheck /dev/sda
- grub-mkconfig -o /boot/grub/grub.cfg
+   grub-install --recheck /dev/sda
+ 
+   grub-mkconfig -o /boot/grub/grub.cfg
 
-OR (if use USB disk) GRUB/Tips and tricks (简体中文)#其它安装
+ OR (if use USB disk) GRUB/Tips and tricks (简体中文)#其它安装
 
 BIOS
 
 Assume your USB stick's first partition is FAT32 and its partition is /dev/sdy1
 
- mkdir -p /mnt/usb
- mount /dev/sdy1 /mnt/usb
- grub-install --target=i386-pc --debug --boot-directory=/mnt/usb/boot /dev/sdy
- grub-mkconfig -o /mnt/usb/boot/grub/grub.cfg
+   mkdir -p /mnt/usb
+ 
+   mount /dev/sdy1 /mnt/usb
+ 
+   grub-install --target=i386-pc --debug --boot-directory=/mnt/usb/boot /dev/sdy
+ 
+   grub-mkconfig -o /mnt/usb/boot/grub/grub.cfg
 
 Follow above:
 
- grub-install --target=i386-pc --debug --boot-directory=/mnt//boot /dev/sdX
- grub-mkconfig -o /mnt/boot/grub/grub.cfg
+   grub-install --target=i386-pc --debug --boot-directory=/mnt//boot /dev/sdX
+ 
+   grub-mkconfig -o /mnt/boot/grub/grub.cfg
 
 Setup network
 
- systemctl enable dhcpcd.service
+   systemctl enable dhcpcd
+   
+   systemctl enable iwd
+   
+   systemctl enable connman
+ 
+ 
 
 
  exit
