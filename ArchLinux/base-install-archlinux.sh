@@ -96,22 +96,22 @@ rm -f $TEMPFILE
 
 
 
-read -p "pacstrap base linux firmware:"
+echo "pacstrap base linux firmware:"
 
 pacstrap /mnt base base-devel linux linux-firmware
 
 pacstrap /mnt dhcpcd iw iwd connman
 
-pacstrap /mnt nano
+pacstrap /mnt nano man-db man-pages texinfo 
 
 
 #Configure the system
 
-read -p "gentstab:"
+echo "gentstab:"
 
 genfstab -U /mnt >> /mnt/etc/fstab
 
-read -p "arch-chroot /mnt:"
+echo  "arch-chroot /mnt:"
 
 arch-chroot /mnt
 
@@ -131,16 +131,32 @@ echo "LANG=en_US.UTF-8" >> /etc/locale.conf
 
 echo $MYPC > /etc/hostname
 
-echp "127.0.0.1	localhost" >> /etc/hosts
+echo "127.0.0.1	localhost" >> /etc/hosts
 echo "::1		localhost" >> /etc/hosts
 echo "127.0.1.1	$MYPC.localdomain	$MYPC" >> /etc/hosts
 
 
-read -p "change root password:"
+
+
+echo "change root password:"
 
 passwd
 
 
 echo "Boot loader ..... install Grub. ...."
 
-
+echo ""
+echo "systemctl enable dhckcd iwd connman"
+echo ""
+echo "pacman -S grub (BIOS)
+	For usb key:
+	grub-install --boot-directory=/mnt/boot  /dev/sdX
+	grub-mkconfig -o /mnt/boot/grub/grub.cfg"
+echo ""
+echo "	For hard disk:
+	grub-install /dev/sdX
+	grub-mkconfig -o /boot/grub/grub.cfg
+	  "
+echo "
+	done"
+	
