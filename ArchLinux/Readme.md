@@ -55,8 +55,28 @@
 ### base-install-archlinux
 
 	wget https://raw.githubusercontent.com/st286/st286.github.io/master/ArchLinux/base-install-archlinux.sh
+	
 	sh base-install-archlinux.sh
 
+### install Grub (BIOS)
+
+	systemctl enable dhckcd iwd connman"
+
+	pacman -S grub (BIOS)
+	
+#### For usb key:
+	
+	grub-install --boot-directory=/mnt/boot  /dev/sdX\
+	
+	grub-mkconfig -o /mnt/boot/grub/grub.cfg
+	
+
+#### For hard disk:
+	
+	grub-install /dev/sdX
+	
+	grub-mkconfig -o /boot/grub/grub.cfg
+	 
 
 ### install zsh
 
