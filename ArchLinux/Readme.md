@@ -52,7 +52,7 @@
 	mount /dev/sdX1 /mnt/other
   
   
-#### base-install-archlinux
+### base-install-archlinux
 
 
 
