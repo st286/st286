@@ -10,19 +10,19 @@
 	Mount the file systems.(mount)
   
 
-	Mount poit	    Partition		    Partition type			               Suggested size
+	Mount poit	    Partition		Partition type			     Suggested size
 
-	/mnt/boot	      /dev/sdX1	      Boot flag:YES(BIOS with MBR)	     512MB
+	/mnt/boot	    /dev/sdX1	      	Boot flag:YES(BIOS with MBR)	     512MB
   
-				                        	EFI system (UEFI with GPT)
+				                EFI system (UEFI with GPT)
                                   
-	/mnt		        /dev/sdX2	      linux 				                      more than 15G
+	/mnt		    /dev/sdX2	      	linux 				      more than 15G
   
-	[SWAP]		      /dev/sdX3	      linux swap			                    more than 512MiB
+	[SWAP]		    /dev/sdX3	     	linux swap			      more than 512MiB
   
-	/mnt/home	      /dev/sdX4	      linux or fat			                  more than 20G
+	/mnt/home	    /dev/sdX4	     	linux or fat			      more than 20G
   
-	/mnt/other	     /dev/sdX5	    linux or fat		
+	/mnt/other	    /dev/sdX5	    	linux or fat		
 
 
 #### Format partition:
