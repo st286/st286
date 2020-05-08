@@ -54,17 +54,16 @@
   
 ### base-install-archlinux
 
-
-
-
+	wget https://raw.githubusercontent.com/st286/st286.github.io/master/ArchLinux/base-install-archlinux.sh
+	sh base-install-archlinux.sh
 
 
 ### install zsh
 
-  `pacman -S zsh`
+	pacman -S zsh
   
-  `chsh -s $(which zsh)`
+  	chsh -s $(which zsh)
 
 ### install oh-my-zsh
 
-`sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+	sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
