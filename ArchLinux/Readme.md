@@ -76,6 +76,19 @@
 	grub-install /dev/sdX
 	
 	grub-mkconfig -o /boot/grub/grub.cfg
+	
+#### exit and rebootecho ""
+echo "systemctl enable dhckcd iwd connman"
+echo ""
+echo "pacman -S grub (BIOS)
+	For usb key:
+	grub-install --boot-directory=/mnt/boot  /dev/sdX
+	grub-mkconfig -o /mnt/boot/grub/grub.cfg"
+echo ""
+echo "	For hard disk:
+	grub-install /dev/sdX
+	grub-mkconfig -o /boot/grub/grub.cfg
+	  "
 	 
 
 ### install zsh
