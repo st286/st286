@@ -21,14 +21,8 @@ function prompt() {
 
 
 
-WPS=wps-office_11.1.0.9505.XA_amd64.deb
-
-
-
-
-
 echo "Install chinese-input, printer, and bluetooth on a new kali linux"
-echo "sudo su"
+
 
 
 echo "install chinese input method"
@@ -69,27 +63,6 @@ systemctl enable bluetooth
 service bluetooth start
 
 echo "bluetooth done"
-
-
-##Install WPS-linux
-
-if ! [[ -f "$WPS" ]] || prompt "Intsall wps-linux? "; then
-    dpkg -i  "$WPS"
-    echo "WPS-linux install done."
-else
-    echo "Skipping Install WPS-linux."
-fi
-
-
-## Install GoldenDict
-
-if ! prompt "Install GoldenDict ? "; then
-    apt install goldendict -y
-    echo "install done."
-    echo "要手動安裝詞庫"
-else
-    echo "Skipping Install GoldenDict."
-fi
 
 
 
