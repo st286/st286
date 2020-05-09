@@ -46,7 +46,7 @@ echo "install printer"
 
 apt install -y  cups cups-client "foomatic-db"
 
-systemctle enable cups
+systemctl enable cups
 service cups start
 
 echo "printer configuration"
