@@ -37,7 +37,7 @@ prompt "Go on ?"
 
 
 echo "dd kali live ISO, waiting......"
-dd if=$KALIISO of=$DEV bs=4M
+dd if=$KALIISO of=$DEV bs=4M  status=progress
 
 echo "parted.....waiting..."
 read start _ < <(du -bcm $KALIISO | tail -1)
