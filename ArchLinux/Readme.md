@@ -1,3 +1,23 @@
+
+## Install Arch Linux on a removable medium (install to usb)
+
+
+[install to removable](https://wiki.archlinux.org/index.php/Install_Arch_Linux_on_a_removable_medium)
+
+
+[ALMA](https://github.com/r-darwish/alma)
+
+
+
+--------
+--------
+
+
+
+## Arch installation
+
+[archlinux wiki](https://wiki.archlinux.org/)
+
 ### ready: archlinx install key(usb)
 
 ### IMPORTANCE: First, make the disk parted ready for install. 
