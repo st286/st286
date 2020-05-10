@@ -23,7 +23,7 @@ DEV=/dev/sdb
 
 DEVN=/dev/sdb3
 
-KALIISO=kali-linux-2020-W19-live-amd64.iso
+KALIISO=kali-linux-2020-W20-live-amd64.iso
 
 USBEND=30gb
 
