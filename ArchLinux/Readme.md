@@ -4,6 +4,8 @@
 
 [install to removable](https://wiki.archlinux.org/index.php/Install_Arch_Linux_on_a_removable_medium)
 
+[Arch USB](https://magyar.urown.cloud/arch-usb.html)
+
 
 [ALMA](https://github.com/r-darwish/alma)
 
