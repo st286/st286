@@ -63,6 +63,8 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 **pacstrap**  
 
      pacstrap /mnt/usb linux linux-firmware base base-devel nano
+     
+     pacstrap /mnt dhcpcd iw iwd connman openssh git wget man-db man-pages
   
  **fstab**
   
