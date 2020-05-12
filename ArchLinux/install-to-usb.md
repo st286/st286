@@ -99,8 +99,75 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         
         Storage=volatile 
         
-        ystemMaxUse=30M 
+        SystemMaxUse=30M 
+        
+  **mount options**
+  
+        ano /etc/fstab
+        
+        Change the mount options from relatime to noatime.
+        
+**bootloader**
+
+        pacman -S grub efibootmgr 
+        
+        Setup GRUB for BIOS booting mode:
+        
+        grub-install --target=i386-pc --boot-directory=/boot /dev/sdX
+        
+        Setup GRUB for UEFI booting mode:
+        
+        grub-install --target=x86_64-efi --efi-directory=/boot --boot-directory=/boot --removable
+        
+        grub-mkconfig -o /boot/grub/grub.cfg
+        
+**networking**
+
+        systemctl enable dhcpcd
+        
+        systemctl enable iwd
+        
+        systemctl enable  connman
+        
+**video drivers**
+
+        pacman -S xf86-video-amdgpu xf86-video-ati xf86-video-intel xf86-video-nouveau xf86-video-vesa
+        
+        To support most common GPUs, install all five basic open source video drivers
+        
+**root password**
+
+        root password
+      
+**user account**
+    
+        user account
+        
+        passwd user
+        
+        visudo add:
+        
+        user ALL=(ALL) ALL
+        
+**logout**
+
+        sync 
+        
+        exit 
+        
+        umount /mnt/boot /mnt && sync 
+        
+        or umount -R /mnt
+        
+        reboot
+        
+**installation complete**    
+
+
         
         
+        
+
+
         
         
