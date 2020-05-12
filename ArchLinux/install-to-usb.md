@@ -20,10 +20,16 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
 **partitioning notes**
 
+### Connect to the Internet
+
 **system time**
 
     timedatectl set-ntp true
+
+
+### Prepare USB Stick
   
+
 **partition**
 
     lsblk
@@ -51,8 +57,50 @@ GRUB:  BIOS + GPT,   UEFI + GPT
   
      mount /dev/sdX2 /mnt/boot
   
+###  Install Base Package Set
+
+
 **pacstrap**  
 
      pacstrap /mnt/usb linux linux-firmware base base-devel nano
   
+ **fstab**
   
+        genfstab -U /mnt > /mnt/etc/fstab  
+  
+### Configure New System
+
+        arch-chroot /mnt
+        
+        echo hostname > /etc/hostname 
+        
+        nano /etc/hosts
+        
+        +------------------------------------------------+
+        | 127.0.0.1    localhost                         |
+        | ::1          localhost                         |
+        | 127.0.1.1    hostname.localdomain    hostname  |
+        +------------------------------------------------+
+        
+**RAM disk image**
+
+        nano /etc/mkinitcpio.conf 
+        
+         HOOKS=(base udev block filesystems keyboard fsck)
+         
+         #Ensure the block hook comes before the filesystems hook and directly after the udev hook like the following
+         
+         mkinitcpio -p linux
+         
+         
+ **journal config**
+ 
+        nano /etc/systemd/journald.conf 
+        
+        Storage=volatile 
+        
+        ystemMaxUse=30M 
+        
+        
+        
+        
