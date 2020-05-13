@@ -105,7 +105,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         
   **mount options**
   
-        ano /etc/fstab
+        nano /etc/fstab
         
         Change the mount options from relatime to noatime.
         
@@ -120,6 +120,8 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         Setup GRUB for UEFI booting mode:
         
         grub-install --target=x86_64-efi --efi-directory=/boot --boot-directory=/boot --removable
+
+        grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB  --removable
         
         grub-mkconfig -o /boot/grub/grub.cfg
         
