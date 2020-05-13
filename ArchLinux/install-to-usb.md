@@ -113,15 +113,15 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
         pacman -S grub efibootmgr 
         
-        Setup GRUB for BIOS booting mode:
+        ##Setup GRUB for BIOS booting mode:
         
-        grub-install --target=i386-pc --boot-directory=/boot /dev/sdX
+        grub-install --target=i386-pc --boot-directory=/boot. --recheck /dev/sdX
         
-        Setup GRUB for UEFI booting mode:
+        ##Setup GRUB for UEFI booting mode:
         
-        grub-install --target=x86_64-efi --efi-directory=/boot --boot-directory=/boot --removable
+        grub-install --target=x86_64-efi --efi-directory=/boot --boot-directory=/boot --removable.  ## or
 
-        grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB  --removable
+        grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB   --recheck --removable
         
         grub-mkconfig -o /boot/grub/grub.cfg
         
