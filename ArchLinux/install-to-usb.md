@@ -62,6 +62,8 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
 **pacstrap**  
 
+     ## add pacman source  aliyun  163
+     
      pacstrap /mnt/usb linux linux-firmware base base-devel nano
      
      pacstrap /mnt dhcpcd iw iwd connman openssh git wget man-db man-pages
