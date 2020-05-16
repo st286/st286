@@ -1,5 +1,9 @@
 ## Install to usb or HD
 
+-----------------
+### prepare
+
+
 GRUB:  BIOS + GPT,   UEFI + GPT
 
 **live image**
@@ -16,7 +20,6 @@ GRUB:  BIOS + GPT,   UEFI + GPT
  
     disable secure boot 
 
-**partitioning notes**
 
 ----------
 
