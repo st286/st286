@@ -1,4 +1,4 @@
-## Install to usb
+## Install to usb or HD
 
 GRUB:  BIOS + GPT,   UEFI + GPT
 
