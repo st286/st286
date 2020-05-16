@@ -20,6 +20,10 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
 ----------
 
+[Installation guide](https://wiki.archlinux.org/index.php/Installation_guide)
+
+
+
 ### Connect to the Internet
 
 **system time**
@@ -27,7 +31,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
     timedatectl set-ntp true
 
 
-### Prepare USB Stick
+### Prepare USB Stick or HD
   
 
 **partition**
@@ -212,6 +216,10 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 ### 
 
 
+
+### Multimedia
+
+### Input devices
 
 ------------------------
 
