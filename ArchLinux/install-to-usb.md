@@ -119,15 +119,22 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
         pacman -S grub efibootmgr 
         
+        
         ##Setup GRUB for BIOS booting mode:
         
-        grub-install --target=i386-pc --boot-directory=/boot. --recheck /dev/sdX
+        grub-install --target=i386-pc --boot-directory=/boot --recheck /dev/sdX (FOR BIOS and UEFI; USB or HD)
+        
+        grub-install --target=i386-pc --recheck  /dev/sdX  (FOR BIOS HD)
+
         
         ##Setup GRUB for UEFI booting mode:
         
-        grub-install --target=x86_64-efi --efi-directory=/boot --boot-directory=/boot --removable.  ## or
-
-        grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB   --recheck --removable
+        grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub-efi   --recheck
+       
+        grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub-efi   --recheck --removable (FOR USB)
+        
+        
+        ##Generated grub.cfg:
         
         grub-mkconfig -o /boot/grub/grub.cfg
         
@@ -139,7 +146,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         
         systemctl enable  connman
         
-**video drivers**
+**video drivers (FOR USB)**
 
         pacman -S xf86-video-amdgpu xf86-video-ati xf86-video-intel xf86-video-nouveau xf86-video-vesa
         
@@ -155,7 +162,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         
         passwd user
         
-        visudo add:
+        EDITOR=nano visudo add:
         
         user ALL=(ALL) ALL
         
@@ -171,11 +178,20 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         
         reboot
         
-**installation complete**    
+**base installation complete**    
 
 -----------------------
 
-### cryptsetup
+
+
+
+
+
+
+
+
+------------------------
+### cryptsetup (partition)
 
         cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb3
         
