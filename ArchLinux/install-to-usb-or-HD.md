@@ -99,7 +99,11 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         
 **RAM disk image (FOR USB)**
 
-        nano /etc/mkinitcpio.conf 
+  [RAM disk image](https://magyar.urown.cloud/#RAM_disk)
+
+         mkinitcpio --help
+        
+         nano /etc/mkinitcpio.conf 
         
          HOOKS=(base udev block filesystems keyboard fsck)
          
@@ -123,6 +127,8 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         Change the mount options from relatime to noatime.
         
 **bootloader (GRUB: BIOS/UEFI) (FOR USB and HD)**
+
+  [GRUB](https://wiki.archlinux.org/index.php/GRUB)
 
         pacman -S grub efibootmgr 
         
