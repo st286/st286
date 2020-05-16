@@ -230,34 +230,31 @@ GRUB:  BIOS + GPT,   UEFI + GPT
     
   [Ly - a TUI display manager](https://github.com/cylgom/ly)
 
-### 
+### Internet
 
-
-
-### Multimedia
-
-
-
+      pacman -S chromium  firefox
+      
 
 ### Chinese Input
 
 
-**localization**
+ **localization**
 
-   nano /etc/locale.gen , uncomment en_US.UTF-8 UTF-8
+      nano /etc/locale.gen , uncomment en_US.UTF-8 UTF-8
    
-   locale-gen
+      locale-gen
    
-   nano /etc/locale.conf
+      nano /etc/locale.conf
    
-   LANG=en_US.UTF-8
+      LANG=en_US.UTF-8
 
 
-**time zone**
+ **time zone**
 
     ln -sf /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
     
-**font and input**
+    
+ **font and input**
 
     pacman -S ttf-dejavu  wqy-microhei  (install chinese font)
 
@@ -271,13 +268,47 @@ GRUB:  BIOS + GPT,   UEFI + GPT
    
       reboot
       
+### sound audio
+
+      pacman -S pulseaudio
       
+      pacman -S pulseaudio-bluetooth
+      
+
+  [PulseAudio](https://wiki.archlinux.org/index.php/PulseAudio)
+  
+  
+###  LXQt Connman applet — LXQt system-tray applet for ConnMan. 
+
+      git clone https://aur.archlinux.org/lxqt-connman-applet.git
+      
+      less PKGBUILD
+      
+      makepkg -si
+      
+
+   [AUR---Arch User Repository](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages)
+   
+   [LXQt Connman applet](https://github.com/lxqt/lxqt-connman-applet)
+    
+   [lxqt-connman-appletAUR](https://aur.archlinux.org/packages/lxqt-connman-applet/)
 
 ------------------------
 ### install garbage
 
     pacman -S gvfs
 
+
+### console font sizes
+
+      pacman -S terminus-font
+      
+      echo FONT="ter-c18n" > /etc/vconsole.conf
+
+      echo KEYMAP="us" >> /etc/vconsole.conf
+
+
+----------------------
 ### zsh and oh-my-zsh
 
 #### install zsh
