@@ -165,6 +165,9 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         
         systemctl enable  connman
         
+  [connman](https://wiki.archlinux.org/index.php/ConnMan#Connecting_to_a_protected_access_point)
+  [iwd](https://wiki.archlinux.org/index.php/Iwd#Usage)
+        
 **video drivers (FOR USB)**
 
         pacman -S xf86-video-amdgpu xf86-video-ati xf86-video-intel xf86-video-nouveau xf86-video-vesa
