@@ -261,7 +261,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
     pacman -S ttf-dejavu  wqy-microhei  (install chinese font)
 
-    pacman -S fcitx-im fcitx-configtool  (chinese input)
+    pacman -S fcitx fcitx-rime fcitx-configtool  (chinese input)
     
   add these into .bashrc, .profile, .xinitrc, .xprofile on HOME directory.
   
