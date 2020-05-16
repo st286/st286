@@ -8,17 +8,16 @@ GRUB:  BIOS + GPT,   UEFI + GPT
  
 **wired vs wifi**
 
-    ip  iw
+    ip ,  iw
  
  **BIOS vs UEFI**
  
  **secure boot**
  
     disable secure boot 
-  
-**disable secure boot **
 
 **partitioning notes**
+
 
 ### Connect to the Internet
 
@@ -42,12 +41,15 @@ GRUB:  BIOS + GPT,   UEFI + GPT
          1           1 M        BIOS boot partition 
          2           260 M      EFI System           
          3           other      Linux filesystem    
+         4           swap       8G
 
 **format**
 
      mkfs.vfat -F32 /dev/sdX2  
   
      mkfs.ext4 -O "^has_journal" /dev/sdX3
+     
+     mkswap /dev/sdX4
   
 **mount**
 
@@ -57,16 +59,18 @@ GRUB:  BIOS + GPT,   UEFI + GPT
   
      mount /dev/sdX2 /mnt/boot
   
+     swapon
+  
 ###  Install Base Package Set
 
 
 **pacstrap**  
 
-     ## add pacman source  aliyun  163
+     ## add pacman source  aliyun , 163  in /etc/pacman.d/mirrorlist
      
      pacstrap /mnt/usb linux linux-firmware base base-devel nano
      
-     pacstrap /mnt dhcpcd iw iwd connman openssh git wget man-db man-pages
+     pacstrap /mnt dhcpcd iw iwd connman openssh git wget man-db man-pages 
   
  **fstab**
   
@@ -86,18 +90,18 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         | 127.0.1.1    hostname.localdomain    hostname  |
         +------------------------------------------------+
         
-**RAM disk image**
+**RAM disk image (FOR USB)**
 
         nano /etc/mkinitcpio.conf 
         
          HOOKS=(base udev block filesystems keyboard fsck)
          
-         #Ensure the block hook comes before the filesystems hook and directly after the udev hook like the following
+         #(FOR USB)Ensure the block hook comes before the filesystems hook and directly after the udev hook like the following
          
          mkinitcpio -p linux
          
          
- **journal config**
+ **journal config (FOR USB)**
  
         nano /etc/systemd/journald.conf 
         
@@ -105,13 +109,13 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         
         SystemMaxUse=30M 
         
-  **mount options**
+  **mount options (FOR USB)**
   
         nano /etc/fstab
         
         Change the mount options from relatime to noatime.
         
-**bootloader**
+**bootloader (GRUB: BIOS/UEFI) (FOR USB and HD)**
 
         pacman -S grub efibootmgr 
         
