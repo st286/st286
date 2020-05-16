@@ -50,9 +50,11 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
 **format**
 
-     mkfs.vfat -F32 /dev/sdX2  
+     mkfs.vfat -F32 /dev/sdX2 
+     
+     mkfs.ext4  /dev/sdX3 
   
-     mkfs.ext4 -O "^has_journal" /dev/sdX3
+     mkfs.ext4 -O "^has_journal" /dev/sdX3 (FOR USB)
      
      mkswap /dev/sdX4
   
