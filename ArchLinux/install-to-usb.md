@@ -18,6 +18,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
 **partitioning notes**
 
+----------
 
 ### Connect to the Internet
 
@@ -182,11 +183,39 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
 -----------------------
 
+### Deshtop environment install
+
+        pacman -s xorg
+        
+        pacman -S lxqt
+
+  [LXQt](https://wiki.archlinux.org/index.php/LXQt)
+  
+  [Desktop environment](https://wiki.archlinux.org/index.php/Desktop_environment)
+  
+   ** display manage **
+
+    git clone https://github.com/cylgom/ly.git
+    
+    make github (fetch submodules)
+    
+    make
+    
+    sudo make run  (test)
+    
+    sudo make install
+    
+    sudo systemctl enable ly.service
+    
+  [Ly - a TUI display manager](https://github.com/cylgom/ly)
+
+### 
 
 
 
+------------------------
 
-
+### zsh and oh-my-zsh
 
 
 
