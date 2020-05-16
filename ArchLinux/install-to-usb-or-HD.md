@@ -236,9 +236,47 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
 ### Multimedia
 
-### Input devices
+
+
+
+### Chinese Input
+
+
+**localization**
+
+   nano /etc/locale.gen , uncomment en_US.UTF-8 UTF-8
+   
+   locale-gen
+   
+   nano /etc/locale.conf
+   
+   LANG=en_US.UTF-8
+
+
+**time zone**
+
+    ln -sf /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
+    
+**font and input**
+
+    pacman -S ttf-dejavu  wqy-microhei  (install chinese font)
+
+    pacman -S fcitx-im fcitx-configtool  (chinese input)
+    
+  add these into .bashrc, .profile, .xinitrc, .xprofile on HOME directory.
+  
+      export LANG=zh_CN.UTF-8
+      export LANGUAGE=zh_CN:en_US
+      export LC_CTYPE=en_US.UTF-8
+   
+      reboot
+      
+      
 
 ------------------------
+### install garbage
+
+    pacman -S gvfs
 
 ### zsh and oh-my-zsh
 
