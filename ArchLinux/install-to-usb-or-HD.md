@@ -319,7 +319,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
 	## install samsung printer M2876HN: example:
 	
-	pacman -S cups  splix  foomatic-db-ppds
+	pacman -S  cups  cups-pdf  splix  foomatic-db-ppds
 
 	## splix--samsung driver
 
