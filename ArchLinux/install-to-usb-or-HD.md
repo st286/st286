@@ -309,7 +309,19 @@ GRUB:  BIOS + GPT,   UEFI + GPT
       echo FONT="ter-c18n" > /etc/vconsole.conf
 
       echo KEYMAP="us" >> /etc/vconsole.conf
+-----------------------
 
+### Printer CUPS
+
+[cups](https://wiki.archlinux.org/index.php/CUPS)
+
+[cups chinese](https://wiki.archlinux.org/index.php/CUPS_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+
+	## install samsung printer M2876HN: example:
+	
+	pacman -S cups  splix  foomatic-db-ppds
+
+	## splix--sumsung driver
 
 ----------------------
 ### zsh and oh-my-zsh
