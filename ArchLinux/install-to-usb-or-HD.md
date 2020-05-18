@@ -321,7 +321,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 	
 	pacman -S cups  splix  foomatic-db-ppds
 
-	## splix--sumsung driver
+	## splix--samsung driver
 
 ----------------------
 ### zsh and oh-my-zsh
