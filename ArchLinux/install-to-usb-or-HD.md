@@ -302,7 +302,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
     pacman -S gvfs
 
-### install batarry
+### install battery
 
      pacman -S acpi
 
