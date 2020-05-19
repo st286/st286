@@ -265,6 +265,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
     
   add these into .bashrc, .profile, .xinitrc, .xprofile on HOME directory.
   
+      export LC_ALL="en_US.UTF-8"  
       export LANG=zh_CN.UTF-8
       export LANGUAGE=zh_CN:en_US
       export LC_CTYPE=en_US.UTF-8
@@ -301,6 +302,9 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
     pacman -S gvfs
 
+### install batarry
+
+     pacman -S acpi
 
 ### console font sizes
 
