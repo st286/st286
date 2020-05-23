@@ -179,13 +179,17 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         
 **root password**
 
-        root password
+        ##change root password
+	
+	passwd
       
 **user account**
     
-        user account
+        ##user account
+	
+	useradd -m someuser
         
-        passwd user
+        passwd someuser
         
         EDITOR=nano visudo add:
         
@@ -218,6 +222,8 @@ GRUB:  BIOS + GPT,   UEFI + GPT
   [Desktop environment](https://wiki.archlinux.org/index.php/Desktop_environment)
   
    ** display manage **
+   
+    ## run as no root
 
     git clone https://github.com/cylgom/ly.git
     
@@ -283,6 +289,8 @@ GRUB:  BIOS + GPT,   UEFI + GPT
   
   
 ###  LXQt Connman applet — LXQt system-tray applet for ConnMan. 
+
+      ## run as no root
 
       git clone https://aur.archlinux.org/lxqt-connman-applet.git
       
