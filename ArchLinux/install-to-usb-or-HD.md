@@ -119,7 +119,8 @@ GRUB:  BIOS + GPT,   UEFI + GPT
          #(FOR USB)Ensure the block hook comes before the filesystems hook and directly after the udev hook like the following
          
          mkinitcpio -p linux
-         
+   
+ #### Minimizing disk access
          
  **journal config (FOR USB)**
  
@@ -134,7 +135,14 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         nano /etc/fstab
         
         Change the mount options from relatime to noatime.
-        
+   
+   **To disable fsync and related system calls in web browsers and other applications that do not write essential data, use the eatmydata command from libeatmydata to avoid such system calls:
+
+        pacman -S libeatmydata
+	
+	eatmydata firefox
+
+
 **bootloader (GRUB: BIOS/UEFI) (FOR USB and HD)**
 
   [GRUB](https://wiki.archlinux.org/index.php/GRUB)
@@ -194,6 +202,8 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         EDITOR=nano visudo add:
         
         user ALL=(ALL) ALL
+	
+	Defaults editor=$(which nano)
         
 **logout**
 
@@ -309,6 +319,12 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 ### install garbage
 
     pacman -S gvfs
+
+###  touchpad support
+
+Install support for standard notebook touchpads:
+
+      pacman -S xf86-input-synaptics 
 
 ### install battery
 
