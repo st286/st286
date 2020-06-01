@@ -136,7 +136,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         
         Change the mount options from relatime to noatime.
    
-   **To disable fsync and related system calls in web browsers and other applications that do not write essential data, use the eatmydata command from libeatmydata to avoid such system calls:
+   **To disable fsync and related system calls in web browsers and other applications that do not write essential data, use the eatmydata command from libeatmydata to avoid such system calls:**
 
         pacman -S libeatmydata
 	
