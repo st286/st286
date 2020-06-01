@@ -138,9 +138,9 @@ GRUB:  BIOS + GPT,   UEFI + GPT
    
    **To disable fsync and related system calls in web browsers and other applications that do not write essential data, use the eatmydata command from libeatmydata to avoid such system calls:**
 
-        pacman -S libeatmydata
+         pacman -S libeatmydata
 	
-	eatmydata firefox
+	 eatmydata firefox
 
 
 **bootloader (GRUB: BIOS/UEFI) (FOR USB and HD)**
