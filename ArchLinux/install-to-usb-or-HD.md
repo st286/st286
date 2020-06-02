@@ -351,13 +351,49 @@ Install support for standard notebook touchpads:
 
 	## splix--samsung driver
 	
-**如果打印机需要的PPD文件 不 在CUPS中, 那么:**
+**如果打印机需要的PPD文件不在CUPS中, 那么:**
 
    去 [AUR](https://wiki.archlinux.org/index.php/AUR) 寻找为打印机/制造商提供的包。
    
    去这个网站 [OpenPrinting database](http://www.openprinting.org/printers) 选择你需要的制造商和型号。
    
    浏览制造商的网站寻找GNU/Linux驱动程序。
+
+      ## install Fuji Xerox DocuPrint CM215 fw:
+      
+   [Go to this site:foo2hbpl](http://foo2hbpl.rkkda.com/)
+   
+      ## Download and Install
+
+      ## Click the link, or cut and paste the whole command line below to download the driver.
+
+            $ wget -O foo2zjs.tar.gz http://foo2zjs.rkkda.com/foo2zjs.tar.gz
+
+      ## Now unpack it:
+
+        ## Unpack:
+	
+            $ tar zxf foo2zjs.tar.gz
+	    
+            $ cd foo2zjs
+
+      ## Now compile and install it. The INSTALL file contains more detailed instructions; please read it now.
+
+        ## Compile:
+	
+            $ make
+
+
+        ## Install driver, foomatic XML files, and extra files:
+          
+	  $ su			OR	$ sudo make install
+          
+	  ## make install
+
+        ##(Optional) If you use CUPS, restart the spooler:
+	
+            # make cups			OR	$ sudo make cups
+
 
 
 
