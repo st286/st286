@@ -386,13 +386,12 @@ Install support for standard notebook touchpads:
 
         ## Install driver, foomatic XML files, and extra files:
           
-	  $ su			OR	$ sudo make install
+	  $ su; make install     OR	$ sudo make install
           
-	  ## make install
 
         ##(Optional) If you use CUPS, restart the spooler:
 	
-            # make cups			OR	$ sudo make cups
+            # make cups		OR	$ sudo make cups
 
 
 
