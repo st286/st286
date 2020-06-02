@@ -350,6 +350,16 @@ Install support for standard notebook touchpads:
 	pacman -S  cups  cups-pdf  splix  foomatic-db-ppds
 
 	## splix--samsung driver
+	
+**如果打印机需要的PPD文件 不 在CUPS中, 那么:**
+
+   去 [AUR](https://wiki.archlinux.org/index.php/AUR) 寻找为打印机/制造商提供的包。
+   
+   去这个网站 [OpenPrinting database](http://www.openprinting.org/printers) 选择你需要的制造商和型号。
+   
+   浏览制造商的网站寻找GNU/Linux驱动程序。
+
+
 
 ----------------------
 ### zsh and oh-my-zsh
