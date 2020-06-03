@@ -347,7 +347,13 @@ Install support for standard notebook touchpads:
 
 	## install samsung printer M2876HN: example:
 	
-	pacman -S  cups  cups-pdf  splix  foomatic-db-ppds
+	 pacman -S  cups  cups-pdf  splix  foomatic-db-ppds
+	
+	# Enable and start org.cups.cupsd.service.
+      
+         systemctl  enable  org.cups.cupsd.service
+      
+         systemctl  start  org.cups.cupsd.service
 
 	## splix--samsung driver
 	
@@ -360,6 +366,14 @@ Install support for standard notebook touchpads:
    浏览制造商的网站寻找GNU/Linux驱动程序。
 
       ## install Fuji Xerox DocuPrint CM215 fw:
+      
+       pacman -S  cups
+      
+      # Enable and start org.cups.cupsd.service.
+      
+       systemctl  enable  org.cups.cupsd.service
+      
+       systemctl  start  org.cups.cupsd.service
       
    [Go to this site:foo2hbpl](http://foo2hbpl.rkkda.com/)
    
