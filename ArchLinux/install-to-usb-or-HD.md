@@ -347,7 +347,7 @@ Install support for standard notebook touchpads:
 
 	## install samsung printer M2876HN: example:
 	
-	 pacman -S  cups  cups-pdf  splix  foomatic-db-ppds
+	 pacman -S  cups  cups-pdf  splix 
 	
 	# Enable and start org.cups.cupsd.service.
       
@@ -355,7 +355,7 @@ Install support for standard notebook touchpads:
       
          systemctl  start  org.cups.cupsd.service
 
-	## splix--samsung driver
+	## splix: samsung driver; cups-pdf: virtual printer (PDF)
 	
 **如果打印机需要的PPD文件不在CUPS中, 那么:**
 
