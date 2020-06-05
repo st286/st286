@@ -76,6 +76,28 @@ GRUB:  BIOS + GPT,   UEFI + GPT
      mount /dev/sdX2 /mnt/boot
   
      swapon
+     
+**encrypt**
+
+	### Preparing non-boot partitions:
+
+	 cryptsetup -y -v luksFormat /dev/sda3
+	 
+	 cryptsetup open /dev/sda3 cryptroot
+	 
+	 mkfs.ext4 /dev/mapper/cryptroot
+	 
+	 mount /dev/mapper/cryptroot /mnt
+
+	## Check the mapping works as intended: 检查测绘工作是否符合预期:
+
+	 umount /mnt
+	 cryptsetup close cryptroot
+	 
+	 cryptsetup open /dev/sda3 cryptroot
+	 
+	 mount /dev/mapper/cryptroot /mnt
+
   
 ###  Install Base Package Set
 
@@ -150,6 +172,13 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 
         pacman -S grub efibootmgr 
         
+	## 添加以下内核参数以便在系统启动期间解锁LUKS加密的根分区：/etc/default/grub
+	
+	GRUB_CMDLINE_LINUX="cryptdevice=/dev/sda2:cryptroot"
+	
+	     ## cryptdevice=UUID=device-UUID:cryptroot root=/dev/mapper/cryptroot
+	
+	
         
         ##Setup GRUB for BIOS booting mode:
         
@@ -217,6 +246,20 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         or umount -R /mnt
         
         reboot
+	
+**encrypt: 从chroot退出，卸载分区，关闭设备并重新启动（卸下安装介质）：**
+
+	exit
+	
+	umount -R /mnt/boot
+	
+	umount -R /mnt
+	
+	cryptsetup close cryptroot
+	
+	sync && reboot	
+
+
         
 **base installation complete**    
 
