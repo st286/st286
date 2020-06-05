@@ -89,7 +89,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 	 
 	 mount /dev/mapper/cryptroot /mnt
 
-	## Check the mapping works as intended: 检查测绘工作是否符合预期:
+	## Check the mapping works as intended: 检查是否符合预期:
 
 	 umount /mnt
 	 
