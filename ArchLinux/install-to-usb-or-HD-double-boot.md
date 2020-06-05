@@ -114,9 +114,10 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         
          nano /etc/mkinitcpio.conf 
         
-         HOOKS=(base udev block filesystems keyboard fsck)
+         HOOKS=(base udev block encrypt filesystems keyboard fsck)
          
-         #(FOR USB)Ensure the block hook comes before the filesystems hook and directly after the udev hook like the following
+         #(FOR USB)Ensure the block hook comes before the filesystems hook and directly after the udev hook like the following. 
+	 ### Cryptsetup: encrypt: Encrypting an entire system
          
          mkinitcpio -p linux
    
