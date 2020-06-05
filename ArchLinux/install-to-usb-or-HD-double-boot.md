@@ -92,6 +92,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 	## Check the mapping works as intended: 检查测绘工作是否符合预期:
 
 	 umount /mnt
+	 
 	 cryptsetup close cryptroot
 	 
 	 cryptsetup open /dev/sda3 cryptroot
@@ -174,7 +175,7 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         
 	## 添加以下内核参数以便在系统启动期间解锁LUKS加密的根分区：/etc/default/grub
 	
-	GRUB_CMDLINE_LINUX="cryptdevice=/dev/sda2:cryptroot"
+	GRUB_CMDLINE_LINUX="cryptdevice=/dev/sda3:cryptroot"
 	
 	     ## cryptdevice=UUID=device-UUID:cryptroot root=/dev/mapper/cryptroot
 	
