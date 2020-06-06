@@ -159,12 +159,6 @@ GRUB:  BIOS + GPT,   UEFI + GPT
         nano /etc/fstab
         
         Change the mount options from relatime to noatime.
-   
-   **To disable fsync and related system calls in web browsers and other applications that do not write essential data, use the eatmydata command from libeatmydata to avoid such system calls:**
-
-         pacman -S libeatmydata
-	
-	 eatmydata firefox
 
 
 **bootloader (GRUB: BIOS/UEFI) (FOR USB and HD)**
@@ -177,10 +171,10 @@ GRUB:  BIOS + GPT,   UEFI + GPT
 	
 	GRUB_CMDLINE_LINUX="cryptdevice=/dev/sda3:cryptroot"
 	
-	     ## cryptdevice=UUID=device-UUID:cryptroot root=/dev/mapper/cryptroot
-	
-	
-        
+	     ## cryptdevice=UUID=device-UUID:cryptroot 
+	     
+	     ## device-UUID: is /dev/sdXX  not /dev/mapper/cryptroot
+
         ##Setup GRUB for BIOS booting mode:
         
         grub-install --target=i386-pc --boot-directory=/boot --recheck /dev/sdX (FOR BIOS and UEFI; USB or HD)
