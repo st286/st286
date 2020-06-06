@@ -1,4 +1,4 @@
-## Install to usb or HD, double boot (UEFI or BIOS with gpt)
+## Install to usb or HD, double boot (UEFI or BIOS with gpt), and encrypt
 
 -----------------
 ### prepare
