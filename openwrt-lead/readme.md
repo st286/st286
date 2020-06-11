@@ -30,11 +30,11 @@ su $USER_NAME
 ```
 
 
-##临时使用socks5代理apt-get的方法
+### 临时使用socks5代理apt-get的方法
 
-      sudo apt-get Acquire::http::proxy="socks5h://127.0.0.1:1080/"  update 
+      sudo apt-get -o Acquire::http::proxy="socks5h://127.0.0.1:1080/"  update 
 
-##git 使用代理
+### git 使用代理
 
       git config --global  http.proxy socks5://127.0.0.1:1080
 
