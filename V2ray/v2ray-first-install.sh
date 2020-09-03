@@ -30,8 +30,9 @@ fi
 # 安装v2ray
 apt update && apt upgrade -y
 
-wget -O v2ray-install.sh https://install.direct/go.sh
-bash v2ray-install.sh
+curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh
+bash install-release.sh
+
 
 # 更新配置config.json
 cd /etc/v2ray/
