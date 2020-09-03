@@ -22,7 +22,9 @@
 ## 安裝和更新 V2Ray
 
     # bash install-release.sh
+    
     安裝最新發行的 geoip.dat 和 geosite.dat
+    
     # bash install-dat-release.sh
 
 ## 移除 V2Ray
