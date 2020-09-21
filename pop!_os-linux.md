@@ -11,6 +11,10 @@ Pop!_OS is designed for fast navigation, easy workspace organization, and fluid,
 可以安装到U盘，启动还比较快的。安装完成后，启动后记得关闭swap分区。
 
     sudo swapoff /dev/mapper/cryptswap
+    
+    
+### [5 EASY Things To Do After Installing POP!_OS](https://techhut.tv/5-things-to-do-after-installing-pop-os/)
+
 
 ### [Support-Getting Started](https://support.system76.com/)
 
