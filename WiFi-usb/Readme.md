@@ -10,11 +10,9 @@
         
     Wireless USB Adapter is 0bda:c811 Realtek Semiconductor Corp, On Github, find "realtek 811".  found ....
     
-    https://forum.mxlinux.org/viewtopic.php?f=107&t=50579
+    (https://forum.mxlinux.org/viewtopic.php?f=107&t=50579)[ https://forum.mxlinux.org/viewtopic.php?f=107&t=50579]
     
-    
-    
-    download [https://github.com/smp79/rtl8821CU](https://github.com/smp79/rtl8821CU)
+    download (https://github.com/smp79/rtl8821CU)[https://github.com/smp79/rtl8821CU]
     
     
 
