@@ -2,7 +2,7 @@
 ## 水星无线网卡UD6、UD6H Linux (pop!_os, ubuntu20.04)驱动安装
 
 
-####[Linux系统下安装USB无线网卡驱动方法](https://www.jianshu.com/p/a9f768d37ada)
+#### [Linux系统下安装USB无线网卡驱动方法](https://www.jianshu.com/p/a9f768d37ada)
 
 
 方法1：有可能系统内核已经集成好了你需要的驱动模块，只需要手工加载以下验证是否有效，如果无效再选择方法2.
