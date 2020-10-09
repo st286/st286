@@ -46,8 +46,9 @@
         ## maybe   modinfo 8821cu
         
       
-      
-### 华硕asus usb-AC57 无线网卡驱动 linux install
+---------------------------------------------
+
+## 华硕asus usb-AC57 无线网卡驱动 linux install
 
 also see: [Ubuntu 16.04 can't install driver for ASUS USB-AC57](https://askubuntu.com/questions/1063402/ubuntu-16-04-cant-install-driver-for-asus-usb-ac57)
 
@@ -75,11 +76,13 @@ The Linux driver download from https://www.asus.com/Networking/USB-AC57/HelpDesk
 
 ------
 
-find rtl8822 on Github, found ...
+**find rtl8822 on Github, found ...**
+
 
 [ morrownr/88x2bu ](https://github.com/morrownr/88x2bu)
 
-following and doing .....   done!
+
+**following and doing .....   done!**
 
 
 #### DKMS:
