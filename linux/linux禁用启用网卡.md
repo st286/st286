@@ -45,11 +45,15 @@
 
 启用禁用网卡可以使用以下 5 个方法来完成：
 
-   .1.  ifconfig 命令：用于配置网卡。它可以提供网卡的很多信息。
-   .2.  ifdown/up 命令：ifdown 命令用于禁用网卡，ifup 命令用于启用网卡。
-   .3.  ip 命令：用于管理网卡，用于替代老旧的、不推荐使用的 ifconfig 命令。它和 ifconfig命令很相似，但是提供了很多 ifconfig 命令所不具有的强大的特性。
-   .4.  nmcli 命令：是一个控制 NetworkManager 并报告网络状态的命令行工具。
-   .5.  nmtui 命令：是一个与 NetworkManager 交互的、基于 curses 图形库的终端 UI 应用。
+   1.  ifconfig 命令：用于配置网卡。它可以提供网卡的很多信息.
+   
+   2.  ifdown/up 命令：ifdown 命令用于禁用网卡，ifup 命令用于启用网卡。
+   
+   3.  ip 命令：用于管理网卡，用于替代老旧的、不推荐使用的 ifconfig 命令。它和 ifconfig命令很相似，但是提供了很多 ifconfig 命令所不具有的强大的特性.
+   
+   4.  nmcli 命令：是一个控制 NetworkManager 并报告网络状态的命令行工具。
+   
+   5.  nmtui 命令：是一个与 NetworkManager 交互的、基于 curses 图形库的终端 UI 应用。
 
 [Linux 中如何启用和禁用网卡](https://zhuanlan.zhihu.com/p/65480107)
 
