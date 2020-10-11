@@ -16,21 +16,20 @@
 
 由于某些时候需要长期禁用一块网卡，这时候就需要修改配置文件。
 
-  #在redhat系linux中的网卡配置文件路径是/etc/sysconfig/network-script/ifcfg-网卡名
+     #在redhat系linux中的网卡配置文件路径是/etc/sysconfig/network-script/ifcfg-网卡名
  
-    sudo vim /etc/sysconfig/network-script/ifcfg-eth0
+        sudo vim /etc/sysconfig/network-script/ifcfg-eth0
     #在其中添加下面代码即可
-   TYPE=Ethernet  #网卡类型
-   DEVICE=eth0    #网卡名称
-   ONBOOT=no     #是否随系统启动该网卡
+        TYPE=Ethernet  #网卡类型
+        DEVICE=eth0    #网卡名称
+        ONBOOT=no     #是否随系统启动该网卡
  
+    #debian，ubuntu的网卡配置文件路径是/etc/network/interfaces文件
  
-  #debian，ubuntu的网卡配置文件路径是/etc/network/interfaces文件
+     #禁用网卡eth0：
+         iface eth0 inet manual
  
-   #禁用网卡eth0：
-     iface eth0 inet manual
- 
-    #之后重启网络服务就可以了
+     #之后重启网络服务就可以了
     
     
   [linux下禁用网卡的启用网卡的一些方法](https://www.cnblogs.com/ritte/p/9725009.html)
