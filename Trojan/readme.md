@@ -1,14 +1,12 @@
 
 #  One: Trojan 原版
 
-××注意：目前Trojan只用socks5代理××
+**注意：Trojan只用socks5代理**
 
 [Trojan 原版 released 最新发布版本](https://github.com/trojan-gfw/trojan/releases/)
 
 [Trojan-gfw](https://github.com/trojan-gfw/trojan)
 
-
--------
 
 在 Debian 10 (ubuntu 18,19, 20）安装成功
 ```shell
@@ -18,6 +16,12 @@
     
     # 按提示操作
 ```
+### 详细安装参考[这里](./install.md)
+    
+    
+ [自建梯子教程 --Trojan版本](https://trojan-tutor.github.io/2019/04/10/p41.html)
+ 
+ [Trojan安装配置教程](https://qoant.com/2019/04/vps-with-trojan/)
 
 **配置文件和证书、密钥文件在目录： /usr/local/etc/trojan/**
 
@@ -38,22 +42,20 @@
  
     用update.sh脚本
 
-## client side 客户端
+### client side 客户端
 
 scp 配置和证书, client.json、ca-cert.pem（在服务器端目录/usr/local/etc/trojan/中）， 修改客户端配置文件 client.json ( 密码和证书、密钥 )
 
-
-### 详细安装参考[这里](./install.md)
-    
-    
- [自建梯子教程 --Trojan版本](https://trojan-tutor.github.io/2019/04/10/p41.html)
- 
  
  
  ------------------
  
  
 #  Two: Trojan-go版
+
+
+
+[Trojan-go 版 release 发布](https://github.com/p4gefau1t/trojan-go/releases)
  
  
 [ p4gefau1t /trojan-go ](https://github.com/p4gefau1t/trojan-go)
@@ -63,3 +65,5 @@ scp 配置和证书, client.json、ca-cert.pem（在服务器端目录/usr/local
 
  
  [安装trojan-installer](https://github.com/Jrohy/trojan)
+ 
+ 
