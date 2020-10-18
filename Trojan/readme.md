@@ -1,5 +1,5 @@
 
-# Trojan 原版
+#  One: Trojan 原版
 
 ××注意：目前Trojan只用socks5代理××
 
@@ -53,7 +53,7 @@ scp 配置和证书, client.json、ca-cert.pem（在服务器端目录/usr/local
  ------------------
  
  
-＃  Trojan-go版
+#  Two: Trojan-go版
  
  
 [ p4gefau1t /trojan-go ](https://github.com/p4gefau1t/trojan-go)
