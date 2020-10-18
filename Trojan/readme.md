@@ -9,7 +9,9 @@
 
 [ p4gefau1t /trojan-go ](https://github.com/p4gefau1t/trojan-go)
 
+[Trojan-Go文档](https://p4gefau1t.github.io/trojan-go/)
 
+-------
 
 在 Debian 10 (ubuntu 18,19,20) 安装成功
 
