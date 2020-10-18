@@ -1,20 +1,16 @@
 
-# 一键安装Trojan
+# Trojan 原版
 
 ××注意：目前Trojan只用socks5代理××
 
-[Trojan released 最新发布版本](https://github.com/trojan-gfw/trojan/releases/)
+[Trojan 原版 released 最新发布版本](https://github.com/trojan-gfw/trojan/releases/)
 
 [Trojan-gfw](https://github.com/trojan-gfw/trojan)
 
-[ p4gefau1t /trojan-go ](https://github.com/p4gefau1t/trojan-go)
-
-[Trojan-Go文档](https://p4gefau1t.github.io/trojan-go/)
 
 -------
 
-在 Debian 10 (ubuntu 18,19,20) 安装成功
-
+在 Debian 10 (ubuntu 18,19, 20）安装成功
 ```shell
     wget https://raw.githubusercontent.com/st286/st286.github.io/master/Trojan/trojan-first-install-debain.sh
     
@@ -51,5 +47,19 @@ scp 配置和证书, client.json、ca-cert.pem（在服务器端目录/usr/local
     
     
  [自建梯子教程 --Trojan版本](https://trojan-tutor.github.io/2019/04/10/p41.html)
+ 
+ 
+ 
+ ------------------
+ 
+ 
+＃  Trojan-go版
+ 
+ 
+[ p4gefau1t /trojan-go ](https://github.com/p4gefau1t/trojan-go)
+
+
+[Trojan-Go文档](https://p4gefau1t.github.io/trojan-go/)
+
  
  [安装trojan-installer](https://github.com/Jrohy/trojan)
