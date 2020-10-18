@@ -7,7 +7,11 @@
 
 [Trojan-gfw](https://github.com/trojan-gfw/trojan)
 
-在 Debian 10 (ubuntu 18,19) 安装成功
+[ p4gefau1t /trojan-go ](https://github.com/p4gefau1t/trojan-go)
+
+
+
+在 Debian 10 (ubuntu 18,19,20) 安装成功
 
 ```shell
     wget https://raw.githubusercontent.com/st286/st286.github.io/master/Trojan/trojan-first-install-debain.sh
