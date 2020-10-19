@@ -41,7 +41,7 @@
         make install
         modprobe 8821cu
         
-        ## notice :  maybe  first  install -p -m 644 8821cu   /lib/modules/5.4.0-7642-generic
+        ## notice :  maybe  first  install -p -m 644 8821cu.ko   /lib/modules/5.4.0-7642-generic
         
         ## maybe   modinfo 8821cu
         
