@@ -6,6 +6,9 @@
 [Trojan Github](https://github.com/trojan-gfw/trojan)
 
 
+[Trojan For Linux 教程](https://xbsj6143.xyz/pagesv2/download-linux.html)
+
+
 
 #  One: Trojan 原版
 
