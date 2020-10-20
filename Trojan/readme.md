@@ -1,3 +1,11 @@
+# Trojan github and site:
+
+
+[Trojan Site 网站](https://trojan-gfw.github.io/trojan/)
+
+[Trojan Github](https://github.com/trojan-gfw/trojan)
+
+
 
 #  One: Trojan 原版
 
