@@ -34,6 +34,18 @@ encryption_key
 tls_www_server
 EOF
 
+
+echo "Add ip to ca.tmpl and server.tmpl"
+
+# Get host ip address
+## 生成密钥、证书（IP方式）
+
+ip=$(curl -s http://api.ipify.org)
+
+sed -i "s/_ip_/$ip/" ca.tmpl
+sed -i "s/_ip_/$ip/" server.tmpl
+
+
 #生成 CA密钥\证书,生成服务器证书密钥\证书
 if ! [[ -f "ca-key.pem" ]] || prompt "The ca-key.pem already exists, overwrite?"; then
     certtool --generate-privkey --outfile ca-key.pem
