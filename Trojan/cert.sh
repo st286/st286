@@ -16,7 +16,7 @@ echo "Generate template: ca.tmpl and server.tmpl "
 
 cat > ca.tmpl << EOF
 cn = "_ip_"
-organization = "$(date)"
+organization = "steven for great fire"
 serial = 1
 expiration_days = 3650
 ca
@@ -27,7 +27,7 @@ EOF
 
 cat > server.tmpl << EOF
 cn = "_ip_"
-organization = "$(date)"
+organization = "steven for great fire"
 expiration_days = 3650
 signing_key
 encryption_key
