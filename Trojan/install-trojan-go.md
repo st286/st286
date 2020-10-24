@@ -86,6 +86,7 @@
 
 ## 安装及配置Nginx及安装证书
 
+此部分详见[《Trojan安装配置教程》](https://qoant.com/2019/04/vps-with-trojan/)。
 
 ### 启动服务
 
