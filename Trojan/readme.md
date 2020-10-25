@@ -11,6 +11,8 @@
 
 ----------
 
+
+
 #  One: Trojan-go版
 
 
@@ -39,7 +41,7 @@ Trojan-Go使用Go实现的完整Trojan代理，与Trojan协议以及Trojan版本
 
 
 ----------
-#  Three: Trojan 原版
+#  Two: Trojan 原版
 
 **注意：Trojan只用socks5代理**
 
