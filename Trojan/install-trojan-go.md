@@ -30,16 +30,75 @@
       rm trojan-go-linux-amd64.zip
       
 
-
-
-***安装及配置Nginx及安装证书**
+**安装及配置Nginx及安装证书**
 
       apt update && apt upgrade -y
       apt install nginx
 
+证书: 用上面cert.sh脚本, 修改其中的cn, organization.
 
+      wget 
       
+      bash cert.sh
+            
+**server.json**
+
+```shell
+{
+    "run_type": "server",
+    "local_addr": "0.0.0.0",
+    "local_port": 443,
+    "remote_addr": "127.0.0.1",
+    "remote_port": 80,
+    "password": [
+        "your-password"
+    ],
+    "ssl": {
+        "cert": "/home/trojan-go/server-cert.pem",
+        "key": "/home/trojan-go/server-key.pem",
+        "sni": "202010.xxxxx.xxxxx"
+    },
+    "router": {
+        "enabled": true,
+        "block": [
+            "geoip:private"
+        ],
+        "geoip": "/home/trojan-go/geoip.dat",
+        "geosite": "/home/trojan-go/geosite.dat"
+    }
+}
+```
+
+**server.yaml**
+
+```shell
+run-type: server
+local-addr: 0.0.0.0
+local-port: 443
+remote-addr: 127.0.0.1
+remote-port: 80
+password:
+  - your_password
+ssl:
+  cert: /home/trojan-go/server-cert.pem
+  key: /home/trojan-go/server-key.pem
+  sni: 202010.xxxxx.xxxxx
+router:
+  enabled: true
+  block:
+    - 'geoip:private'
+  geoip: /home/trojan-go/geoip.dat
+  geosite: /home/trojan-go/geosite.dat
+```
+
+**启动服务器. 用tmux, ctl-b & d (deattach), tmux attach -t 0 (attach)**
+
+      ./trojan-go -config config.json
       
+      # or
+      
+      ./trojan-go -config config.yaml
+
       
 ###  client side 配置
 
