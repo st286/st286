@@ -1,16 +1,45 @@
-# Trojan github and site:
+# Zero: Trojan github and site:
 
 
 [Trojan Site 网站](https://trojan-gfw.github.io/trojan/)
 
 [Trojan Github](https://github.com/trojan-gfw/trojan)
 
+[Trojan-go ](https://github.com/p4gefau1t/trojan-go)
 
 [Trojan For Linux 教程](https://xbsj6143.xyz/pagesv2/download-linux.html)
 
+----------
+
+#  One: Trojan-go版
 
 
-#  One: Trojan 原版
+Trojan-Go使用Go实现的完整Trojan代理，与Trojan协议以及Trojan版本的配置文件格式兼容。安全，高效，轻巧，易用。
+
+支持使用多路复用提升并发性能，使用路由模块实现国内直连。
+
+
+[Trojan-go 版 release 发布](https://github.com/p4gefau1t/trojan-go/releases)
+ 
+ 
+[ p4gefau1t /trojan-go ](https://github.com/p4gefau1t/trojan-go)
+
+
+[Trojan-Go文档](https://p4gefau1t.github.io/trojan-go/)
+
+ 
+[安装trojan-installer](https://github.com/Jrohy/trojan)
+ 
+
+[Trojan-Go 安装配置教程](https://qoant.com/2020/06/vps-with-trojan-go/)
+ 
+ 
+
+
+
+
+----------
+#  Three: Trojan 原版
 
 **注意：Trojan只用socks5代理**
 
@@ -60,28 +89,5 @@ scp 配置和证书, client.json、ca-cert.pem（在服务器端目录/usr/local
  
  
  ------------------
- 
- 
-#  Two: Trojan-go版
-
-
-Trojan-Go使用Go实现的完整Trojan代理，与Trojan协议以及Trojan版本的配置文件格式兼容。安全，高效，轻巧，易用。
-
-支持使用多路复用提升并发性能，使用路由模块实现国内直连。
-
-
-[Trojan-go 版 release 发布](https://github.com/p4gefau1t/trojan-go/releases)
- 
- 
-[ p4gefau1t /trojan-go ](https://github.com/p4gefau1t/trojan-go)
-
-
-[Trojan-Go文档](https://p4gefau1t.github.io/trojan-go/)
-
- 
-[安装trojan-installer](https://github.com/Jrohy/trojan)
- 
-
-[Trojan-Go 安装配置教程](https://qoant.com/2020/06/vps-with-trojan-go/)
  
  
