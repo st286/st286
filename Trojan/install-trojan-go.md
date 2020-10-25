@@ -91,7 +91,7 @@ router:
   geosite: /home/trojan-go/geosite.dat
 ```
 
-**启动服务器. 用tmux, ctl-b & d (deattach), tmux attach -t 0 (attach)**
+**简易的方法:启动服务器. 用tmux, ctl-b & d (deattach), tmux attach -t 0 (attach)**
 
       ./trojan-go -config config.json
       
@@ -99,6 +99,37 @@ router:
       
       ./trojan-go -config config.yaml
 
+**systemctl的方法:启动服务器.**
+
+配置 trojan-go.service
+
+```shell
+[Unit]
+Description=Trojan-Go - An unidentifiable mechanism that helps you bypass GFW
+Documentation=https://p4gefau1t.github.io/trojan-go/
+After=network.target network-online.target nss-lookup.target mysql.service mariadb.service mysqld.service
+
+[Service]
+Type=simple
+StandardError=journal
+ExecStart=/home/trojan-go/trojan-go -config /home/trojan-go/server.json
+ExecReload=/bin/kill -HUP \$MAINPID
+
+[Install]
+WantedBy=multi-user.target
+
+```
+
+启用, 启动 trojan-go:
+
+      sysytemctl enable trojan-go
+      
+      sysytemctl start trojan-go
+      
+      systemctl restart | stop | disable  trojan-go
+      
+      systemctl daemon-reload
+      
       
 ###  client side 配置
 
