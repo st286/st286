@@ -14,6 +14,8 @@ apt install gnutls-bin gnutls-doc
 
 echo "Generate template: ca.tmpl and server.tmpl "
 
+## 修改以下的cn, organization.
+
 cat > ca.tmpl << EOF
 cn = "steven.swift.linux.unix"
 organization = "steven.swift.linux.org"
