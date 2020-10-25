@@ -205,4 +205,11 @@ router:
     geosite: /Users/trojan-go/geosite.dat
 ```
 
+**使用配置文件启动客户端/服务端/透明代理/中继（一般模式）**
 
+	./trojan-go -config config.json
+	
+	# or 
+	
+	./trojan-go -config config.yaml
+	
