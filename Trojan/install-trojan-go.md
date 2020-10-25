@@ -16,7 +16,7 @@
 
 完整配置教程和配置介绍参见[Trojan-Go文档](https://p4gefau1t.github.io/trojan-go)。
 
-
+------
 ## 安装并配置 trojan-go
 
 ### server side 安装
@@ -131,8 +131,78 @@ WantedBy=multi-user.target
       systemctl daemon-reload
       
       
-###  client side 配置
+------
+##  client side 配置
 
-编辑配置文件，注意替换其中的password及example.com内容：
+**编辑配置文件，注意替换其中的password, remote_addr, sni, geoip, geosite内容：**
+
+
+**客户端配置文件**
+
+**client.json**
+
+```shell
+{
+    "run_type": "client",
+    "local_addr": "127.0.0.1",
+    "local_port": 1080,
+    "remote_addr": "your-site.com",
+    "remote_port": 443,
+    "password": [
+        "your-password"
+    ],
+    "ssl": {
+        "verify": false,
+        "verify_hostname": false,
+	  "sni": "202010.xxxxx.xxxxx"
+    },
+    "mux": {
+        "enabled": true
+    },
+    "router": {
+        "enabled": true,
+        "bypass": [
+            "geoip:cn",
+            "geoip:private",
+            "geosite:cn",
+            "geosite:geolocation-cn"
+        ],
+        "block": [
+            "geosite:category-ads"
+        ],
+        "proxy": [
+            "geosite:geolocation-!cn"
+        ],
+        "default_policy": "proxy",
+        "geoip": "/Users/trojan-go/geoip.dat",
+        "geosite": "/Users/trojan-go/geosite.dat"
+    }
+}
+
+```
+**client.yaml**
+```shell
+run-type: client
+local-addr: 127.0.0.1
+local-port: 1080
+remote-addr: xxx.xxx.xxx.xxx
+remote-port: 443
+password:
+    - your-password
+ssl:
+    verify: false
+    verify_hostname: false
+    sni: 202010.xxxxx.xxxxx
+mux:
+    enabled: true
+router:
+    enabled: true
+    bypass: ['geoip:cn', 'geoip:private', 'geosite:cn', 'geosite:geolocation-cn']
+    block: ['geosite:category-ads']
+    proxy: ['geosite:geolocation-!cn']
+    default_policy: proxy
+    geoip: /Users/trojan-go/geoip.dat
+    geosite: /Users/trojan-go/geosite.dat
+```
 
 
