@@ -20,6 +20,7 @@ Trojan-Go使用Go实现的完整Trojan代理，与Trojan协议以及Trojan版本
 
 支持使用多路复用提升并发性能，使用路由模块实现国内直连。
 
+[ 安装配置 trojan-go ](./Trojan/install-trojan-go.md)
 
 [Trojan-go 版 release 发布](https://github.com/p4gefau1t/trojan-go/releases)
  
