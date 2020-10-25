@@ -15,8 +15,8 @@ apt install gnutls-bin gnutls-doc
 echo "Generate template: ca.tmpl and server.tmpl "
 
 cat > ca.tmpl << EOF
-cn = "_ip_"
-organization = "steven for great fire"
+cn = "steven.swift.linux.unix"
+organization = "steven.swift.linux.org"
 serial = 1
 expiration_days = 3650
 ca
@@ -26,8 +26,8 @@ crl_signing_key
 EOF
 
 cat > server.tmpl << EOF
-cn = "_ip_"
-organization = "steven for great fire"
+cn = "steven.swift.linux.unix"
+organization = "steven.swift.linux.org"
 expiration_days = 3650
 signing_key
 encryption_key
@@ -35,15 +35,15 @@ tls_www_server
 EOF
 
 
-echo "Add ip to ca.tmpl and server.tmpl"
+#echo "Add ip to ca.tmpl and server.tmpl"
 
 # Get host ip address
 ## 生成密钥、证书（IP方式）
 
-ip=$(curl -s http://api.ipify.org)
+#ip=$(curl -s http://api.ipify.org)
 
-sed -i "s/_ip_/$ip/" ca.tmpl
-sed -i "s/_ip_/$ip/" server.tmpl
+#sed -i "s/_ip_/$ip/" ca.tmpl
+#sed -i "s/_ip_/$ip/" server.tmpl
 
 
 #生成 CA密钥\证书,生成服务器证书密钥\证书
