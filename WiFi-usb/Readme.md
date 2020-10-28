@@ -1,5 +1,5 @@
 
-## 水星mercury无线网卡UD6、UD6H Linux (pop!_os, ubuntu20.04)驱动安装
+# 水星mercury无线网卡UD6、UD6H Linux (pop!_os, ubuntu20.04)驱动安装
 
 
 #### [Linux系统下安装USB无线网卡驱动方法](https://www.jianshu.com/p/a9f768d37ada)
@@ -48,7 +48,7 @@
       
 ---------------------------------------------
 
-## 华硕asus usb-AC57 无线网卡驱动 linux install
+# 华硕asus usb-AC57 无线网卡驱动 linux install
 
 also see: [Ubuntu 16.04 can't install driver for ASUS USB-AC57](https://askubuntu.com/questions/1063402/ubuntu-16-04-cant-install-driver-for-asus-usb-ac57)
 
@@ -75,6 +75,9 @@ Then the module will be compiled when a new kernel is installed
 The Linux driver download from https://www.asus.com/Networking/USB-AC57/HelpDesk_Download/ should work on 16.04 with the 4.4 kernel but not if you are using 4.15
 
 ------
+------
+
+## Auas AC1300 usb
 
 **find rtl8822 on Github, found ...**
 
