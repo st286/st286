@@ -77,7 +77,24 @@ The Linux driver download from https://www.asus.com/Networking/USB-AC57/HelpDesk
 ------
 ------
 
-## Auas AC1300 usb
+## Auas usb AC1300 ac55
+
+Supported Devices:
+
+    ASUS AC1300 USB-AC55 B1
+    ASUS U2
+    Dlink - DWA-181
+    Dlink - DWA-182
+    Edimax EW-7822ULC
+    Edimax EW-7822UTC
+    EDUP EP-AC1605GS
+    NetGear A6150
+    TP-Link Archer T3U
+    TP-Link Archer T3U Plus
+    TP-Link Archer T4U V3
+    TRENDnet TEW-808UBM
+    Numerous additional products that are based on the supported chipsets
+
 
 **find rtl8822 on Github, found ...**
 
