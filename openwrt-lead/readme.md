@@ -26,7 +26,27 @@ visudo
 
 ## 转换非root用户
 su $USER_NAME
+```
+------
 
+固件里面看不到ssr-plus
+大佬在feed里里面吧ssr的feed隐藏了
+
+```shell
+cd lede
+git pull
+rm -rf ./tmp
+nano feeds.conf.default #其中去掉注释
+./script/feeds update -a && ./script/feeds install -a
+```
+
+feeds.conf.default: as following
+
+```shell
+src-git luci https://github.com/coolsnowwolf/luci
+src-git routing https://git.openwrt.org/feed/routing.git;openwrt-19.07
+#src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-19.07
+#src-git helloworld https://github.com/fw876/helloworld
 ```
 
 
