@@ -101,7 +101,7 @@ router:
 
 **systemctl的方法:启动服务器.**
 
-配置 trojan-go.service
+配置 trojan-go.service  ( /etc/systemd/system/trojan-go.service )
 
 ```shell
 [Unit]
@@ -122,9 +122,9 @@ WantedBy=multi-user.target
 
 启用, 启动 trojan-go:
 
-      sysytemctl enable trojan-go
+      systemctl enable trojan-go
       
-      sysytemctl start trojan-go
+      systemctl start trojan-go
       
       systemctl restart | stop | disable  trojan-go
       
