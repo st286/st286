@@ -34,10 +34,8 @@ Trojan-Go使用Go实现的完整Trojan代理，与Trojan协议以及Trojan版本
 [安装trojan-installer](https://github.com/Jrohy/trojan)
  
 
-[Trojan-Go 安装配置教程](https://qoant.com/2020/06/vps-with-trojan-go/)
+[手动搭建Trojan-go+Nginx+Tls](https://jeanniestudio.top/2020/07/17/手动搭建Trojan-go+Nginx+Tls%20-%20副本/)
  
- 
-
 
 
 
