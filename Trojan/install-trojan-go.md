@@ -112,8 +112,12 @@ After=network.target network-online.target nss-lookup.target mysql.service maria
 [Service]
 Type=simple
 StandardError=journal
-ExecStart=/home/trojan-go/trojan-go -config /home/trojan-go/server.json
+ExecStart=/home/trojan-go/trojan-go -config /home/trojan-go/server.yaml
 ExecReload=/bin/kill -HUP \$MAINPID
+ExecStop=/home/trojan-go/trojan-go
+LimitNOFILE=51200
+Restart=on-failure
+RestartSec=1s
 
 [Install]
 WantedBy=multi-user.target
@@ -122,13 +126,14 @@ WantedBy=multi-user.target
 
 启用, 启动 trojan-go:
 
-      systemctl enable trojan-go
+      ##加载服务文件
+      systemctl daemon-reload
+
+      systemctl enable | disable  trojan-go
       
       systemctl start trojan-go
       
       systemctl restart | stop | disable  trojan-go
-      
-      systemctl daemon-reload
       
       
 ------
