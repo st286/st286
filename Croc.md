@@ -44,7 +44,7 @@ You can send files using your relay by entering --relay to change the relay that
 Note, when sending, you only need to include the first port (the communication port). The subsequent ports for data transfer will be transmitted back to the user from the relay.
 
 
-###   systemctl的方法后台运行croc.
+###   systemctl的方法后台运行croc relay.
 
 #### 配置 croc.service ( /etc/systemd/system/croc.service )
 
