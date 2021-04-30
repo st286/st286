@@ -24,6 +24,7 @@
 
 ### ExifTool参数一览
 
+```
 标签选项
   -TAG or --TAG                    提取或排除指定的标签
   -TAG[+-^]=[VALUE]                向标签写入新值
@@ -120,3 +121,4 @@
   -srcfile FMT                     处理其他文件来源
   -stay_open FLAG                  继续阅读-@ argfile，即使在EOF之后
   -userParam PARAM[[^]=[VAL]]      设置用户参数 (API UserParam opt)
+```
