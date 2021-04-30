@@ -12,6 +12,8 @@
 
 [ExifTool by Phil Harvey](https://exiftool.org)
 
+[ExifTool in Github](https://github.com/exiftool/exiftool)
+
 [ExifTool完全入门指南](https://www.rmnof.com/article/exiftool-introduction/)
 
 
