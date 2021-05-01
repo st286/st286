@@ -10,19 +10,21 @@ Calibre是一款电子图书管理软件，其提供的“一站式”的电子�
 
 #### [FFmpeg](https://github.com/st286/st286.github.io/blob/master/FFmpeg.md)
 
-A complete, cross-platform solution to record, convert and stream audio and video.
+  A complete, cross-platform solution to record, convert and stream audio and video.
 
 #### [youtube-dl](https://youtube-dl.org)
 
-youtube-dl is a command-line program to download videos from [YouTube.com](http://youtube.com) and a few [more sites](http://ytdl-org.github.io/youtube-dl/supportedsites.html). 
+  youtube-dl is a command-line program to download videos from [YouTube.com](http://youtube.com) and a few [more sites](http://ytdl-org.github.io/youtube-dl/supportedsites.html). 
 
-[youtube-dl in Github](https://github.com/ytdl-org/youtube-dl)
+  [youtube-dl in Github](https://github.com/ytdl-org/youtube-dl)
 
-#### [croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
+#### [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
 
-兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
+  兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
 
-====
+
+
+---
 
 ## C language
 
