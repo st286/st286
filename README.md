@@ -65,26 +65,6 @@
 
 ---
 
-
-## VPS(New, Debian10) proxy (v2ray & trojan) Setup:
-
-   在新的VPS（debian10）上安装 v2ray、trojan(nginx):
-
-```shell
-wget -O VPS-debian10-first-install-v2ray-trojan.sh  https://raw.githubusercontent.com/st286/st286.github.io/master/VPS-debian10-first-install-v2ray-trojan.sh
-bash VPS-debian10-first-install-v2ray-trojan.sh
-```
-
----
-
-## Trojan 
-
-   [一键安装Trojan](./Trojan)
-
-## V2ray
-
-   [安装V2ray](./V2ray)
-
 ---
 
 ## macOS (apple)
@@ -108,15 +88,15 @@ bash VPS-debian10-first-install-v2ray-trojan.sh
  2. [5 Best SSH Clients for Windows](https://activedirectorypro.com/ssh-clients-for-windows/)
 
 ---
-
-## Git and Github
-
- 1.  [Git and Github - Guide](./GitandGithub/git-guide.md)
  
  
 ## TextEditor
 
-   1. [Atom ](https://atom.io/)
+   1. [Sublime Text](https://www.sublimetext.com)
+
+      A sophisticated text editor for code, markup and prose.
+
+   2. [Atom ](https://atom.io/)
    
          #### Installing Atom on Linux
          
