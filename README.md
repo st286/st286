@@ -1,3 +1,18 @@
+## Some useful tools
+
+### calibre 
+
+### exiftool
+
+### FFmpeg
+
+### youtube-dl
+
+### croc
+
+
+
+
 ## C language
 
   1. [笨办法学C 中文版](https://wizardforcel.gitbooks.io/lcthw/content/)
