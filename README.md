@@ -1,14 +1,16 @@
 ## Some useful tools
 
-### calibre 
+#### [calibre](https://calibre-ebook.com)
 
-### exiftool
+    Calibre是一款电子图书管理软件，其提供的“一站式”的电子书解决方案，可以全面满足对电子书需求，甚至可以利用它组织成属于自己的电子图书馆，它的功能更是多种多样，不仅可以用它对图书进行格式转换，归类整理电子书，还可以将文本图像材料、在线内容（RSS）加入并转换为电子书。更重要的是Calibre是免费的、开源的，拥有跨平台的设计，可在Linux， OS X和Windows操作系统中运行，堪称电子书管理神器！
 
-### FFmpeg
+#### exiftool
 
-### youtube-dl
+#### FFmpeg
 
-### croc
+#### youtube-dl
+
+#### croc
 
 
 
