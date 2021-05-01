@@ -11,3 +11,5 @@ FFmpeg is the leading multimedia framework, able to decode, encode, transcode, m
 ## 入门
 
 [FFmpeg 视频处理入门教程](https://www.ruanyifeng.com/blog/2020/01/ffmpeg.html)
+
+[FFmpeg从入门到精通pdf](https://1lib.us/book/5370278/7fe44b)
