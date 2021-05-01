@@ -8,7 +8,7 @@ Calibre是一款电子图书管理软件，其提供的“一站式”的电子�
 
 [关于 calibre](https://calibre-ebook.com/zh_CN/about)
 
-## Office Site
+## Official website
 
 [官网](https://calibre-ebook.com)
 
