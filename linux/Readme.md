@@ -1,3 +1,9 @@
+## [Unix & Linux Stack Exchange](https://unix.stackexchange.com)
+
+Unix & Linux Stack Exchange is a question and answer site for users of Linux, FreeBSD and other Un*x-like operating systems. It only takes a minute to sign up.
+
+[What should/shouldn't go in .zshenv, .zshrc, .zlogin, .zprofile, .zlogout?](https://unix.stackexchange.com/questions/71253/what-should-shouldnt-go-in-zshenv-zshrc-zlogin-zprofile-zlogout)
+
 ## Linux Learning
 
 
