@@ -23,10 +23,10 @@
 
 [Trojan-go releases](https://github.com/p4gefau1t/trojan-go/releases)
 
-以 trojan-go v0.8.3 为例：
+以 trojan-go v0.10.0 为例：
 
       apt install zip
-      wget https://github.com/p4gefau1t/trojan-go/releases/download/v0.8.3/trojan-go-linux-amd64.zip
+      wget https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.0/trojan-go-linux-amd64.zip
       unzip -o trojan-go-linux-amd64.zip -d /home/trojan-go
       rm trojan-go-linux-amd64.zip
       
