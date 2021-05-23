@@ -130,9 +130,11 @@ WantedBy=multi-user.target
       ##加载服务文件
       systemctl daemon-reload
 
-      systemctl enable | disable  trojan-go
+      systemctl enable  trojan-go
       
       systemctl start trojan-go
+      
+       systemctl disable  trojan-go
       
       systemctl restart | stop | disable  trojan-go
       
