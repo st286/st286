@@ -51,6 +51,8 @@
       2001:67c:27e4:15::6411
       2001:67c:27e4::64
       
+**重启VPS后，失效。需ssh，again**
+      
 ---
 ## interest something 
  
