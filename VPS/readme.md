@@ -41,6 +41,9 @@
     # disable update DNS
     resolvconf --disable-updates
 
+**5. source .bashrc**
+
+	source .bashrc
 
 **免费的 DNS64+NAT64 提供者有**
 
