@@ -19,16 +19,30 @@
 ## let  VPS ipv6-only  connect to  ipv4
 
 
-In Debian10 (ubuntu 20) 
+**1. In Debian10 (ubuntu 20) **
 
     apt install resolvconf
 
-nano /etc/resolv.conf, add following
- 
+**2.  nano nameserver in ~, add following**
+
     nameserver 2001:67c:2b0::4
     nameserver 2001:67c:2b0::6
-    
-免费的 DNS64+NAT64 提供者有：
+    nameserver 2001:67c:27e4:15::6411
+    nameserver 2001:67c:27e4::64
+
+**3.  cp ./nameserver /etc/resolv.conf and disable update DNS**
+
+	ping  twiter.com and github.com # ipv4
+	ping  google.com，facebook.com  # ipv6
+
+**4.  nano .bashrc  add following **
+
+    cp ./nameserver /etc/resolv.conf
+    # disable update DNS
+    resolvconf --disable-updates
+
+
+**免费的 DNS64+NAT64 提供者有：**
 
     http://www.trex.fi/2011/dns64.html
       2001:67c:2b0::4
@@ -37,10 +51,22 @@ nano /etc/resolv.conf, add following
       2001:67c:27e4:15::6411
       2001:67c:27e4::64
       
-disable update DNS
-
-    resolvconf --disable-updates
-    
-
+---
+## interest something 
+ 
+ **bash Shell Startup/Shutdown Files**
+ 
+ 	.bash_profile -> .bashrc -> bash_logout
+	
+ **zsh Shell Startup/Shutdown Files **
+ 
+ 	.zprofile (login shell)
+	.zshenv (environment variables)
+	.zshrc (interactive shell)
+	.zlogin (login shell)
+	.zlogout (when the shell exits)
+	
+	
+	
 
       
