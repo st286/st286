@@ -19,7 +19,7 @@
 ## let  VPS ipv6-only  connect to  ipv4
 
 
-**1. In Debian10 (ubuntu 20)**
+**1. In Ubuntu 21.04 (vultr)**
 
     apt install resolvconf
 
