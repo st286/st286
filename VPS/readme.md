@@ -14,7 +14,7 @@
 
 	    source ~/.bashrc
         
-
+====
 ## let  VPS ipv6-only  connect to  ipv4
 
 In Debian10 (ubuntu 20) 
