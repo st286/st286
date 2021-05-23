@@ -17,8 +17,8 @@ echo "Generate template: ca.tmpl and server.tmpl "
 ## 修改以下的cn, organization.
 
 cat > ca.tmpl << EOF
-cn = "steven.swift.linux.unix"
-organization = "steven.swift.linux.org"
+cn = "xx.xx.com"
+organization = "xx.or.com"
 serial = 1
 expiration_days = 3650
 ca
@@ -28,8 +28,8 @@ crl_signing_key
 EOF
 
 cat > server.tmpl << EOF
-cn = "steven.swift.linux.unix"
-organization = "steven.swift.linux.org"
+cn = "xx.xx.com"
+organization = "xx.or.com"
 expiration_days = 3650
 signing_key
 encryption_key
