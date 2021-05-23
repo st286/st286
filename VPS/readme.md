@@ -58,7 +58,7 @@
  
  	.bash_profile -> .bashrc -> bash_logout
 	
- **zsh Shell Startup/Shutdown Files **
+ **zsh Shell Startup/Shutdown Files**
  
  	.zprofile (login shell)
 	.zshenv (environment variables)
