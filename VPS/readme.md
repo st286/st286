@@ -19,7 +19,7 @@
 ## let  VPS ipv6-only  connect to  ipv4
 
 
-**1. In Debian10 (ubuntu 20) **
+**1. In Debian10 (ubuntu 20)**
 
     apt install resolvconf
 
@@ -35,14 +35,14 @@
 	ping  twiter.com and github.com # ipv4
 	ping  google.com，facebook.com  # ipv6
 
-**4.  nano .bashrc  add following **
+**4.  nano .bashrc  add following**
 
     cp ./nameserver /etc/resolv.conf
     # disable update DNS
     resolvconf --disable-updates
 
 
-**免费的 DNS64+NAT64 提供者有：**
+**免费的 DNS64+NAT64 提供者有**
 
     http://www.trex.fi/2011/dns64.html
       2001:67c:2b0::4
