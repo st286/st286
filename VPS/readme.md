@@ -20,3 +20,10 @@ nano /etc/resolv.conf, add following
       2001:67c:27e4:15::6411
       2001:67c:27e4::64
       
+disable update DNS
+
+    resolvconf --disable-updates
+    
+
+
+      
