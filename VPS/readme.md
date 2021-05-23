@@ -1,6 +1,21 @@
 
+## Linux 支持显示中文
 
-### let  VPS ipv6-only  connect to  ipv4
+修改远程主机的bash显示编码 
+
+	    nano    ~/.bashrc
+
+添加如下内容：
+
+        export LANG='UTC-8' 
+        export LC_ALL='en_US.UTF-8'
+
+生效：
+
+	    source ~/.bashrc
+        
+
+## let  VPS ipv6-only  connect to  ipv4
 
 In Debian10 (ubuntu 20) 
 
