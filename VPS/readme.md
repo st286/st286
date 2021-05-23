@@ -1,5 +1,6 @@
-
+---
 ## Linux 支持显示中文
+---
 
 修改远程主机的bash显示编码 
 
@@ -14,8 +15,9 @@
 
 	    source ~/.bashrc
         
-====
+---
 ## let  VPS ipv6-only  connect to  ipv4
+---
 
 In Debian10 (ubuntu 20) 
 
