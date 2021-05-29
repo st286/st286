@@ -126,18 +126,15 @@ WantedBy=multi-user.target
 ```
 
 启用, 启动 trojan-go:
+```
+##加载服务文件
 
-      ##加载服务文件
-      systemctl daemon-reload
-
-      systemctl enable  trojan-go
-      
-      systemctl start trojan-go
-      
-       systemctl disable  trojan-go
-      
-      systemctl restart | stop | disable  trojan-go
-      
+systemctl daemon-reload
+systemctl enable  trojan-go
+systemctl start trojan-go
+systemctl disable  trojan-go
+systemctl restart | stop | disable  trojan-go
+ ```     
       
 ------
 ##  client side 配置
