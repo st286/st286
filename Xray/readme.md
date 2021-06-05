@@ -85,8 +85,8 @@ acme.sh --issue -d 二级域名.你的域名.com -w /var/www/html --keylength ec
 ```
 ## Xray server setup
 
+### 安装Xray
 ```
-# 安装Xray
 wget https://github.com/XTLS/Xray-install/raw/main/install-release.sh
 bash install-release.sh
 rm install-release.sh
@@ -109,9 +109,8 @@ rm install-release.sh
 ```
 [Xray-install-sh Readme](https://github.com/XTLS/Xray-install)
 
+### 给Xray配置TLS证书
 ```
-#给Xray配置TLS证书
-
 mkdir /home/xray_cert
 
 #使用acme.sh的--install-cert正确安装（拷贝）证书文件
@@ -149,4 +148,6 @@ crontab -e
 0 1 1 * *   bash /home/xray_cert/xray-cert-renew.sh
 
 ```
+### 配置Xray
+
 
