@@ -106,7 +106,47 @@ rm install-release.sh
         installed: /var/log/xray/error.log
         
 #Notice: Xray will NOT log to /var/log/xray/*.log by default. Configure "log" to specify log files.
+```
+[Xray-install-sh Readme](https://github.com/XTLS/Xray-install)
 
+```
+#给Xray配置TLS证书
+
+mkdir /home/xray_cert
+
+#使用acme.sh的--install-cert正确安装（拷贝）证书文件
+
+acme.sh --install-cert -d  xx.your.com --ecc --fullchain-file /home/xray_cert/xray.crt --key-file /home/xray_cert/xray.key
+
+chmod +r /home/xray_cert/xray.key
+
+#acme.sh 会每60天检查一次证书并自动更新临期证书。但据我所知是它并不会自动将新证书安装给 xray-core，所以我们需要新增一个系统的自动周期任务来完成这一步。
+
+nano /home/xray_cert/xray-cert-renew.sh
+
+#把下面的内容复制进去，记得替换你的真实域名，然后保存退出
+
+#!/bin/bash
+
+/root/.acme.sh/acme.sh --install-cert -d xx.your.com --ecc --fullchain-file /home/xray_cert/xray.crt --key-file /home/xray_cert/xray.key
+echo "Xray Certificates Renewed"
+
+chmod +r /home/xray_cert/xray.key
+echo "Read Permission Granted for Private Key"
+
+sudo systemctl restart xray
+echo "Xray Restarted"
+
+
+#给这个文件增加【可执行】权限
+chmod +x /home/xray_cert/xray-cert-renew.sh
+
+#运行 crontab -e，添加一个自动任务【每月自动运行一次xray-cert-renew.sh】
+crontab -e
+
+#把下面的内容增加在文件最后，保存退出即可。
+# 1:00am, 1st day each month, run `xray-cert-renew.sh`
+0 1 1 * *   bash /home/xray_cert/xray-cert-renew.sh
 
 ```
 
