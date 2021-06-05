@@ -174,5 +174,40 @@ systemctl disable xray
 systemctl daemon-reload
  
 ```
+### 服务器优化：开启HTTP自动跳转HTTPS
+```
+#之前我们已经搭建了 80 端口的 http 网页，并以此申请了TLS证书。
+#但如果你尝试过用浏览器访问我们的这个界面，就会发现 http 访问并不会像大多数网站一样自动升级为 https 访问。换言之，我们现在的设置下，http(80) 和 https(443)之间完全是独立的。如果要解决这个问题，就需要做一些修改。
+
+nano /etc/nginx/nginx.conf
+
+
+#修改如下 http{}中：
+	#include /etc/nginx/conf.d/*.conf;
+	#include /etc/nginx/sites-enabled/*;
+
+	server {
+               listen  80;
+               server_name  xx.your.com;
+               return 301 https://$http_host$request_uri;
+        }
+
+	server {
+        listen 127.0.0.1:8080;
+        root /var/www/html;
+        index index.nginx-debian.html;
+        add_header Strict-Transport-Security "max-age=63072000" always;
+	}
+
+#重启 Nginx 服务
+systemctl restart nginx
+
+#修改Xray的回落设置，将回落从 80 端口改为 8080 端口。（找到 "dest": 80, 并改成 "dest": 8080）
+nano /usr/local/etc/xray/config.json
+
+#重启 Xray 服务，即完成了设置
+systemctl restart xray
+
+```
 
 
