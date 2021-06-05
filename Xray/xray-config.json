@@ -58,10 +58,10 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "b79624ab-27c6-4525-ba69-7380c1b397ea", // 填写你的 UUID
+                        "id": "uuid-uuid", // 填写你的 UUID
                         "flow": "xtls-rprx-direct",
                         "level": 0,
-                        "email": "temp250@icloud.com"
+                        "email": "xxxx@gmail.com"
                     }
                 ],
                 "decryption": "none",
