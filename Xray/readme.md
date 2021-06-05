@@ -154,12 +154,25 @@ crontab -e
 xray uuid
 
 #配置 /usr/local/etc/xray/config.json
-wget https://github.com/st286/st286.github.io/blob/master/Xray/xray-config.json
+wget https://raw.githubusercontent.com/st286/st286.github.io/master/Xray/xray-config.json
 
 # 修改 xray-config.json， 将之前生成的UUID填入第61行 "id": "", 之中
 
 mv ./xxray-config.json  /usr/local/etc/xray/config.json
 
+```
+### 启动Xray服务--systemd基本服务管理
+```
+systemctl enable xray
+systemctl start xray
+systemctl status xray
+
+systemctl stop xray
+systemctl restart xray
+systemctl disable xray
+
+systemctl daemon-reload
+ 
 ```
 
 
