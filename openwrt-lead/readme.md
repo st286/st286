@@ -7,6 +7,8 @@
 
 ## [Lead openwrt ssr-plus](https://github.com/coolsnowwolf/lede)
 
+## [HelloWorld](https://github.com/jerrykuku/luci-app-vssr)
+
 ## [openwrt office](https://github.com/openwrt/openwrt)
 
 ## [openwrt-trojan](https://github.com/trojan-gfw/openwrt-trojan)
