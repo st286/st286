@@ -150,8 +150,15 @@ crontab -e
 ```
 ### 配置Xray
 ```
-#配置 /usr/local/etc/xray/config.json
+# 生成UUID
+xray uuid
 
+#配置 /usr/local/etc/xray/config.json
+wget https://github.com/st286/st286.github.io/blob/master/Xray/xray-config.json
+
+# 修改 xray-config.json， 将之前生成的UUID填入第61行 "id": "", 之中
+
+mv ./xxray-config.json  /usr/local/etc/xray/config.json
 
 ```
 
