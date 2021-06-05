@@ -125,11 +125,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "new.ccceye.com",  // 替换成你的真实域名
+                        "address": "xx.your.com",  // 替换成你的真实域名
                         "port": 443,
                         "users": [
                             {
-                                "id": "b79624ab-27c6-4525-ba69-7380c1b397ea",  // 和服务器端的一致
+                                "id": "uuid-uuid",  // 和服务器端的一致
                                 "flow": "xtls-rprx-direct",       // Windows, macOS 同学保持这个不变
                                 // "flow": "xtls-rprx-splice",    // Linux和安卓同学请改成Splice性能更强
                                 "encryption": "none",
@@ -143,7 +143,7 @@
                 "network": "tcp",
                 "security": "xtls",
                 "xtlsSettings": {
-                    "serverName": "new.ccceye.com",  // 替换成你的真实域名
+                    "serverName": "xx.your.com",  // 替换成你的真实域名
                     "allowInsecure": false  // 禁止不安全证书
                 }
             }
