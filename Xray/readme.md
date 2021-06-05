@@ -57,6 +57,31 @@ systemctl reload nginx
 
 # 此时如果你访问 http://二级域名.你的域名.com，你看到页面则说明成功。
 ```
+## 证书管理
 
+```
+#注意： 请不要轻易使用自签证书。它并没有让操作简单太多，但增加了无谓的风险（如中间人攻击）。
+
+wget -O -  https://get.acme.sh | sh
+
+. .bashrc
+
+acme.sh --upgrade --auto-upgrade
+
+#测试证书申请:在正式申请证书之前，我们先用测试命令(--issue --test)来验证是否可以成功申请，这样可以避免在本地配置有误时，反复申请证书失败
+
+acme.sh --issue --test -d xx.your.com -w /var/www/html --keylength ec-256
+
+#如果这一步出错的话，你可以运行下面的命令，来查看详细的申请过程和具体的错误。
+
+acme.sh --issue --test -d xx.your.com -w /var/www/html --keylength ec-256 --debug
+
+#这一步确定成功之后，就可以申请正式的证书了。（测试证书不需要删除，它会自动被正式证书覆盖）
+
+acme.sh --issue -d 二级域名.你的域名.com -w /var/www/html --keylength ec-256 --force
+
+
+
+```
 
 
