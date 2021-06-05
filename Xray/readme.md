@@ -30,5 +30,33 @@ nano /etc/ssh/sshd_config
 systemctl restart ssh
 
 ```
+## 网站建设
+
+```
+apt update &&  apt install nginx
+
+#修改 /var/www/html/index.nginx-debian.html 
+
+#修改 nginx.conf 并重启 Nginx 服务
+nano /etc/nginx/nginx.conf
+
+## 将下面一段，添加在 http{} 内
+
+#include /etc/nginx/conf.d/*.conf;
+#include /etc/nginx/sites-enabled/*;
+server {
+        listen 80;
+        server_name 二级域名.你的域名.com;
+        root /var/www/html;
+        index index.nginx-debian.html;
+}
+
+
+# nginx 重新载入配置使其生效
+systemctl reload nginx
+
+# 此时如果你访问 http://二级域名.你的域名.com，你看到页面则说明成功。
+```
+
 
 
