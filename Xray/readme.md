@@ -57,7 +57,7 @@ systemctl reload nginx
 
 # 此时如果你访问 http://二级域名.你的域名.com，你看到页面则说明成功。
 ```
-## 证书管理
+## 证书管理-申请tls证书
 
 ```
 #注意： 请不要轻易使用自签证书。它并没有让操作简单太多，但增加了无谓的风险（如中间人攻击）。
@@ -80,8 +80,33 @@ acme.sh --issue --test -d xx.your.com -w /var/www/html --keylength ec-256 --debu
 
 acme.sh --issue -d 二级域名.你的域名.com -w /var/www/html --keylength ec-256 --force
 
+#说明： --force 参数的意思就是，在现有证书到期前，手动（强行）更新证书。上一步我们从“测试服”申请的证书虽然不能直接用，但是它本身是尚未过期的，所以需要用到这个参数。
+
+```
+## Xray server setup
+
+```
+# 安装Xray
+wget https://github.com/XTLS/Xray-install/raw/main/install-release.sh
+bash install-release.sh
+rm install-release.sh
+
+#Filesystem Hierarchy Standard (FHS)
+
+        installed: /etc/systemd/system/xray.service
+        installed: /etc/systemd/system/xray@.service
+
+        installed: /usr/local/bin/xray
+        installed: /usr/local/etc/xray/*.json
+
+        installed: /usr/local/share/xray/geoip.dat
+        installed: /usr/local/share/xray/geosite.dat
+
+        installed: /var/log/xray/access.log
+        installed: /var/log/xray/error.log
+        
+#Notice: Xray will NOT log to /var/log/xray/*.log by default. Configure "log" to specify log files.
 
 
 ```
-
 
