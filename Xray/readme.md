@@ -18,7 +18,7 @@ Xray-core 是 v2ray-core 的超集，含更好的整体性能和 XTLS 等一系�
 
 ## VPS 安全
 
-'''
+```
 # 生成SSH key
 ssh-keygen -t ed25519 -C "xx.com" -f  xx-keyfile
 
@@ -29,5 +29,6 @@ nano /etc/ssh/sshd_config
 #重启SSH服务
 systemctl restart ssh
 
-'''
+```
+
 
