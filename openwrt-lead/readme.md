@@ -23,6 +23,10 @@ useradd -m $USER_NAME -d /home/$USER_NAME -s /bin/bash
 passwd $USER_NAME
 
  #"visudo /etc/sudoers: add $USER_NAME    ALL=(ALL:ALL) ALL"
+ 
+ ALL=(ALL) NOPASSWD: ALL 即可。
+#注意： 我要特别说明的是NOPASSWD这个设置，它的意思用户$USER_NAME临时使用root权限时，不用额外输入密码。这与一般的安全建议相反。我之所以如此推荐，是因为很多新人不顾危险坚持使用root账号就是因为用root时不用重复输入密码、觉得轻松。“两害相权取其轻”，我认为【直接用root用户的风险】大于【使用sudo时不用输密码的风险】，所以做了以上的建议。
+如果你希望遵守传统习惯、每次使用sudo时需要输入密码，那么这一行改成 $USER_NAME ALL=(ALL:ALL) ALL 即可。
 
 visudo
 
