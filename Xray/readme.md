@@ -149,5 +149,10 @@ crontab -e
 
 ```
 ### 配置Xray
+```
+#配置 /usr/local/etc/xray/config.json
+
+
+```
 
 
