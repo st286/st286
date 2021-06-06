@@ -78,7 +78,7 @@ acme.sh --issue --test -d xx.your.com -w /var/www/html --keylength ec-256 --debu
 
 #这一步确定成功之后，就可以申请正式的证书了。（测试证书不需要删除，它会自动被正式证书覆盖）
 
-acme.sh --issue -d 二级域名.你的域名.com -w /var/www/html --keylength ec-256 --force
+acme.sh --issue -d xx.your.com -w /var/www/html --keylength ec-256 --force
 
 #说明： --force 参数的意思就是，在现有证书到期前，手动（强行）更新证书。上一步我们从“测试服”申请的证书虽然不能直接用，但是它本身是尚未过期的，所以需要用到这个参数。
 
