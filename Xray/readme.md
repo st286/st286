@@ -202,10 +202,10 @@ nano /etc/nginx/nginx.conf
         }
 
 	server {
-        listen 127.0.0.1:8080;
-        root /var/www/html;
-        index index.nginx-debian.html;
-        add_header Strict-Transport-Security "max-age=63072000" always;
+                listen 127.0.0.1:8080;
+                root /var/www/html;
+                index index.nginx-debian.html;
+                add_header Strict-Transport-Security "max-age=63072000" always;
 	}
 
 #重启 Nginx 服务
