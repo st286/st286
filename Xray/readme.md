@@ -16,6 +16,15 @@ Xray-core 是 v2ray-core 的超集，含更好的整体性能和 XTLS 等一系�
 
 # Install Xray
 
+## 显示中文
+```
+# add to .bashrc
+export LANG='UTC-8' 
+export LC_ALL='en_US.UTF-8'
+
+source .bashrc
+```
+
 ## VPS 安全
 
 ```
