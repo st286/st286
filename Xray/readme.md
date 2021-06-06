@@ -123,7 +123,7 @@ chmod +r /home/xray_cert/xray.key
 
 nano /home/xray_cert/xray-cert-renew.sh
 
-#把下面的内容复制进去，记得替换你的真实域名，然后保存退出
+#把下面的内容复制进去，记得替换你的真实域名，然后保存退出, 替换xx.your.com 
 
 #!/bin/bash
 
@@ -158,7 +158,7 @@ wget https://raw.githubusercontent.com/st286/st286.github.io/master/Xray/xray-co
 
 # 修改 xray-config.json， 将之前生成的UUID填入第61行 "id": "", 之中
 
-mv ./xxray-config.json  /usr/local/etc/xray/config.json
+mv ./xray-config.json  /usr/local/etc/xray/config.json
 
 ```
 ### 启动Xray服务--systemd基本服务管理
