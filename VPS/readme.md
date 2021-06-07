@@ -7,13 +7,14 @@
 	    nano    ~/.bashrc
 
 添加如下内容：
-
-        export LANG='UTC-8' 
-        export LC_ALL='en_US.UTF-8'
+```
+export LANG='UTC-8' 
+export LC_ALL='en_US.UTF-8'
+```
 
 生效：
 
-	    source ~/.bashrc
+	source ~/.bashrc
         
 ---
 ## let  VPS ipv6-only  connect to  ipv4
@@ -53,6 +54,21 @@
     https://go6lab.si/current-IPv6-tests/nat64dns64-public-test/
       2001:67c:27e4:15::6411
       2001:67c:27e4::64
+      
+    NAT64公益列表
+    2a01:4f9:c010:3f02::1
+    2001:67c:2b0::4
+    2001:67c:2b0::6
+    2a09:11c0:f1:bbf0::70
+    2a01:4f8:c2c:123f::1
+    2001:67c:27e4:15::6411
+    2001:67c:27e4::64
+    2001:67c:27e4:15::64
+    2001:67c:27e4::60
+    2a00:1098:2b::1
+    2a03:7900:2:0:31:3:104:161
+    2a00:1098:2c::1
+    2a09:11c0:100::53
       
 **重启VPS后，失效。需ssh，again**
       
