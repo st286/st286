@@ -58,7 +58,7 @@ nano /etc/nginx/nginx.conf
 #include /etc/nginx/sites-enabled/*;
 server {
         listen 80;
-        server_name 二级域名.你的域名.com;
+        server_name xx.your.com;
         root /var/www/html;
         index index.nginx-debian.html;
 }
@@ -67,7 +67,7 @@ server {
 # nginx 重新载入配置使其生效
 systemctl reload nginx
 
-# 此时如果你访问 http://二级域名.你的域名.com，你看到页面则说明成功。
+# 此时如果你访问 http://xx.your.com，你看到页面则说明成功。
 ```
 ## 证书管理-申请tls证书
 
