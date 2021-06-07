@@ -73,6 +73,8 @@ systemctl reload nginx
 ```
 #注意： 请不要轻易使用自签证书。它并没有让操作简单太多，但增加了无谓的风险（如中间人攻击）。
 
+apt install socat
+
 wget -O -  https://get.acme.sh | sh
 
 . .bashrc
