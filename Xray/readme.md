@@ -52,6 +52,7 @@ apt update &&  apt install nginx
 nano /etc/nginx/nginx.conf
 
 ## 将下面一段，添加在 http{} 内
+## 或者直接用后面的《服务器优化：开启HTTP自动跳转HTTPS》中的配置
 
 #include /etc/nginx/conf.d/*.conf;
 #include /etc/nginx/sites-enabled/*;
