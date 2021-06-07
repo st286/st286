@@ -8,6 +8,8 @@ Xray-core 是 v2ray-core 的超集，含更好的整体性能和 XTLS 等一系�
 
 [Xray-core](https://github.com/XTLS/Xray-core)
 
+[Xray-install-sh](https://github.com/XTLS/Xray-install)
+
 [小小白白话文](https://xtls.github.io/documents/level-0/)
 
 [HelloWorld--OpenWrt](https://github.com/jerrykuku/luci-app-vssr)
