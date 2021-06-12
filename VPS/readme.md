@@ -1,10 +1,35 @@
 ---
+## 启用TCP-BBR 
+
+BBR 是一个由谷歌社区开发的 TCP拥塞控制技术，Debian 9 x64 系统的内核为4.9.0-3, 不用更换内核。
+ 
+### 开启bbr
+```
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+sysctl -p
+```
+### 关闭bbr
+```
+sed -i '/net\.core\.default_qdisc=fq/d' /etc/sysctl.conf && sed -i '/net\.ipv4\.tcp_congestion_control=bbr/d' /etc/sysctl.conf
+sysctl -p
+```
+执行完上面的代码，就使用reboot重启VPS后才能关闭bbr，重启后再用下面的查看bbr状态代码，查看是否关闭了。
+ 
+### 查看bbr是否开启
+ 
+执行下面命令，看到有 tcp_bbr 模块，即说明bbr已启动
+```
+lsmod | grep bbr
+```
+
+
 ## Linux 支持显示中文
 
 
 修改远程主机的bash显示编码 
 
-	    nano    ~/.bashrc
+	nano    ~/.bashrc
 
 添加如下内容：
 ```
