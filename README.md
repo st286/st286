@@ -20,7 +20,10 @@ Whether you are a graphic designer, photographer, illustrator, or scientist, GIM
 ### [Youtube-dl](https://youtube-dl.org)
 
   Youtube-dl is a command-line program to download videos from [YouTube.com](http://youtube.com) and a few [more sites](http://ytdl-org.github.io/youtube-dl/supportedsites.html). 
-
+```  
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+```
   [youtube-dl in Github](https://github.com/ytdl-org/youtube-dl)
 
 ### [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
