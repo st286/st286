@@ -82,6 +82,10 @@ wget -O -  https://get.acme.sh | sh
 
 acme.sh --upgrade --auto-upgrade
 
+## maybe 
+
+acme.sh --register-account -m xxxx@icloud.com
+
 #测试证书申请:在正式申请证书之前，我们先用测试命令(--issue --test)来验证是否可以成功申请，这样可以避免在本地配置有误时，反复申请证书失败
 
 acme.sh --issue --test -d xx.your.com -w /var/www/html --keylength ec-256
