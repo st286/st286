@@ -32,9 +32,34 @@
       
 
 **安装及配置Nginx及安装证书**
+```
+apt update && apt upgrade -y
+apt install nginx
+      
+## 用于 trojan-go "fallback_port": 8080      
+nano /etc/nginx/nginx.conf
 
-      apt update && apt upgrade -y
-      apt install nginx
+#修改如下 http{}中：
+	#include /etc/nginx/conf.d/*.conf;
+	#include /etc/nginx/sites-enabled/*;
+
+	server {
+               listen  80;
+               server_name  xx.your.com;
+               return 301 https://$http_host$request_uri;
+        }
+
+	server {
+                listen 127.0.0.1:8080;
+                root /var/www/html;
+                index index.nginx-debian.html;
+                add_header Strict-Transport-Security "max-age=63072000" always;
+	}
+
+#重启 Nginx 服务
+systemctl restart nginx
+```
+
 
 生成证书: 用上面cert.sh脚本, 修改其中的cname, organizations.
 
@@ -52,12 +77,13 @@
     "remote_addr": "127.0.0.1",
     "remote_port": 80,
     "password": [
-        "your-password"
+        "uuid-xxx-xxx"
     ],
     "ssl": {
         "cert": "/home/trojan-go/server-cert.pem",
         "key": "/home/trojan-go/server-key.pem",
-        "sni": "202010.xxxxx.xxxxx"
+        "sni": "xxx.xxx.com",
+	"fallback_port": 8080
     },
     "router": {
         "enabled": true,
@@ -83,7 +109,8 @@ password:
 ssl:
   cert: /home/trojan-go/server-cert.pem
   key: /home/trojan-go/server-key.pem
-  sni: 202010.xxxxx.xxxxx
+  sni: xxx.xxx.com
+  fallback_port: 8080
 router:
   enabled: true
   block:
@@ -108,12 +135,12 @@ router:
 [Unit]
 Description=Trojan-Go - An unidentifiable mechanism that helps you bypass GFW
 Documentation=https://p4gefau1t.github.io/trojan-go/
-After=network.target network-online.target nss-lookup.target mysql.service mariadb.service mysqld.service
+After=network.target nss-lookup.target
 
 [Service]
 Type=simple
 StandardError=journal
-ExecStart=/home/trojan-go/trojan-go -config /home/trojan-go/server.yaml
+ExecStart=/home/trojan-go/trojan-go -config /home/trojan-go/server.json
 ExecReload=/bin/kill -HUP \$MAINPID
 ExecStop=/home/trojan-go/trojan-go
 LimitNOFILE=51200
@@ -132,6 +159,7 @@ WantedBy=multi-user.target
 systemctl daemon-reload
 systemctl enable  trojan-go
 systemctl start trojan-go
+systemctl status trojan-go
 systemctl disable  trojan-go
 systemctl restart | stop | disable  trojan-go
  ```     
@@ -159,7 +187,7 @@ systemctl restart | stop | disable  trojan-go
     "ssl": {
         "verify": false,
         "verify_hostname": false,
-	  "sni": "202010.xxxxx.xxxxx"
+	  "sni": "xxx.xxx.com"
     },
     "mux": {
         "enabled": true
@@ -197,7 +225,7 @@ password:
 ssl:
     verify: false
     verify_hostname: false
-    sni: 202010.xxxxx.xxxxx
+    sni: xxx.xxx.com
 mux:
     enabled: true
 router:
