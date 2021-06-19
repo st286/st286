@@ -1,5 +1,11 @@
 #!/bin/bash
 
+## 修改以下的cname, organizations.
+
+cname="xxx.xxx.com"
+organizations="stephen.linux.org"
+
+
 if [[ $(id -u) != 0 ]]; then
     echo Please run this script as root.
     exit 1
@@ -10,17 +16,16 @@ fi
 echo "Install gnutls-bin and gnutls-doc "
 
 apt update
-apt install gnutls-bin gnutls-doc
+apt install gnutls-bin gnutls-doc  -y
 
 echo "Generate template: ca.tmpl and server.tmpl "
 
-## 修改以下的cn, organization.
 
 cat > ca.tmpl << EOF
-cn = "xx.xx.com"
-organization = "xx.or.com"
+cn = ${cname}
+organization = ${organizations}
 serial = 1
-expiration_days = 3650
+expiration_days = 1825
 ca
 signing_key
 cert_signing_key
@@ -28,9 +33,9 @@ crl_signing_key
 EOF
 
 cat > server.tmpl << EOF
-cn = "xx.xx.com"
-organization = "xx.or.com"
-expiration_days = 3650
+cn = ${cname}
+organization = ${organizations}
+expiration_days = 1825
 signing_key
 encryption_key
 tls_www_server
