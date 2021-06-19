@@ -36,7 +36,7 @@
       apt update && apt upgrade -y
       apt install nginx
 
-生成证书: 用上面cert.sh脚本, 修改其中的cn, organization.
+生成证书: 用上面cert.sh脚本, 修改其中的cname, organizations.
 
       wget https://raw.githubusercontent.com/st286/st286.github.io/master/Trojan/cert.sh
       
