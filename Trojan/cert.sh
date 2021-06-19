@@ -16,7 +16,7 @@ fi
 echo "Install gnutls-bin and gnutls-doc "
 
 apt update
-apt install gnutls-bin gnutls-doc  -y
+apt install gnutls-bin gnutls-doc
 
 echo "Generate template: ca.tmpl and server.tmpl "
 
