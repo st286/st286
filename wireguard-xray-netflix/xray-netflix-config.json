@@ -72,10 +72,10 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "d7ad8110-065e-4583-8e27-22ba70d76dc6", // 填写你的 UUID
+                        "id": "your-uuid-", // 填写你的 UUID
                         "flow": "xtls-rprx-direct",
                         "level": 0,
-                        "email": "stst@icoud.com"
+                        "email": "xxxx@icoud.com"
                     }
                 ],
                 "decryption": "none",
