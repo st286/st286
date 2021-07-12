@@ -61,6 +61,12 @@ PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
 AllowedIPs = ::/0
 Endpoint = 162.159.192.1:2408
 ```
+**额外操作**
+
+每个人的vps配置文件中默认的 DNS 都不一样， 1.1.1.1。由于它将替换掉系统中的 DNS 设置 (/etc/resolv.conf)，同时为了防止单 DNS 服务器故障导致无法解析，建议使用不同组织提供的公共 DNS 服务器组合。以下配置供参考，请根据实际情况来填写。
+
+        DNS = 9.9.9.10,8.8.8.8,1.1.1.1，8.8.4.4
+
 ### 测试 WireGuard 网络接口
 
 将 Wire­Guard 配置文件复制到 /etc/wireguard/ 并命名为 wgcf.conf。
@@ -84,6 +90,9 @@ Endpoint = 162.159.192.1:2408
 systemctl start wg-quick@wgcf   # 启用守护进程
 systemctl enable wg-quick@wgcf  # 设置开机启动
 ```
+
+------
+
 
 
 
