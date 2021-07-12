@@ -131,36 +131,32 @@ systemctl reload nginx
 ```
 ## 证书管理-申请tls证书
 
+注意： 请不要轻易使用自签证书。它并没有让操作简单太多，但增加了无谓的风险（如中间人攻击）。
 ```
-#注意： 请不要轻易使用自签证书。它并没有让操作简单太多，但增加了无谓的风险（如中间人攻击）。
-
 apt install socat
-
 wget -O -  https://get.acme.sh | sh
-
 . .bashrc
-
 acme.sh --upgrade --auto-upgrade
-
-##maybe 
-
-acme.sh --register-account -m xxxx@icloud.com
-
-##测试证书申请:在正式申请证书之前，我们先用测试命令(--issue --test)来验证是否可以成功申请，这样可以避免在本地配置有误时，反复申请证书失败
-
-acme.sh --issue --test -d xx.your.com -w /var/www/html --keylength ec-256
-
-##如果这一步出错的话，你可以运行下面的命令，来查看详细的申请过程和具体的错误。
-
-acme.sh --issue --test -d xx.your.com -w /var/www/html --keylength ec-256 --debug
-
-##这一步确定成功之后，就可以申请正式的证书了。（测试证书不需要删除，它会自动被正式证书覆盖）
-
-acme.sh --issue -d xx.your.com -w /var/www/html --keylength ec-256 --force
-
-##说明： --force 参数的意思就是，在现有证书到期前，手动（强行）更新证书。上一步我们从“测试服”申请的证书虽然不能直接用，但是它本身是尚未过期的，所以需要用到这个参数。
-
 ```
+maybe 
+
+        acme.sh --register-account -m xxxx@icloud.com
+
+测试证书申请:在正式申请证书之前，我们先用测试命令(--issue --test)来验证是否可以成功申请，这样可以避免在本地配置有误时，反复申请证书失败
+
+        acme.sh --issue --test -d xx.your.com -w /var/www/html --keylength ec-256
+
+如果这一步出错的话，你可以运行下面的命令，来查看详细的申请过程和具体的错误。
+
+        acme.sh --issue --test -d xx.your.com -w /var/www/html --keylength ec-256 --debug
+
+这一步确定成功之后，就可以申请正式的证书了。（测试证书不需要删除，它会自动被正式证书覆盖）
+
+        acme.sh --issue -d xx.your.com -w /var/www/html --keylength ec-256 --force
+
+说明： --force 参数的意思就是，在现有证书到期前，手动（强行）更新证书。上一步我们从“测试服”申请的证书虽然不能直接用，但是它本身是尚未过期的，所以需要用到这个参数。
+
+
 ## Xray server setup
 
 ### 安装Xray
