@@ -46,11 +46,19 @@
                 ],
                 "outboundTag": "block"    // 分流策略：交给出站"block"处理（黑洞屏蔽）
             },
-           // 3.3  netflix 走 IPv6
+            
+         //   For "IP4_out
+         // {
+         //    "type": "field",
+         //    "outboundTag": "IP4_out",
+         //    "network": "udp,tcp"// 其余走 IPv4
+         // },
+            
+           // 3.3 netflix google YouTube 走 IPv6 
            {
                 "type": "field",
                 "outboundTag": "IP6_out",
-                "domain": ["geosite:netflix"] // netflix 走 IPv6
+                "domain": ["geosite:netflix","geosite:google","geosite:youtube"] // netflix google YouTube 走 IPv6 
             }
         ]
     },
@@ -110,7 +118,15 @@
             "tag": "block",
             "protocol": "blackhole"
         },
-      //5.3  netflix
+        
+     // For IPv4_OUT  
+     // {
+     //     "tag":"IP4_out",
+     //     "protocol": "freedom",
+     //     "settings": {}
+     // },
+        
+     //5.3 For netflix IPv6_OUT 
        {
             "tag":"IP6_out",
             "protocol": "freedom",
