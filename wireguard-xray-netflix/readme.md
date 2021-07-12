@@ -234,11 +234,11 @@ echo "Xray Restarted"
 
 配置 /usr/local/etc/xray/config.json
 
-        wget https://raw.githubusercontent.com/st286/st286.github.io/master/Xray/xray-config.json
+        wget https://raw.githubusercontent.com/st286/st286.github.io/master/wireguard-xray-netflix/xray-netflix-config.json
 
-修改 xray-config.json， 将之前生成的UUID填入第61行 "id": "", 之中
+修改 xray-config.json， 将之前生成的UUID填入第 75 行 "id": "", 之中
 
-        mv ./xray-config.json  /usr/local/etc/xray/config.json
+        cp  ./xray-netflix-config.json  /usr/local/etc/xray/config.json
 
 
 ### 启动Xray服务--systemd基本服务管理
