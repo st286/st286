@@ -110,7 +110,7 @@ AllowedIPs = 10.0.0.3/32
 Next, to be able to connect through your WireGuard server, you’ll need to enable packet forwarding. This is only done on the WireGuard server and not necessary for any clients.
 
 Open the system variables file for edit.
-``
+```
 nano /etc/sysctl.conf
 ```
 Then uncomment the following line by removing the # at the beginning of the line.
