@@ -94,7 +94,7 @@ PrivateKey = <contents-of-server-privatekey>
 Address = 10.0.0.1/24
 PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
-ListenPort = 51820
+ListenPort = 51920
 
 [Peer]
 PublicKey = <contents-of-client1-publickey>
@@ -104,6 +104,27 @@ AllowedIPs = 10.0.0.2/32
 PublicKey = <contents-of-client2-publickey>
 AllowedIPs = 10.0.0.3/32
 ```
+
+### IP forwarding
+
+Next, to be able to connect through your WireGuard server, you’ll need to enable packet forwarding. This is only done on the WireGuard server and not necessary for any clients.
+
+Open the system variables file for edit.
+``
+nano /etc/sysctl.conf
+```
+Then uncomment the following line by removing the # at the beginning of the line.
+```
+net.ipv4.ip_forward=1
+net.ipv6.conf.all.forwarding=1
+```
+Once done, save the file and exit the editor.
+
+Then apply the new option with the command below.
+```
+sysctl -p
+```
+
 
 ### Starting WireGuard and enabling it at boot
 ```
@@ -129,7 +150,7 @@ DNS = 1.1.1.1
 
 [Peer]
 PublicKey = <contents-of-server-publickey>
-Endpoint = <server-public-ip>:51820
+Endpoint = <server-public-ip>:51920
 AllowedIPs = 0.0.0.0/0, ::/0
 
 PersistentKeepalive = 25
@@ -139,6 +160,30 @@ Note that setting AllowedIPs to 0.0.0.0/0, ::/0 will forward all traffic over th
 
 PersistentKeepalive tells WireGuard to send a UDP packet every 25 seconds, this is useful if you are behind a NAT and you want to keep the connection alive.
 
+------
+   
+## Configuring firewall rules
 
+You should also configure a firewall to block any unwanted connections and keep your server secure. You can do this by either installing a software firewall on your cloud server or by using the Firewall service at your UpCloud Control Panel.
 
+For Ubuntu servers, you can install the ufw, the Uncomplicated Firewall, using the command below.
+```
+apt install ufw
+```
+Next, add the following rules to allow SSH and WireGuard connections.
+```
+ufw allow ssh
+ufw allow 51920/udp
+```
+Enable the firewall with the next command.
+```
+ufw enable
+```
+Then confirm the command when prompted.
 
+Command may disrupt existing ssh connections. Proceed with operation (y|n)? y
+Afterwards, you can check the active firewall rules with the command below.
+```
+ufw status
+```
+   
