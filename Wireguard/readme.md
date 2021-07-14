@@ -8,7 +8,7 @@
 
 [Set Up WireGuard VPN on Ubuntu](https://www.linode.com/docs/guides/set-up-wireguard-vpn-on-ubuntu/)
 
-[翻译】如何轻松配置 WireGuard](https://www.wogong.net/blog/2019/01/how-to-configure-wireguard)
+[【翻译】如何轻松配置 WireGuard](https://www.wogong.net/blog/2019/01/how-to-configure-wireguard)
 
 #  Installing and Configuring WireGuard® on Linux as a VPN server
 
@@ -41,13 +41,102 @@ reboot
 uname -r
 ```
 
-## Server configuration
+## Configuring WireGuard Server
+
+The first step is to choose an IP range which will be used by the server. The private IP ranges defined by the RFC 19198 are the following:
+```
+   10.0.0.0/8
+   72.16.0.0/12
+   192.168.0.0/16
+```
 
 ### Generating private and public keys
 
+WireGuard works by encrypting the connection using a pair of cryptographic keys. The keypair is used by sharing the public key with the other party who then can encrypt their message in such a way that it can only be decrypted with the corresponding private key. To make the communication secure both ways, each party needs to have their own private and public keys as each pair only enables one-way messaging.
+
+For the use in WireGuard, the server and each client must generate their own key pair and then exchange public keys.
+
+To get started with generating the keys for the server change into the WireGuard directory.
+
+Next, set the permissions for the directory with the following command. Note that you need to be logged in with the root account to do this.
+
+```
+cd /etc/wireguard
+umask 077
+```
+Then with the required permissions set, generate a new key pair with the command below.
+```
+wg genkey | tee s-privatekey | wg pubkey > s-publickey
+wg genkey | tee c1-privatekey | wg pubkey > c1-publickey
+wg genkey | tee c2-privatekey | wg pubkey > c2-publickey
+wg genkey | tee c3-privatekey | wg pubkey > c3-publickey
+wg genkey | tee c4-privatekey | wg pubkey > c4-publickey
+```
+Repeat these steps on each client you want to connect to the WireGuard server.
+
+Remember that you should never share your private key with anyone.
+
+
+### Generate server config
+
+We are then set to start configuring the WireGuard server. The config files are generally stored in /etc/wireguard folder. Create a new configuration file called wg0.conf in that folder.
+```
+nano /etc/wireguard/wg0.conf
+```
+The configuration below will make your WireGuard server accept connections to 51820 and allow a client with the public key corresponding to the private key we made above.
+
+Add the following directives to the configuration file. Replace "eth0" by your main network interface if it is not "eth0".
+```
+[Interface]
+PrivateKey = <contents-of-server-privatekey>
+Address = 10.0.0.1/24
+PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
+ListenPort = 51820
+
+[Peer]
+PublicKey = <contents-of-client1-publickey>
+AllowedIPs = 10.0.0.2/32
+
+[Peer]
+PublicKey = <contents-of-client2-publickey>
+AllowedIPs = 10.0.0.3/32
+```
+
+### Starting WireGuard and enabling it at boot
+```
+wg-quick up wg0
+wg-quick down wg0
+
+wg show
+
+systemctl enable wg-quick@wg0
+systemctl start wg-quick@wg0
+
+```
+
+## Client configuration 
+
+On a client computer, create a new configuration file "wg0.conf". Then add the following to the file "wg0.conf".
+
+```
+[Interface]
+Address = 10.0.0.2/32
+PrivateKey = <contents-of-client-privatekey>
+DNS = 1.1.1.1
+
+[Peer]
+PublicKey = <contents-of-server-publickey>
+Endpoint = <server-public-ip>:51820
+AllowedIPs = 0.0.0.0/0, ::/0
+
+PersistentKeepalive = 25
+
+```
+Note that setting AllowedIPs to 0.0.0.0/0, ::/0 will forward all traffic over the WireGuard VPN connection. If you want to only use WireGuard for specific destinations, set their IP address ranges in the list separated by a comma.
+
+PersistentKeepalive tells WireGuard to send a UDP packet every 25 seconds, this is useful if you are behind a NAT and you want to keep the connection alive.
 
 
 
 
-
-# 
