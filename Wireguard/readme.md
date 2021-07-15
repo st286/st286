@@ -48,7 +48,7 @@ uname -r
 The first step is to choose an IP range which will be used by the server. The private IP ranges defined by the RFC 19198 are the following:
 ```
    10.0.0.0/8
-   72.16.0.0/12
+   172.16.0.0/12
    192.168.0.0/16
 ```
 
