@@ -52,10 +52,6 @@ The first step is to choose an IP range which will be used by the server. The pr
    192.168.0.0/16
    
    fd00::/8
-   
-块	       前缀	   GlobalID (随机)	     Subnet ID	      Number of addresses in subnet
-                     48bits	            16bits	              64 bits
-fd00::/8	  fd	      xx:xxxx:xxxx	      yyyy	          18,446,744,073,709,551,616
 ```
 
 ### Generating private and public keys
@@ -159,6 +155,7 @@ On a client computer, create a new configuration file "wg0.conf". Then add the f
 ```
 [Interface]
 Address = 10.0.0.2/32
+Address = fd00:abcd:abcd:4321::2/128
 PrivateKey = <contents-of-client-privatekey>
 DNS = 1.1.1.1
 
