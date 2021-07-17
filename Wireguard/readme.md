@@ -50,6 +50,12 @@ The first step is to choose an IP range which will be used by the server. The pr
    10.0.0.0/8
    172.16.0.0/12
    192.168.0.0/16
+   
+   fd00::/8
+   
+   块	   前缀	   GlobalID (随机)	  Subnet ID	     Number of addresses in subnet
+                   48bits	         16bits	              64 bits
+fd00::/8	 fd	  xx:xxxx:xxxx	       yyyy	          18,446,744,073,709,551,616
 ```
 
 ### Generating private and public keys
@@ -92,6 +98,8 @@ Add the following directives to the configuration file. Replace "eth0" by your m
 [Interface]
 PrivateKey = <contents-of-server-privatekey>
 Address = 10.0.0.1/24
+Address = fd00:abcd:abcd:4321::1/64
+
 PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
 
@@ -103,10 +111,12 @@ ListenPort = 51920
 [Peer]
 PublicKey = <contents-of-client1-publickey>
 AllowedIPs = 10.0.0.2/32
+AllowedIPs = fd00:abcd:abcd:4321::2/128
 
 [Peer]
 PublicKey = <contents-of-client2-publickey>
 AllowedIPs = 10.0.0.3/32
+AllowedIPs = fd00:abcd:abcd:4321::3/128
 ```
 
 ### IP forwarding
@@ -154,7 +164,7 @@ DNS = 1.1.1.1
 
 [Peer]
 PublicKey = <contents-of-server-publickey>
-Endpoint = <server-public-ip>:51920
+Endpoint = <server-public-ip or domain>:51920
 AllowedIPs = 0.0.0.0/0, ::/0
 
 PersistentKeepalive = 25
