@@ -53,9 +53,9 @@ The first step is to choose an IP range which will be used by the server. The pr
    
    fd00::/8
    
-   块	   前缀	   GlobalID (随机)	  Subnet ID	     Number of addresses in subnet
-                   48bits	         16bits	              64 bits
-fd00::/8	 fd	  xx:xxxx:xxxx	       yyyy	          18,446,744,073,709,551,616
+块	       前缀	   GlobalID (随机)	     Subnet ID	      Number of addresses in subnet
+                     48bits	            16bits	              64 bits
+fd00::/8	  fd	      xx:xxxx:xxxx	      yyyy	          18,446,744,073,709,551,616
 ```
 
 ### Generating private and public keys
