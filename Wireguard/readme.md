@@ -16,12 +16,6 @@
 
 ## 安装 WireGuard
 
-添加 back­ports 源
-```
-apt install curl lsb-release -y
-echo "deb http://deb.debian.org/debian $(lsb_release -sc)-backports main" | tee /etc/apt/sources.list.d/backports.list
-apt update
-```
 安装网络工具包
 ```
 apt install net-tools iproute2 openresolv dnsutils -y
@@ -32,8 +26,15 @@ apt install wireguard-tools --no-install-recommends
 ```
 先执行 uname -r 命令查看内核版本。如果是 5.6 以上内核则已经集成了 Wire­Guard ，就不需要安装了。如果不是，执行下面的命令
 ```
-apt -t $(lsb_release -sc)-backports install linux-image-$(dpkg --print-architecture) linux-headers-$(dpkg --print-architecture) --install-recommends -y
+wget https://raw.githubusercontent.com/pimlie/ubuntu-mainline-kernel.sh/master/ubuntu-mainline-kernel.sh
+
+install ubuntu-mainline-kernel.sh /usr/local/bin/
+
+ubuntu-mainline-kernel.sh  -i
+
 ```
+注：参考[在Ubuntu 20.04上检查并更新Ubuntu内核版本](https://opensofty.com/zh-cn/2020/3/13/在ubuntu-20.04上检查并更新ubuntu内核版本/)
+
 重启
 ```
 reboot
