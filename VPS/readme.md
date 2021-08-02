@@ -33,6 +33,7 @@ lsmod | grep bbr
 
 ## Linux 支持显示中文
 
+[How do I fix my locale issue?](https://askubuntu.com/questions/162391/how-do-i-fix-my-locale-issue)
 
 修改远程主机的bash显示编码 
 
