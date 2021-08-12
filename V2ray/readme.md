@@ -1,17 +1,12 @@
 # V2fly
 
-##  [Project V ](https://www.v2fly.org)
+  [Project V ](https://www.v2fly.org)
 
-##  [V2fly/v2ray-core](https://github.com/v2fly/v2ray-core)
+  [V2fly/v2ray-core](https://github.com/v2fly/v2ray-core)
 
+  [安装脚本 fhs-install-v2ray](https://github.com/v2fly/fhs-install-v2ray)
 
-
-
-# fhs-install-v2ray
-
-
-[v2ray](https://github.com/v2fly/fhs-install-v2ray)
-
+---
 
 ## 下載
 
