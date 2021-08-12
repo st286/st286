@@ -1,5 +1,8 @@
 # 编译Openwrt固件全攻略
 
+### [Passwall, SSR-plus, VSSR](https://github.com/kenzok8/openwrt-packages)
+
+### [编译更新OpenWrt PassWall和SSR-plus插件](https://mianao.info/2020/05/05/编译更新OpenWrt-PassWall和SSR-plus插件)
 
 ### [编译Lean的Openwrt固件全攻略](https://imgki.com/archives/openwrt-lean.html)
 
