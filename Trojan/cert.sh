@@ -2,7 +2,7 @@
 
 ## 修改以下的cname, organizations.
 
-cname="xxx.xxx.com"
+cname="sg.ccceye.com"
 organizations="stephen.linux.org"
 
 
