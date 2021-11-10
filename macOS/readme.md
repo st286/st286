@@ -2,7 +2,7 @@
 
 #  How to reinstall Rosetta 2
 
-[https://osxdaily.com/2021/11/08/fix-app-crashing-apple-silicon-mac/](Fix Apps Crashing on M1 Pro/Max Mac After Migration Assistant or Monterey Update)
+[Fix Apps Crashing on M1 Pro/Max Mac After Migration Assistant or Monterey Update](https://osxdaily.com/2021/11/08/fix-app-crashing-apple-silicon-mac/)
 
 The simplest way to reinstall Rosetta 2 is by opening the Terminal application, found via Spotlight (Command+Spacebar and typing Terminal), or by going the /Applications/Utilities/ folder, and then issuing the following command string:
 
