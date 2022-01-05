@@ -1,17 +1,11 @@
 ## Some useful tools
 
-### [GIMP](https://www.gimp.org)
+### [age是一种简单，现代且安全的文件加密工具](https://github.com/FiloSottile/age)
 
-   The Free & Open Source Image Editor.GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software, you can change its source code and distribute your changes.
-Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins.
+   age is a simple, modern and secure file encryption tool, format, and Go library.
 
-### [calibre](https://github.com/st286/st286.github.io/blob/master/calibre.md)
-
-  Calibre是一款电子图书管理软件，其提供的“一站式”的电子书解决方案，可以全面满足对电子书需求，甚至可以利用它组织成属于自己的电子图书馆，它的功能更是多种多样，不仅可以用它对图书进行格式转换，归类整理电子书，还可以将文本图像材料、在线内容（RSS）加入并转换为电子书。更重要的是Calibre是免费的、开源的，拥有跨平台的设计，可在Linux， OS X和Windows操作系统中运行，堪称电子书管理神器！
-
-### [exiftool](https://github.com/st286/st286.github.io/blob/master/ExifTool.md)
-
- ExifTool由Phil Harvey开发，是一款免费、跨平台的开源软件，用于读写和处理图像（主要）、音视频和PDF等文件的元数据（metadata）
+   It features small explicit keys, no config options, and UNIX-style composability.
+   
 
 ### [FFmpeg](https://github.com/st286/st286.github.io/blob/master/FFmpeg.md)
 
@@ -29,6 +23,20 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 ### [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
 
   兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
+
+
+### [GIMP](https://www.gimp.org)
+
+   The Free & Open Source Image Editor.GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software, you can change its source code and distribute your changes.
+Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins.
+
+### [calibre](https://github.com/st286/st286.github.io/blob/master/calibre.md)
+
+  Calibre是一款电子图书管理软件，其提供的“一站式”的电子书解决方案，可以全面满足对电子书需求，甚至可以利用它组织成属于自己的电子图书馆，它的功能更是多种多样，不仅可以用它对图书进行格式转换，归类整理电子书，还可以将文本图像材料、在线内容（RSS）加入并转换为电子书。更重要的是Calibre是免费的、开源的，拥有跨平台的设计，可在Linux， OS X和Windows操作系统中运行，堪称电子书管理神器！
+
+### [exiftool](https://github.com/st286/st286.github.io/blob/master/ExifTool.md)
+
+ ExifTool由Phil Harvey开发，是一款免费、跨平台的开源软件，用于读写和处理图像（主要）、音视频和PDF等文件的元数据（metadata）
 
 
 
