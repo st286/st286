@@ -1,5 +1,11 @@
 # Some program for macOS
 
+## [MonitorControl - for Apple Silicon and Intel](https://github.com/MonitorControl/MonitorControl)
+
+Controls your external display brightness and volume and shows native OSD. Use menulet sliders or the keyboard, including native Apple keys!
+
+
+
 ##  YouTube to MP3 Converter, Audio Converter,  mTube
 
 [Mediahuman](https://www.mediahuman.com/)
