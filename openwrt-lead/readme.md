@@ -46,7 +46,7 @@ cd lede
 git pull
 rm -rf ./tmp
 nano feeds.conf.default #其中去掉注释
-./script/feeds update -a && ./script/feeds install -a
+./scripts/feeds update -a && ./scripts/feeds install -a
 ```
 
 feeds.conf.default: as following
