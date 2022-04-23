@@ -47,7 +47,7 @@ visudo
 su $USER_NAME
 ```
 ------
-### 编译命令
+### 编译命令 ( ssrp and helloworld (vssr) )
 
 #### 1.首先装好 Linux 系统，推荐  Ubuntu20.0 LTS
 
@@ -68,7 +68,15 @@ rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip vim wg
 
 ```
 git clone https://github.com/coolsnowwolf/lede
-cd lede
+
+cd lede/package/lean/
+git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
+git clone https://github.com/jerrykuku/luci-app-vssr.git  
+
+cd ..
+cd ..
+# goto lede/
+
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 make menuconfig
