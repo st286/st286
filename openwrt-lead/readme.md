@@ -122,7 +122,7 @@ src-link custom /usr/src/openwrt/custom-feed   #本行，是手工去掉注释#
 src-git helloworld https://github.com/fw876/helloworld
 src-git passwall https://github.com/xiaorouji/openwrt-passwall
 
-## 最后两行，是手工加上
+## 最后两行，是手工添加上
 ```
 
 ---
