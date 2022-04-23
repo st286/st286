@@ -95,21 +95,33 @@ make V=s -j1
 固件里面看不到ssr-plus
 大佬在feed里里面吧ssr的feed隐藏了
 
-```shell
+```
 cd lede
 git pull
 rm -rf ./tmp
-nano feeds.conf.default #其中去掉注释
+
+nano feeds.conf.default
+
 ./scripts/feeds update -a && ./scripts/feeds install -a
+
 ```
 
-feeds.conf.default: as following
+**feeds.conf.default: as following**
 
-```shell
+```
+src-git packages https://github.com/coolsnowwolf/packages
 src-git luci https://github.com/coolsnowwolf/luci
 src-git routing https://git.openwrt.org/feed/routing.git
-#src-git telephony https://git.openwrt.org/feed/telephony.git
-#src-git helloworld https://github.com/fw876/helloworld
+src-git telephony https://git.openwrt.org/feed/telephony.git
+#src-git video https://github.com/openwrt/video.git
+#src-git targets https://github.com/openwrt/targets.git
+#src-git oldpackages http://git.openwrt.org/packages.git
+#src-link custom /usr/src/openwrt/custom-feed
+
+src-git helloworld https://github.com/fw876/helloworld
+src-git passwall https://github.com/xiaorouji/openwrt-passwall
+
+## 最后两行，是手工加上
 ```
 
 ---
