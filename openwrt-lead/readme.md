@@ -131,7 +131,15 @@ src-git passwall https://github.com/xiaorouji/openwrt-passwall
 
 ## 最后两行，是手工添加上
 ```
+---
+### 编译生成的映像文件
+```
+cd  lede/bin/targets/x86/64
 
+ls 
+
+openwrt-x86-64-generic-squashfs-combined-efi.img # 这个文件就是所要的
+```
 ---
 ### Tmux 使用
 ```
