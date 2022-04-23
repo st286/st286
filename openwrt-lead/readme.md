@@ -82,6 +82,13 @@ cd ..
 make menuconfig
 ```
 
+#### Menu --> LuCI --> Applications -->  select...
+
+      luci-app-ssr-plus (NEW) 
+
+      luci-app-vssr.................... A New SS/SSR/Xray/Trojan LuCI interface (NEW)
+
+
 #### 4.下载 dl 库，编译固件 （-j 后面是线程数，第一次编译推荐用单线程）
 
 ```
@@ -92,8 +99,8 @@ make V=s -j1
 
 ---
 
-固件里面看不到ssr-plus
-大佬在feed里里面吧ssr的feed隐藏了
+### 固件里面看不到ssr-plus，大佬在feed里里面吧ssr的feed隐藏了
+
 
 ```
 cd lede
