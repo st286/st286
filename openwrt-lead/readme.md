@@ -133,6 +133,23 @@ src-git passwall https://github.com/xiaorouji/openwrt-passwall
 ```
 
 ---
+### Tmux 使用
+```
+按下Ctrl+d或者显式输入exit命令，就可以退出 Tmux 窗口
+
+按下Ctrl+b，再按下?，就会显示帮助信息。
+
+按下Ctrl+b d或者输入tmux detach命令，就会将当前会话与窗口分离.
+
+tmux ls命令可以查看当前所有的 Tmux 会话。
+
+tmux attach命令用于重新接入某个已存在的会话:  tmux attach -t 0
+
+```
+[Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
+
+
+
 ### 临时使用socks5代理apt-get的方法
 
       sudo apt-get -o Acquire::http::proxy="socks5h://127.0.0.1:1080/"  update 
