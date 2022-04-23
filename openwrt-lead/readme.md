@@ -27,9 +27,6 @@
    3.默认登陆IP 192.168.1.1 密码 password
    
    
-   
-
-
 ```shell
 USER_NAME=st
 
@@ -50,6 +47,42 @@ visudo
 su $USER_NAME
 ```
 ------
+### 编译命令
+
+#### 1.首先装好 Linux 系统，推荐  Ubuntu20.0 LTS
+
+#### 2.安装编译依赖
+
+```
+sudo apt update -y
+sudo apt full-upgrade -y
+sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
+bzip2 ccache cmake cpio curl device-tree-compiler fastjar flex gawk gettext gcc-multilib g++-multilib \
+git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libglib2.0-dev libgmp3-dev libltdl-dev \
+libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libreadline-dev libssl-dev libtool lrzsz \
+mkisofs msmtp nano ninja-build p7zip p7zip-full patch pkgconf python2.7 python3 python3-pip qemu-utils \
+rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
+```
+
+#### 3.下载源代码，更新 feeds 并选择配置
+
+```
+git clone https://github.com/coolsnowwolf/lede
+cd lede
+./scripts/feeds update -a
+./scripts/feeds install -a
+make menuconfig
+```
+
+#### 4.下载 dl 库，编译固件 （-j 后面是线程数，第一次编译推荐用单线程）
+
+```
+make download
+make V=s -j1
+```
+
+
+---
 
 固件里面看不到ssr-plus
 大佬在feed里里面吧ssr的feed隐藏了
@@ -71,7 +104,7 @@ src-git routing https://git.openwrt.org/feed/routing.git
 #src-git helloworld https://github.com/fw876/helloworld
 ```
 
-
+---
 ### 临时使用socks5代理apt-get的方法
 
       sudo apt-get -o Acquire::http::proxy="socks5h://127.0.0.1:1080/"  update 
