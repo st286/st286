@@ -1,3 +1,8 @@
+## Some Magazine and eBooks
+
+[经济学人、纽约客、自然、卫报等英语外刊杂志下载.每周更新 支持epub、mobi、pdf格式](https://github.com/hehonghui/the-economist-ebooks)
+
+---
 ## Some useful tools
 
 ### [age是一种简单，现代且安全的文件加密工具](https://github.com/FiloSottile/age)
