@@ -1,3 +1,14 @@
+## linux kernel compiler
+
+
+安装编译工具以及其它一下依赖的软件包，在Ubuntu 18.04环境下执行如下命令
+```
+sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
+```
+
+
+
+---
 ## [Unix & Linux Stack Exchange](https://unix.stackexchange.com)
 
 Unix & Linux Stack Exchange is a question and answer site for users of Linux, FreeBSD and other Un*x-like operating systems. It only takes a minute to sign up.
