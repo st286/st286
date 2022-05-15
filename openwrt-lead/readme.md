@@ -139,6 +139,8 @@ cd  lede/bin/targets/x86/64
 ls 
 
 openwrt-x86-64-generic-squashfs-combined-efi.img # 这个文件就是所要的
+
+#默认登陆IP 192.168.1.1 root 密码 password
 ```
 ---
 ### Tmux 使用
