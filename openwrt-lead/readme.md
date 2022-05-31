@@ -47,7 +47,7 @@ visudo
 su $USER_NAME
 ```
 ------
-### 编译命令 ( ssrp and helloworld (vssr) )
+### 编译命令 ( passwall, ssrp and helloworld (vssr) )
 
 #### 1.首先装好 Linux 系统，推荐  Ubuntu20.0 LTS
 
@@ -129,7 +129,11 @@ src-link custom /usr/src/openwrt/custom-feed   #本行，是手工去掉注释#
 src-git helloworld https://github.com/fw876/helloworld
 src-git passwall https://github.com/xiaorouji/openwrt-passwall
 
-## 最后两行，是手工添加上
+src-git kenzok https://github.com/kenzok8/openwrt-packages  
+src-git small https://github.com/kenzok8/small  
+
+## 最后四行，是手工添加上
+##  加入kenzok8整合的themes和我们需要和实用的插件
 ```
 ---
 ### 编译生成的映像文件
