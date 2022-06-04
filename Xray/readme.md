@@ -48,6 +48,8 @@ apt update &&  apt install nginx
 
 #修改 /var/www/html/index.nginx-debian.html 
 
+------------------------------------
+####### 本节以下部分， 不用了。
 #修改 nginx.conf 并重启 Nginx 服务
 nano /etc/nginx/nginx.conf
 
@@ -63,11 +65,11 @@ server {
         index index.nginx-debian.html;
 }
 
-
 # nginx 重新载入配置使其生效
 systemctl reload nginx
 
 # 此时如果你访问 http://xx.your.com，你看到页面则说明成功。
+----------------------------------
 ```
 ## 证书管理-申请tls证书
 
@@ -192,7 +194,7 @@ systemctl disable xray
 systemctl daemon-reload
  
 ```
-### 服务器优化：开启HTTP自动跳转HTTPS
+### 服务器优化：开启HTTP自动跳转HTTPS （不用了）
 ```
 #之前我们已经搭建了 80 端口的 http 网页，并以此申请了TLS证书。
 #但如果你尝试过用浏览器访问我们的这个界面，就会发现 http 访问并不会像大多数网站一样自动升级为 https 访问。换言之，我们现在的设置下，http(80) 和 https(443)之间完全是独立的。如果要解决这个问题，就需要做一些修改。
