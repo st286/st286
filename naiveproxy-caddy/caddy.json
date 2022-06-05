@@ -32,8 +32,8 @@
                     {
                       "handle": [
                         {
-                          "auth_pass_deprecated": "rsrmbbrz1090",
-                          "auth_user_deprecated": "st",
+                          "auth_pass_deprecated": "passwordxxxx",
+                          "auth_user_deprecated": "userxxxx",
                           "handler": "forward_proxy",
                           "hide_ip": true,
                           "hide_via": true,
@@ -45,7 +45,7 @@
                       "match": [
                         {
                           "host": [
-                            "jp.ccceye.com"
+                            "xx.xxxx.com"
                           ]
                         }
                       ],
@@ -70,7 +70,7 @@
             {
               "match": {
                 "sni": [
-                  "jp.ccceye.com"
+                  "xx.xxxx.com"
                 ]
               }
             }
