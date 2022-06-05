@@ -10,6 +10,8 @@ NaïveProxy是一个基于谷歌浏览器的网络组建，进行数据包转发
 
 [NaïveProxy 搭建部署安装教程 2022-4-8](https://dasmz.com/?p=1908)
 
+[Oil and Fish: NaiveProxy + Caddy 2](https://www.oilandfish.com/posts/naiveproxy-caddy-2.html)
+
 [NaiveProxy 搭建教程](https://lhy.life/20211218-naiveproxy/)
 
 
