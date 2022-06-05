@@ -114,6 +114,8 @@ config.json
 
 **证书申请需要80端口，先运行caddy（用简单配置?????)**
 
+[Caddy config here](https://caddyserver.com/docs/getting-started)
+
 
 ### 证书管理-申请tls证书
 ```
