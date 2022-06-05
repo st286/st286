@@ -8,6 +8,11 @@ NaïveProxy是一个基于谷歌浏览器的网络组建，进行数据包转发
 
 [NaïveProxy项目地址](https://github.com/klzgrad/naiveproxy)
 
+[NaïveProxy 搭建部署安装教程 2022-4-8](https://dasmz.com/?p=1908)
+
+[NaiveProxy 搭建教程](https://lhy.life/20211218-naiveproxy/)
+
+
 ## 一、环境
 
 Debian 10 or ubuntu;  golang;  caddy，因为需要其正向代理的功能，Nginx目前不支持。
@@ -32,7 +37,6 @@ which go
 go version
 
 ```
-
 ## 二、安装NaïveProxy和Caddy
 
 需要安装NaïveProxy，且不是单独安装Caddy，务必按照命令执行。以下命令，在服务器上执行，需要保证服务器到github的网络通畅。编译build需要一定的时间，看你服务器的CPU性能，耐心等待。
@@ -48,5 +52,8 @@ go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
 
 ```
 ### Caddy的配置文件
+```
+
+```
 
 
