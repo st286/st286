@@ -52,8 +52,20 @@ go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
 
 ```
 ### Caddy的配置文件
-```
 
+see above file: caddy.json
+
+### 运行服务端
+```
+./caddy start -config caddy.json 
+```
+## 三、客户端配置
+
+到[naiveproxy Rebased](https://github.com/klzgrad/naiveproxy/releases)页面，下载 NaiveProxy 对应的客户端，解压执行，尽量用新版本的，修改config.json配置文件，编辑客户端配置文件。
+
+### 客户端执行
+```
+naive config.json
 ```
 
 
