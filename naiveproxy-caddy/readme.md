@@ -112,6 +112,82 @@ config.json
 
 **见 xray 部分**
 
+**证书申请需要80端口，先运行caddy（用简单配置） ***
+
+
+### 证书管理-申请tls证书
+```
+#注意： 请不要轻易使用自签证书。它并没有让操作简单太多，但增加了无谓的风险（如中间人攻击）。
+
+apt install socat
+
+wget -O -  https://get.acme.sh | sh
+
+. .bashrc
+
+acme.sh --upgrade --auto-upgrade
+
+## maybe 
+
+acme.sh --register-account -m xxxx@icloud.com
+
+#测试证书申请:在正式申请证书之前，我们先用测试命令(--issue --test)来验证是否可以成功申请，这样可以避免在本地配置有误时，反复申请证书失败
+
+acme.sh --issue --test -d xx.your.com -w /var/www/html --keylength ec-256
+
+#如果这一步出错的话，你可以运行下面的命令，来查看详细的申请过程和具体的错误。
+
+acme.sh --issue --test -d xx.your.com -w /var/www/html --keylength ec-256 --debug
+
+#这一步确定成功之后，就可以申请正式的证书了。（测试证书不需要删除，它会自动被正式证书覆盖）
+
+acme.sh --issue -d xx.your.com -w /var/www/html --keylength ec-256 --force
+
+#说明： --force 参数的意思就是，在现有证书到期前，手动（强行）更新证书。上一步我们从“测试服”申请的证书虽然不能直接用，但是它本身是尚未过期的，所以需要用到这个参数。
+
+```
+
+### 给Xray配置TLS证书
+
+```
+mkdir /home/xray_cert
+
+#使用acme.sh的--install-cert正确安装（拷贝）证书文件
+
+acme.sh --install-cert -d  xx.your.com --ecc --fullchain-file /home/xray_cert/xray.crt --key-file /home/xray_cert/xray.key
+
+chmod +r /home/xray_cert/xray.key
+
+#acme.sh 会每60天检查一次证书并自动更新临期证书。但据我所知是它并不会自动将新证书安装给 xray-core，所以我们需要新增一个系统的自动周期任务来完成这一步。
+
+nano /home/xray_cert/xray-cert-renew.sh
+
+#把下面的内容复制进去，记得替换你的真实域名，然后保存退出, 替换xx.your.com 
+
+#!/bin/bash
+
+/root/.acme.sh/acme.sh --install-cert -d xx.your.com --ecc --fullchain-file /home/xray_cert/xray.crt --key-file /home/xray_cert/xray.key
+echo "Xray Certificates Renewed"
+
+chmod +r /home/xray_cert/xray.key
+echo "Read Permission Granted for Private Key"
+
+sudo systemctl restart xray
+echo "Xray Restarted"
+
+
+#给这个文件增加【可执行】权限
+chmod +x /home/xray_cert/xray-cert-renew.sh
+
+#运行 crontab -e，添加一个自动任务【每月自动运行一次xray-cert-renew.sh】
+crontab -e
+
+#把下面的内容增加在文件最后，保存退出即可。
+# 1:00am, 1st day each month, run `xray-cert-renew.sh`
+0 1 1 * *   bash /home/xray_cert/xray-cert-renew.sh
+
+```
+
 
 
 
