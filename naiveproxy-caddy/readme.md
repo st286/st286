@@ -57,6 +57,27 @@ go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
 
 见上面文件: caddy.json； 注意修改示例值，SSL 证书需要自行准备；证书见下面。
 
+### Create Camouflage Website
+
+So that your server can pass a manual inspection, install a few pages of web content. Make a directory for the web pages:
+
+    mkdir -p /var/www/html
+
+Install the prerequisite utilities:
+
+    apt install wget zip unzip -y
+
+Get some sample web pages from GitHub:
+
+    wget https://github.com/arcdetri/sample-blog/archive/master.zip
+    Unzip the downloaded sample web pages:
+
+    unzip master.zip
+    
+Copy the web pages into place in your directory for web pages:
+
+    cp -rf sample-blog-master/html/* /var/www/html/
+
 ### 运行服务端
 ```
 ./caddy start -config caddy.json 
