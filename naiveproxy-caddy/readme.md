@@ -53,7 +53,7 @@ go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
 ```
 ### Caddy的配置文件
 
-see above file: caddy.json
+见上面文件: caddy.json； 注意修改示例值，SSL 证书需要自行准备；证书见下面。
 
 ### 运行服务端
 ```
@@ -66,6 +66,14 @@ see above file: caddy.json
 ### 客户端执行
 ```
 naive config.json
+```
+config.json
+```
+{
+  "listen": "socks://127.0.0.1:1080",
+  "proxy": "https://user:password@xx.xxx.com",
+  "log": ""
+}
 ```
 
 
