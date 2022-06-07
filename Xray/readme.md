@@ -15,8 +15,13 @@ Xray-core 是 v2ray-core 的超集，含更好的整体性能和 XTLS 等一系�
 [HelloWorld--OpenWrt](https://github.com/jerrykuku/luci-app-vssr)
 
 ---
+# Xray-onekey 安装
 
-# Install Xray
+用上面的 install-xray-onekey.sh 安装
+
+[源：Xray 基于 Nginx 的 VLESS + XTLS 一键安装脚本](https://github.com/wulabing/Xray_onekey)
+---
+# 手动安装 Install Xray
 
 ## 显示中文
 ```
