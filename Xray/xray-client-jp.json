@@ -1,5 +1,5 @@
 
-//  VLESS + TCP + TLS + Nginx + WebSocket,  client configuration  JP.CCCEYE.COM
+//  VLESS + TCP + TLS + Nginx + WebSocket,  client configuration  xx.xxxxxx.COM
 
 // REFERENCE:
 // https://github.com/XTLS/Xray-examples
@@ -128,11 +128,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "jp.ccceye.com",  // 替换成你的真实域名
+                        "address": "xx.xxxxxx.com",  // 替换成你的真实域名
                         "port": 443,
                         "users": [
                             {
-                                "id": "1a2caf18-5865-4dab-a671-0f1fe7c18696",  // 和服务器端的一致
+                                "id": "uuuuuuuuuuuuuuuuuuuuu",  // 和服务器端的一致
                                // "flow": "xtls-rprx-direct",       // Windows, macOS 同学保持这个不变
                                 // "flow": "xtls-rprx-splice",    // Linux和安卓同学请改成Splice性能更强
                                 "encryption": "none",
@@ -146,11 +146,11 @@
                 "network": "ws",
                 "security": "tls",
                 "tlsSettings": {
-                    "serverName": "jp.ccceye.com",   // 替换成你的真实域名
+                    "serverName": "xx.xxxxxx.com",   // 替换成你的真实域名
                     "allowInsecure": false        // 禁止不安全证书
                 },
                 "wsSettings": {
-                    "path": "/4d23f371743ce7/"        //与服务器配置及nginx配置相关
+                    "path": "/pppppppppp/"        //与服务器配置及nginx配置相关
                 }
             }
         },
