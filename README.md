@@ -5,6 +5,10 @@
 ---
 ## Some useful tools
 
+### [youtubedr](https://github.com/kkdai/youtube)
+
+   This package is a Youtube video download package, for more detail refer https://github.com/ytdl-org/youtube-dl for more download options.
+
 ### [nmap](https://nmap.org)
 
    This is the traditional compile-it-yourself format. The Nmap tarball compiles under Linux, Mac OS X, Windows, and many UNIX platforms (Solaris, Free/Net/OpenBSD, etc.) It includes Zenmap, the GUI frontend.
