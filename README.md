@@ -5,6 +5,13 @@
 ---
 ## Some useful tools
 
+### [nmap](https://nmap.org)
+
+   his is the traditional compile-it-yourself format. The Nmap tarball compiles under Linux, Mac OS X, Windows, and many UNIX platforms (Solaris, Free/Net/OpenBSD, etc.) It includes Zenmap, the GUI frontend.
+   
+      NPING SUCCESSFULLY INSTALLED
+      NMAP SUCCESSFULLY INSTALLED
+
 ### [age是一种简单，现代且安全的文件加密工具](https://github.com/FiloSottile/age)
 
    age is a simple, modern and secure file encryption tool, format, and Go library.
