@@ -24,6 +24,8 @@
 ### [FFmpeg](https://github.com/st286/st286.github.io/blob/master/FFmpeg.md)
 
   A complete, cross-platform solution to record, convert and stream audio and video.
+  
+  [Office Site](https://www.ffmpeg.org): git -> cat install.md -> do it step by step.
 
 
 ### [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
