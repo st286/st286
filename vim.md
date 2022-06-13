@@ -13,7 +13,9 @@
     syntax on
 
     inoremap jj <Esc>
-    
+
+    set nu
+    set tabstop=4
     
     syntax on " Syntax highlighting
     set showmatch " Shows matching brackets
