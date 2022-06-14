@@ -1,5 +1,7 @@
 ## setup vim
 
+### setup configuration : /usr/share/vim
+
 ### [vim-plug: A beautiful and minimalist vim plugin manager for Linux/Unix users](https://www.cyberciti.biz/programming/vim-plug-a-beautiful-and-minimalist-vim-plugin-manager-for-unix-and-linux-users/)
 
 ### [vim-plug](https://github.com/junegunn/vim-plug)
