@@ -1,6 +1,8 @@
 ## setup vim
 
-### setup configuration : /usr/share/vim
+### setup configuration :     /usr/share/vim
+
+### [How to Change and Use Vim Color Schemes](https://phoenixnap.com/kb/vim-color-schemes)
 
 ### [vim-plug: A beautiful and minimalist vim plugin manager for Linux/Unix users](https://www.cyberciti.biz/programming/vim-plug-a-beautiful-and-minimalist-vim-plugin-manager-for-unix-and-linux-users/)
 
