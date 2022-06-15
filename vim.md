@@ -1,6 +1,7 @@
 ## setup vim
 
-### setup configuration :     /usr/share/vim
+### Setup Config Dir File:   /usr/share/vim   ~/.vimrc   ~/.vim/color  ~/.vim/autoload
+
 
 ### [简明 VIM 练级攻略](https://coolshell.cn/articles/5426.html)
 
