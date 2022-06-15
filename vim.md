@@ -5,6 +5,8 @@
 
 ### [简明 VIM 练级攻略](https://coolshell.cn/articles/5426.html)
 
+### [Vim配置文件（.vimrc）](http://c.biancheng.net/view/3024.html)
+
 ---
 ### ColorScheme
 
@@ -42,6 +44,11 @@
     set encoding=utf-8
 
     set mouse=a
+    set selection=exclusive
+    set selectmode=mouse,key
+    
+    set cursorline  "突出显示当前行
+    
     set showmode
 
     inoremap jj <Esc>
@@ -66,6 +73,9 @@
 
     nnoremap <leader>ev :vsp $MYVIMRC<CR>
     nnoremap <leader>sv :source $MYVIMRC<CR>
+    
+    
+    
 
 
 
