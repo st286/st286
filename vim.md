@@ -40,6 +40,9 @@
     
 #### Here are some other helpful ones
 
+    " You want Vim, not vi. When Vim finds a vimrc, 'nocompatible' is set anyway. We set it explicitely to make our position clear!
+    set nocompatible
+    
     "中文乱码vim字符集设置
     set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
     set termencoding=utf-8
@@ -52,6 +55,9 @@
     set cursorline  "突出显示当前行
     
     set showmode
+    
+    set laststatus=2         " Always show statusline.
+    set display=lastline     " Show as much as possible of the last line.
 
     inoremap jj <Esc>
 
@@ -68,7 +74,7 @@
     set smartindent
 
     set termguicolors
-    colorscheme nord
+    colorscheme meta5
     set background=dark
 
     syntax on " Syntax highlighting
