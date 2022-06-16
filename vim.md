@@ -5,6 +5,8 @@
 
 ### [简明 VIM 练级攻略](https://coolshell.cn/articles/5426.html)
 
+### [Vim 从入门到精通](https://github.com/wsdjeg/vim-galore-zh_cn)
+
 ### [Vim配置文件（.vimrc）](http://c.biancheng.net/view/3024.html)
 
 ---
