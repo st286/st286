@@ -32,10 +32,6 @@ sudo make install
 ### [FFmpeg](https://github.com/st286/st286.github.io/blob/master/FFmpeg.md)
 
   A complete, cross-platform solution to record, convert and stream audio and video.
-  
-### [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
-
-  兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
 
 ### [GIMP](https://www.gimp.org)
 
@@ -56,7 +52,11 @@ Whether you are a graphic designer, photographer, illustrator, or scientist, GIM
 
    It features small explicit keys, no config options, and UNIX-style composability.
 
+### [Vim](https://github.com/st286/st286.github.io/blob/master/vim.md)
+  
+### [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
 
+  兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
 ---
 
 ## C language
