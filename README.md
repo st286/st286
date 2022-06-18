@@ -18,7 +18,12 @@
    This is the traditional compile-it-yourself format. The Nmap tarball compiles under Linux, Mac OS X, Windows, and many UNIX platforms (Solaris, Free/Net/OpenBSD, etc.) It includes Zenmap, the GUI frontend.
    
 #### [Mac OS X Binaries & Source Code Distribution](https://nmap.org/download.html#macosx)
-  
+```
+cd nmap-7.92
+./configure
+make
+sudo make install
+```  
    ##### Compiling Nmap on Mac OS X requires [the command line tools](https://developer.apple.com/xcode/)
    
       NPING SUCCESSFULLY INSTALLED
