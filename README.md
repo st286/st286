@@ -22,24 +22,13 @@
       NPING SUCCESSFULLY INSTALLED
       NMAP SUCCESSFULLY INSTALLED
 
-### [age是一种简单，现代且安全的文件加密工具](https://github.com/FiloSottile/age)
-
-   age is a simple, modern and secure file encryption tool, format, and Go library.
-
-   It features small explicit keys, no config options, and UNIX-style composability.
-   
-
 ### [FFmpeg](https://github.com/st286/st286.github.io/blob/master/FFmpeg.md)
 
   A complete, cross-platform solution to record, convert and stream audio and video.
   
-  [Office Site](https://www.ffmpeg.org): git -> cat install.md -> do it step by step.
-
-
 ### [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
 
   兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
-
 
 ### [GIMP](https://www.gimp.org)
 
@@ -54,6 +43,11 @@ Whether you are a graphic designer, photographer, illustrator, or scientist, GIM
 
  ExifTool由Phil Harvey开发，是一款免费、跨平台的开源软件，用于读写和处理图像（主要）、音视频和PDF等文件的元数据（metadata）
 
+### [age是一种简单，现代且安全的文件加密工具](https://github.com/FiloSottile/age)
+
+   age is a simple, modern and secure file encryption tool, format, and Go library.
+
+   It features small explicit keys, no config options, and UNIX-style composability.
 
 
 ---
