@@ -10,7 +10,7 @@ FFmpeg is the leading multimedia framework, able to decode, encode, transcode, m
 
 [Download FFmpeg Source Code](https://www.ffmpeg.org/download.html#get-sources)
 
-  INSTALL.md
+  cat ~/ffmpeg/INSTALL.md
   
     git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
     cd ffmpeg
