@@ -8,6 +8,17 @@ FFmpeg is the leading multimedia framework, able to decode, encode, transcode, m
 
 [Office Site](https://www.ffmpeg.org)
 
+[Download FFmpeg Source Code](https://www.ffmpeg.org/download.html#get-sources)
+
+  INSTALL.md
+  
+    git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
+    cd ffmpeg
+    ./configure
+    make
+    sudo make install
+
+
 ## 入门
 
 [FFmpeg 视频处理入门教程](https://www.ruanyifeng.com/blog/2020/01/ffmpeg.html)
