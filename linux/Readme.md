@@ -1,15 +1,41 @@
+## linux 终端 中文乱码 设置utf8字符集
+'''
+locale -a
+
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_COLLATE to default locale: No such file or directory
+C
+C.UTF-8
+POSIX
+zh_CN.utf8
+'''
+
+Generate missing locales and select your desired default with:
+
+    sudo dpkg-reconfigure locales
+    
+'''
+locale -a
+C
+C.UTF-8
+en_GB.utf8
+en_HK.utf8
+en_SG.utf8
+en_US.utf8
+POSIX
+zh_CN.utf8
+zh_HK.utf8
+zh_SG.utf8
+zh_TW.utf8
+'''
+
 ## Linux kernel compile
-
-
-
 
 安装编译工具以及其它一下依赖的软件包，在Ubuntu 18.04环境下执行如下命令
 ```
 sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
 ```
-
-
-
 ---
 ## [Unix & Linux Stack Exchange](https://unix.stackexchange.com)
 
