@@ -1,5 +1,5 @@
 ## linux 终端 中文乱码 设置utf8字符集
-'''
+```
 locale -a
 
 locale: Cannot set LC_CTYPE to default locale: No such file or directory
@@ -9,13 +9,13 @@ C
 C.UTF-8
 POSIX
 zh_CN.utf8
-'''
+```
 
 Generate missing locales and select your desired default with:
 
     sudo dpkg-reconfigure locales
     
-'''
+```
 locale -a
 C
 C.UTF-8
@@ -28,7 +28,7 @@ zh_CN.utf8
 zh_HK.utf8
 zh_SG.utf8
 zh_TW.utf8
-'''
+```
 
 ## Linux kernel compile
 
