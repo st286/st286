@@ -4,11 +4,14 @@
 
 #### [Debian manpages](https://manpages.debian.org/)
 
-#### [The UNIX and Linux Forums](https://www.unix.com/)
+#### [The UNIX and Linux Forums](https://www.unix.com/) include OS X (freeBSD), linux (debian,ubuntu)
+##### [Linux & Unix Commands - Man Page Repository](https://www.unix.com/man-page-repository.php)
 
+        package 管理
+        
         debconf  debconf-show  dpkg  dpkg-reconfigure  dpkg-preconfigure
         
-        tzdata  locales  deconf console-setup
+        package: tzdata  locales  deconf console-setup
 
 ## Linux kernel compile
 
