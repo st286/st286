@@ -1,34 +1,14 @@
-## linux 终端 中文乱码 设置utf8字符集
-```
-locale -a
+## linux mans pages
 
-locale: Cannot set LC_CTYPE to default locale: No such file or directory
-locale: Cannot set LC_MESSAGES to default locale: No such file or directory
-locale: Cannot set LC_COLLATE to default locale: No such file or directory
-C
-C.UTF-8
-POSIX
-zh_CN.utf8
-```
+####[Ubuntu manpages](https://manpages.ubuntu.com/)
 
-Generate missing locales and select your desired default with:
+####[Debian manpages](https://manpages.debian.org/)
 
-    sudo dpkg-reconfigure locales
-    
-```
-locale -a
-C
-C.UTF-8
-en_GB.utf8
-en_HK.utf8
-en_SG.utf8
-en_US.utf8
-POSIX
-zh_CN.utf8
-zh_HK.utf8
-zh_SG.utf8
-zh_TW.utf8
-```
+####[The UNIX and Linux Forums](https://www.unix.com/)
+
+        debconf  debconf-show  dpkg  dpkg-reconfigure  dpkg-preconfigure
+        
+        tzdata  locales  deconf console-setup
 
 ## Linux kernel compile
 
