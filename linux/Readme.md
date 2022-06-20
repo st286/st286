@@ -1,10 +1,10 @@
 ## linux mans pages
 
-####[Ubuntu manpages](https://manpages.ubuntu.com/)
+#### [Ubuntu manpages](https://manpages.ubuntu.com/)
 
-####[Debian manpages](https://manpages.debian.org/)
+#### [Debian manpages](https://manpages.debian.org/)
 
-####[The UNIX and Linux Forums](https://www.unix.com/)
+#### [The UNIX and Linux Forums](https://www.unix.com/)
 
         debconf  debconf-show  dpkg  dpkg-reconfigure  dpkg-preconfigure
         
