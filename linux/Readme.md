@@ -1,3 +1,37 @@
+## [setup Printer (Debian SystemPrinting)](https://wiki.debian.org/SystemPrinting)
+
+A basic view of the CUPS Printing system. Aimed at Debian 11 (bullseye) but it should fit most of what is provided by Debian 10 (buster). 
+
+#### Software Installation
+
+CUPS and cups-filters are central to the printing system and both are installed with
+```
+apt install cups
+systemctl enable cups
+systemctl status cups
+```
+#### Print Utilities
+```
+lpstat -a       \\Print Queue Setup Utilities
+lpstat -t       \\Printer Status and Control
+lpstat -r       \\查看有打印机运行
+lpstat -d       \\默认的打印机
+lpq             \\打印机队列 
+
+lpinfo -v       \\ list the available backends and printers
+lpinfo -m       \\ist all of the available drivers ("models") on your system
+
+```
+#### Creating a Print Queue with the CUPS Web Interface
+```
+http://localhost:631 
+```
+#### Print to a PDF
+```
+ apt install printer-driver-cups-pdf
+```
+
+---
 ## linux mans pages
 
 #### [Ubuntu manpages](https://manpages.ubuntu.com/)
