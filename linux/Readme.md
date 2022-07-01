@@ -2,6 +2,13 @@
 
 A basic view of the CUPS Printing system. Aimed at Debian 11 (bullseye) but it should fit most of what is provided by Debian 10 (buster). 
 
+### CUPS
+
+CUPS (formerly an acronym for Common UNIX Printing System) is a modular printing system for Unix-like computer operating systems which allows a computer to act as a print server. A computer running CUPS is a host that can accept print jobs from client computers, process them, and send them to the appropriate printer. 
+
+[Apple CUPS](https://github.com/apple/cups)
+
+
 #### Software Installation
 
 CUPS and cups-filters are central to the printing system and both are installed with
