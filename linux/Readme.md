@@ -82,3 +82,10 @@ Unix & Linux Stack Exchange is a question and answer site for users of Linux, Fr
          
    [tar](https://www.jianshu.com/p/b91d7491381b)
    
+
+
+### GoldedDict
+
+[安装使用 GoldenDict 查词神器 (Windows/Mac/Linux)](https://www.jianshu.com/p/b6b2c1d78d7c)
+
+`sudo apt install goldendict -y`
