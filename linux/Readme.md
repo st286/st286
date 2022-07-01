@@ -1,4 +1,4 @@
-## [setup Printer (Debian SystemPrinting)](https://wiki.debian.org/SystemPrinting)
+## [Setup Printer (Debian SystemPrinting)](https://wiki.debian.org/SystemPrinting)
 
 A basic view of the CUPS Printing system. Aimed at Debian 11 (bullseye) but it should fit most of what is provided by Debian 10 (buster). 
 
@@ -32,7 +32,7 @@ http://localhost:631
 ```
 
 ---
-## linux mans pages
+## Linux mans pages
 
 #### [Ubuntu manpages](https://manpages.ubuntu.com/)
 
