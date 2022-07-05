@@ -12,8 +12,6 @@ Pop!_OS is designed for fast navigation, easy workspace organization, and fluid,
 
     sudo swapoff /dev/mapper/cryptswap
     
-    
-### [5 EASY Things To Do After Installing POP!_OS](https://techhut.tv/5-things-to-do-after-installing-pop-os/)
 
 
 ### [Support-Getting Started](https://support.system76.com/)
