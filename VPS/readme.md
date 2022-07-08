@@ -32,6 +32,11 @@ lsmod | grep bbr
 
 
 ## Linux 支持显示中文
+```
+sudo dpkg-reconfigure locales  
+## choose some zh_CN.UTF-8 
+```
+or
 
 [How do I fix my locale issue?](https://askubuntu.com/questions/162391/how-do-i-fix-my-locale-issue)
 
