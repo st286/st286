@@ -1,11 +1,11 @@
-## Some Magazine and eBooks
+# Some Magazine and eBooks
 
 [经济学人、纽约客、自然、卫报等英语外刊杂志下载.每周更新 支持epub、mobi、pdf格式](https://github.com/hehonghui/the-economist-ebooks)
 
 ---
-## Some useful tools
+# Some useful tools
 
-### [TOR](https://www.torproject.org/)
+## [TOR](https://www.torproject.org/)
 
 Defend yourself against tracking and surveillance. Circumvent censorship.
 
@@ -14,7 +14,7 @@ Defend yourself against tracking and surveillance. Circumvent censorship.
 [INSTALLATION](https://tb-manual.torproject.org/installation/)
 
 
-### [Youtube downloader: yt-dlp](https://github.com/yt-dlp/yt-dlp)
+## [Youtube downloader: yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
    yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project.
    In UNIX-like OSes (MacOS, Linux, BSD), you can also install the same in one of the following ways:
@@ -22,7 +22,11 @@ Defend yourself against tracking and surveillance. Circumvent censorship.
 sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
 sudo chmod a+rx /usr/local/bin/yt-dlp
 ```
-### [nmap](https://nmap.org)
+#### Usage( output mp3)
+      yt-dlp -x --audio-format mp3 --trim-filenames 20  URL
+
+
+## [nmap](https://nmap.org)
 
    This is the traditional compile-it-yourself format. The Nmap tarball compiles under Linux, Mac OS X, Windows, and many UNIX platforms (Solaris, Free/Net/OpenBSD, etc.) It includes Zenmap, the GUI frontend.
 ```   
@@ -40,14 +44,14 @@ sudo make install
       NPING SUCCESSFULLY INSTALLED
       NMAP SUCCESSFULLY INSTALLED
 
-### [FFmpeg](https://github.com/st286/st286.github.io/blob/master/FFmpeg.md)
+## [FFmpeg](https://github.com/st286/st286.github.io/blob/master/FFmpeg.md)
 
   A complete, cross-platform solution to record, convert and stream audio and video.
 ```   
 sudo apt update && sudo apt upgrade -y && sudo apt install ffmpeg
 ```  
 
-### [GIMP](https://www.gimp.org)
+## [GIMP](https://www.gimp.org)
 
    The Free & Open Source Image Editor.GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software, you can change its source code and distribute your changes.
 Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins.
@@ -59,27 +63,27 @@ Whether you are a graphic designer, photographer, illustrator, or scientist, GIM
 sudo apt update && sudo apt upgrade -y && sudo apt install calibre
 ```  
 
-### [exiftool](https://github.com/st286/st286.github.io/blob/master/ExifTool.md)
+## [exiftool](https://github.com/st286/st286.github.io/blob/master/ExifTool.md)
 
  ExifTool由Phil Harvey开发，是一款免费、跨平台的开源软件，用于读写和处理图像（主要）、音视频和PDF等文件的元数据（metadata）
 ```   
 sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 ```   
 
-### [age是一种简单，现代且安全的文件加密工具](https://github.com/FiloSottile/age)
+## [age是一种简单，现代且安全的文件加密工具](https://github.com/FiloSottile/age)
 
    age is a simple, modern and secure file encryption tool, format, and Go library.
 
    It features small explicit keys, no config options, and UNIX-style composability.
 
-### [Vim](https://github.com/st286/st286.github.io/blob/master/vim.md)
+## [Vim](https://github.com/st286/st286.github.io/blob/master/vim.md)
   
-### [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
+## [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
 
   兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
 ---
 
-## C language
+# C language
 
   1. [笨办法学C 中文版](https://wizardforcel.gitbooks.io/lcthw/content/)
   
@@ -92,19 +96,19 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
      
      
 
-## Linux
+# Linux
 
 [学习Linux](./linux)
 
 [linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
 
 
-## Openwrt 编译
+# Openwrt 编译
 
 [编译Openwrt固件全攻略](./openwrt-lead)
 
 
-## Python
+# Python
 
   1. [草根学 Python](https://www.readwithu.com)
   
@@ -134,7 +138,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 
 ---
 
-## Windows (microsoft)
+# Windows (microsoft)
 
  1. [MobaXterm -- Enhanced terminal for Windows](https://mobaxterm.mobatek.net)
  
@@ -143,7 +147,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 ---
  
  
-## TextEditor
+# TextEditor
 
    1. [Sublime Text](https://www.sublimetext.com)
 
@@ -158,7 +162,7 @@ package repository to your system by running the following commands. [See here](
 
 
 
-## Banned Books
+# Banned Books
 
   [《鸿：三代中国女人的故事》 上](https://www.dw.com/zh/%E9%B8%BF%E4%B8%89%E4%BB%A3%E4%B8%AD%E5%9B%BD%E5%A5%B3%E4%BA%BA%E7%9A%84%E6%95%85%E4%BA%8B-%E4%B8%8A/a-15249195)
   
