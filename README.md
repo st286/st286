@@ -76,7 +76,6 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 
    It features small explicit keys, no config options, and UNIX-style composability.
 
-## [Vim](https://github.com/st286/st286.github.io/blob/master/vim.md)
   
 ## [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
 
@@ -149,11 +148,13 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
  
 # TextEditor
 
-   1. [Sublime Text](https://www.sublimetext.com)
+   1. [Vim](https://github.com/st286/st286.github.io/blob/master/vim.md)
+
+   2. [Sublime Text](https://www.sublimetext.com)
 
       A sophisticated text editor for code, markup and prose.
 
-   2. [Atom ](https://atom.io/)
+   3. [Atom ](https://atom.io/)
    
          #### Installing Atom on Linux
          
