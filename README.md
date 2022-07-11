@@ -1,4 +1,9 @@
-# Some Magazine and eBooks
+# [在拥挤和变化的世界中茁壮成长：C++ 2006–2020](https://github.com/Cpp-Club/Cxx_HOPL4_zh)
+
+这是 C++ 之父 Bjarne Stroustrup 的 HOPL4 论文的中文版。
+
+---
+## Some Magazine and eBooks
 
 [经济学人、纽约客、自然、卫报等英语外刊杂志下载.每周更新 支持epub、mobi、pdf格式](https://github.com/hehonghui/the-economist-ebooks)
 
