@@ -5,6 +5,12 @@
 ---
 # Some useful tools
 
+## [Telegram](https://telegram.org/)
+
+
+
+
+---
 ## [TOR](https://www.torproject.org/)
 
 Defend yourself against tracking and surveillance. Circumvent censorship.
@@ -13,7 +19,7 @@ Defend yourself against tracking and surveillance. Circumvent censorship.
 
 [INSTALLATION](https://tb-manual.torproject.org/installation/)
 
-
+---
 ## [Youtube downloader: yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
    yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project.
@@ -25,7 +31,7 @@ sudo chmod a+rx /usr/local/bin/yt-dlp
 #### Usage( output mp3)
       yt-dlp -x --audio-format mp3 --trim-filenames 20  URL
 
-
+---
 ## [nmap](https://nmap.org)
 
    This is the traditional compile-it-yourself format. The Nmap tarball compiles under Linux, Mac OS X, Windows, and many UNIX platforms (Solaris, Free/Net/OpenBSD, etc.) It includes Zenmap, the GUI frontend.
@@ -43,7 +49,7 @@ sudo make install
    
       NPING SUCCESSFULLY INSTALLED
       NMAP SUCCESSFULLY INSTALLED
-
+---
 ## [FFmpeg](https://github.com/st286/st286.github.io/blob/master/FFmpeg.md)
 
   A complete, cross-platform solution to record, convert and stream audio and video.
@@ -62,21 +68,21 @@ Whether you are a graphic designer, photographer, illustrator, or scientist, GIM
 ```   
 sudo apt update && sudo apt upgrade -y && sudo apt install calibre
 ```  
-
+---
 ## [exiftool](https://github.com/st286/st286.github.io/blob/master/ExifTool.md)
 
  ExifTool由Phil Harvey开发，是一款免费、跨平台的开源软件，用于读写和处理图像（主要）、音视频和PDF等文件的元数据（metadata）
 ```   
 sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 ```   
-
+---
 ## [age是一种简单，现代且安全的文件加密工具](https://github.com/FiloSottile/age)
 
    age is a simple, modern and secure file encryption tool, format, and Go library.
 
    It features small explicit keys, no config options, and UNIX-style composability.
 
-  
+---  
 ## [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
 
   兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
