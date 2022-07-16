@@ -13,4 +13,4 @@
 
 ####  [Getline function in C](https://linuxhint.com/getline-function-c/)
 
-###  [malloc](https://www.tutorialspoint.com/c_standard_library/c_function_malloc.htm)
+###  [malloc( )](https://www.tutorialspoint.com/c_standard_library/c_function_malloc.htm)
