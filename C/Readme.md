@@ -5,6 +5,8 @@
 
 ## 0x00 The [C Standary Library](https://www.tutorialspoint.com/c_standard_library/)
 
+### 0x02 [The getline() Function – Update](https://c-for-dummies.com/blog/?p=5432)
+
 ### 0x01 [Getline function in C](https://linuxhint.com/getline-function-c/)
 
 ### 0x00 [malloc](https://www.tutorialspoint.com/c_standard_library/c_function_malloc.htm)
