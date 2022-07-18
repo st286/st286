@@ -44,5 +44,4 @@ sudo ln -s  g++-12   g++
   cc link to /usr/bin/gcc
   
   c++ link to /usr/bin/g++
-
-
+####  [llvm, clang 和 scan-build 的安装和使用](https://www.codeleading.com/article/51451938487/)
