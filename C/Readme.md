@@ -40,6 +40,7 @@ rm gcc g++
 sudo ln -s  gcc-12   gcc
 sudo ln -s  g++-12   g++
 
+## ln -s  source  dist
 ```
   cc link to /usr/bin/gcc
   
