@@ -17,14 +17,14 @@
 ---
 ## 在linux上，使用clang (clang++) or gcc (g++) compiler
 
-    以POP!_OS(based on ubuntu)为例：
+  以POP!_OS(based on ubuntu)为例：
     
-    安装clang:
+  安装clang:
 ```
 sudo apt update && sudo apt upgrade -y
 sudo apt install clang
 ```
-    clang's  c and c++ compiler 以 clang and clang++ 形式使用。要用make 编译，要设置环境变量，指定编译器：
+  clang's  c and c++ compiler 以 clang and clang++ 形式使用。要用make 编译，要设置环境变量，指定编译器：
 ```
 export CC=clang
 export CXX=clang++
