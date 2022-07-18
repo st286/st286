@@ -17,9 +17,9 @@
 ---
 ## 在linux上，使用clang (clang++) or gcc (g++) compiler
 
-  以POP!_OS(based on ubuntu)为例：
+  以Pop!_OS(based on ubuntu)为例：
     
-  安装clang:
+####  安装clang:
 ```
 sudo apt update && sudo apt upgrade -y
 sudo apt install clang
@@ -29,3 +29,20 @@ sudo apt install clang
 export CC=clang
 export CXX=clang++
 ```
+#### 使用较新的 gcc-12, g++-12
+```
+sudo apt install gcc-12 g++-12
+
+cd /usr/bin
+
+rm gcc g++
+
+sudo ln -s  gcc-12   gcc
+sudo ln -s  g++-12   g++
+
+```
+  cc link to /usr/bin/gcc
+  
+  c++ link to /usr/bin/g++
+
+
