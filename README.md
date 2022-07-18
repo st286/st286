@@ -93,17 +93,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
   兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
 ---
 
-# C language
 
-  1. [笨办法学C 中文版](https://wizardforcel.gitbooks.io/lcthw/content/)
-  
-  2. [C语言学习资源整理](https://zhuanlan.zhihu.com/p/23677249)
-  
-  3. [GNU make](https://www.gnu.org/software/make/manual/html_node/index.html#Top0)     
-     [Make 命令教程](http://www.ruanyifeng.com/blog/2015/02/make.html)    
-     [Makefile使用(简书)](https://www.jianshu.com/p/8dc048ae1e11)   
-     [ Valgrind](http://valgrind.org/)
-     
      
 
 # Linux
