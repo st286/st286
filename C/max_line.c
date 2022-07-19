@@ -28,8 +28,9 @@ int main(){
 		
 		if (r > max) {
 			max = r;
+			max_size = size;
 			max_buffer = (char *)realloc(max_buffer, max_size);  // 重点： Function realloc(), max_buffer = NULL, max_size不指定大小时，
-									     //       自动按最小单位分配内存。
+									     //       自动按最大单位分配内存。
 			strcpy(max_buffer, buffer);
 		}
 //	printf("You typed (%d): %s\n", r, buffer);
