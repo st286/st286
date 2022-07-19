@@ -2,7 +2,9 @@
 
 [Source Code of APUE third edition](http://www.apuebook.com/code3e.html)
 
-[Unix环境高级编程——解决第一个问题“apue.h: No such file or directory”](https://blog.csdn.net/qq_41899773/article/details/107376991?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-107376991-blog-48106579.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-107376991-blog-48106579.pc_relevant_default)
+[Unix环境高级编程-“apue.h“的导入与使用](https://blog.csdn.net/oneMelon/article/details/109521286?spm=1001.2101.3001.6650.17&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-17-109521286-blog-48106579.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-17-109521286-blog-48106579.pc_relevant_default)
+
+[apue.h头文件](https://blog.csdn.net/Function_Dou/article/details/79227071?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2-79227071-blog-48106579.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2-79227071-blog-48106579.pc_relevant_default)
 
 ---
 ## 0x01 [The Unofficial C For Dummies Website](https://c-for-dummies.com/)
