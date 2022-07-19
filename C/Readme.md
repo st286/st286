@@ -1,5 +1,12 @@
 ## [Advanced Programming in the UNIX® Environment](http://www.apuebook.com/)
 
+编译器的文件搜索（include）路径:
+```      
+echo | clang -v -x c -E -
+echo | gcc -v -x c++ -E -
+```
+将 apue.h, error.c copy to /usr/local/include/
+
 [Source Code of APUE third edition](http://www.apuebook.com/code3e.html)
 
 [Unix环境高级编程-“apue.h“的导入与使用](https://blog.csdn.net/oneMelon/article/details/109521286?spm=1001.2101.3001.6650.17&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-17-109521286-blog-48106579.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-17-109521286-blog-48106579.pc_relevant_default)
