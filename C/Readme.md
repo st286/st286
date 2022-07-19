@@ -2,7 +2,7 @@
 
 [Source Code of APUE third edition](http://www.apuebook.com/code3e.html)
 
-[Unix环境高级编程——解决第一个问题“apue.h: No such file or directory”](ttps://blog.csdn.net/qq_41899773/article/details/107376991?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-107376991-blog-48106579.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-107376991-blog-48106579.pc_relevant_default)
+[Unix环境高级编程——解决第一个问题“apue.h: No such file or directory”](https://blog.csdn.net/qq_41899773/article/details/107376991?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-107376991-blog-48106579.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-107376991-blog-48106579.pc_relevant_default)
 
 ---
 ## 0x01 [The Unofficial C For Dummies Website](https://c-for-dummies.com/)
