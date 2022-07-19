@@ -19,8 +19,8 @@ int main(){
 	printf("Type:\n");
 	do {
 		r = getline(&buffer, &size, stdin);  // 重点：getline(), 当buffer = NULL，size不指定大小时，自动分配内存大小。
-
-//下面的if，可不需要
+						     //      其内存只分配一次，重复使用。如下次用，不够，自动realloc(), 增大内存，但还是同一块内存，
+(//下面的if，可不需要
 		if (buffer == NULL) { 
 			perror("Unable to allocate buffer\n");
 			exit(EXIT_FAILURE); //EXIT_SUCCESS	
