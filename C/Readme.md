@@ -14,6 +14,11 @@ echo | gcc -v -x c++ -E -
 [apue.h头文件](https://blog.csdn.net/Function_Dou/article/details/79227071?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2-79227071-blog-48106579.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2-79227071-blog-48106579.pc_relevant_default)
 
 ---
+## 0x02 [c语言 指针数组详解](http://www.codebaoku.com/it-c/it-c-233073.html)
+
+### [C语言 指针数组和数组指针区别](https://www.codersrc.com/archives/8613.html)
+
+---
 ## 0x01 [The Unofficial C For Dummies Website](https://c-for-dummies.com/)
 
 
