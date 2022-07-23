@@ -3,7 +3,9 @@
 
 ##  Git and Github Guide
 
-  [git - 简明指南](https://rogerdudler.github.io/git-guide/index.zh.html)
+  [git教程--廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600)
+
+  [git--简明指南](https://rogerdudler.github.io/git-guide/index.zh.html)
 
   [图解Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
 
