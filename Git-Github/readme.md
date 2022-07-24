@@ -53,8 +53,46 @@ if modified some files in working directory, then 'git status' shows:
 
        (use "git add <file>..." to update what will be committed)
        (use "git restore <file>..." to discard changes in working directory)
+用下面命令恢复：
 
+        git reset --hard commit_id
+        git restore <file>
 
+#### (2)工作区和暂存区
+
+Working Directory
+
+版本库（Repository）
+
+Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。
+
+#### (3)管理修改
+
+git add
+
+git commit
+
+git diff
+
+git restore
+
+#### (4)撤销修改
+
+git checkout -- file可以丢弃工作区的修改.git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令，我们在后面的分支管理中会再次遇到git checkout命令。
+
+git restore
+
+用命令git reset HEAD <file>可以把暂存区的修改撤销掉（unstage），重新放回工作区
+        
+#### (5)删除文件
+
+一般情况下，你通常直接在文件管理器中把没用的文件删了，或者用rm命令删了.这个时候，Git知道你删除了文件，因此，工作区和版本库就不一致了，git status命令会立刻告诉你哪些文件被删除了.现在你有两个选择，一是确实要从版本库中删除该文件，那就用命令git rm删掉，并且git commit.
+
+        git rm file
+        git commit
+        git restore
+        git checkout -- file
+        
 
 ---
 ##  Git and Github Guide
