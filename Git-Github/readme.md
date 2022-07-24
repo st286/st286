@@ -1,6 +1,6 @@
 ## git & github usage
 
-        working dircetory <<<--- git add (rm),git restore --->>> stage (index) <<<---git commit/restore --->>> local respository
+        working dircetory <<<--- git add (rm)/restore --->>> stage(index) <<<---git commit/restore --->>> local respository
 
 ### 一、Git简介
 
