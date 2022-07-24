@@ -68,13 +68,10 @@ Git的版本库里存了很多东西，其中最重要的就是称为stage（或
 
 #### (3)管理修改
 
-git add
-
-git commit
-
-git diff
-
-git restore
+        git add
+        git commit
+        git diff
+        git restore
 
 #### (4)撤销修改
 
@@ -93,7 +90,10 @@ git restore
         git restore
         git checkout -- file
         
-
+### 三、远程仓库
+        
+        
+        
 ---
 ##  Git and Github Guide
 
