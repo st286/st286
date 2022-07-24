@@ -1,5 +1,7 @@
 ## git & github usage
 
+        working dircetory <<<--- git add (rm),git restore --->>> stage (index) <<<---git commit/restore --->>> local respository
+
 ### 一、Git简介
 
 Git是目前世界上最先进的分布式版本控制系统（没有之一）。Linus花了两周时间自己用C写了一个分布式版本控制系统，这就是Git！一个月之内，Linux系统的源码已经由Git管理了！
