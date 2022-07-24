@@ -1,6 +1,16 @@
+## git & github usage
 
-[HOME Return](../README.md)
+### Git简介
 
+Git是目前世界上最先进的分布式版本控制系统（没有之一）。Linus花了两周时间自己用C写了一个分布式版本控制系统，这就是Git！一个月之内，Linux系统的源码已经由Git管理了！
+
+#### 在Linux上安装Git
+       
+           sudo apt-get install git
+
+
+
+---
 ##  Git and Github Guide
 
   [万字详解！Git 入门最佳实践](https://segmentfault.com/a/1190000038867025)
