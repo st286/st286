@@ -45,6 +45,13 @@ Git是目前世界上最先进的分布式版本控制系统（没有之一）�
        git log 
        git log --pretty=oneline
 
+if modified some files in working directory, then 'git status' shows:
+
+       Changes not staged for commit:
+
+       (use "git add <file>..." to update what will be committed)
+       (use "git restore <file>..." to discard changes in working directory)
+
 
 
 ---
