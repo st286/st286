@@ -26,7 +26,7 @@ Git是目前世界上最先进的分布式版本控制系统（没有之一）�
        git init
 当前目录下多了一个.git的目录
 
-## 把文件添加到版本库 ##
+**把文件添加到版本库**
 
        git add yourfile1
        git add yourfile2
