@@ -134,6 +134,26 @@ git restore
         
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
         
+**删除远程库**
+        
+如果添加的时候地址写错了，或者就是想删除远程库，可以用git remote rm <name>命令。使用前，建议先用git remote -v查看远程库信息：
+        
+        git remote -v
+        
+        git remote rm origin
+        
+此处的“删除”其实是解除了本地和远程的绑定关系，并不是物理上删除了远程库。远程库本身并没有任何改动。要真正删除远程库，需要登录到GitHub，在后台页面找到删除按钮再删除。
+ 
+**从远程库克隆**
+
+远程库已经准备好，下一步是用命令git clone克隆一个本地库：
+       
+        git clone git@github.com:st4swift/test.git
+        
+### 四、分支管理       
+ 
+        
+        
         
 ---
 ---
