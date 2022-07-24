@@ -95,7 +95,9 @@ git restore
 ### 三、远程仓库 github
    
         (1)注册GitHub账号
+        
         (2)创建SSH Key: ssh-genkey
+        
         (3)配置ssh config
                 ## .ssh/config
                 Host github.com
@@ -103,11 +105,16 @@ git restore
                 User git
                 Port 22
                 IdentityFile ~/.ssh/st-github
+        
         (4)copy ssh-key.pub to github (your ID)
- #### Quick setup — if you’ve done this kind of thing before
+        
+        (5)test ssh connect: ssh -T git@github.com
+        
+**Quick setup — if you’ve done this kind of thing before**
  
         git@github.com:st4swift/test.git
- #### …or create a new repository on the command line
+        
+**…or create a new repository on the command line**
         
         echo "# test" >> README.md
         git init
@@ -117,13 +124,13 @@ git restore
         git remote add origin git@github.com:st4swift/test.git
         git push -u origin main
         
-#### …or push an existing repository from the command line
+**…or push an existing repository from the command line**
         
         git remote add origin git@github.com:st4swift/test.git
         git branch -M main
         git push -u origin main
         
-#### …or import code from another repository       
+**…or import code from another repository**      
         
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
         
