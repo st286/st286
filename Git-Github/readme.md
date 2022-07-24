@@ -3,6 +3,8 @@
 
 ##  Git and Github Guide
 
+  [万字详解！Git 入门最佳实践](https://segmentfault.com/a/1190000038867025)
+
   [git教程--廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600)
 
   [git--简明指南](https://rogerdudler.github.io/git-guide/index.zh.html)
