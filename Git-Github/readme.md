@@ -92,10 +92,21 @@ git restore
         git restore
         git checkout -- file
         
-### 三、远程仓库
+### 三、远程仓库 github
+   
+        (1)注册GitHub账号
+        (2)创建SSH Key: ssh-genkey
+        (3)配置ssh config
+                ## .ssh/config
+                Host github.com
+                HostName ssh.github.com
+                User git
+                Port 22
+                IdentityFile ~/.ssh/st-github
+        (4)copy ssh-key.pub to github (your ID)
         
         
-        
+---
 ---
 ##  Git and Github Guide
 
