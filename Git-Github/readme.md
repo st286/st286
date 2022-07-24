@@ -2,7 +2,7 @@
 
         working dircetory <<<--- git add (rm)/restore --->>> stage(index) <<<---git commit/restore --->>> local respository
 
-![Image text](Git-Github/git1.jpeg)
+![](../git1.jpeg)
 
 ### 一、Git简介
 
