@@ -3,6 +3,7 @@
         working dircetory <<<--- git add (rm)/restore --->>> stage(index) <<<---git commit/restore --->>> local respository
 
 ![git](https://github.com/st286/st286/blob/b936d792565b3e6999185fe000b715db57e10d4a/Git-Github/git1.jpeg)
+![git-workout](https://github.com/st286/st286/blob/077dec6c14bce1f17b71ac4ba6d17d601b865071/Git-Github/git-work1.png)
 
 ### 一、Git简介
 
