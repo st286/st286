@@ -60,7 +60,7 @@ sudo make install
       NPING SUCCESSFULLY INSTALLED
       NMAP SUCCESSFULLY INSTALLED
 ---
-## [FFmpeg](https://github.com/st286/st286.github.io/blob/master/FFmpeg.md)
+## [FFmpeg](https://github.com/st286/st286/blob/41710c857c539ee5726261919dfe171e2a80d822/FFmpeg.md)
 
   A complete, cross-platform solution to record, convert and stream audio and video.
 ```   
