@@ -51,17 +51,17 @@ echo | gcc -v -x c++ -E -
 
   以Pop!_OS(based on ubuntu)为例：
     
-####  安装clang:
+###  安装Clang:
 ```
 sudo apt update && sudo apt upgrade -y
 sudo apt install clang
 ```
-  clang's  c and c++ compiler 以 clang and clang++ 形式使用。要用make 编译，要设置环境变量，指定编译器：
+  **Clang's  c & c++ compiler 以 clang and clang++ 形式使用。要使make用Clang编译，要设置环境变量，指定编译器,如下：**
 ```
 export CC=clang
 export CXX=clang++
 ```
-#### 使用较新的 gcc-12, g++-12
+### 使用较新的 gcc-12, g++-12
 ```
 sudo apt install gcc-12 g++-12
 
