@@ -66,6 +66,7 @@ sudo systemctl restart dictd
 ...
 ```
 **Usage:**
+
         dict -d 字典名   要查的词
         
 ## 　四、其他
