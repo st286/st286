@@ -1,6 +1,6 @@
 ## [Advanced Programming in the UNIX® Environment](http://www.apuebook.com/)
 
-编译器的文件搜索（include）路径:
+编译器的(头)文件搜索（include）路径:
 ```      
 echo | clang -v -x c -E -
 echo | gcc -v -x c++ -E -
