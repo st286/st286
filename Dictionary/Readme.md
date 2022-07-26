@@ -1,4 +1,5 @@
-＃ DICT和DICTD
+
+#  DICT和DICTD
 
 ## 一、DICT协议
 
@@ -26,3 +27,6 @@ Dictd 是实现DICT的服务器端，dict是客户端。各自的配置文件是
 
     sudo apt-get install dict-gcide
     
+#### 字典库文件存放在 /usr/share/dictd/ 
+
+
