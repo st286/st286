@@ -10,7 +10,7 @@
 ---
 ## Some useful tools
 
-### [Dictionary: Dict & Dictd](https://github.com/st286/st286/Dictionary/)
+### [Dictionary: Dict & Dictd](https://github.com/st286/st286/blob/ca183386fe0a103d0eb1ffd1106f8030fe631fe3/Dictionary)
 
 ### [Telegram](https://telegram.org/)
 
