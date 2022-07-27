@@ -69,14 +69,57 @@ sudo systemctl restart dictd
 
         dict -d 字典名   要查的词
         
-## 　四、其他
+## 　四、字典dictionaries
 
 [StarDict Dictionaries -- 星际译王词库 词典下载](http://download.huzheng.org/)
 
 [zh_CN 简体中文词典](http://download.huzheng.org/zh_CN/)
 
+## [GoldenDict-github](https://github.com/goldendict/goldendict)
+
 除了 dict 这个命令行客户端，也有别的支持 DICT 协议的字典软件，比如 GoldenDict。据说 GNOME 和 Xfce 里自带的字典也是支持的，不过没有测试过。
 
 在 GoldenDict 的「DICT Servers」字典源里添加 localhost 即可使用。
 
-[GoldenDict-github](https://github.com/goldendict/goldendict)
+###  [GoldenDict编译安装](https://github.com/goldendict/goldendict/blob/master/README.md)
+
+#### nstalling External Deps on Ubuntu Linux for Qt5
+```
+sudo apt-get install git pkg-config build-essential qt4-qmake \
+     libvorbis-dev zlib1g-dev libhunspell-dev x11proto-record-dev \
+     libqt4-dev libqtwebkit-dev libxtst-dev liblzo2-dev libbz2-dev \
+     libao-dev libavutil-dev libavformat-dev libtiff5-dev libeb16-dev
+```
+#### How to build
+
+        git clone https://github.com/goldendict/goldendict.git
+    
+**Building with Chinese conversion support**
+
+To add Chinese conversion support you need at first install libopencc-dev package:
+
+        sudo apt-get install libopencc-dev
+
+Then pass "CONFIG+=chinese_conversion_support" to qmake
+
+        qmake "CONFIG+=chinese_conversion_support"
+        
+**And then invoke qmake and make:**
+
+        cd goldendict && qmake && make
+        
+**Then, invoke make clean before make because the setting change:**
+
+        make clean && make
+
+#### Installation
+
+Installation is an optional step since the built binary can be used as-is without installation. But you can properly install via:
+
+        make install
+
+You can uninstall via:
+
+        make uninstall
+
+
