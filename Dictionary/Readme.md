@@ -75,7 +75,11 @@ sudo systemctl restart dictd
 
 [zh_CN 简体中文词典](http://download.huzheng.org/zh_CN/)
 
-## [GoldenDict-github](https://github.com/goldendict/goldendict)
+**字典文件放在**
+
+        /usr/share/dictd/
+
+## 五、[GoldenDict-github](https://github.com/goldendict/goldendict)
 
 除了 dict 这个命令行客户端，也有别的支持 DICT 协议的字典软件，比如 GoldenDict。据说 GNOME 和 Xfce 里自带的字典也是支持的，不过没有测试过。
 
