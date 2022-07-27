@@ -17,7 +17,8 @@ The Missing Package Manager for macOS (or Linux)
    
    [XCode & command line download](https://developer.apple.com/xcode/): --> download --> Website to select !
    
-   
+
+## [osxdaily](https://osxdaily.com)
 
 ## [Mac云课堂 ](https://www.youtube.com/channel/UCGHCIkfEHaKT7zsq8wzqeOQ)
 
