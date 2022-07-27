@@ -10,6 +10,13 @@ The Missing Package Manager for macOS (or Linux)
 ## Uninstall Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
 ```
+add Homebrew to your PATH:
+
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/hyh/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+    
+Run brew help to get started
+
 
 ## [Command Line Tools for Xcode 14 beta 3](https://developer.apple.com/download/all/?q=Xcode)
 
