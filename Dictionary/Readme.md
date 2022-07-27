@@ -74,3 +74,5 @@ sudo systemctl restart dictd
 除了 dict 这个命令行客户端，也有别的支持 DICT 协议的字典软件，比如 GoldenDict。据说 GNOME 和 Xfce 里自带的字典也是支持的，不过没有测试过。
 
 在 GoldenDict 的「DICT Servers」字典源里添加 localhost 即可使用。
+
+[GoldenDict-github](https://github.com/goldendict/goldendict)
