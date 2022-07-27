@@ -75,7 +75,7 @@ sudo systemctl restart dictd
 
 [zh_CN 简体中文词典](http://download.huzheng.org/zh_CN/)
 
-以下字典来自[ yanyingwang/goldendict ](https://github.com/yanyingwang/goldendict):
+**以下字典来自[ yanyingwang/goldendict ](https://github.com/yanyingwang/goldendict):**
 
 [mdict字典包](http://louischeung.top:225/)
 
