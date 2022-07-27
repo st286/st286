@@ -1,5 +1,5 @@
 
-#  DICT和DICTD
+#  DICT　DICTD　GOLDENDICT
 
 ## 一、DICT协议
 
