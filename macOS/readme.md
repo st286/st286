@@ -1,4 +1,15 @@
-# Some program for macOS
+# for macOS
+---
+## [Homebrew](https://brew.sh)
+
+The Missing Package Manager for macOS (or Linux)
+```
+##Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+## Uninstall Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+```
 
 ## [Command Line Tools for Xcode 14 beta 3](https://developer.apple.com/download/all/?q=Xcode)
 
