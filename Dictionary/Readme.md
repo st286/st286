@@ -69,7 +69,7 @@ sudo systemctl restart dictd
 
         dict -d 字典名   要查的词
         
-## 　四、字典dictionaries
+## 四、字典dictionaries
 
 [StarDict Dictionaries -- 星际译王词库 词典下载](http://download.huzheng.org/)
 
@@ -85,9 +85,9 @@ sudo systemctl restart dictd
 
 在 GoldenDict 的「DICT Servers」字典源里添加 localhost 即可使用。
 
-###  [GoldenDict编译安装](https://github.com/goldendict/goldendict/blob/master/README.md)
+### [GoldenDict编译安装](https://github.com/goldendict/goldendict/blob/master/README.md)
 
-#### nstalling External Deps on Ubuntu Linux for Qt5
+#### Installing External Deps on Ubuntu Linux for Qt5
 ```
 sudo apt-get install git pkg-config build-essential qt4-qmake \
      libvorbis-dev zlib1g-dev libhunspell-dev x11proto-record-dev \
