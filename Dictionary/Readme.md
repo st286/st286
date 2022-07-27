@@ -71,6 +71,8 @@ sudo systemctl restart dictd
         
 ## 　四、其他
 
+[StarDict Dictionaries -- 星际译王词库 词典下载](http://download.huzheng.org/)
+
 [zh_CN 简体中文词典](http://download.huzheng.org/zh_CN/)
 
 除了 dict 这个命令行客户端，也有别的支持 DICT 协议的字典软件，比如 GoldenDict。据说 GNOME 和 Xfce 里自带的字典也是支持的，不过没有测试过。
