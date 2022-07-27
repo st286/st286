@@ -71,7 +71,7 @@ sudo systemctl restart dictd
         
 ## 四、字典dictionaries
 
-[](https://www.aliyundrive.com/drive/folder/62e1239b00371943d8e94aeeaa6d617b8c55bd42)
+[我收集的字典，在阿里云盘上](https://www.aliyundrive.com/drive/folder/62e1239b00371943d8e94aeeaa6d617b8c55bd42)
 
 [StarDict Dictionaries -- 星际译王词库 词典下载](http://download.huzheng.org/)
 
