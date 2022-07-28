@@ -1,6 +1,6 @@
 # for macOS
 ---
-## [Install GoldenDict on Mac](Install GoldenDict on Mac)
+## [Install GoldenDict on Mac](https://brewinstall.org/install-goldendict-mac-osx/)
 
         brew install --cask goldendict
 
