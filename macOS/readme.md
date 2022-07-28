@@ -1,5 +1,10 @@
 # for macOS
 ---
+## [Install GoldenDict on Mac](Install GoldenDict on Mac)
+
+        Install GoldenDict on Mac
+
+---
 ## [MacPorts](https://www.macports.org/)
 
 [Installing MacPorts](https://www.macports.org/install.php)
