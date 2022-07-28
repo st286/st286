@@ -6,6 +6,10 @@
 
 [Guide](https://guide.macports.org/)
 
+[goldendict](https://ports.macports.org/port/goldendict/)
+
+        sudo port install goldendict
+        
 ---
 ## [Homebrew](https://brew.sh)
 
