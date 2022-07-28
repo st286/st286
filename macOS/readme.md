@@ -2,7 +2,7 @@
 ---
 ## [Install GoldenDict on Mac](Install GoldenDict on Mac)
 
-        Install GoldenDict on Mac
+        brew install --cask goldendict
 
 ---
 ## [MacPorts](https://www.macports.org/)
