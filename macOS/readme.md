@@ -8,7 +8,7 @@
 
 [goldendict](https://ports.macports.org/port/goldendict/)
 
-        sudo port install goldendict
+        sudo port install goldendict    ## M1 etc apple silicon Not Supported
         
 ---
 ## [Homebrew](https://brew.sh)
