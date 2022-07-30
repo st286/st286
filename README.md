@@ -84,6 +84,9 @@ sudo apt update && sudo apt upgrade -y && sudo apt install calibre
 ## [exiftool](https://github.com/st286/st286.github.io/blob/master/ExifTool.md)
 
  ExifTool由Phil Harvey开发，是一款免费、跨平台的开源软件，用于读写和处理图像（主要）、音视频和PDF等文件的元数据（metadata）
+ 
+ [Installing ExifTool -three platforms: Windows, MacOS, and Unix platforms](https://exiftool.org/install.html)
+ 
 ```   
 sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 ```   
