@@ -68,6 +68,8 @@ Controls your external display brightness and volume and shows native OSD. Use m
 [Mediahuman Latest version downloads](https://www.mediahuman.com/download.html)
 
 ------
+## [How to Install Rosetta 2 on Apple Silicon Macs](https://osxdaily.com/2020/12/04/how-install-rosetta-2-apple-silicon-mac/)
+
 ##  How to reinstall Rosetta 2
 
 [Fix Apps Crashing on M1 Pro/Max Mac After Migration Assistant or Monterey Update](https://osxdaily.com/2021/11/08/fix-app-crashing-apple-silicon-mac/)
