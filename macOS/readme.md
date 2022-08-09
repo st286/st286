@@ -46,7 +46,9 @@ Run brew help to get started
    
    
          xcode-select  -h
-   
+  
+[How to Install Command Line Tools in Mac OS X (Without Xcode)](https://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
+  
 ---
 ## [osxdaily](https://osxdaily.com)
 
