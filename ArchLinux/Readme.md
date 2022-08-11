@@ -1,3 +1,34 @@
+## [manjaro](https://manjaro.org/)
+
+#### manjaro linux安装配置中文输入法fcitx5
+```
+## 先删除fcitx4软件包
+sudo pacman -Rs $(pacman -Qsq fcitx)
+
+## 安装fcitx5软件包
+## fcitx5: 输入法基础框架主程序
+## fcitx5-configtool(kcm-fcitx5)：输入法配置程序(KDE桌面环境的支持)
+## fcitx5-qt: QT5程序的支持 
+##  fcitx5-gtk: GTK程序的支持 
+## fcitx5-chinese-addons: 简体中文输入的支持，拼音,五笔
+sudo pacman -S fcitx5 fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-chinese-addons
+
+## 修改环境变量
+sudo vim /etc/profile
+
+## 加入下面四行，并注销，重登录
+
+# fcitx5
+export GTK_IM_MODULE=fcitx5
+export QT_IM_MODULE=fcitx5
+export XMODIFIERS=@im=fcitx5
+
+```
+
+
+
+---
+--- 
 ## ArchEX Linux Live DVD
 
 [ArchEX Linux](http://archex.exton.net/)
