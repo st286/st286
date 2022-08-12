@@ -84,6 +84,7 @@ The simplest way to reinstall Rosetta 2 is by opening the Terminal application, 
 Hit Return to execute the command, and reinstall Rosetta on the Mac.
 
 Once Rosetta has finished installing (again), try relaunching the apps, and they should work fine as expected again.
+
 ---
  1.  [MacOS终端走代理](https://github.com/mrdulin/blog/issues/18)
  
