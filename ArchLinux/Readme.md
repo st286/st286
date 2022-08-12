@@ -1,5 +1,7 @@
 ## [manjaro](https://manjaro.org/)
 
+## [endeavouros](https://endeavouros.com/)
+
 #### manjaro linux安装配置中文输入法fcitx5
 ```
 ## 先删除fcitx4软件包
