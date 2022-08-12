@@ -20,9 +20,8 @@
 ###  [CPP](./CPP)
 
 ---
-# Some Magazine and eBooks
 
-[经济学人、纽约客、自然、卫报等英语外刊杂志下载.每周更新 支持epub、mobi、pdf格式](https://github.com/hehonghui/the-economist-ebooks)
+# [TextEditor](./TextEditor)
 
 ---
 # Some useful tools
@@ -41,7 +40,6 @@ Defend yourself against tracking and surveillance. Circumvent censorship.
 
 [INSTALLATION](https://tb-manual.torproject.org/installation/)
 
----
 ## [Youtube downloader: yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
    yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project.
@@ -55,8 +53,9 @@ sudo chmod a+rx /usr/local/bin/yt-dlp
 sudo yt-dlp -U
 ```
  **Usage( output mp3)**
-      yt-dlp -x --audio-format mp3 --trim-filenames 20  URL
-
+ ```
+ yt-dlp -x --audio-format mp3 --trim-filenames 20  URL
+```
 ## [nmap](https://nmap.org)
 
    This is the traditional compile-it-yourself format. The Nmap tarball compiles under Linux, Mac OS X, Windows, and many UNIX platforms (Solaris, Free/Net/OpenBSD, etc.) It includes Zenmap, the GUI frontend.
@@ -144,24 +143,10 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
  2. [5 Best SSH Clients for Windows](https://activedirectorypro.com/ssh-clients-for-windows/)
 
 ---
- 
- 
-# TextEditor
 
-   1. [Vim](https://github.com/st286/st286.github.io/blob/master/vim.md)
+# Some Magazine and eBooks
 
-   2. [Sublime Text](https://www.sublimetext.com)
-
-      A sophisticated text editor for code, markup and prose.
-
-   3. [Atom ](https://atom.io/)
-   
-         #### Installing Atom on Linux
-         
-         To install Atom on Debian, Ubuntu, or related distributions, add our official
-package repository to your system by running the following commands. [See here](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
-
-
+[经济学人、纽约客、自然、卫报等英语外刊杂志下载.每周更新 支持epub、mobi、pdf格式](https://github.com/hehonghui/the-economist-ebooks)
 
 # Banned Books
 
