@@ -20,18 +20,18 @@
 ###  [CPP](./CPP)
 
 ---
-## Some Magazine and eBooks
+# Some Magazine and eBooks
 
 [经济学人、纽约客、自然、卫报等英语外刊杂志下载.每周更新 支持epub、mobi、pdf格式](https://github.com/hehonghui/the-economist-ebooks)
 
 ---
-## Some useful tools
+# Some useful tools
 
-### [Dictionary: Dict & Dictd](https://github.com/st286/st286/blob/ca183386fe0a103d0eb1ffd1106f8030fe631fe3/Dictionary)
+## [Dictionary: Dict & Dictd](https://github.com/st286/st286/blob/ca183386fe0a103d0eb1ffd1106f8030fe631fe3/Dictionary)
 
-### [Telegram](https://telegram.org/)
+## [Telegram](https://telegram.org/)
 
-### [git & github](https://github.com/st286/st286/tree/master/Git-Github)
+## [git & github](https://github.com/st286/st286/tree/master/Git-Github)
 
 ###  [TOR](https://www.torproject.org/)
 
@@ -54,11 +54,9 @@ sudo chmod a+rx /usr/local/bin/yt-dlp
 ```
 sudo yt-dlp -U
 ```
-
-#### Usage( output mp3)
+ **Usage( output mp3)**
       yt-dlp -x --audio-format mp3 --trim-filenames 20  URL
 
----
 ## [nmap](https://nmap.org)
 
    This is the traditional compile-it-yourself format. The Nmap tarball compiles under Linux, Mac OS X, Windows, and many UNIX platforms (Solaris, Free/Net/OpenBSD, etc.) It includes Zenmap, the GUI frontend.
@@ -70,18 +68,18 @@ sudo yt-dlp -U
 ```   
 sudo apt update && sudo apt upgrade -y && sudo apt install nmap   
 ```   
-#### [Mac OS X Binaries & Source Code Distribution](https://nmap.org/download.html#macosx)
+**[Mac OS X Binaries & Source Code Distribution](https://nmap.org/download.html#macosx)**
 ```
 cd nmap-7.92
 ./configure
 make
 sudo make install
 ```  
-   ##### Compiling Nmap on Mac OS X requires [the command line tools](https://developer.apple.com/xcode/)
+   **Compiling Nmap on Mac OS X requires [the command line tools](https://developer.apple.com/xcode/)**
    
       NPING SUCCESSFULLY INSTALLED
       NMAP SUCCESSFULLY INSTALLED
----
+
 ## [FFmpeg](https://github.com/st286/st286/blob/41710c857c539ee5726261919dfe171e2a80d822/FFmpeg.md)
 
   A complete, cross-platform solution to record, convert and stream audio and video.
@@ -94,7 +92,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install ffmpeg
    The Free & Open Source Image Editor.GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software, you can change its source code and distribute your changes.
 Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins.
 
-### [calibre](https://github.com/st286/st286.github.io/blob/master/calibre.md)
+## [calibre](https://github.com/st286/st286.github.io/blob/master/calibre.md)
 
   Calibre是一款电子图书管理软件，其提供的“一站式”的电子书解决方案，可以全面满足对电子书需求，甚至可以利用它组织成属于自己的电子图书馆，它的功能更是多种多样，不仅可以用它对图书进行格式转换，归类整理电子书，还可以将文本图像材料、在线内容（RSS）加入并转换为电子书。更重要的是Calibre是免费的、开源的，拥有跨平台的设计，可在Linux， OS X和Windows操作系统中运行，堪称电子书管理神器！
 ```   
@@ -110,14 +108,14 @@ sudo apt update && sudo apt upgrade -y && sudo apt install calibre
 ```   
 sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 ```   
----
+
 ## [age是一种简单，现代且安全的文件加密工具](https://github.com/FiloSottile/age)
 
    age is a simple, modern and secure file encryption tool, format, and Go library.
 
    It features small explicit keys, no config options, and UNIX-style composability.
 
----  
+ 
 ## [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
 
   兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
