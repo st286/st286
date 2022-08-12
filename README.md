@@ -1,3 +1,23 @@
+
+
+# [macOS (apple)](./macOS/readme.md)
+
+---
+
+# [Linux](./linux/readme.md)
+
+[学习Linux](./linux)
+
+[linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
+
+---
+# Openwrt 编译
+
+[编译Openwrt固件全攻略](./openwrt-lead)
+
+
+---
+
 ## [CPP C++ Papyrus / CPP C++纸莎草纸](https://caiorss.github.io/C-Cpp-Notes/)
 
 
@@ -109,21 +129,8 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 ## [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
 
   兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
+
 ---
-
-
-     
-
-# Linux
-
-[学习Linux](./linux)
-
-[linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
-
-
-# Openwrt 编译
-
-[编译Openwrt固件全攻略](./openwrt-lead)
 
 
 # Python
@@ -137,20 +144,6 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
   4. [How To Install PIP to Manage Python Packages in Linux](https://www.tecmint.com/install-pip-in-linux/)
   
   5. [Pipenv vs virtualenv vs conda environment](https://medium.com/@krishnaregmi/pipenv-vs-virtualenv-vs-conda-environment-3dde3f6869ed)
-
----
-
----
-
-## [macOS (apple)](./macOS/readme.md)
-
-
- 
- 3.  [Some Useful Sites](./macOS/useful-sites.md)
- 
- 4.  [Homebrew: Package manage](./macOS/brew-uage.md)
- 
- 5.  [How to write iso/img to U key](./macOS/macOS用dd命令将iso:img镜像写入U:SD盘.md)
 
 ---
 
