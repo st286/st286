@@ -1,12 +1,10 @@
 
 
-# [macOS (apple)](./macOS/readme.md)
+# [macOS (apple)](./macOS)
 
 ---
 
-# [Linux](./linux/readme.md)
-
-[学习Linux](./linux)
+# [Linux](./linux)
 
 [linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
 
