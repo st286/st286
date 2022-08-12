@@ -1,3 +1,11 @@
+
+## [CPP C++ Papyrus / CPP C++纸莎草纸](https://caiorss.github.io/C-Cpp-Notes/)
+
+## [在拥挤和变化的世界中茁壮成长：C++ 2006–2020](https://github.com/Cpp-Club/Cxx_HOPL4_zh)
+
+这是 C++ 之父 Bjarne Stroustrup 的 HOPL4 论文的中文版。
+
+---
 ## [GCC gcc g++](https://gcc.gnu.org/)
 
 ---
