@@ -142,11 +142,9 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 
 ---
 
-## macOS (apple)
+## [macOS (apple)](./macOS/readme.md)
 
- 1.  [MacOS终端走代理](https://github.com/mrdulin/blog/issues/18)
- 
- 2.  [MacOS终端命令](https://github.com/qLzhu/macCommand)
+
  
  3.  [Some Useful Sites](./macOS/useful-sites.md)
  
