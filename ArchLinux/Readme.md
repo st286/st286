@@ -42,8 +42,13 @@ yay -Ps
 
 ```
 ### fonts
+```
+yay -S ttf-ms-fonts
 
-
+yay -S ttf-ms-win10-cdn-zh_cn
+ 
+ 
+```
 
 ### manjaro linux安装配置中文输入法fcitx5
 ```
