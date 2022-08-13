@@ -10,6 +10,8 @@
 
 [Fonts (简体中文)](https://wiki.archlinux.org/title/Fonts_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 
+[安装Manjaro之后的配置 ](https://panqiincs.me/2019/06/05/after-installing-manjaro/)
+
 
 #### manjaro linux安装配置中文输入法fcitx5
 ```
