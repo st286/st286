@@ -24,6 +24,8 @@
 
 ### [Pacman vs Pamac vs Yay](https://archived.forum.manjaro.org/t/pacman-vs-pamac-vs-yay/122495)
 
+**manjaro 建议优先使用 pamac**
+
 **They all install packages:**
 
 	pamac is Manjaro's package manager and it can install packages from the Manjaro repos or AUR
