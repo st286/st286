@@ -47,6 +47,13 @@ yay -Ps
 yay -S ttf-ms-fonts
 yay -S ttf-ms-win10-cdn-zh_cn
  
+### 卸载Microsoft 字体
+### 当您不再希望在系统上安装字体时，请使用以下命令将其删除。
+yay -Rns ttf-ms-fonts
+
+### 或者，您可以运行以下命令来清理任何剩余的未使用依赖项，强烈建议您运行此命令，这样您的系统就不会变得臃肿。
+yay -Yc
+
  
 ```
 
