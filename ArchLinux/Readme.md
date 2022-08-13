@@ -29,6 +29,16 @@
 ```
 sudo pacman -Syu
 sudo pacman -S yay
+
+## 刷新包并升级
+yay -Syu
+
+## 删除任何包
+yay -Rns xxxx
+
+## 取系统统计信息
+yay -Ps
+
 ```
 
 
