@@ -23,7 +23,7 @@
 ---
 # 安装manjaro后的使用
 
-**yay**
+#### yay
 
 [初级：如何在 Arch Linux 中安装 Yay AUR 助手](https://linux.cn/article-14846-1.html)
 ```
@@ -40,6 +40,8 @@ yay -Rns xxxx
 yay -Ps
 
 ```
+#### fonts
+
 
 
 #### manjaro linux安装配置中文输入法fcitx5
