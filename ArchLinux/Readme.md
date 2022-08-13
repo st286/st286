@@ -1,6 +1,15 @@
-## [manjaro](https://manjaro.org/)
+# Distro based on ArchLinux
 
-## [endeavouros](https://endeavouros.com/)
+[manjaro](https://manjaro.org/)
+
+[endeavouros](https://endeavouros.com/)
+
+# 配置 
+
+[Localization/Chinese](https://wiki.archlinux.org/title/Localization/Chinese#Fonts)
+
+[Fonts (简体中文)](https://wiki.archlinux.org/title/Fonts_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+
 
 #### manjaro linux安装配置中文输入法fcitx5
 ```
