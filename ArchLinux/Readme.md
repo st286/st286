@@ -19,7 +19,7 @@
 
 #### manjaro linux安装配置中文输入法fcitx5
 ```
-## 先删除fcitx4软件包
+## 先删除fcitx软件包
 sudo pacman -Rs $(pacman -Qsq fcitx)
 
 ## 安装fcitx5软件包
