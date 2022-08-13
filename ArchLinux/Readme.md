@@ -14,7 +14,12 @@
 
 [Fonts (简体中文)](https://wiki.archlinux.org/title/Fonts_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 
+[如何在 Manjaro 21 Linux 上安装 Microsoft 字体](https://zh-cn.linuxcapable.com/%E5%A6%82%E4%BD%95%E5%9C%A8-manjaro-21-linux-%E4%B8%8A%E4%BD%BF%E7%94%A8%E5%BE%AE%E8%BD%AF%E5%AD%97%E4%BD%93/)
+
 [安装Manjaro之后的配置 ](https://panqiincs.me/2019/06/05/after-installing-manjaro/)
+
+[Localization (简体中文)](https://wiki.archlinux.org/title/Localization_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+
 
 
 #### manjaro linux安装配置中文输入法fcitx5
