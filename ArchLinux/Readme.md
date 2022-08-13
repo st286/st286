@@ -42,10 +42,18 @@ yay -Ps
 
 ```
 ### manjaro安装中文fonts
+
+```
+### adobe source han fonts, arphic fonts, New Sung font, wqy fonts 
+sudo pacman -Syu
+sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts ttf-arphic-ukai ttf-arphic-uming  opendesktop-fonts  wqy-bitmapfont wqy-zenhei   wqy-microhei  
+
+```
+
+
 ```
 ### Windows Chinese fonts 
 yay -S ttf-ms-fonts
-yay -S ttf-ms-win10-cdn-zh_cn
  
 ### 卸载Microsoft 字体
 ### 当您不再希望在系统上安装字体时，请使用以下命令将其删除。
@@ -56,11 +64,6 @@ yay -Yc
 
 ```
 
-```
-### New Sung font, previously is ttf-fireflysung package
-pacman -S opendesktop-fonts
-
-```
 ### manjaro安装配置中文输入法fcitx5
 ```
 ## 先删除fcitx软件包
