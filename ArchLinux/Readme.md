@@ -6,6 +6,8 @@
 
 # 配置 
 
+[Pamac简介](https://wiki.manjaro.org/index.php/Pamac/zh-cn)
+
 [pacman](https://wiki.archlinux.org/title/Pacman)
 
 [Localization/Chinese](https://wiki.archlinux.org/title/Localization/Chinese#Fonts)
