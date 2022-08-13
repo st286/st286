@@ -18,7 +18,6 @@
 
 [Localization (简体中文)](https://wiki.archlinux.org/title/Localization_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 
-[How to Install and Use yay on Arch Linux](https://www.makeuseof.com/install-and-use-yay-arch-linux/)
 
 ---
 # 安装manjaro后的使用
