@@ -54,9 +54,13 @@ yay -Rns ttf-ms-fonts
 ### 或者，您可以运行以下命令来清理任何剩余的未使用依赖项，强烈建议您运行此命令，这样您的系统就不会变得臃肿。
 yay -Yc
 
- 
 ```
 
+```
+### New Sung font, previously is ttf-fireflysung package
+pacman -S opendesktop-fonts
+
+```
 ### manjaro linux安装配置中文输入法fcitx5
 ```
 ## 先删除fcitx软件包
