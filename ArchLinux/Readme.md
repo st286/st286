@@ -24,17 +24,17 @@
 
 ### [Pacman vs Pamac vs Yay](https://archived.forum.manjaro.org/t/pacman-vs-pamac-vs-yay/122495)
 
-They all install packages:
+**They all install packages:**
 
-pamac is Manjaro's package manager and it can install packages from the Manjaro repos or AUR
+	pamac is Manjaro's package manager and it can install packages from the Manjaro repos or AUR
 
-pacman is the package manager from Arch. It can only install packages from the repos.
+	pacman is the package manager from Arch. It can only install packages from the repos.
 
-yay is a wrapper that can install packages from the Manjaro repos or AUR.
+	yay is a wrapper that can install packages from the Manjaro repos or AUR.
 
-Feel free to use whichever you prefer
+	Feel free to use whichever you prefer
 
-EDIT: pamac also has a GUI version available pamac-manager which is in the menus as "Add/Remove Software"
+	EDIT: pamac also has a GUI version available pamac-manager which is in the menus as "Add/Remove Software"
 
 ### [General recommendations (简体中文)](https://wiki.archlinux.org/title/General_recommendations_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 
