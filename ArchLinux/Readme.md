@@ -22,6 +22,8 @@
 ---
 # 安装manjaro后的使用
 
+### [General recommendations (简体中文)](https://wiki.archlinux.org/title/General_recommendations_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+
 ### yay
 
 [初级：如何在 Arch Linux 中安装 Yay AUR 助手](https://linux.cn/article-14846-1.html)
