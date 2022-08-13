@@ -43,8 +43,8 @@ yay -Ps
 ```
 ### fonts
 ```
+### Windows Chinese fonts 
 yay -S ttf-ms-fonts
-
 yay -S ttf-ms-win10-cdn-zh_cn
  
  
