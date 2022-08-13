@@ -8,8 +8,6 @@
 
 [pacman](https://wiki.archlinux.org/title/Pacman)
 
-[How to Install and Use yay on Arch Linux](https://www.makeuseof.com/install-and-use-yay-arch-linux/)
-
 [Localization/Chinese](https://wiki.archlinux.org/title/Localization/Chinese#Fonts)
 
 [Fonts (简体中文)](https://wiki.archlinux.org/title/Fonts_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
@@ -20,6 +18,18 @@
 
 [Localization (简体中文)](https://wiki.archlinux.org/title/Localization_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 
+[How to Install and Use yay on Arch Linux](https://www.makeuseof.com/install-and-use-yay-arch-linux/)
+
+---
+# 安装manjaro后的使用
+
+**yay**
+
+[初级：如何在 Arch Linux 中安装 Yay AUR 助手](https://linux.cn/article-14846-1.html)
+```
+sudo pacman -Syu
+sudo pacman -S yay
+```
 
 
 #### manjaro linux安装配置中文输入法fcitx5
