@@ -6,6 +6,8 @@
 
 # 配置 
 
+[pacman](https://wiki.archlinux.org/title/Pacman)
+
 [How to Install and Use yay on Arch Linux](https://www.makeuseof.com/install-and-use-yay-arch-linux/)
 
 [Localization/Chinese](https://wiki.archlinux.org/title/Localization/Chinese#Fonts)
@@ -25,7 +27,7 @@ sudo pacman -Rs $(pacman -Qsq fcitx)
 ## fcitx5-configtool(kcm-fcitx5)：输入法配置程序(KDE桌面环境的支持)
 ## fcitx5-qt: QT5程序的支持 
 ##  fcitx5-gtk: GTK程序的支持 
-## fcitx5-chinese-addons: 简体中文输入的支持，拼音,五笔
+## fcitx5-chinese-addons: 简体中文输入的支持，拼音.(五笔,内置）
 sudo pacman -S fcitx5 fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-chinese-addons
 
 ## 修改环境变量
