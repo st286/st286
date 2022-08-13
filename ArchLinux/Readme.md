@@ -41,7 +41,7 @@ yay -Rns xxxx
 yay -Ps
 
 ```
-### fonts
+### manjaro安装中文fonts
 ```
 ### Windows Chinese fonts 
 yay -S ttf-ms-fonts
@@ -61,7 +61,7 @@ yay -Yc
 pacman -S opendesktop-fonts
 
 ```
-### manjaro linux安装配置中文输入法fcitx5
+### manjaro安装配置中文输入法fcitx5
 ```
 ## 先删除fcitx软件包
 sudo pacman -Rs $(pacman -Qsq fcitx)
