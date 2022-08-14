@@ -108,6 +108,17 @@ export XMODIFIERS=@im=fcitx5
 ```
 [Fcitx5 (简体中文)](https://wiki.archlinux.org/title/Fcitx5_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 
+---
+# app after installation
+
+chinese calendar
+
+telegram
+
+expressvpn
+
+tor
+
 
 ---
 --- 
