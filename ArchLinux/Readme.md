@@ -1,6 +1,6 @@
 # Distro based on ArchLinux
 
-[asahi linux on Mx mac computer](https://asahilinux.org/)
+[asahi linux on Apple Silicon](https://asahilinux.org/)
 
 [manjaro](https://manjaro.org/)
 
