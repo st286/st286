@@ -7,6 +7,8 @@ GO Simple Tunnel. GO语言实现的安全隧道
 
 [Wiki站点](https://docs.ginuerzh.xyz/gost/)
 
+
+[GO语言实现的安全隧道](https://gost.run/)
 ---
 
 
