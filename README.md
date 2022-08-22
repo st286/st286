@@ -1,3 +1,10 @@
+# [Oracle cloud](https://cloud.oracle.com/)
+
+[How to deploy a FREE Oracle Cloud VPS server](https://cleavr.io/cleavr-slice/how-to-deploy-free-oracle-cloud-vps/)
+
+[如何创建自签名SSL证书](https://www.myfreax.com/creating-a-self-signed-ssl-certificate/)
+
+---
 # [Xray & VPN](./Xray)
 
 ### [VPN](./VPN)
