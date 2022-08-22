@@ -4,6 +4,12 @@
 
 [如何创建自签名SSL证书](https://www.myfreax.com/creating-a-self-signed-ssl-certificate/)
 
+Update Oracle iptables
+```
+sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 443 -j ACCEPT
+sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
+sudo netfilter-persistent save
+```
 ---
 # [Xray & VPN](./Xray)
 
