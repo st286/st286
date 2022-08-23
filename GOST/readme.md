@@ -9,7 +9,7 @@ GO Simple Tunnel. GO语言实现的安全隧道
 
 [Wiki: GOST v2 ](https://docs.ginuerzh.xyz/gost/)
 
-[wiki: GOST v3](https://latest.gost.run)
+[wiki: GOST v3. GOST v3尚未正式发布，文档正在完善中](https://latest.gost.run)
  
 ---
 
