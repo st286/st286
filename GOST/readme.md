@@ -5,7 +5,7 @@ GO Simple Tunnel. GO语言实现的安全隧道
 
 [项目地址](https://github.com/ginuerzh/gost)
 
-[wiki](https://gost.run/)
+[wiki](https://gost.run)
 
 [Wiki: GOST v2 ](https://docs.ginuerzh.xyz/gost/)
 
