@@ -15,7 +15,11 @@ sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
 sudo netfilter-persistent save
 ```
 ---
-# [Xray & VPN](./Xray)
+# Pass the Wall
+
+### [GOST](./GOST)
+
+### [Xray](./Xray)
 
 ### [VPN](./VPN)
 
