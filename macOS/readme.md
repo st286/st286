@@ -44,7 +44,7 @@ Run brew help to get started
 [推荐几款优秀的开源编程字体](https://blog.csdn.net/gaowencheng01/article/details/110295853?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-110295853-blog-103303665.pc_relevant_multi_platform_whitelistv3&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-110295853-blog-103303665.pc_relevant_multi_platform_whitelistv3&utm_relevant_index=1)
 
 ---
-## [Command Line Tools for Xcode 14 beta 5](https://developer.apple.com/download/all/?q=Xcode)
+## [Command Line Tools for Xcode 14.1 beta](https://developer.apple.com/download/all/?q=Xcode)
 
    [Command Line Tools for Xcode 13.4](https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_13.4/Command_Line_Tools_for_Xcode_13.4.dmg)
    
