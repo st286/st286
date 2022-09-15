@@ -35,9 +35,9 @@ Run brew help to get started
         brew install --cask goldendict
 
 ---
-## macOS IOS fonts 字体
+## macOS iOS fonts 字体
 
-[IOS APP -- iFont: find, install any font](https://apps.apple.com/us/app/ifont-find-install-any-font/id1173222289)
+[iOS APP -- iFont: find, install any font](https://apps.apple.com/us/app/ifont-find-install-any-font/id1173222289)
 
 [字体世界--字体下载](https://freefonts.top/)
 
