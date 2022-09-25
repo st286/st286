@@ -3,7 +3,7 @@
 ---
 **有 brew 和 macport:**
 
-## [MacPorts](https://www.macports.org/)
+### [MacPorts](https://www.macports.org/)
 
 [Installing MacPorts](https://www.macports.org/install.php)
 
@@ -13,7 +13,7 @@
 
         sudo port install goldendict    ## M1 etc apple silicon Not Supported
         
-## [Homebrew](https://brew.sh)
+### [Homebrew](https://brew.sh)
 
 The Missing Package Manager for macOS (or Linux)
 ```
@@ -30,7 +30,7 @@ add Homebrew to your PATH:
     
 Run brew help to get started
 
-### [Install GoldenDict on Mac](https://brewinstall.org/install-goldendict-mac-osx/)
+#### [Install GoldenDict on Mac](https://brewinstall.org/install-goldendict-mac-osx/)
 
         brew install --cask goldendict
 ---
