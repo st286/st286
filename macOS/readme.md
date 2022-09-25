@@ -33,10 +33,25 @@ Run brew help to get started
 ### [Install GoldenDict on Mac](https://brewinstall.org/install-goldendict-mac-osx/)
 
         brew install --cask goldendict
+---
+## [iMazing app download](https://imazing.com/downloads)
+
+#### 1.iMazing
+
+The most advanced iPhone, iPad and iPod manager for macOS and Windows. Some features require a license, but you can back up your iOS devices and push media or documents to your iPhone or iPad without even registering.
+
+#### 2.Silicon
+
+Scan your macOS apps and display their supported CPU architecture. Especially made to detect apps which offer (or don't!) native Apple Silicon support.[View on GitHub](https://github.com/DigiDNA/Silicon)
+
+#### 3.Hot
+
+A macOS menu bar app that displays in real time CPU throttling due to thermal issues. [View on GitHub](https://github.com/macmade/Hot)
+
 
 ---
 ## macOS iOS fonts 字体
-
+---
 [iOS APP -- iFont: find, install any font](https://apps.apple.com/us/app/ifont-find-install-any-font/id1173222289)
 
 [字体世界--字体下载](https://freefonts.top/)
