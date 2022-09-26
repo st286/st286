@@ -47,3 +47,7 @@ unzip -o snell.zip
    systemctl enable snell
    systemctl start snell
  fi
+ 
+ 
+ cat ${CONF}
+ 
