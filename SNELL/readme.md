@@ -77,8 +77,8 @@ Verify service start successfully: sudo systemctl status snell.service
 ---
 # 参考
 
-[一键Snell搭建教程2022:使用 Vultr VPS 部署 Surge Snell 服务器及配置Snell客户端实现科学上网](https://iyideng.vip/black-technology/cgfw/snell-server-building-and-using-tutorial.html]
-
 [Snell代理工具](https://iyideng.net/wiki/surge-snell.html)
+
+[一键Snell搭建教程2022](https://iyideng.vip/black-technology/cgfw/snell-server-building-and-using-tutorial.html)
 
 
