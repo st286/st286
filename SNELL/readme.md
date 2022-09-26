@@ -2,11 +2,11 @@
 
 Debian & Ubuntu 用户请运行
 ```
-wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/snell.sh
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/st286/st286/master/SNELL/snell.sh
 chmod +x snell.sh
 ./snell.sh
 ```
-安装默认端口号13254，如需修改请 在所有脚本运行结束后运行
+安装默认端口号1011，如需修改请 在所有脚本运行结束后运行
 ```
 nano /etc/snell/snell-server.conf
 systemctl restart snell
