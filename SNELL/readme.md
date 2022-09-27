@@ -1,3 +1,7 @@
+# [Snell 管理脚本](https://github.com/xOS/Snell)
+
+
+---
 # [Snell.sh](https://github.com/primovist/snell.sh)
 
 Debian & Ubuntu 用户请运行
