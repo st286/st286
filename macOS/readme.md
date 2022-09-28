@@ -61,7 +61,7 @@ A macOS menu bar app that displays in real time CPU throttling due to thermal is
 
 ---
 ## macOS iOS fonts 字体
----
+
 [iOS APP -- iFont: find, install any font](https://apps.apple.com/us/app/ifont-find-install-any-font/id1173222289)
 
 [字体世界--字体下载](https://freefonts.top/)
@@ -87,20 +87,20 @@ A macOS menu bar app that displays in real time CPU throttling due to thermal is
 
 ## [Mac云课堂 ](https://www.youtube.com/channel/UCGHCIkfEHaKT7zsq8wzqeOQ)
 
-------
+---
 ## [MonitorControl - for Apple Silicon and Intel](https://github.com/MonitorControl/MonitorControl)
 
 Controls your external display brightness and volume and shows native OSD. Use menulet sliders or the keyboard, including native Apple keys!
 
 
-------
+---
 ##  YouTube to MP3 Converter, Audio Converter,  mTube
 
 [Mediahuman](https://www.mediahuman.com/)
 
 [Mediahuman Latest version downloads](https://www.mediahuman.com/download.html)
 
-------
+---
 ## [How to Install Rosetta 2 on Apple Silicon Macs](https://osxdaily.com/2020/12/04/how-install-rosetta-2-apple-silicon-mac/)
 
 ##  How to reinstall Rosetta 2
