@@ -5,7 +5,7 @@ Apple Devices 硬件与软件信息收集
 
 The iPhone Wiki is an unofficial wiki dedicated to collecting, storing and providing information on the internals of Apple's amazing iDevices. We hope to pass this information on to the next generation of hackers so that they can go forth into their forebears' footsteps and break the ridiculous bonds Apple has put on their amazing mobile devices.
 
-
+[Baseband device 基带设备](https://www.theiphonewiki.com/wiki/Baseband_Device)
 
 ---
 ## macOS package包管理
