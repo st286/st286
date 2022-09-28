@@ -121,8 +121,7 @@ systemctl status gost #查看状态
 ```
 
 ---
-
-### gost-server-client
+## gost-server-client socks5 only
 ```
 nohup gost -L=socks5://usr:passwd0@:port > /dev/null 2>&1 &
 
