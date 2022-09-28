@@ -1,3 +1,17 @@
+# Pass the Wall
+
+中国第一封电子邮件:
+“Across the Great Wall we can reach every corner in the world ”（“越过长城，走向世界”）
+
+### [Xray](./Xray)
+
+### [VPN](./VPN)
+
+### [SNELL](./SNELL)
+
+### [GOST](./GOST)
+
+---
 # [Oracle cloud](https://cloud.oracle.com/)
 
 [How to deploy a FREE Oracle Cloud VPS server](https://cleavr.io/cleavr-slice/how-to-deploy-free-oracle-cloud-vps/)
@@ -14,22 +28,11 @@ sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 443 -j ACCEPT
 sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
 sudo netfilter-persistent save
 ```
----
-# Pass the Wall
-
-### [Xray](./Xray)
-
-### [VPN](./VPN)
-
-### [SNELL](./SNELL)
-
-### [GOST](./GOST)
 
 ---
 # [macOS (apple)](./macOS)
 
 ---
-
 # [Linux](./linux)
 
 ## [ArchLinux - manjaro etc](./ArchLinux)
@@ -144,9 +147,8 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 
   兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
 
+
 ---
-
-
 # Python
 
   1. [草根学 Python](https://www.readwithu.com)
@@ -160,19 +162,19 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
   5. [Pipenv vs virtualenv vs conda environment](https://medium.com/@krishnaregmi/pipenv-vs-virtualenv-vs-conda-environment-3dde3f6869ed)
 
 ---
-
 # Windows (microsoft)
 
  1. [MobaXterm -- Enhanced terminal for Windows](https://mobaxterm.mobatek.net)
  
  2. [5 Best SSH Clients for Windows](https://activedirectorypro.com/ssh-clients-for-windows/)
 
----
 
+---
 # Some Magazine and eBooks
 
 [经济学人、纽约客、自然、卫报等英语外刊杂志下载.每周更新 支持epub、mobi、pdf格式](https://github.com/hehonghui/the-economist-ebooks)
 
+---
 # Banned Books
 
   [《鸿：三代中国女人的故事》 上](https://www.dw.com/zh/%E9%B8%BF%E4%B8%89%E4%BB%A3%E4%B8%AD%E5%9B%BD%E5%A5%B3%E4%BA%BA%E7%9A%84%E6%95%85%E4%BA%8B-%E4%B8%8A/a-15249195)
