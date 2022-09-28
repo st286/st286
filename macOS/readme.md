@@ -1,6 +1,15 @@
 
-## macOS package包管理
+## [the iPhone Wiki](https://www.theiphonewiki.com)
+
+Apple Devices 硬件与软件信息收集
+
+The iPhone Wiki is an unofficial wiki dedicated to collecting, storing and providing information on the internals of Apple's amazing iDevices. We hope to pass this information on to the next generation of hackers so that they can go forth into their forebears' footsteps and break the ridiculous bonds Apple has put on their amazing mobile devices.
+
+
+
 ---
+## macOS package包管理
+
 **有 brew 和 macport:**
 
 ### [MacPorts](https://www.macports.org/)
@@ -33,6 +42,7 @@ Run brew help to get started
 #### [Install GoldenDict on Mac](https://brewinstall.org/install-goldendict-mac-osx/)
 
         brew install --cask goldendict
+
 ---
 ## [iMazing app download](https://imazing.com/downloads)
 
