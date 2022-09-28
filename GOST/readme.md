@@ -120,3 +120,11 @@ systemctl enable gost #开机自启
 systemctl status gost #查看状态
 ```
 
+---
+
+### gost-server-client
+```
+nohup gost -L=socks5://usr:passwd0@:port > /dev/null 2>&1 &
+
+gost -L=:1080 -F=socks5://usr:passwd0@host:port
+```
