@@ -16,14 +16,20 @@ Xray-core 是 v2ray-core 的超集，含更好的整体性能和 XTLS 等一系�
 
 ---
 
-# Xray-onekey 安装
+# Xray-onekey 用一键安装脚本安装
 
 用上面的 install-xray-onekey.sh 安装
 
-	apt install socat
+```
+apt update && apt upgrade
+apt install socat
 
-[源：Xray 基于 Nginx 的 VLESS + XTLS 一键安装脚本](https://github.com/wulabing/Xray_onekey)
+```
 
+**或用下面的安装：**
+[Xray 基于 Nginx 的 VLESS + XTLS 一键安装脚本](https://github.com/wulabing/Xray_onekey)
+
+**配置文件参考：**
 [ Xray-config-examples](https://github.com/XTLS/Xray-examples)
 
 ---
