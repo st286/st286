@@ -16,13 +16,31 @@ The Naïve server here works as a forward proxy and a packet length padding laye
 
 ## Naive server 配置
 
+### [1.Golang install](https://go.dev/doc/install)Verify that you've installed Go by opening a command prompt and typing the following command:
+
+```
+wget https://go.dev/dl/go1.19.2.linux-amd64.tar.gz
+
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.19.2.linux-amd64.tar.gz
+```
+Add /usr/local/go/bin to the PATH environment variable.
+
+You can do this by adding the following line to your $HOME/.profile, .bashrc or /etc/profile (for a system-wide installation):
+```
+export PATH=$PATH:/usr/local/go/bin
+```
+Verify that you've installed Go by opening a command prompt and typing the following command:
+```
+ go version
+```
+Confirm that the command prints the installed version of Go.
 
 
 
 ---
 ## Reference:
 
-### [NaïveProxy and Cronet ](https://github.com/klzgrad/naiveproxy)
+### [(源)NaïveProxy and Cronet ](https://github.com/klzgrad/naiveproxy)
 
 ### [naive节点搭建(tls指纹问题)](https://bulianglin.com/archives/naive.html)
 
