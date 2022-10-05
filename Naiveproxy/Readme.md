@@ -92,10 +92,24 @@ Run ./naive with the following config.json to get a SOCKS5 proxy at local port 1
 Or `quic://user:pass@example.com`, if it works better. See also [parameter usage](https://github.com/klzgrad/naiveproxy/blob/master/USAGE.txt) and [performance tuning](https://github.com/klzgrad/naiveproxy/wiki/Performance-Tuning).
 
 
-
-
-
+# TLS指纹查看
 ---
+### [jarm工具](https://github.com/salesforce/jarm)
+
+下载jarm：
+```
+wget https://raw.githubusercontent.com/salesforce/jarm/master/jarm.py
+```
+查看网站jarm指纹：
+```
+python3 jarm.py naive.buliang0.tk
+```
+
+网络空间资产搜索引擎：https://fofa.info
+
+
+
+
 # Reference:
 ---
 ### [(源)NaïveProxy and Cronet ](https://github.com/klzgrad/naiveproxy)
