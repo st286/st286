@@ -4,7 +4,7 @@ NaïveProxy是一个基于谷歌浏览器的网络组建，进行数据包转发
 
 naive的原理和trojan很像，消除了服务器tls指纹和隐藏了所有翻墙服务以及伪装成正常网站，naive协议更上一层，消除了客户端的tls指纹和tls-in-tls特征，并且naive协议基于http2，自带多路复用，对比ws需要频繁握手来讲延迟更低，前面也说过naive客户端使用chrome浏览器内核作为网络协议栈，从防火墙的角度来看，就像是你在正常的使用正常的谷歌浏览器访问正常的网站.
 
-### Architecture
+## Architecture
 
 [Browser → Naïve client] ⟶ Censor ⟶ [Frontend → Naïve server] ⟶ Internet
 
@@ -14,7 +14,7 @@ The frontend server can be any well-known reverse proxy that is able to route HT
 
 The Naïve server here works as a forward proxy and a packet length padding layer. Caddy forwardproxy is also a forward proxy but it lacks a padding layer. A fork adds the NaïveProxy padding layer to forwardproxy, combining both in one.
 
-### Naive server 配置
+## Naive server 配置
 
 
 
