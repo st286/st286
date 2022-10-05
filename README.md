@@ -102,7 +102,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install nmap
 ```   
 **[Mac OS X Binaries & Source Code Distribution](https://nmap.org/download.html#macosx)**
 ```
-cd nmap-7.92
+cd nmap-7.93
 ./configure
 make
 sudo make install
