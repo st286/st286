@@ -110,7 +110,7 @@ python3 jarm.py naive.buliang0.tk
 ```
 
 ### 网络空间资产搜索引擎：https://fofa.info
-
+`jarm="hashvalue"` search
 
 ---
 # Reference:
