@@ -16,7 +16,7 @@ The Naïve server here works as a forward proxy and a packet length padding laye
 
 ## Naive server 配置
 
-### [1.Golang install](https://go.dev/doc/install)Verify that you've installed Go by opening a command prompt and typing the following command:
+### [1.Golang install](https://go.dev/doc/install)
 
 ```
 wget https://go.dev/dl/go1.19.2.linux-amd64.tar.gz
