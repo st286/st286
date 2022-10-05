@@ -57,15 +57,15 @@ route {
    probe_resistance
   }
  #支持多用户
- forward_proxy {
-   basic_auth user2 pass2 #用户名和密码
-   hide_ip
-   hide_via
-   probe_resistance
-  }
+ #forward_proxy {
+ #  basic_auth user2 pass2 #用户名和密码
+ #  hide_ip
+ #  hide_via
+ #  probe_resistance
+ # }
  reverse_proxy  https://demo.cloudreve.org  { #伪装网址
    header_up  Host  {upstream_hostport}
-   header_up  X-Forwarded-Host  {host}
+   #header_up  X-Forwarded-Host  {host}
   }
 }
 
