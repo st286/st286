@@ -14,7 +14,7 @@
 
 ### [GOST](./GOST)
 
-sing-box:
+### sing-box:
 
 [sing-box site](https://sing-box.sagernet.org)
 
