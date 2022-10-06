@@ -14,6 +14,14 @@
 
 ### [GOST](./GOST)
 
+sing-box:
+
+[sing-box site](https://sing-box.sagernet.org)
+
+[sing-box github](https://github.com/SagerNet/sing-box)
+
+[sing-box 网络代理平台的“瑞士军刀”，搭建shadowtls节点](https://bulianglin.com/archives/sing-box.html)
+
 ---
 # [Oracle cloud](https://cloud.oracle.com/)
 
