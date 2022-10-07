@@ -1,5 +1,5 @@
 ---
-## 10. [ITerm2](https://iterm2.com)
+## 10. [iTerm2](https://iterm2.com)
 
 iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted.
 
@@ -24,36 +24,16 @@ The iPhone Wiki is an unofficial wiki dedicated to collecting, storing and provi
 #### [Macport Guide](https://guide.macports.org/)
 
 ===
+
 Port command: 
 ```
- port help
+port help
  
- port selfupdate
- 
- port search
- 
- port info
- 
- port deps
- 
- port install
- 
- port install
- 
- port clean
- 
- port uninstall
- 
- port installed
- 
- port outdated
- 
- port upgrade
- 
- sudo port upgrade outdated
- 
+sudo port uninstall --follow-dependencies xxx-port
  
 ```
+** wget htop netwox gost **  installed in my MacBook Air
+
 ===
 
 #### Network-Tools:
