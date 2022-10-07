@@ -12,9 +12,7 @@ The iPhone Wiki is an unofficial wiki dedicated to collecting, storing and provi
 
 [Homebrew vs. MacPorts package managers](https://www.scivision.dev/homebrew-macports-fink/)
 
-**有 brew 和 macport:**
-
-### [MacPorts](https://www.macports.org/)
+### [1.MacPorts](https://www.macports.org/)
 
 #### [Installing MacPorts](https://www.macports.org/install.php)
 
@@ -65,7 +63,7 @@ Port command:
 
 `sudo port install goldendict    ## M1 etc apple silicon Not Supported`
         
-### [Homebrew](https://brew.sh)
+### [2.Homebrew](https://brew.sh)
 
 The Missing Package Manager for macOS (or Linux)
 ```
