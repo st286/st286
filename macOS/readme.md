@@ -20,13 +20,48 @@ The iPhone Wiki is an unofficial wiki dedicated to collecting, storing and provi
 
 #### [Macport Guide](https://guide.macports.org/)
 
+===
+Port command: 
+```
+ port help
+ 
+ port selfupdate
+ 
+ port search
+ 
+ port info
+ 
+ port deps
+ 
+ port install
+ 
+ port install
+ 
+ port clean
+ 
+ port uninstall
+ 
+ port installed
+ 
+ port outdated
+ 
+ port upgrade
+ 
+ sudo port upgrade outdated
+ 
+ 
+```
+===
+
 #### Network-Tools:
 
 [netwox](https://ports.macports.org/port/netwox/) ` sudo port install netwox `
 
 [netwag](https://ports.macports.org/port/netwag/)  ` sudo port install netwag `
 
-##### [goldendict](https://ports.macports.org/port/goldendict/)
+===
+
+[goldendict](https://ports.macports.org/port/goldendict/)
 
 `sudo port install goldendict    ## M1 etc apple silicon Not Supported`
         
