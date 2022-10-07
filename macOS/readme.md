@@ -10,6 +10,8 @@ The iPhone Wiki is an unofficial wiki dedicated to collecting, storing and provi
 ---
 ## macOS package包管理
 
+[Homebrew vs. MacPorts package managers](https://www.scivision.dev/homebrew-macports-fink/)
+
 **有 brew 和 macport:**
 
 ### [MacPorts](https://www.macports.org/)
