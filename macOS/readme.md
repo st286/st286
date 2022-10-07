@@ -1,5 +1,10 @@
 ---
-## [the iPhone Wiki](https://www.theiphonewiki.com)
+## 10. [ITerm2](https://iterm2.com)
+
+iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted.
+
+---
+## 9. [the iPhone Wiki](https://www.theiphonewiki.com)
 
 Apple Devices 硬件与软件信息收集
 
@@ -8,7 +13,7 @@ The iPhone Wiki is an unofficial wiki dedicated to collecting, storing and provi
 [Baseband device 基带设备](https://www.theiphonewiki.com/wiki/Baseband_Device)
 
 ---
-## macOS package包管理
+## 8. macOS package包管理
 
 [Homebrew vs. MacPorts package managers](https://www.scivision.dev/homebrew-macports-fink/)
 
@@ -85,7 +90,7 @@ Run brew help to get started
         brew install --cask goldendict
 
 ---
-## [iMazing app download](https://imazing.com/downloads)
+## 7.[iMazing app download](https://imazing.com/downloads)
 
 #### 1.iMazing
 
@@ -101,7 +106,7 @@ A macOS menu bar app that displays in real time CPU throttling due to thermal is
 
 
 ---
-## macOS iOS fonts 字体
+## 6.macOS iOS fonts 字体
 
 [iOS APP -- iFont: find, install any font](https://apps.apple.com/us/app/ifont-find-install-any-font/id1173222289)
 
@@ -110,7 +115,7 @@ A macOS menu bar app that displays in real time CPU throttling due to thermal is
 [推荐几款优秀的开源编程字体](https://blog.csdn.net/gaowencheng01/article/details/110295853?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-110295853-blog-103303665.pc_relevant_multi_platform_whitelistv3&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-110295853-blog-103303665.pc_relevant_multi_platform_whitelistv3&utm_relevant_index=1)
 
 ---
-## [Command Line Tools for Xcode 14.1 beta](https://developer.apple.com/download/all/?q=Xcode)
+## 5.[Command Line Tools for Xcode 14.1 beta](https://developer.apple.com/download/all/?q=Xcode)
 
    [Command Line Tools for Xcode 13.4](https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_13.4/Command_Line_Tools_for_Xcode_13.4.dmg)
    
@@ -124,18 +129,18 @@ A macOS menu bar app that displays in real time CPU throttling due to thermal is
 [How to Install Command Line Tools in Mac OS X (Without Xcode)](https://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
   
 ---
-## [osxdaily](https://osxdaily.com)
+## 4.[osxdaily](https://osxdaily.com)
 
-## [Mac云课堂 ](https://www.youtube.com/channel/UCGHCIkfEHaKT7zsq8wzqeOQ)
+### [Mac云课堂 ](https://www.youtube.com/channel/UCGHCIkfEHaKT7zsq8wzqeOQ)
 
 ---
-## [MonitorControl - for Apple Silicon and Intel](https://github.com/MonitorControl/MonitorControl)
+## 3.[MonitorControl - for Apple Silicon and Intel](https://github.com/MonitorControl/MonitorControl)
 
 Controls your external display brightness and volume and shows native OSD. Use menulet sliders or the keyboard, including native Apple keys!
 
 
 ---
-##  YouTube to MP3 Converter, Audio Converter,  mTube
+##  2.YouTube to MP3 Converter, Audio Converter,  mTube
 
 [Mediahuman](https://www.mediahuman.com/)
 
@@ -144,7 +149,7 @@ Controls your external display brightness and volume and shows native OSD. Use m
 ---
 ## [How to Install Rosetta 2 on Apple Silicon Macs](https://osxdaily.com/2020/12/04/how-install-rosetta-2-apple-silicon-mac/)
 
-##  How to reinstall Rosetta 2
+##  1.How to reinstall Rosetta 2
 
 [Fix Apps Crashing on M1 Pro/Max Mac After Migration Assistant or Monterey Update](https://osxdaily.com/2021/11/08/fix-app-crashing-apple-silicon-mac/)
 
@@ -157,6 +162,8 @@ Hit Return to execute the command, and reinstall Rosetta on the Mac.
 Once Rosetta has finished installing (again), try relaunching the apps, and they should work fine as expected again.
 
 ---
+## 0.Other
+
  1.  [MacOS终端走代理](https://github.com/mrdulin/blog/issues/18)
  
  2.  [MacOS终端命令](https://github.com/qLzhu/macCommand)
