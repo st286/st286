@@ -1,4 +1,4 @@
-
+---
 ## [the iPhone Wiki](https://www.theiphonewiki.com)
 
 Apple Devices 硬件与软件信息收集
@@ -16,13 +16,19 @@ The iPhone Wiki is an unofficial wiki dedicated to collecting, storing and provi
 
 ### [MacPorts](https://www.macports.org/)
 
-[Installing MacPorts](https://www.macports.org/install.php)
+#### [Installing MacPorts](https://www.macports.org/install.php)
 
-[Guide](https://guide.macports.org/)
+#### [Macport Guide](https://guide.macports.org/)
 
-[goldendict](https://ports.macports.org/port/goldendict/)
+#### Network-Tools:
 
-        sudo port install goldendict    ## M1 etc apple silicon Not Supported
+[netwox](https://ports.macports.org/port/netwox/) ` sudo port install netwox `
+
+[netwag](https://ports.macports.org/port/netwag/)  ` sudo port install netwag `
+
+##### [goldendict](https://ports.macports.org/port/goldendict/)
+
+`sudo port install goldendict    ## M1 etc apple silicon Not Supported`
         
 ### [Homebrew](https://brew.sh)
 
