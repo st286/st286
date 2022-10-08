@@ -32,7 +32,10 @@ port help
 sudo port uninstall --follow-dependencies xxx-port
  
 ```
-** wget htop netwox gost **  installed in my MacBook Air
+
+`wget`  `htop`  `netwox`  `gost`  `fdisk`   
+
+installed in my MacBook Air
 
 ===
 
