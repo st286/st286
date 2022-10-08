@@ -6,13 +6,9 @@
 支持的格式：
 
     EPUB（.epub，.epub3）
-    
     Kindle（.azw，.azw3）和Mobipocket（.mobi）
-    
     FictionBook（.fb2，.fb2.zip）
-    
     漫画书档案（.cbr，.cbz，.cbt，.cb7）
-    
     纯文本（.txt）
 
 ---
