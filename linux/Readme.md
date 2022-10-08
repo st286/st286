@@ -1,3 +1,21 @@
+---
+## [Foliate: A simple and modern eBook viewer for Linux desktops](https://johnfactotum.github.io/foliate/)
+
+[Foliate – 适用于 Linux 桌面的简单、现代的电子书阅读器](https://www.appinn.com/foliate-for-linux/)
+
+支持的格式：
+
+    EPUB（.epub，.epub3）
+    
+    Kindle（.azw，.azw3）和Mobipocket（.mobi）
+    
+    FictionBook（.fb2，.fb2.zip）
+    
+    漫画书档案（.cbr，.cbz，.cbt，.cb7）
+    
+    纯文本（.txt）
+
+---
 ## [Setup Printer (Debian SystemPrinting)](https://wiki.debian.org/SystemPrinting)
 
 A basic view of the CUPS Printing system. Aimed at Debian 11 (bullseye) but it should fit most of what is provided by Debian 10 (buster). 
@@ -54,6 +72,7 @@ http://localhost:631
         
         package: tzdata  locales  deconf console-setup
 
+---
 ## Linux kernel compile
 
 安装编译工具以及其它一下依赖的软件包，在Ubuntu 18.04环境下执行如下命令
@@ -67,8 +86,8 @@ Unix & Linux Stack Exchange is a question and answer site for users of Linux, Fr
 
 [What should/shouldn't go in .zshenv, .zshrc, .zlogin, .zprofile, .zlogout?](https://unix.stackexchange.com/questions/71253/what-should-shouldnt-go-in-zshenv-zshrc-zlogin-zprofile-zlogout)
 
+---
 ## Linux Learning
-
 
  1.  [The linux command line 中文版](https://www.kancloud.cn/thinkphp/linux-command-line/39431)
  
@@ -82,8 +101,6 @@ Unix & Linux Stack Exchange is a question and answer site for users of Linux, Fr
          
    [tar](https://www.jianshu.com/p/b91d7491381b)
    
-
-
 ### GoldedDict
 
 [安装使用 GoldenDict 查词神器 (Windows/Mac/Linux)](https://www.jianshu.com/p/b6b2c1d78d7c)
