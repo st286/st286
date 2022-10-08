@@ -29,23 +29,23 @@
 
 ### 安装
 
-    在下面的链接中找到你需要的包
+在下面的链接中找到你需要的包
     
-    [AUR仓库](https://aur.archlinux.org/packages)
+[AUR仓库](https://aur.archlinux.org/packages)
     
-    克隆仓库
+克隆仓库
     
-    在 Git Clone URL 那一行复制git仓库的下载地址，在终端切到你存放仓库的目录下运行以下命令
+在 Git Clone URL 那一行复制git仓库的下载地址，在终端切到你存放仓库的目录下运行以下命令
     
-    `git clone 仓库链接`
+`git clone 仓库链接`
     
-    这样你就将仓库复制到了本地
+这样你就将仓库复制到了本地
+
+打包安装
     
-    打包安装
+切到下载的仓库目录下，在这个目录下应该有一个PKGBUILD文件，接下来运行以下命令就能安装了
     
-    切到下载的仓库目录下，在这个目录下应该有一个PKGBUILD文件，接下来运行以下命令就能安装了
-    
-   `makepkg -si`
+ `makepkg -si`
 
 ### 卸载
 
