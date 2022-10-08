@@ -80,7 +80,7 @@ route {
 
 ## Naive 客户端 Client setup
 
-Run ./naive with the following config.json to get a SOCKS5 proxy at local port 1080.
+Run `./naive`  with the following config.json to get a SOCKS5 proxy at local port 1080.
 
 [Naiveproxy download](https://github.com/klzgrad/naiveproxy/releases)
 
