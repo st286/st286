@@ -26,7 +26,7 @@
 ---
 # 安装manjaro后的使用
 
-### [Pacman vs Pamac vs Yay](https://archived.forum.manjaro.org/t/pacman-vs-pamac-vs-yay/122495)
+## [Pacman vs Pamac vs Yay](https://archived.forum.manjaro.org/t/pacman-vs-pamac-vs-yay/122495)
 
 **manjaro 建议优先使用 pamac**
 
@@ -42,26 +42,28 @@
 
 	EDIT: pamac also has a GUI version available pamac-manager which is in the menus as "Add/Remove Software"
 
-### [General recommendations (简体中文)](https://wiki.archlinux.org/title/General_recommendations_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+## [General recommendations (简体中文)](https://wiki.archlinux.org/title/General_recommendations_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 
-### yay
+##  yay
+
+[How to Install yay AUR Helper in Arch Linux [Beginner’s Guide]](https://www.debugpoint.com/install-yay-arch/#install-yay-manjaro)
 
 [初级：如何在 Arch Linux 中安装 Yay AUR 助手](https://linux.cn/article-14846-1.html)
 ```
 sudo pacman -Syu
 sudo pacman -S yay
 
-## 刷新包并升级
+# 刷新包并升级
 yay -Syu
 
-## 删除任何包
+# 删除任何包
 yay -Rns xxxx
 
-## 取系统统计信息
+# 取系统统计信息
 yay -Ps
 
 ```
-### manjaro安装中文fonts
+## manjaro安装中文fonts
 
 ```
 ### adobe source han fonts, arphic fonts, New Sung font, wqy fonts 
