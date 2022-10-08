@@ -1,3 +1,4 @@
+---
 # Distro based on ArchLinux
 
 [asahi linux on Apple Silicon](https://asahilinux.org/)
@@ -6,6 +7,7 @@
 
 [endeavouros](https://endeavouros.com/)
 
+---
 # 配置 
 
 [Pamac简介](https://wiki.manjaro.org/index.php/Pamac/zh-cn)
@@ -21,6 +23,36 @@
 [安装Manjaro之后的配置 ](https://panqiincs.me/2019/06/05/after-installing-manjaro/)
 
 [Localization (简体中文)](https://wiki.archlinux.org/title/Localization_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+
+---
+# 安装和卸载AUR软件包
+
+### 安装
+
+    在下面的链接中找到你需要的包
+    
+    [AUR仓库](https://aur.archlinux.org/packages)
+    
+    克隆仓库
+    
+    在 Git Clone URL 那一行复制git仓库的下载地址，在终端切到你存放仓库的目录下运行以下命令
+    
+    `git clone 仓库链接`
+    
+    这样你就将仓库复制到了本地
+    
+    打包安装
+    
+    切到下载的仓库目录下，在这个目录下应该有一个PKGBUILD文件，接下来运行以下命令就能安装了
+    
+   `makepkg -si`
+
+### 卸载
+
+和普通的官方软件没什么区别，执行以下命令
+`pacman -Rs 包名`
+
+原文链接：https://blog.csdn.net/superstar_zbt/article/details/100886054
 
 
 ---
@@ -63,7 +95,8 @@ yay -Rns xxxx
 yay -Ps
 
 ```
-## manjaro安装中文fonts
+---
+# manjaro安装中文fonts
 
 ```
 ### adobe source han fonts, arphic fonts, New Sung font, wqy fonts 
@@ -85,8 +118,8 @@ yay -Rns ttf-ms-fonts
 yay -Yc
 
 ```
-
-### manjaro安装配置中文输入法fcitx5
+---
+# manjaro安装配置中文输入法fcitx5
 ```
 ## 先删除fcitx软件包
 sudo pacman -Rs $(pacman -Qsq fcitx)
@@ -123,10 +156,8 @@ expressvpn
 
 tor
 
-
----
 --- 
-## ArchEX Linux Live DVD
+# ArchEX Linux Live DVD
 
 [ArchEX Linux](http://archex.exton.net/)
 
@@ -146,17 +177,9 @@ ArchEX 64 bit is a new (200914) Linux live DVD based on Arch Linux. Arch motto i
 [ALMA](https://github.com/r-darwish/alma)
 
 
-
---------
---------
-
-
-
 ## Arch installation
 
 [archlinux wiki](https://wiki.archlinux.org/)
-
-
 
 
 ### install zsh
