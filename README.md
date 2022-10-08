@@ -46,6 +46,10 @@ sudo netfilter-persistent save
 ---
 # [Linux](./linux)
 
+## [DebugPoint](https://www.debugpoint.com/)
+
+DebugPoint.com is a portal covering Technology, Software News and stuff that matters. Heavily slant towards Linux and Open Source.
+
 ## [ArchLinux - manjaro etc](./ArchLinux)
 
 [linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
