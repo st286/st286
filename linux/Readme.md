@@ -53,6 +53,30 @@ http://localhost:631
 ```
 
 ---
+## KALI Linux 中文输入法
+
+```
+## 安装fcitx5软件包
+## fcitx5: 输入法基础框架主程序
+## fcitx5-config-qt：输入法配置程序
+## fcitx5-qt: QT5程序的支持 
+##  fcitx5-gtk: GTK程序的支持 
+## fcitx5-chinese-addons: 简体中文输入的支持，拼音.(五笔,内置）
+
+sudo apt install fcitx5 fcitx5-config-qt fcitx5-chinese-addons
+
+## 修改环境变量
+sudo vim /etc/profile
+
+## 加入下面四行，并注销，重登录
+
+# fcitx5
+export GTK_IM_MODULE=fcitx5
+export QT_IM_MODULE=fcitx5
+export XMODIFIERS=@im=fcitx5
+```
+
+---
 ## Linux mans pages
 
 #### [Ubuntu manpages](https://manpages.ubuntu.com/)
