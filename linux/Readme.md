@@ -1,4 +1,11 @@
 ---
+## Torrent
+
+[Top 15 Best Torrent Clients for Linux System in 2022](https://www.ubuntupit.com/best-torrent-client-for-linux/)
+
+[Transmissionbt](https://transmissionbt.com/)
+
+---
 ## [Foliate: A simple and modern eBook viewer for Linux desktops](https://johnfactotum.github.io/foliate/)
 
 [Foliate – 适用于 Linux 桌面的简单、现代的电子书阅读器](https://www.appinn.com/foliate-for-linux/)
