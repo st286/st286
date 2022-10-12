@@ -24,10 +24,9 @@ deb-src http://mirrors.neusoft.edu.cn/kali kali-rolling/main non-free contrib
 #官方源
 deb http://http.kali.org/kali kali-rolling main non-free contrib
 deb-src http://http.kali.org/kali kali-rolling main non-free contrib
-————————————————
-版权声明：本文为CSDN博主「任来一」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/qq_44710419/article/details/120470170
 ```
+原文链接：https://blog.csdn.net/qq_44710419/article/details/120470170
+
 ---
 ## Torrent
 
