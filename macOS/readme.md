@@ -1,5 +1,12 @@
----
+___
 
+## 14. [Etcher](https://github.com/balena-io/etcher)
+
+Flash OS images to SD cards & USB drives, safely and easily.
+
+Etcher is a powerful OS image flasher built with web technologies to ensure flashing an SDCard or USB drive is a pleasant and safe experience. It protects you from accidentally writing to your hard-drives, ensures every byte of data was written correctly, and much more. It can also directly flash Raspberry Pi devices that support USB device boot mode.
+
+---
 ## 13. [Best download manager for Mac - Folx](https://www.electronic.us/products/folx/)
 
 Folx is a free download manager for Mac that makes downloading as fast and convenient as it should be. With a wide range of useful settings and unique features, you get complete control over the download process. Folx is fully compatible with the latest version of macOS.
