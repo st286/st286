@@ -1,4 +1,20 @@
 ---
+
+## 13. [Best download manager for Mac - Folx](https://www.electronic.us/products/folx/)
+
+Folx is a free download manager for Mac that makes downloading as fast and convenient as it should be. With a wide range of useful settings and unique features, you get complete control over the download process. Folx is fully compatible with the latest version of macOS.
+
+---
+## 12. [JustPlay](https://www.electronic.us/just-play.html)
+
+Lightweight video player for macOS
+
+---
+## 11. [VirtualBox](VirtualBox)
+
+VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use.
+
+---
 ## 10. [iTerm2](https://iterm2.com)
 
 iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted.
