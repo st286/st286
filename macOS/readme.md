@@ -3,7 +3,7 @@
 
 A project to get a Linux shell running on iOS, using usermode x86 emulation and syscall translation.
 
-[WIKI](https://github.com/ish-app/ish/wiki)
+[iSH wiki](https://github.com/ish-app/ish/wiki)
 
 ---
 ## 14. [Etcher](https://github.com/balena-io/etcher)
