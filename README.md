@@ -99,6 +99,17 @@ sudo yt-dlp -U
  ```
  yt-dlp -x --audio-format mp3 --trim-filenames 20  URL
 ```
+audio conversion failed: Unknown encoder 'libmp3lame'
+
+ffmpeg Compile with libmp3lame:
+```
+git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
+cd ffmpeg
+./configure --enable-libmp3lame
+make
+make install
+ffmpeg -version
+```
 ## [nmap](https://nmap.org)
 
 #### [Nmap参考指南-Man Page](https://nmap.org/man/zh/index.html)
