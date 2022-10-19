@@ -1,4 +1,5 @@
 ---
+
 ## git 设置和取消代理
 
 ```
@@ -15,6 +16,7 @@ git config --global --unset https.proxy
 
 npm config delete proxy
 ```
+
 
 ---
 ## git & github usage
