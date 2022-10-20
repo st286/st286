@@ -1,4 +1,4 @@
----
+
 
 ## git 设置和取消代理
 
@@ -18,7 +18,7 @@ npm config delete proxy
 ```
 
 
----
+
 ## git & github usage
 
         working dircetory <<<--- git add (rm)/restore --->>> stage(index) <<<---git commit/restore --->>> local respository
