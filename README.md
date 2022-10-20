@@ -98,6 +98,8 @@ sudo yt-dlp -U
  **Usage( output mp3)**
  ```
  yt-dlp -x --audio-format mp3 --trim-filenames 20  URL
+ 
+ yt-dlp -x --audio-format mp3 --trim-filenames 30  --proxy socks5://127.0.0.1:1024/   URL
 ```
 audio conversion failed: Unknown encoder 'libmp3lame'
 
