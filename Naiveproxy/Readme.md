@@ -126,3 +126,5 @@ python3 jarm.py naive.buliang0.tk
 ### [naive节点新手搭建教程video](https://www.youtube.com/watch?v=F2VsjS6fybs)
 
 ### [NaïveProxy 搭建部署安装教程 2022-4-8](https://dasmz.com/?p=1908)
+
+### [Linux下setcap详解](https://fashengba.com/post/linux-setcap.html)
