@@ -72,6 +72,8 @@ route {
 ```
 ### 4.caddy常用指令
 ```
+sudo setcap cap_net_bind_service=+ep ./caddy
+
 前台运行caddy：./caddy run
 后台运行caddy：./caddy start
 停止caddy：./caddy stop
