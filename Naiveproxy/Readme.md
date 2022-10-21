@@ -119,6 +119,8 @@ python3 jarm.py naive.buliang0.tk
 
 ### [Caddy - Every site on HTTPS](https://github.com/caddyserver/caddy)
 
+### [xcaddy - Custom Caddy Builder](https://github.com/caddyserver/xcaddy)
+
 ### [(源)NaïveProxy and Cronet ](https://github.com/klzgrad/naiveproxy)
 
 ### [naive节点搭建(tls指纹问题)](https://bulianglin.com/archives/naive.html)
