@@ -123,6 +123,8 @@ python3 jarm.py naive.buliang0.tk
 
 ### [(源)NaïveProxy and Cronet ](https://github.com/klzgrad/naiveproxy)
 
+### [完美取代穿透tls的高隐匿科学上网工具NaiveProxy安装部署](https://www.dongvps.com/2022-10-17/完美取代穿透tls的高隐匿科学上网工具naiveproxy完美取代/)
+
 ### [naive节点搭建(tls指纹问题)](https://bulianglin.com/archives/naive.html)
 
 ### [naive节点新手搭建教程video](https://www.youtube.com/watch?v=F2VsjS6fybs)
