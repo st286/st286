@@ -1,4 +1,11 @@
+---
+## Visudo & Sudoer
 
+[Linux visudo command](https://www.computerhope.com/unix/visudo.htm)
+
+[Why and How to Edit Your Sudoers File in Linux](https://www.maketecheasier.com/edit-sudoers-file-linux/)
+
+---
 ## 配置kali的apt国内源
 
 ```
