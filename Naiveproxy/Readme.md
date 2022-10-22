@@ -129,6 +129,8 @@ python3 jarm.py naive.buliang0.tk
 
 ### [NaïveProxy 搭建部署安装教程 2022-4-8](https://dasmz.com/?p=1908)
 
+### [如何允许非 root 进程绑定低位端口](https://www.boris1993.com/linux/allow-non-root-process-to-bind-low-numbered-ports.html)
+
 ### [Linux下setcap详解](https://fashengba.com/post/linux-setcap.html)
 
 ### [setcap Linux Command](https://mostafa-asg.github.io/post/setcap-linux-command/)
