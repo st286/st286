@@ -121,6 +121,8 @@ python3 jarm.py naive.buliang0.tk
 
 ### [xcaddy - Custom Caddy Builder](https://github.com/caddyserver/xcaddy)
 
+### [动手撸个Caddy](https://www.flysnow.org/search/?q=caddy&sitesearch=https%3A%2F%2Fwww.flysnow.org)
+
 ### [(源)NaïveProxy and Cronet ](https://github.com/klzgrad/naiveproxy)
 
 ### [完美取代穿透tls的高隐匿科学上网工具NaiveProxy安装部署](https://www.dongvps.com/2022-10-17/完美取代穿透tls的高隐匿科学上网工具naiveproxy完美取代/)
@@ -130,6 +132,8 @@ python3 jarm.py naive.buliang0.tk
 ### [naive节点新手搭建教程video](https://www.youtube.com/watch?v=F2VsjS6fybs)
 
 ### [NaïveProxy 搭建部署安装教程 2022-4-8](https://dasmz.com/?p=1908)
+
+### [正向代理与反向代理的区别](https://oxylabs.cn/blog/reverse-proxy-vs-forward-proxy)
 
 ### [如何允许非 root 进程绑定低位端口](https://www.boris1993.com/linux/allow-non-root-process-to-bind-low-numbered-ports.html)
 
