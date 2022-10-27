@@ -1,26 +1,25 @@
 
-### 15. [iSH -  Linux shell running on iOS](https://github.com/ish-app/ish)
+### [15. iSH -  Linux shell running on iOS](https://github.com/ish-app/ish)
 
 [iSH wiki](https://github.com/ish-app/ish/wiki)
 
-### 14. [Etcher - Flash OS images to SD cards & USB drives](https://github.com/balena-io/etcher)
+### [14. Etcher - Flash OS images to SD cards & USB drives](https://github.com/balena-io/etcher)
 
-### 13. [Best Free download manager for Mac - Folx](https://www.electronic.us/products/folx/)
+### [13. Best Free download manager for Mac - Folx](https://www.electronic.us/products/folx/)
 
-### 12. [JustPlay - Lightweight video player](https://www.electronic.us/just-play.html)
+### [12. JustPlay - Lightweight video player](https://www.electronic.us/just-play.html)
 
-### 11. [VirtualBox - a general-purpose full virtualizer](VirtualBox)
+### [11. VirtualBox - a general-purpose full virtualizer](VirtualBox)
 
-### 10. [iTerm2 - a replacement for Terminal](https://iterm2.com)
+### [10. iTerm2 - a replacement for Terminal](https://iterm2.com)
 
-### 9. [the iPhone Wiki - Apple Devices 硬件与软件信息收集](https://www.theiphonewiki.com)
+### [09. the iPhone Wiki - Apple Devices 硬件与软件信息收集](https://www.theiphonewiki.com)
 
 [Baseband device 基带设备](https://www.theiphonewiki.com/wiki/Baseband_Device)
 
-### 8. macOS package包管理
+### [08. macOS package包管理](./package.md)
 
----
-## 7.[iMazing app download](https://imazing.com/downloads)
+### [07.iMazing app download](https://imazing.com/downloads)
 
 #### 1.iMazing
 
