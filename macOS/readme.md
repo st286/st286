@@ -46,25 +46,54 @@ The iPhone Wiki is an unofficial wiki dedicated to collecting, storing and provi
 
 [Homebrew vs. MacPorts package managers](https://www.scivision.dev/homebrew-macports-fink/)
 
-### [(1).MacPorts](https://www.macports.org/)
-
-#### [Installing MacPorts](https://www.macports.org/install.php)
+### [MacPorts](https://www.macports.org/)
 
 #### [Macport Guide](https://guide.macports.org/)
 
+#### [Migrating MacPorts](https://trac.macports.org/wiki/Migration)
+
+#### [Quickstart](https://www.macports.org/install.php)
+
 ===
 
-Port command: 
-```
-port help
- 
-sudo port uninstall --follow-dependencies xxx-port
- 
-```
+**Port command:**
 
-`wget`  `htop`  `netwox`  `gost`  `fdisk`   
+help:
 
-installed in my MacBook Air
+`port help`
+
+port selfupdate:
+
+`sudo port -v selfupdate`
+
+list installed ports:
+
+`port -qv installed`
+
+list requested ports:
+
+`port echo requested`
+
+list outdated port:
+
+`port outdated`
+
+Uninstall all installed ports:
+
+`sudo port -f uninstall installed`
+
+Run a regular clear out of your installation:
+
+`sudo port reclaim`
+
+uninstall the dependencies:
+
+`sudo port uninstall --follow-dependencies xxx-port`
+ 
+Ports installed on my MacBook Air:
+
+`wget`  `htop`  `netwox` 
+
 
 ===
 
