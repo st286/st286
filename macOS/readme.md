@@ -1,47 +1,22 @@
 ---
-## 15. [iSH](https://github.com/ish-app/ish)
-
-A project to get a Linux shell running on iOS, using usermode x86 emulation and syscall translation.
+## 15. [iSH -  Linux shell running on iOS](https://github.com/ish-app/ish)
 
 [iSH wiki](https://github.com/ish-app/ish/wiki)
 
----
-## 14. [Etcher](https://github.com/balena-io/etcher)
+## 14. [Etcher - Flash OS images to SD cards & USB drives](https://github.com/balena-io/etcher)
 
-Flash OS images to SD cards & USB drives, safely and easily.
+## 13. [Best Free download manager for Mac - Folx](https://www.electronic.us/products/folx/)
 
-Etcher is a powerful OS image flasher built with web technologies to ensure flashing an SDCard or USB drive is a pleasant and safe experience. It protects you from accidentally writing to your hard-drives, ensures every byte of data was written correctly, and much more. It can also directly flash Raspberry Pi devices that support USB device boot mode.
+## 12. [JustPlay - Lightweight video player](https://www.electronic.us/just-play.html)
 
----
-## 13. [Best download manager for Mac - Folx](https://www.electronic.us/products/folx/)
+## 11. [VirtualBox - a general-purpose full virtualizer](VirtualBox)
 
-Folx is a free download manager for Mac that makes downloading as fast and convenient as it should be. With a wide range of useful settings and unique features, you get complete control over the download process. Folx is fully compatible with the latest version of macOS.
+## 10. [iTerm2 - a replacement for Terminal](https://iterm2.com)
 
----
-## 12. [JustPlay](https://www.electronic.us/just-play.html)
-
-Lightweight video player for macOS
-
----
-## 11. [VirtualBox](VirtualBox)
-
-VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use.
-
----
-## 10. [iTerm2](https://iterm2.com)
-
-iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted.
-
----
-## 9. [the iPhone Wiki](https://www.theiphonewiki.com)
-
-Apple Devices 硬件与软件信息收集
-
-The iPhone Wiki is an unofficial wiki dedicated to collecting, storing and providing information on the internals of Apple's amazing iDevices. We hope to pass this information on to the next generation of hackers so that they can go forth into their forebears' footsteps and break the ridiculous bonds Apple has put on their amazing mobile devices.
+## 9. [the iPhone Wiki - Apple Devices 硬件与软件信息收集](https://www.theiphonewiki.com)
 
 [Baseband device 基带设备](https://www.theiphonewiki.com/wiki/Baseband_Device)
 
----
 ## 8. macOS package包管理
 
 [Homebrew vs. MacPorts package managers](https://www.scivision.dev/homebrew-macports-fink/)
