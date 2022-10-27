@@ -33,6 +33,6 @@
 
 ###  01. [Install Rosetta 2 on Apple Silicon Macs](https://osxdaily.com/2020/12/04/how-install-rosetta-2-apple-silicon-mac/)
 
-    `/usr/sbin/softwareupdate --install-rosetta --agree-to-license`
+  `/usr/sbin/softwareupdate --install-rosetta --agree-to-license`
 
 ###  00. [MacOS终端走代理](https://github.com/mrdulin/blog/issues/18) and [MacOS终端命令](https://github.com/qLzhu/macCommand)
