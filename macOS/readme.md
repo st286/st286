@@ -1,109 +1,23 @@
----
-## 15. [iSH -  Linux shell running on iOS](https://github.com/ish-app/ish)
+
+### 15. [iSH -  Linux shell running on iOS](https://github.com/ish-app/ish)
 
 [iSH wiki](https://github.com/ish-app/ish/wiki)
 
-## 14. [Etcher - Flash OS images to SD cards & USB drives](https://github.com/balena-io/etcher)
+### 14. [Etcher - Flash OS images to SD cards & USB drives](https://github.com/balena-io/etcher)
 
-## 13. [Best Free download manager for Mac - Folx](https://www.electronic.us/products/folx/)
+### 13. [Best Free download manager for Mac - Folx](https://www.electronic.us/products/folx/)
 
-## 12. [JustPlay - Lightweight video player](https://www.electronic.us/just-play.html)
+### 12. [JustPlay - Lightweight video player](https://www.electronic.us/just-play.html)
 
-## 11. [VirtualBox - a general-purpose full virtualizer](VirtualBox)
+### 11. [VirtualBox - a general-purpose full virtualizer](VirtualBox)
 
-## 10. [iTerm2 - a replacement for Terminal](https://iterm2.com)
+### 10. [iTerm2 - a replacement for Terminal](https://iterm2.com)
 
-## 9. [the iPhone Wiki - Apple Devices 硬件与软件信息收集](https://www.theiphonewiki.com)
+### 9. [the iPhone Wiki - Apple Devices 硬件与软件信息收集](https://www.theiphonewiki.com)
 
 [Baseband device 基带设备](https://www.theiphonewiki.com/wiki/Baseband_Device)
 
-## 8. macOS package包管理
-
-[Homebrew vs. MacPorts package managers](https://www.scivision.dev/homebrew-macports-fink/)
-
-### [MacPorts](https://www.macports.org/)
-
-#### [Macport Guide](https://guide.macports.org/)
-
-#### [Migrating MacPorts](https://trac.macports.org/wiki/Migration)
-
-#### [Quickstart](https://www.macports.org/install.php)
-
-===
-
-**Port command:**
-
-help:
-
-`port help`
-
-port selfupdate:
-
-`sudo port -v selfupdate`
-
-list installed ports:
-
-`port -qv installed`
-
-list requested ports:
-
-`port echo requested`
-
-list outdated port:
-
-`port outdated`
-
-Uninstall all installed ports:
-
-`sudo port -f uninstall installed`
-
-Run a regular clear out of your installation:
-
-`sudo port reclaim`
-
-uninstall the dependencies:
-
-`sudo port uninstall --follow-dependencies xxx-port`
- 
-Ports installed on my MacBook Air:
-
-`wget`  `htop`  `netwox` 
-
-
-===
-
-#### Network-Tools:
-
-[netwox](https://ports.macports.org/port/netwox/) ` sudo port install netwox `
-
-[netwag](https://ports.macports.org/port/netwag/)  ` sudo port install netwag `
-
-===
-
-[goldendict](https://ports.macports.org/port/goldendict/)
-
-`sudo port install goldendict    ## M1 etc apple silicon Not Supported`
-        
-### [(2).Homebrew](https://brew.sh)
-
-The Missing Package Manager for macOS (or Linux)
-```
-###  Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-### Uninstall Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
-```
-add Homebrew to your PATH:
-
-    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/hyh/.zprofile
-    eval "$(/opt/homebrew/bin/brew shellenv)"
-    
-Run brew help to get started
-
-#### [Install GoldenDict on Mac](https://brewinstall.org/install-goldendict-mac-osx/)
-
-        brew install --cask goldendict
+### 8. macOS package包管理
 
 ---
 ## 7.[iMazing app download](https://imazing.com/downloads)
