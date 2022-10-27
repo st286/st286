@@ -27,34 +27,12 @@
   
 ### 04. [Osxdaily](https://osxdaily.com) and [Mac云课堂 ](https://www.youtube.com/channel/UCGHCIkfEHaKT7zsq8wzqeOQ)
 
-### 03. [MonitorControl - for Apple Silicon and Intel](https://github.com/MonitorControl/MonitorControl)
+### 03. [MonitorControl - Controls your external display brightness and volume](https://github.com/MonitorControl/MonitorControl)
 
-Controls your external display brightness and volume and shows native OSD. Use menulet sliders or the keyboard, including native Apple keys!
+###  02. [Mediahuman - YouTube to MP3 Converter, Audio Converter, mTube](https://www.mediahuman.com/)
 
-###  02. [YouTube to MP3 Converter, Audio Converter,  mTube
+###  01. [Install Rosetta 2 on Apple Silicon Macs](https://osxdaily.com/2020/12/04/how-install-rosetta-2-apple-silicon-mac/)
 
-[Mediahuman](https://www.mediahuman.com/)
+    `/usr/sbin/softwareupdate --install-rosetta --agree-to-license`
 
-[Mediahuman Latest version downloads](https://www.mediahuman.com/download.html)
-
-
-### 01. [How to Install Rosetta 2 on Apple Silicon Macs](https://osxdaily.com/2020/12/04/how-install-rosetta-2-apple-silicon-mac/)
-
-####  How to reinstall Rosetta 2
-
-[Fix Apps Crashing on M1 Pro/Max Mac After Migration Assistant or Monterey Update](https://osxdaily.com/2021/11/08/fix-app-crashing-apple-silicon-mac/)
-
-The simplest way to reinstall Rosetta 2 is by opening the Terminal application, found via Spotlight (Command+Spacebar and typing Terminal), or by going the /Applications/Utilities/ folder, and then issuing the following command string:
-
-    /usr/sbin/softwareupdate --install-rosetta --agree-to-license
-
-Hit Return to execute the command, and reinstall Rosetta on the Mac.
-
-Once Rosetta has finished installing (again), try relaunching the apps, and they should work fine as expected again.
-
----
-### 00. Other
-
- 1.  [MacOS终端走代理](https://github.com/mrdulin/blog/issues/18)
- 
- 2.  [MacOS终端命令](https://github.com/qLzhu/macCommand)
+###  00. [MacOS终端走代理](https://github.com/mrdulin/blog/issues/18) and [MacOS终端命令](https://github.com/qLzhu/macCommand)
