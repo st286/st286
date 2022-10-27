@@ -21,9 +21,7 @@
 
 ### 05. [Command Line Tools for Xcode 14.1 Release Candidate 2](https://developer.apple.com/download/all/?q=Xcode) and [Command Line Tools for Xcode 13.4](https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_13.4/Command_Line_Tools_for_Xcode_13.4.dmg)
 
-`xcode-select  -h`  `softwareupdate`
-  
-[How to Install Command Line Tools in Mac OS X (Without Xcode)](https://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
+`xcode-select  -h`  `softwareupdate`  [Install Command Line Tools in Mac OS X (Without Xcode)](https://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
   
 ### 04. [Osxdaily](https://osxdaily.com) and [Mac云课堂 ](https://www.youtube.com/channel/UCGHCIkfEHaKT7zsq8wzqeOQ)
 
