@@ -19,16 +19,9 @@
 
 ### 06. [macOS iOS fonts 字体](./fonts.md)
 
-### 05. [Command Line Tools for Xcode 14.1 Release Candidate 2](https://developer.apple.com/download/all/?q=Xcode)
+### 05. [Command Line Tools for Xcode 14.1 Release Candidate 2](https://developer.apple.com/download/all/?q=Xcode) and [Command Line Tools for Xcode 13.4](https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_13.4/Command_Line_Tools_for_Xcode_13.4.dmg)
 
-   [Command Line Tools for Xcode 13.4](https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_13.4/Command_Line_Tools_for_Xcode_13.4.dmg)
-   
-   [XCode & command line download](https://developer.apple.com/xcode/): --> download --> Website to select !
-   
-   
-         xcode-select  -h
-         
-         softwareupdate 
+`xcode-select  -h`  `softwareupdate`
   
 [How to Install Command Line Tools in Mac OS X (Without Xcode)](https://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
   
