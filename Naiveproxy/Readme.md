@@ -49,13 +49,13 @@ go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
 ```
 ### 3.Caddyfile配置
 
-Caddyfile 与 caddy 在同目录.
+配置文件Caddyfile 与 caddy 在同目录， 下面是Caddyfile内容：
 ```
-:443, naive.buliang0.tk #你的域名
+:443, example.domain.com #你的域名
 tls example@example.com #你的邮箱
 route {
  forward_proxy {
-   basic_auth user pass #用户名和密码
+   basic_auth user pass #w你的用户名和密码
    hide_ip
    hide_via
    probe_resistance
