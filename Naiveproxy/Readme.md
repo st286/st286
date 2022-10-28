@@ -98,7 +98,7 @@ Run `./naive`  with the following config.json to get a SOCKS5 proxy at local por
 ```
 Or `quic://user:pass@example.com`, if it works better. See also [parameter usage](https://github.com/klzgrad/naiveproxy/blob/master/USAGE.txt) and [performance tuning](https://github.com/klzgrad/naiveproxy/wiki/Performance-Tuning).
 
-**It maybe works better with http2,  worse with http3 (quic) , in Mainland China.**
+**It maybe works better with http2 (based on TCP),  worse with http3 (quic, based on UDP) , in Mainland China.**
 
 ---
 # TLS指纹查看
