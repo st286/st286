@@ -76,12 +76,15 @@ route {
 ```
 ### 4.caddy常用指令
 ```
-sudo setcap cap_net_bind_service=+ep ./caddy
+sudo setcap cap_net_bind_service=+ep ./caddy  # 非root用户，启用绑定低于1024端口能力
 
-前台运行caddy：./caddy run
-后台运行caddy：./caddy start
-停止caddy：./caddy stop
-重载配置：./caddy reload
+./caddy run     # 前台运行caddy
+
+./caddy start   # 后台运行caddy
+
+./caddy stop    # 停止caddy
+
+./caddy reload   # 重载配置
 ```
 
 ## Naive 客户端 Client setup
