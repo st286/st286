@@ -17,7 +17,7 @@ The Naïve server here works as a forward proxy and a packet length padding laye
 
 ## Naive server 配置
 
-想自动安装，可以试用[一键安装](https://www.dongvps.com/2022-10-27/naiveproxy一键安装配置脚本发布（可自定义端口）/) and  [shellscript](https://github.com/imajeason/nas_tools/tree/main/NaiveProxy) 
+想自动安装，可以试用[一键安装](https://www.dongvps.com/2022-10-27/naiveproxy一键安装配置脚本发布（可自定义端口）/) and  [shellscript is here](https://github.com/imajeason/nas_tools/tree/main/NaiveProxy) 
 
 下面以手动方式安装：
 
