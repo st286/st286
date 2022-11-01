@@ -10,8 +10,6 @@
 
 ### [VPN](./VPN)
 
-### [SNELL](./SNELL)
-
 ### [GOST](./GOST)
 
 ### sing-box:
@@ -21,6 +19,8 @@
 [sing-box github](https://github.com/SagerNet/sing-box)
 
 [sing-box 网络代理平台的“瑞士军刀”，搭建shadowtls节点](https://bulianglin.com/archives/sing-box.html)
+
+### ~~[SNELL](./SNELL)~~
 
 ---
 # [Oracle cloud](https://cloud.oracle.com/)
