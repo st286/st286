@@ -14,6 +14,8 @@
 
 [TUIC安装指南](https://github.com/chika0801/tuic-install)
 
+[An ACME Shell script: acme.sh](https://github.com/acmesh-official/acme.sh)
+
 ## [Xray](./Xray)
 
 ## [VPN](./VPN)
