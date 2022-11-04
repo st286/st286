@@ -11,9 +11,10 @@
 
 [Install fo Linux](https://www.sublimetext.com/docs/linux_repositories.html)
 
-`path: Install   /opt/sublime_text/        Package and config: ~/.config/sublime-text/`
+**Path:** 
+Install:   `/opt/sublime_text/`   Package and config:  `~/.config/sublime-text/`
 
-**sublime4.key:**
+**Sublime text4 key:**
 ```
 —– BEGIN LICENSE —–
 Mifeng User
