@@ -9,7 +9,7 @@
 
 ## [Sublime Text](https://www.sublimetext.com)
 
-[Install fo Linux](https://www.sublimetext.com/docs/linux_repositories.html)
+[Install for Linux](https://www.sublimetext.com/docs/linux_repositories.html)
 
 **Path:** 
 Install:   `/opt/sublime_text/`   Package and config:  `~/.config/sublime-text/`
