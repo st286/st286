@@ -15,9 +15,10 @@
 Install:   `/opt/sublime_text/`   Package and config:  `~/.config/sublime-text/`
 
 **Gosublime:**
-https://github.com/DisposaBoy/GoSublime
 
-https://cnwang.medium.com/sublime-text-4-%E5%9F%B7%E8%A1%8Cgolang-go-d3a3e5999414
+[Gosublime - github]https://github.com/DisposaBoy/GoSublime
+
+[Sublime Text 4 執行Golang (GO)]https://cnwang.medium.com/sublime-text-4-%E5%9F%B7%E8%A1%8Cgolang-go-d3a3e5999414
 
 
 **Sublime text4 key:**
