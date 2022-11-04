@@ -20,6 +20,8 @@ Install:   `/opt/sublime_text/`   Package and config:  `~/.config/sublime-text/`
 
 [Sublime Text 4 執行Golang (GO)](https://cnwang.medium.com/sublime-text-4-%E5%9F%B7%E8%A1%8Cgolang-go-d3a3e5999414)
 
+**goproxy:**
+`go env -w GOPROXY="https://goproxy.io,direct"`
 
 **Sublime text4 key:**
 ```
