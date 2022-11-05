@@ -1,3 +1,8 @@
+### 16. [Getting the bundle identifier of an OS X application in a shell script](https://superuser.com/questions/346369/getting-the-bundle-identifier-of-an-os-x-application-in-a-shell-script)
+
+```
+mdls -name kMDItemCFBundleIdentifier -r /Applications/SomeApp.app
+```
 
 ### 15. [iSH -  Linux shell running on iOS](https://github.com/ish-app/ish) and [iSH wiki](https://github.com/ish-app/ish/wiki)
 
