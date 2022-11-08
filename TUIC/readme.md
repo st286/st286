@@ -107,7 +107,7 @@ certbot renew --cert-name tuic.example.com --dry-run
 服务端到这里就全部配置完成了，接下来在这个页面下载客户端。
 
 
-## 客户端:
+## 客户端，PC端：
 
 下载页面：
 https://github.com/EAimTY/tuic/releases
@@ -139,14 +139,14 @@ wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-client-0.8.5-x8
 }
 ```
 
-打开powershell运行tuic客户端：
+打开PC终端，运行tuic客户端：
 ```
 ./tuic-client-0.8.5-x86_64-linux-gnu -c config.json
 
 ./tuic-client-0.8.5-x86_64-macos -c config.json
 ```
 
-
+设置PC的Socks5代理，则可。
 
 
 
