@@ -148,5 +148,13 @@ wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-client-0.8.5-x8
 
 设置PC的Socks5代理，则可。
 
+### Stash
+
+Stash 是一款iOS/macOS平台基于规则的多协议代理客户端
+
+https://stash.wiki/
+
+
+
 
 
