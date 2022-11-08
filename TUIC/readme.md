@@ -9,7 +9,7 @@
 
 tuic是一个基于quic协议的高性能代理，更多介绍：https://github.com/EAimTY/tuic
 
-## 安装服务端：
+## 一、安装服务端：
 ```
 apt -y update
 
@@ -107,7 +107,7 @@ certbot renew --cert-name tuic.example.com --dry-run
 服务端到这里就全部配置完成了，接下来在这个页面下载客户端。
 
 
-## 客户端，PC端：
+## 二、客户端，PC端：
 
 下载页面：
 https://github.com/EAimTY/tuic/releases
