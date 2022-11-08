@@ -44,6 +44,7 @@ chmod +x tuic-server-0.8.1-x86_64-linux-gnu
 `vim /lib/systemd/system/tuic.service`
 
 写入如下配置：
+
 ```
 [Unit]
 Description=Delicately-TUICed high-performance proxy built on top of the QUIC protocol
@@ -63,6 +64,7 @@ WantedBy=multi-user.target
 ```
 
 申请证书：
+
 ```
 certbot certonly --standalone --agree-tos --no-eff-email --email YOUR@EMAIL.com -d YOUR.DONAIN.com
 ```
@@ -102,12 +104,12 @@ chmod +x tuic.sh
 certbot renew --cert-name tuic.example.com --dry-run
 ```
 
-服务端到这里就全部配置完成了，接下来在这个页面下载客户端：
+服务端到这里就全部配置完成了，接下来在这个页面下载客户端。
 
 
 ## 客户端:
 
-
+下载页面：
 https://github.com/EAimTY/tuic/releases
 
 ```
@@ -117,7 +119,7 @@ wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-client-0.8.5-x8
 ```
 
 新建客户端的config.json配置文件，在文件内写入如下配置：
-
+```
 {
     "relay": {
         "server": "YOUR.DOMAIN.com",
@@ -135,6 +137,7 @@ wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-client-0.8.5-x8
     },
     "log_level": "info"
 }
+```
 
 打开powershell运行tuic客户端：
 ```
