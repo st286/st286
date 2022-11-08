@@ -19,7 +19,7 @@ mkdir /opt/tuic && cd /opt/tuic
 
 wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-server-0.8.5-x86_64-linux-gnu
 
-chmod +x tuic-server-0.8.1-x86_64-linux-gnu
+chmod +x tuic-server-0.8.5-x86_64-linux-gnu
 ```
 
  新建tuic配置文件：
