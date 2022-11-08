@@ -17,7 +17,7 @@ apt -y install wget certbot
 
 mkdir /opt/tuic && cd /opt/tuic
 
-wget https://github.com/EAimTY/tuic/releases/download/0.8.1/tuic-server-0.8.1-x86_64-linux-gnu
+wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-server-0.8.5-x86_64-linux-gnu
 
 chmod +x tuic-server-0.8.1-x86_64-linux-gnu
 ```
@@ -53,7 +53,7 @@ After=network.target
 [Service]
 User=root
 WorkingDirectory=/opt/tuic
-ExecStart=/opt/tuic/tuic-server-0.8.1-x86_64-linux-gnu -c config.json
+ExecStart=/opt/tuic/tuic-server-0.8.5-x86_64-linux-gnu -c config.json
 Restart=on-failure
 RestartPreventExitStatus=1
 RestartSec=5
@@ -103,3 +103,47 @@ certbot renew --cert-name tuic.example.com --dry-run
 ```
 
 服务端到这里就全部配置完成了，接下来在这个页面下载客户端：
+
+
+## 客户端:
+
+
+https://github.com/EAimTY/tuic/releases
+
+```
+wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-client-0.8.5-x86_64-linux-gnu
+
+wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-client-0.8.5-x86_64-macos
+```
+
+新建客户端的config.json配置文件，在文件内写入如下配置：
+
+{
+    "relay": {
+        "server": "YOUR.DOMAIN.com",
+        "port": 443,
+        "token": "YOURPASSWD",
+        "udp_relay_mode": "quic",
+        "congestion_controller": "bbr",
+        "alpn": ["h3"],
+        "disable_sni": false,
+        "reduce_rtt": true
+    },
+    "local": {
+        "port": 1080,
+        "ip": "127.0.0.1"
+    },
+    "log_level": "info"
+}
+
+打开powershell运行tuic客户端：
+```
+./tuic-client-0.8.5-x86_64-linux-gnu -c config.json
+
+./tuic-client-0.8.5-x86_64-macos -c config.json
+```
+
+
+
+
+
