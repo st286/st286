@@ -96,7 +96,7 @@ systemctl restart tuic.service
 
 给脚本执行权限：
 ```
-chmod +x tuic.sh
+chmod +x /etc/letsencrypt/renewal-hooks/post/tuic.sh
 ```
 
 测试续期的情况以及脚本能否正常运行：
