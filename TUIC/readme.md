@@ -154,6 +154,8 @@ Stash 是一款iOS/macOS平台基于规则的多协议代理客户端
 
 https://stash.wiki/
 
+[深入理解Clash配置文件](https://v2xtls.org/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3clash%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/)
+
 
 
 
