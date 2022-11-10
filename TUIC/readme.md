@@ -101,7 +101,7 @@ chmod +x tuic.sh
 
 测试续期的情况以及脚本能否正常运行：
 ```
-certbot renew --cert-name tuic.example.com --dry-run
+certbot renew --cert-name YOUR.DOMAIN.com --dry-run
 ```
 
 服务端到这里就全部配置完成了，接下来在这个页面下载客户端。
