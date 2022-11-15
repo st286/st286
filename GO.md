@@ -9,3 +9,8 @@
 **取消代理：**
 
 `go env -u GOPROXY`  
+
+## GO something
+
+`go version`
+`go env`
