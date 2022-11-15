@@ -12,5 +12,13 @@
 
 ## GO something
 
-`go version`
-`go env`
+`go version`  `go env`
+
+### godoc and go doc
+
+[The utility (or lack thereof) of godoc](https://forum.golangbridge.org/t/the-utility-or-lack-thereof-of-godoc/27906)
+
+The godoc webserver is no longer included in the main binary distribution. To run the godoc webserver locally, manually install it first:
+ 
+`go install golang.org/x/tools/cmd/godoc@latest`
+
