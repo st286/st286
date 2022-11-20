@@ -1,4 +1,4 @@
-# x03 [阿里云卸载阿里云盾(AliYunDun)](https://www.cnblogs.com/panbin2006/p/16540174.html)
+# x04 [阿里云卸载阿里云盾(AliYunDun)](https://www.cnblogs.com/panbin2006/p/16540174.html)
 
 卸载阿里云盾监控
 ```
@@ -14,7 +14,7 @@ rm -fr /etc/init.d/agentwatch /usr/sbin/aliyun-service
 rm -rf /usr/local/aegis*
 ```
 
-# x02 启用TCP-BBR 
+# x03 启用TCP-BBR 
 
 BBR 是一个由谷歌社区开发的 TCP拥塞控制技术，Debian 9 x64 系统的内核为4.9.0-3, 不用更换内核。
  
@@ -46,7 +46,7 @@ lsmod | grep bbr
 ```
 
 
-# x01 Linux 支持显示中文
+# x02 Linux 支持显示中文
 ```
 sudo dpkg-reconfigure locales  
 ## choose some zh_CN.UTF-8 
@@ -70,7 +70,7 @@ export LC_ALL='en_US.UTF-8'
 	source ~/.bashrc
         
 ---
-# let  VPS ipv6-only  connect to  ipv4
+# x01 let  VPS ipv6-only  connect to  ipv4
 
 
 **1. In Ubuntu 21.04 (vultr)**
