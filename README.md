@@ -25,6 +25,11 @@
 ## ~~[SNELL](./SNELL)~~
 
 ---
+# [Ventoy - A New Bootable USB Solution](https://www.ventoy.net/)
+
+[Ventoy - Github](https://github.com/ventoy/Ventoy)
+
+---
 # [Oracle cloud](https://cloud.oracle.com/)
 
 [How to deploy a FREE Oracle Cloud VPS server](https://cleavr.io/cleavr-slice/how-to-deploy-free-oracle-cloud-vps/)
