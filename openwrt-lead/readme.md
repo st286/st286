@@ -47,7 +47,7 @@ visudo
 su $USER_NAME
 ```
 ------
-### 编译命令 ( passwall, ssrp and helloworld (vssr) )
+## 编译命令 ( passwall, ssrp and helloworld (vssr) )
 
 #### 1.首先装好 Linux 系统，推荐  Ubuntu20.0 LTS
 
@@ -75,10 +75,38 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git
 
 cd ..
 cd ..
-# goto lede/
+## goto lede/
+```
+固件里面看不到ssr-plus，大佬在feed里里面吧ssr的feed隐藏了.
 
-./scripts/feeds update -a
-./scripts/feeds install -a
+修改 feeds.conf.default， 如下：
+`vim feeds.conf.default`
+
+```
+src-git packages https://github.com/coolsnowwolf/packages
+src-git luci https://github.com/coolsnowwolf/luci
+src-git routing https://git.openwrt.org/feed/routing.git
+src-git telephony https://git.openwrt.org/feed/telephony.git
+#src-git video https://github.com/openwrt/video.git
+#src-git targets https://github.com/openwrt/targets.git
+#src-git oldpackages http://git.openwrt.org/packages.git
+
+src-link custom /usr/src/openwrt/custom-feed   #本行，是手工去掉注释#
+
+src-git helloworld https://github.com/fw876/helloworld
+src-git passwall https://github.com/xiaorouji/openwrt-passwall
+
+src-git kenzok https://github.com/kenzok8/openwrt-packages  
+src-git small https://github.com/kenzok8/small  
+
+## 最后四行，是手工添加上
+##  加入kenzok8整合的themes和我们需要和实用的插件
+```
+
+修改后保存，继续：
+```
+./scripts/feeds update -a && ./scripts/feeds install -a
+
 make menuconfig
 ```
 
@@ -98,8 +126,9 @@ make V=s -j1
 
 
 ---
+---
 
-### 固件里面看不到ssr-plus，大佬在feed里里面吧ssr的feed隐藏了
+## 固件里面看不到ssr-plus，大佬在feed里里面吧ssr的feed隐藏了
 
 
 ```
@@ -136,7 +165,8 @@ src-git small https://github.com/kenzok8/small
 ##  加入kenzok8整合的themes和我们需要和实用的插件
 ```
 ---
-### 编译生成的映像文件
+
+# 编译生成的映像文件
 ```
 cd  lede/bin/targets/x86/64
 
@@ -150,8 +180,9 @@ openwrt-x86-64-generic-squashfs-combined-efi.img.gz  # 这个文件就是所要�
 
 #默认登陆IP 192.168.1.1 root 密码 password
 ```
+
 ---
-### Tmux 使用
+# Tmux 使用
 ```
 按下Ctrl+d或者显式输入exit命令，就可以退出 Tmux 窗口
 
@@ -168,11 +199,11 @@ tmux attach命令用于重新接入某个已存在的会话:  tmux attach -t 0
 
 
 
-### 临时使用socks5代理apt-get的方法
+## 临时使用socks5代理apt-get的方法
 
       sudo apt-get -o Acquire::http::proxy="socks5h://127.0.0.1:1080/"  update 
 
-### git 使用代理
+## git 使用代理
 
       git config --global  http.proxy socks5://127.0.0.1:1080
 
