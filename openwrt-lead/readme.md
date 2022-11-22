@@ -113,6 +113,8 @@ make menuconfig
 #### Menu --> LuCI --> Applications -->  select...
 
       luci-app-ssr-plus (NEW) 
+      
+      luci-app-passwall
 
       luci-app-vssr.................... A New SS/SSR/Xray/Trojan LuCI interface (NEW)
 
