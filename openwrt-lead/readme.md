@@ -122,8 +122,7 @@ make menuconfig
 #### 4.下载 dl 库，编译固件 （-j 后面是线程数，第一次编译推荐用单线程）
 
 ```
-make download
-make V=s -j1
+make download && make V=s -j1
 ```
 
 
