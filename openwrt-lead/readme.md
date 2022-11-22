@@ -49,7 +49,7 @@ su $USER_NAME
 ------
 ## 编译命令 ( passwall, ssrp and helloworld (vssr) )
 
-#### 1.首先装好 Linux 系统，推荐  Ubuntu20.0 LTS
+#### 1.首先装好 Linux 系统，推荐  Ubuntu 22.04 LTS
 
 #### 2.安装编译依赖
 
