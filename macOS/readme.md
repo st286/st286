@@ -1,3 +1,7 @@
+### 18. [How to Flush DNS on Mac – MacOS Clear DNS Cache](https://www.freecodecamp.org/news/how-to-flush-dns-on-mac-macos-clear-dns-cache/)
+
+`sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder`
+
 ### 17.[How to Allow Apps to be Downloaded & Opened from Anywhere on MacOS Ventura](https://osxdaily.com/2022/11/17/allow-apps-downloaded-open-anywhere-macos/)
 
 `sudo spctl --master-disable`    “System Settings” --> “Privacy & Security” 
