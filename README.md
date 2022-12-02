@@ -24,6 +24,8 @@
 
 ## ~~[SNELL](./SNELL)~~
 
+## [科学上网 2.0 时代](https://blog.forecho.com/science-internet-guide.html)
+
 ---
 # [Ventoy - A New Bootable USB Solution](https://www.ventoy.net/)
 
