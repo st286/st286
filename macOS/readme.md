@@ -1,4 +1,4 @@
-### 19. [How to Schedule Boot / Turn On, Shutdown, Wake / Sleep on MacOS Ventura](https://osxdaily.com/2022/11/10/how-to-schedule-boot-turn-on-shutdown-wake-sleep-on-macos-ventura/)
+### 19. [macFUSE allows you to extend macOS via third party file systems.](https://github.com/osxfuse/osxfuse)
 
 ### 18. [How to Flush DNS on Mac – MacOS Clear DNS Cache](https://www.freecodecamp.org/news/how-to-flush-dns-on-mac-macos-clear-dns-cache/)
 
@@ -25,7 +25,7 @@ mdls -name kMDItemCFBundleIdentifier -r /Applications/SomeApp.app
 
 ### 12. [JustPlay - Lightweight video player](https://www.electronic.us/just-play.html)
 
-### 11. [VirtualBox - a general-purpose full virtualizer](VirtualBox)
+### 11. [VirtualBox - a general-purpose full virtualizer](https://www.virtualbox.org)
 
 ### 10. [iTerm2 - a replacement for Terminal](https://iterm2.com)
 
