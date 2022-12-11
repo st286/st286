@@ -1,3 +1,5 @@
+### 21. [BetterDisplay](https://github.com/waydabber/BetterDisplay)
+
 ### 20. [VeraCrypt is a free open source disk encryption software for Windows, Mac OSX and Linux](https://veracrypt.fr/)
 
 ### 19. [macFUSE allows you to extend macOS via third party file systems.](https://github.com/osxfuse/osxfuse)
