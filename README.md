@@ -1,5 +1,8 @@
-#  [chatGPT](https://chat.openai.com/chat)
+# [基础知识，从案例出发深挖相关知识(计算机基础、网络基础)](https://plantegg.github.io)
 
+# [chatGPT](https://chat.openai.com/chat)
+
+chatGPT just funny!
 
 # Pass the Wall
 
