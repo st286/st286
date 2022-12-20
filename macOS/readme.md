@@ -1,3 +1,5 @@
+### 22. [Debug menu in Safari for macOS](https://appletoolbox.com/not-seeing-the-debug-menu-in-safari-for-macos-big-sur-safari-14-fix-it/)
+
 ### 21. [BetterDisplay](https://github.com/waydabber/BetterDisplay)
 
 ### 20. [VeraCrypt is a free open source disk encryption software for Windows, Mac OSX and Linux](https://veracrypt.fr/)
