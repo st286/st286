@@ -9,6 +9,8 @@ alist 一个支持多存储的文件列表程序，使用 Gin 和 Solidjs.
 
 ### [alist文档](https://alist.nn.ci/zh/)
 
+#### [alist guide](https://alist.nn.ci/zh/guide/)
+
 ### [群晖nas用全能网盘管理工具alist一键挂载](https://www.youtube.com/watch?v=kp_XvrE5nVs)
 
 ### [从零开始的NAS之黑群晖搭建alist](https://post.smzdm.com/p/arqoorlx/)
