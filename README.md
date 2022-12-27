@@ -4,6 +4,8 @@
 
 chatGPT just funny!
 
+# [AI Paper - 2022: A Year Full of Amazing AI papers- A Review](https://github.com/louisfb01/best_AI_papers_2022)
+
 # Pass the Wall
 
 中国第一封电子邮件:
