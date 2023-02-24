@@ -2,6 +2,8 @@
 
 ### [How to work with your firewall (UFW - Uncomplicated Firewall)](https://webdock.io/en/docs/how-guides/security-guides/how-work-your-firewall-ufw-uncomplicated-firewall)
 
+### [UFW Essentials: Common Firewall Rules and Commands](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
+
 # x04 [阿里云卸载阿里云盾(AliYunDun)](https://www.cnblogs.com/panbin2006/p/16540174.html)
 
 卸载阿里云盾监控
