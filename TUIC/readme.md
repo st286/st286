@@ -9,6 +9,8 @@
 
 [Crontab的使用](https://wayou.github.io/2020/08/28/Crontab-%E7%9A%84%E4%BD%BF%E7%94%A8/)
 
+[A Comprehensive Guide To HTTP/3 And QUIC](https://www.debugbear.com/blog/http3-quic-protocol-guide)
+
 # 配置TUIC代理
 
 tuic是一个基于quic协议的高性能代理，更多介绍：https://github.com/EAimTY/tuic
