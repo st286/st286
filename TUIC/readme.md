@@ -110,7 +110,7 @@ chmod +x /etc/letsencrypt/renewal-hooks/post/tuic.sh
 certbot renew --cert-name YOUR.DOMAIN.com --dry-run
 ```
 
-服务端到这里就全部配置完成了，接下来在这个页面下载客户端。
+服务端到这里就全部配置完成了，接下配置客户端。
 
 ---
 申请证书(手动)：
@@ -150,6 +150,7 @@ cat /etc/letsencrypt/live/$YOUR_DONAIN/privkey.pem > /opt/tuic/privkey.pem
 
 systemctl restart tuic.service
 ```
+接下配置客户端。
 
 ---
 ## 二、客户端，PC端：
