@@ -143,6 +143,8 @@ certbot renew --cert-name $YOUR_DOMAIN --dry-run
 
 更新证书(手动)：
 ```
+# certbot renew 过程中， 用到 80/443 端口。 需要开放 80/443. 
+
 certbot renew --cert-name $YOUR_DOMAIN 
 
 cat /etc/letsencrypt/live/$YOUR_DONAIN/fullchain.pem > /opt/tuic/fullchain.pem
