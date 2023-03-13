@@ -116,17 +116,14 @@ certbot renew --cert-name YOUR.DOMAIN.com --dry-run
 申请证书(手动)：
 
 ```
-YOUR_DOMAIN=xxx.xxx.com
-YOUR_EMAIL=xxx@gmail.com
-
-certbot certonly --standalone --agree-tos --no-eff-email --email $YOUR_EMAIL -d $YOUR_DONAIN
+certbot certonly --standalone --agree-tos --no-eff-email --email YOUR_EMAIL -d YOUR_DONAIN
 ```
 
 将证书保存到tuic配置文件内配置的位置：
 
 ```
-cat /etc/letsencrypt/live/$YOUR_DONAIN/fullchain.pem > /opt/tuic/fullchain.pem
-cat /etc/letsencrypt/live/$YOUR_DONAIN/privkey.pem > /opt/tuic/privkey.pem
+cat /etc/letsencrypt/live/YOUR_DONAIN/fullchain.pem > /opt/tuic/fullchain.pem
+cat /etc/letsencrypt/live/YOUR_DONAIN/privkey.pem > /opt/tuic/privkey.pem
 ```
 
 启动tuic服务并设置开机自启：
@@ -136,7 +133,7 @@ systemctl enable --now tuic.service
 
 测试续期的情况以及脚本能否正常运行：
 ```
-certbot renew --cert-name $YOUR_DOMAIN --dry-run
+certbot renew --cert-name YOUR_DOMAIN --dry-run
 ```
 
 服务端到这里就全部配置完成了，接下来在这个页面下载客户端。
@@ -147,8 +144,8 @@ certbot renew --cert-name $YOUR_DOMAIN --dry-run
 
 certbot renew --cert-name $YOUR_DOMAIN 
 
-cat /etc/letsencrypt/live/$YOUR_DONAIN/fullchain.pem > /opt/tuic/fullchain.pem
-cat /etc/letsencrypt/live/$YOUR_DONAIN/privkey.pem > /opt/tuic/privkey.pem
+cat /etc/letsencrypt/live/YOUR_DONAIN/fullchain.pem > /opt/tuic/fullchain.pem
+cat /etc/letsencrypt/live/YOUR_DONAIN/privkey.pem > /opt/tuic/privkey.pem
 
 systemctl restart tuic.service
 ```
