@@ -14,6 +14,9 @@ FFmpeg is the leading multimedia framework, able to decode, encode, transcode, m
 
 #### [(2).static FFmpeg binaries for macOS 64-bit: ffmpeg, ffprobe, ffplay](https://evermeet.cx/ffmpeg/)
 
+```
+  copy executable files to /usr/local/bin/
+```
 
 ### [Download FFmpeg Source Code](https://www.ffmpeg.org/download.html#get-sources)
 
