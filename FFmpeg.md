@@ -8,11 +8,11 @@ FFmpeg is the leading multimedia framework, able to decode, encode, transcode, m
 
 ### [Office Site](https://www.ffmpeg.org)
 
-### [Download ](https://www.ffmpeg.org/download.html)
+### [Download FFmpeg binaries](https://www.ffmpeg.org/download.html)
 
-#### [FFmpeg Static Builds for Linux kernels 3.2.0 and up](https://johnvansickle.com/ffmpeg/)
+#### [(1).FFmpeg Static Builds for Linux kernels 3.2.0 and up](https://johnvansickle.com/ffmpeg/)
 
-#### [static FFmpeg binaries for macOS 64-bit: ffmpeg, ffprobe, ffplay](https://evermeet.cx/ffmpeg/)
+#### [(2).static FFmpeg binaries for macOS 64-bit: ffmpeg, ffprobe, ffplay](https://evermeet.cx/ffmpeg/)
 
 
 ### [Download FFmpeg Source Code](https://www.ffmpeg.org/download.html#get-sources)
