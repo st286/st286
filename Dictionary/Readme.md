@@ -11,6 +11,8 @@ DICT是由DICT开发组创建的一个字典网络传输协议。1997年发表�
 
 [维基百科DICT](https://zh.wikipedia.org/zh-cn/DICT)
 
+[在 Linux 命令行上使用 dict 文字工具](https://www.51cto.com/article/748625.html)
+
 ## 二、dict and dictd
 
 Dictd 是实现DICT的服务器端，dict是客户端。各自的配置文件是（debian / ubuntu）：
