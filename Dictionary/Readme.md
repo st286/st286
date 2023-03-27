@@ -31,7 +31,7 @@ Dictd 是实现DICT的服务器端，dict是客户端。各自的配置文件是
     
 #### 字典库文件存放在 /usr/share/dictd/,把下面'朗道字典'库四个文件copy到该目录中：
 
-        angdao-ce.dict.dz, langdao-ce.index, langdao-ec.dict.dz, langdao-ec.index
+        langdao-ce.dict.dz, langdao-ce.index, langdao-ec.dict.dz, langdao-ec.index
         
 #### 修改　/var/lib/dictd/db.list, 增加以下内容，把'朗道字典'加上
 ```
