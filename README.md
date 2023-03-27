@@ -222,7 +222,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 ---
 # Some Magazine and eBooks
 
-[经济学人、纽约客、自然、卫报等英语外刊杂志下载.每周更新 支持epub、mobi、pdf格式](https://github.com/hehonghui/the-economist-ebooks)
+~~[经济学人、纽约客、自然、卫报等英语外刊杂志下载.每周更新 支持epub、mobi、pdf格式](https://github.com/hehonghui/the-economist-ebooks)~~
 
 ---
 # Banned Books
