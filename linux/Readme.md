@@ -1,6 +1,10 @@
 ---
-[personal site: any topic and not only about Linux ](https://www.garron.me/en/)
 
+
+[How I configure Vim as my default editor on Linux](https://opensource.com/article/22/2/configure-vim-default-editor)
+
+---
+[personal site: any topic and not only about Linux ](https://www.garron.me/en/)
 
 ---
 ## Driver
