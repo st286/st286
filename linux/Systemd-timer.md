@@ -1,6 +1,25 @@
 ## 2. Setup Timer for shutdown
 
 ```
+  1. add hyh-shutdown.timer on /usr/lib/systemd/system/
+  2. add hyh-shutdown.service on /usr/lib/systemd/system/
+  3. add sd.sh on /usr/lib/hyh/
+  4. chmod +x sd.sh
+  5. systemctl enable hyh-shutdown.timer  # and start ...
+  6. systemctl status hyh-shutdown.timer  # or hyh-shutdown.service
+```
+
+```
+┌──(root㉿kali)-[/usr/lib/hyh]
+└─# cat sd.sh                       
+#!/bin/sh
+# shutdown
+
+apt update && apt --fix-broken install && apt dist-upgrade -y && apt full-upgrade -y && apt autoremove && shutdown
+
+```
+
+```
 ┌──(root㉿kali)-[/usr/lib/systemd/system]
 └─# cat hyh-shutdown.timer     
 [Unit]
@@ -28,8 +47,6 @@ ExecStart=/usr/lib/hyh/sd.sh
 
 [Install]
 WantedBy=multi-user.target
-
-
 
 ```
 
