@@ -1,3 +1,41 @@
+## 3. Setup Timer for Caddy
+
+```
+  sudo su 
+  1. add hyh-caddy.timer on /usr/lib/systemd/system/
+  2. add hyh-cadyy.service on /usr/lib/systemd/system/
+  3. systemctl enable hyh-caddy.timer  # and start ...
+  4. systemctl status hyh-cadyy.timer  # or hyh-caddy.service
+```
+
+```
+##ubuntu@instance-20221005-2324:/usr/lib/systemd/system$ cat hyh-caddy.timer 
+[Unit]
+Description=caddy start after bootup
+
+[Timer]
+#OnCalendar=daily
+#OnCalendar=23:00
+#OnActiveSec=1min
+OnBootSec=30s
+
+[Install]
+WantedBy=timers.target
+```
+
+```
+##ubuntu@instance-20221005-2324:/usr/lib/systemd/system$ cat hyh-caddy.service 
+[Unit]
+Description=caddy start after bootup
+
+[Service]
+Type=forking
+ExecStart=/root/caddy start
+
+[Install]
+WantedBy=multi-user.target
+```
+
 ## 2. Setup Timer for shutdown
 
 ```
@@ -20,8 +58,8 @@ apt update && apt --fix-broken install && apt dist-upgrade -y && apt full-upgrad
 ```
 
 ```
-┌──(root㉿kali)-[/usr/lib/systemd/system]
-└─# cat hyh-shutdown.timer     
+#┌──(root㉿kali)-[/usr/lib/systemd/system]
+#└─# cat hyh-shutdown.timer     
 [Unit]
 Description=shutdown system
 
@@ -36,8 +74,8 @@ WantedBy=timers.target
 ```
    
 ```   
-┌──(root㉿kali)-[/usr/lib/systemd/system]
-└─# cat hyh-shutdown.service 
+#┌──(root㉿kali)-[/usr/lib/systemd/system]
+#└─# cat hyh-shutdown.service 
 [Unit]
 Description=shutdown system
 
