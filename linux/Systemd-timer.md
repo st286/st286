@@ -1,4 +1,4 @@
-### Setup Timer for apt auto update on startup
+## 1. Setup Timer for apt auto update on startup
 
 ```
   1. add hyh-apt-auto.timer on /usr/lib/systemd/system/
