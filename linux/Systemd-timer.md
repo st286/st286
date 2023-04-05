@@ -53,7 +53,7 @@ WantedBy=multi-user.target
 #!/bin/sh
 # shutdown
 
-apt update && apt --fix-broken install && apt dist-upgrade -y && apt full-upgrade -y && apt autoremove && shutdown
+apt update && apt --fix-broken install && apt dist-upgrade -y && apt full-upgrade -y && apt autoremove
 
 ```
 
