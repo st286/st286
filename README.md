@@ -1,10 +1,10 @@
-# [基础知识，从案例出发深挖相关知识(计算机基础、网络基础)](https://plantegg.github.io)
+### [基础知识，从案例出发深挖相关知识(计算机基础、网络基础)](https://plantegg.github.io)
 
-# [chatGPT](https://chat.openai.com/chat)
+#### [chatGPT](https://chat.openai.com/chat)
 
 chatGPT just funny!
 
-# [AI Paper - 2022: A Year Full of Amazing AI papers- A Review](https://github.com/louisfb01/best_AI_papers_2022)
+### [AI Paper - 2022: A Year Full of Amazing AI papers- A Review](https://github.com/louisfb01/best_AI_papers_2022)
 
 # Pass the Wall
 
