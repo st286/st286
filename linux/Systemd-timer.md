@@ -110,7 +110,8 @@ Description=apt auto
 
 [Timer]
 #OnCalendar=daily
-OnActiveSec=10s
+#OnActiveSec=10s
+OnCalendar=*-*-* 00:15:30
 
 [Install]
 #WantedBy=multi-user.target
