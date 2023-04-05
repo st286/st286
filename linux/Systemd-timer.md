@@ -1,3 +1,40 @@
+## 2. Setup Timer for shutdown
+
+```
+┌──(root㉿kali)-[/usr/lib/systemd/system]
+└─# cat hyh-shutdown.timer     
+[Unit]
+Description=shutdown system
+
+[Timer]
+#OnCalendar=daily
+#OnActiveSec=1min
+#OnBootSec=30s
+OnCalendar=23:00
+
+[Install]
+WantedBy=timers.target
+```
+   
+```   
+┌──(root㉿kali)-[/usr/lib/systemd/system]
+└─# cat hyh-shutdown.service 
+[Unit]
+Description=shutdown system
+
+[Service]
+Type=simple
+ExecStart=/usr/lib/hyh/sd.sh
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+```
+
+
+
 ## 1. Setup Timer for apt auto update on startup
 
 ```
