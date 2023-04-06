@@ -1,4 +1,4 @@
-## 4. Setup temp timer for shutdown
+## 4. Setup Transient timers for shutdown
 
     systemd-run --on-calendar '18:0' /bin/sh -c "shutdown"
 
