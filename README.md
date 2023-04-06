@@ -1,4 +1,4 @@
-# Pass the Wall
+## Pass the Wall
 
 中国第一封电子邮件:
 
@@ -24,7 +24,8 @@
 
  ~~[SNELL](./SNELL)~~
 
- [科学上网 2.0 时代](https://blog.forecho.com/science-internet-guide.html)
+[科学上网 2.0 时代](https://blog.forecho.com/science-internet-guide.html)
+
 ---
 
 ---
@@ -134,6 +135,7 @@ make
 make install
 ffmpeg -version
 ```
+
 ## [nmap](https://nmap.org)
 
 #### [Nmap参考指南-Man Page](https://nmap.org/man/zh/index.html)
@@ -159,26 +161,27 @@ sudo make install
       NPING SUCCESSFULLY INSTALLED
       NMAP SUCCESSFULLY INSTALLED
 
-## [FFmpeg](https://github.com/st286/st286/blob/41710c857c539ee5726261919dfe171e2a80d822/FFmpeg.md)
+---
+[FFmpeg](https://github.com/st286/st286/blob/41710c857c539ee5726261919dfe171e2a80d822/FFmpeg.md)
 
   A complete, cross-platform solution to record, convert and stream audio and video.
 ```   
 sudo apt update && sudo apt upgrade -y && sudo apt install ffmpeg
 ```  
 
-## [GIMP](https://www.gimp.org)
+[GIMP](https://www.gimp.org)
 
    The Free & Open Source Image Editor.GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software, you can change its source code and distribute your changes.
 Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins.
 
-## [calibre](https://github.com/st286/st286.github.io/blob/master/calibre.md)
+[calibre](https://github.com/st286/st286.github.io/blob/master/calibre.md)
 
   Calibre是一款电子图书管理软件，其提供的“一站式”的电子书解决方案，可以全面满足对电子书需求，甚至可以利用它组织成属于自己的电子图书馆，它的功能更是多种多样，不仅可以用它对图书进行格式转换，归类整理电子书，还可以将文本图像材料、在线内容（RSS）加入并转换为电子书。更重要的是Calibre是免费的、开源的，拥有跨平台的设计，可在Linux， OS X和Windows操作系统中运行，堪称电子书管理神器！
 ```   
 sudo apt update && sudo apt upgrade -y && sudo apt install calibre
 ```  
----
-## [exiftool](https://github.com/st286/st286.github.io/blob/master/ExifTool.md)
+
+[exiftool](https://github.com/st286/st286.github.io/blob/master/ExifTool.md)
 
  ExifTool由Phil Harvey开发，是一款免费、跨平台的开源软件，用于读写和处理图像（主要）、音视频和PDF等文件的元数据（metadata）
  
@@ -188,20 +191,20 @@ sudo apt update && sudo apt upgrade -y && sudo apt install calibre
 sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 ```   
 
-## [age是一种简单，现代且安全的文件加密工具](https://github.com/FiloSottile/age)
+[age是一种简单，现代且安全的文件加密工具](https://github.com/FiloSottile/age)
 
    age is a simple, modern and secure file encryption tool, format, and Go library.
 
    It features small explicit keys, no config options, and UNIX-style composability.
 
  
-## [Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
+[Croc](https://github.com/st286/st286.github.io/blob/master/Croc.md)
 
   兩台電腦透過 croc 工具來傳送檔案 (簡單, 加密, 快速)
 
 
 ---
-# Python
+## Python
 
   1. [草根学 Python](https://www.readwithu.com)
   
@@ -214,7 +217,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
   5. [Pipenv vs virtualenv vs conda environment](https://medium.com/@krishnaregmi/pipenv-vs-virtualenv-vs-conda-environment-3dde3f6869ed)
 
 ---
-# Windows (microsoft)
+## Windows (microsoft)
 
  1. [MobaXterm -- Enhanced terminal for Windows](https://mobaxterm.mobatek.net)
  
@@ -222,12 +225,9 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 
 
 ---
-# Some Magazine and eBooks
-
-~~[经济学人、纽约客、自然、卫报等英语外刊杂志下载.每周更新 支持epub、mobi、pdf格式](https://github.com/hehonghui/the-economist-ebooks)~~
 
 ---
-# Banned Books
+## Banned Books
 
   [《鸿：三代中国女人的故事》 上](https://www.dw.com/zh/%E9%B8%BF%E4%B8%89%E4%BB%A3%E4%B8%AD%E5%9B%BD%E5%A5%B3%E4%BA%BA%E7%9A%84%E6%95%85%E4%BA%8B-%E4%B8%8A/a-15249195)
   
@@ -235,6 +235,6 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
   [《鸿：三代中国女人的故事》下](https://www.dw.com/zh/%E9%B8%BF%E4%B8%89%E4%BB%A3%E4%B8%AD%E5%9B%BD%E5%A5%B3%E4%BA%BA%E7%9A%84%E6%95%85%E4%BA%8B%E4%B8%8B/a-15365675)
   
 ---
-# 微信就是一個黑客軟件，非必要不使用！
+##  微信就是一個黑客軟件，非必要不使用！
 
       sudo chmod 400 /Users/hyh/Library/Containers/com.tencent.xinWeChat/Data/Library/Caches/com.tencent.xinWeChat/2.0b4.0.9
