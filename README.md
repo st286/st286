@@ -51,21 +51,21 @@ DebugPoint.com is a portal covering Technology, Software News and stuff that mat
 ---
 
 ---
- [基础知识，从案例出发深挖相关知识(计算机基础、网络基础)](https://plantegg.github.io)
+ ### [基础知识，从案例出发深挖相关知识(计算机基础、网络基础)](https://plantegg.github.io)
 
- [chatGPT](https://chat.openai.com/chat)
+ ### [chatGPT](https://chat.openai.com/chat)
 
 chatGPT just funny!
 
  [AI Paper - 2022: A Year Full of Amazing AI papers- A Review](https://github.com/louisfb01/best_AI_papers_2022)
 
 ---
-[Ventoy - A New Bootable USB Solution](https://www.ventoy.net/)
+### [Ventoy - A New Bootable USB Solution](https://www.ventoy.net/)
 
 [Ventoy - Github](https://github.com/ventoy/Ventoy)
 
 ---
-[Oracle cloud](https://cloud.oracle.com/)
+### [Oracle cloud](https://cloud.oracle.com/)
 
 [How to deploy a FREE Oracle Cloud VPS server](https://cleavr.io/cleavr-slice/how-to-deploy-free-oracle-cloud-vps/)
 
