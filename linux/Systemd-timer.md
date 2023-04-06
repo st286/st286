@@ -1,3 +1,7 @@
+## 4. Setup temp timer for shutdown
+
+    systemd-run --on-calendar '18:0' /bin/sh -c "shutdown"
+
 ## 3. Setup Timer for Caddy
 
 ```
