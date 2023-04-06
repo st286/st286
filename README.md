@@ -80,7 +80,10 @@ Update Oracle iptables
 sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 443 -j ACCEPT
 sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
 
-sudo iptables -I INPUT 6 -m state --state NEW -p udp --dport 444 -j ACCEPT
+sudo iptables -I INPUT 6 -m state --state NEW -p udp --dport 443 -j ACCEPT
+sudo iptables -I INPUT 6 -m state --state NEW -p udp --dport 80 -j ACCEPT
+
+sudo iptables -I INPUT 6 -m state --state NEW -p udp --dport 104 -j ACCEPT
 
 sudo netfilter-persistent save
 ```
