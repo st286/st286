@@ -1,28 +1,20 @@
-### [基础知识，从案例出发深挖相关知识(计算机基础、网络基础)](https://plantegg.github.io)
-
-#### [chatGPT](https://chat.openai.com/chat)
-
-chatGPT just funny!
-
-### [AI Paper - 2022: A Year Full of Amazing AI papers- A Review](https://github.com/louisfb01/best_AI_papers_2022)
-
 # Pass the Wall
 
 中国第一封电子邮件:
 
 “Across the Great Wall we can reach every corner in the world ”（“越过长城，走向世界”）
 
-## [Naiveproxy](./Naiveproxy)
+ [Naiveproxy](./Naiveproxy)
 
-## [TUIC](./TUIC)
+ [TUIC](./TUIC)
 
-## [Xray](./Xray)
+ [Xray](./Xray)
 
-## [VPN](./VPN)
+ [VPN](./VPN)
 
-## [GOST](./GOST)
+ [GOST](./GOST)
 
-## sing-box:
+ sing-box:
 
 [sing-box site](https://sing-box.sagernet.org)
 
@@ -30,17 +22,49 @@ chatGPT just funny!
 
 [sing-box 网络代理平台的“瑞士军刀”，搭建shadowtls节点](https://bulianglin.com/archives/sing-box.html)
 
-## ~~[SNELL](./SNELL)~~
+ ~~[SNELL](./SNELL)~~
 
-## [科学上网 2.0 时代](https://blog.forecho.com/science-internet-guide.html)
+ [科学上网 2.0 时代](https://blog.forecho.com/science-internet-guide.html)
+---
 
 ---
-# [Ventoy - A New Bootable USB Solution](https://www.ventoy.net/)
+## [macOS (apple)](./macOS)
+
+---
+## [Linux](./linux)
+[DebugPoint](https://www.debugpoint.com/)
+
+DebugPoint.com is a portal covering Technology, Software News and stuff that matters. Heavily slant towards Linux and Open Source.
+
+[ArchLinux - manjaro etc](./ArchLinux)
+
+[linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
+
+---
+## [Openwrt 固件编译](./openwrt-lead)
+
+---
+## [C & CPP](./C)
+
+ [CPP](./CPP)
+---
+
+---
+ [基础知识，从案例出发深挖相关知识(计算机基础、网络基础)](https://plantegg.github.io)
+
+ [chatGPT](https://chat.openai.com/chat)
+
+chatGPT just funny!
+
+ [AI Paper - 2022: A Year Full of Amazing AI papers- A Review](https://github.com/louisfb01/best_AI_papers_2022)
+
+---
+[Ventoy - A New Bootable USB Solution](https://www.ventoy.net/)
 
 [Ventoy - Github](https://github.com/ventoy/Ventoy)
 
 ---
-# [Oracle cloud](https://cloud.oracle.com/)
+[Oracle cloud](https://cloud.oracle.com/)
 
 [How to deploy a FREE Oracle Cloud VPS server](https://cleavr.io/cleavr-slice/how-to-deploy-free-oracle-cloud-vps/)
 
@@ -61,41 +85,19 @@ sudo netfilter-persistent save
 ```
 
 ---
-# [macOS (apple)](./macOS)
+
+## [TextEditor](./TextEditor)
 
 ---
-# [Linux](./linux)
+## Some useful tools
 
-## [DebugPoint](https://www.debugpoint.com/)
+ [Dictionary: Dict & Dictd](https://github.com/st286/st286/blob/ca183386fe0a103d0eb1ffd1106f8030fe631fe3/Dictionary)
 
-DebugPoint.com is a portal covering Technology, Software News and stuff that matters. Heavily slant towards Linux and Open Source.
+ [Telegram](https://telegram.org/)
 
-## [ArchLinux - manjaro etc](./ArchLinux)
+ [git & github](https://github.com/st286/st286/tree/master/Git-Github)
 
-[linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
-
----
-# [Openwrt 固件编译](./openwrt-lead)
-
----
-# [C & CPP](./C)
-
-###  [CPP](./CPP)
-
----
-
-# [TextEditor](./TextEditor)
-
----
-# Some useful tools
-
-## [Dictionary: Dict & Dictd](https://github.com/st286/st286/blob/ca183386fe0a103d0eb1ffd1106f8030fe631fe3/Dictionary)
-
-## [Telegram](https://telegram.org/)
-
-## [git & github](https://github.com/st286/st286/tree/master/Git-Github)
-
-###  [TOR](https://www.torproject.org/)
+  [TOR](https://www.torproject.org/)
 
 Defend yourself against tracking and surveillance. Circumvent censorship.
 
@@ -103,7 +105,7 @@ Defend yourself against tracking and surveillance. Circumvent censorship.
 
 [INSTALLATION](https://tb-manual.torproject.org/installation/)
 
-## [Youtube downloader: yt-dlp](https://github.com/yt-dlp/yt-dlp)
+ [Youtube downloader: yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
    yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project.
    In UNIX-like OSes (MacOS, Linux, BSD), you can also install the same in one of the following ways:
