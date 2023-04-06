@@ -73,10 +73,12 @@ route {
 }
 
 ```
-### 4.caddy常用指令
-```
-sudo setcap cap_net_bind_service=+ep ./caddy  # 非root用户，启用绑定低于1024端口能力
+### 4.启用绑定低于1024端口能力
 
+    sudo setcap cap_net_bind_service=+ep ./caddy  # 非root用户，启用绑定低于1024端口能力
+
+### 5.caddy常用指令
+```
 ./caddy run     # 前台运行caddy
 
 ./caddy start   # 后台运行caddy
