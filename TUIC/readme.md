@@ -72,7 +72,7 @@ WantedBy=multi-user.target
 申请证书(自动)：
 
 ```
-certbot certonly --standalone --agree-tos --no-eff-email --email YOUR@EMAIL.com -d YOUR.DONAIN.com
+certbot certonly --standalone --agree-tos --no-eff-email --email EMAIL.com -d DONAIN.com
 ```
 
 将证书保存到tuic配置文件内配置的位置：
