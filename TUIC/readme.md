@@ -36,7 +36,7 @@ chmod +x tuic-server-0.8.5-x86_64-linux-gnu
 ```
 {
     "port": 443,
-    "token": ["YOURPASSWD"],
+    "token": ["PASSWD"],
     "certificate": "/opt/tuic/fullchain.pem",
     "private_key": "/opt/tuic/privkey.pem",
     "ip": "0.0.0.0",
@@ -78,8 +78,8 @@ certbot certonly --standalone --agree-tos --no-eff-email --email YOUR@EMAIL.com 
 将证书保存到tuic配置文件内配置的位置：
 
 ```
-cat /etc/letsencrypt/live/YOUR.DONAIN.com/fullchain.pem > /opt/tuic/fullchain.pem
-cat /etc/letsencrypt/live/YOUR.DONAIN.com/privkey.pem > /opt/tuic/privkey.pem
+cat /etc/letsencrypt/live/DOMAIN.com/fullchain.pem > /opt/tuic/fullchain.pem
+cat /etc/letsencrypt/live/DOMAIN.com/privkey.pem > /opt/tuic/privkey.pem
 ```
 
 启动tuic服务并设置开机自启：
@@ -95,8 +95,8 @@ vim /etc/letsencrypt/renewal-hooks/post/tuic.sh
 写入如下内容：
 ```
 #!/bin/bash
-cat /etc/letsencrypt/live/YOUR.DONAIN.com/fullchain.pem > /opt/tuic/fullchain.pem
-cat /etc/letsencrypt/live/YOUR.DONAIN.com/privkey.pem > /opt/tuic/privkey.pem
+cat /etc/letsencrypt/live/DOMAIN.com/fullchain.pem > /opt/tuic/fullchain.pem
+cat /etc/letsencrypt/live/DOMAIN.com/privkey.pem > /opt/tuic/privkey.pem
 systemctl restart tuic.service
 ```
 
@@ -107,7 +107,7 @@ chmod +x /etc/letsencrypt/renewal-hooks/post/tuic.sh
 
 测试续期的情况以及脚本能否正常运行：
 ```
-certbot renew --cert-name YOUR.DOMAIN.com --dry-run
+certbot renew --cert-name DOMAIN.com --dry-run
 ```
 
 服务端到这里就全部配置完成了，接下配置客户端。
@@ -133,7 +133,7 @@ systemctl enable --now tuic.service
 
 测试续期的情况以及脚本能否正常运行：
 ```
-certbot renew --cert-name YOUR_DOMAIN --dry-run
+certbot renew --cert-name DOMAIN --dry-run
 ```
 
 服务端到这里就全部配置完成了，接下来在这个页面下载客户端。
@@ -144,8 +144,8 @@ certbot renew --cert-name YOUR_DOMAIN --dry-run
 
 certbot renew --cert-name $YOUR_DOMAIN 
 
-cat /etc/letsencrypt/live/YOUR_DONAIN/fullchain.pem > /opt/tuic/fullchain.pem
-cat /etc/letsencrypt/live/YOUR_DONAIN/privkey.pem > /opt/tuic/privkey.pem
+cat /etc/letsencrypt/live/DONAIN/fullchain.pem > /opt/tuic/fullchain.pem
+cat /etc/letsencrypt/live/DONAIN/privkey.pem > /opt/tuic/privkey.pem
 
 systemctl restart tuic.service
 ```
@@ -167,9 +167,9 @@ wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-client-0.8.5-x8
 ```
 {
     "relay": {
-        "server": "YOUR.DOMAIN.com",
+        "server": "DOMAIN.com",
         "port": 443,
-        "token": "YOURPASSWD",
+        "token": "PASSWD",
         "udp_relay_mode": "quic",
         "congestion_controller": "bbr",
         "alpn": ["h3"],
