@@ -50,6 +50,14 @@ Ports installed on my MacBook Air:
 
 `wget`  `htop`  `netwox` 
 
+===
+Warning: Error parsing file /Applications/MacPorts/Python 3.11/Build Applet.app/Contents/MacOS/Python: Error opening or reading file
+
+```
+sudo port -f deactivate python311
+sudo port activate python311
+```
+[the link](https://macports-users.macosforge.narkive.com/sYqkuBdz/stuck)
 
 ===
 
