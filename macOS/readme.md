@@ -1,3 +1,5 @@
+### 23. [Silicon - Identify Intel-Only Apps on your Mac with ease](https://github.com/DigiDNA/Silicon)
+
 ### 22. [Debug menu in Safari for macOS](https://appletoolbox.com/not-seeing-the-debug-menu-in-safari-for-macos-big-sur-safari-14-fix-it/)
 
 ### 21. [BetterDisplay](https://github.com/waydabber/BetterDisplay)
