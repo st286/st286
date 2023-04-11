@@ -2,73 +2,107 @@
 
 ` chmod u+w /etc/sudoers, sudo vim /etc/sudoers, chmod u-w /etc/sudoers`
 
+
 23. [Silicon - Identify Intel-Only Apps on your Mac with ease](https://github.com/DigiDNA/Silicon)
+
 
 22. [Debug menu in Safari for macOS](https://appletoolbox.com/not-seeing-the-debug-menu-in-safari-for-macos-big-sur-safari-14-fix-it/)
 
+
 21. [BetterDisplay](https://github.com/waydabber/BetterDisplay)
+
 
 20. [VeraCrypt is a free open source disk encryption software for Windows, Mac OSX and Linux](https://veracrypt.fr/)
 
+
 19. [macFUSE allows you to extend macOS via third party file systems.](https://github.com/osxfuse/osxfuse)
+
 
   [HOW TO MOUNT AN EXT PARTITION ON A MAC](https://hackmylinux.com/2018/02/18/how-to-mount-and-read-a-linux-partition-on-a-mac-ext2-ext3-ext4/)
 
+
   [How to Mount and Access Ext4 Partition in Mac](https://www.maketecheasier.com/mount-access-ext4-partition-mac/)
+
 
   [How to Write to NTFS Drives on a Mac](https://www.howtogeek.com/236055/how-to-write-to-ntfs-drives-on-a-mac/)
 
 
+
 18. [How to Flush DNS on Mac – MacOS Clear DNS Cache](https://www.freecodecamp.org/news/how-to-flush-dns-on-mac-macos-clear-dns-cache/)
+
 
   [How to Flush DNS Cache on a Mac](https://www.lifewire.com/flush-dns-cache-on-a-mac-5209298)
 
+
   `sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder`
+
 
 17. [How to Allow Apps to be Downloaded & Opened from Anywhere on MacOS Ventura](https://osxdaily.com/2022/11/17/allow-apps-downloaded-open-anywhere-macos/)
 
-`sudo spctl --master-disable`      “System Settings” --> “Privacy & Security” 
+
+`sudo spctl --master-disable`      
+
+“System Settings” --> “Privacy & Security” 
+
 `sudo spctl --master-enable`
+
 
 16. [Getting the bundle identifier of an OS X application in a shell script](https://superuser.com/questions/346369/getting-the-bundle-identifier-of-an-os-x-application-in-a-shell-script)
 
-```
-mdls -name kMDItemCFBundleIdentifier -r /Applications/SomeApp.app
-```
+
+`mdls -name kMDItemCFBundleIdentifier -r /Applications/SomeApp.app`
+
 
 15. [iSH -  Linux shell running on iOS](https://github.com/ish-app/ish) and [iSH wiki](https://github.com/ish-app/ish/wiki)
 
+
 14. [Etcher - Flash OS images to SD cards & USB drives](https://github.com/balena-io/etcher)
+
 
 13. [Best Free download manager for Mac - Folx](https://www.electronic.us/products/folx/)
 
+
 12. [JustPlay - Lightweight video player](https://www.electronic.us/just-play.html)
+
 
 11. [VirtualBox - a general-purpose full virtualizer](https://www.virtualbox.org)
 
+
 10. [iTerm2 - a replacement for Terminal](https://iterm2.com)
+
 
 09. [iPhone Wiki - Apple Devices硬件与软件信息收集](https://www.theiphonewiki.com) and [Baseband device 基带设备](https://www.theiphonewiki.com/wiki/Baseband_Device)`
 
+
 08. [macOS package包管理](./package.md)
+
 
 07. [iMazing - iPhone, iPad and iPod manager, and  app download](https://imazing.com/downloads)
 
+
 06. [macOS iOS fonts 字体](./fonts.md)
+
 
 05. [Command Line Tools for Xcode 14.1 Release Candidate 2](https://developer.apple.com/download/all/?q=Xcode) and [Command Line Tools for Xcode 13.4](https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_13.4/Command_Line_Tools_for_Xcode_13.4.dmg)
 
+
 `   xcode-select  -h`  `softwareupdate`  
+
 [Install Command Line Tools in Mac OS X (Without Xcode)](https://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
   
+
 04. [Osxdaily](https://osxdaily.com) and [Mac云课堂 ](https://www.youtube.com/channel/UCGHCIkfEHaKT7zsq8wzqeOQ)
+
 
 03. [MonitorControl - Controls your external display brightness and volume](https://github.com/MonitorControl/MonitorControl)
 
+
 02. [Mediahuman - YouTube to MP3 Converter, Audio Converter, mTube](https://www.mediahuman.com/)
+
 
 01. [Install Rosetta 2 on Apple Silicon Macs](https://osxdaily.com/2020/12/04/how-install-rosetta-2-apple-silicon-mac/)
 
   `/usr/sbin/softwareupdate --install-rosetta --agree-to-license`
+
 
 00. [MacOS终端走代理](https://github.com/mrdulin/blog/issues/18) and [MacOS终端命令](https://github.com/qLzhu/macCommand)
