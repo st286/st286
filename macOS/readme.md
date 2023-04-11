@@ -1,6 +1,6 @@
 24. [macOS sudo免密设置](https://blog.csdn.net/cengjingcanghai123/article/details/119797480)
 
-`不要用visudo!!! chmod u+w /etc/sudoers, sudo vim /etc/sudoers, chmod u-w /etc/sudoers`
+`chmod u+w /etc/sudoers, sudo vim /etc/sudoers, chmod u-w /etc/sudoers`
 
 23. [Silicon - Identify Intel-Only Apps on your Mac with ease](https://github.com/DigiDNA/Silicon)
 
