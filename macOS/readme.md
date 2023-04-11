@@ -37,20 +37,25 @@
   `sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder`
 
 --
+
 ####  [How to Allow Apps to be Downloaded & Opened from Anywhere on MacOS Ventura](https://osxdaily.com/2022/11/17/allow-apps-downloaded-open-anywhere-macos/)
 
 
-`sudo spctl --master-disable`      
+`sudo spctl --master-disable` 
+
 
 “System Settings” --> “Privacy & Security” 
 
+
 `sudo spctl --master-enable`
+
 ---
 
 ####  [Getting the bundle identifier of an OS X application in a shell script](https://superuser.com/questions/346369/getting-the-bundle-identifier-of-an-os-x-application-in-a-shell-script)
 
 
 `mdls -name kMDItemCFBundleIdentifier -r /Applications/SomeApp.app`
+
 ---
 
 ####  [iSH -  Linux shell running on iOS](https://github.com/ish-app/ish) and [iSH wiki](https://github.com/ish-app/ish/wiki)
