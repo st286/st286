@@ -12,22 +12,22 @@
 
 19. [macFUSE allows you to extend macOS via third party file systems.](https://github.com/osxfuse/osxfuse)
 
-[HOW TO MOUNT AN EXT PARTITION ON A MAC](https://hackmylinux.com/2018/02/18/how-to-mount-and-read-a-linux-partition-on-a-mac-ext2-ext3-ext4/)
+  [HOW TO MOUNT AN EXT PARTITION ON A MAC](https://hackmylinux.com/2018/02/18/how-to-mount-and-read-a-linux-partition-on-a-mac-ext2-ext3-ext4/)
 
-[How to Mount and Access Ext4 Partition in Mac](https://www.maketecheasier.com/mount-access-ext4-partition-mac/)
+  [How to Mount and Access Ext4 Partition in Mac](https://www.maketecheasier.com/mount-access-ext4-partition-mac/)
 
-[How to Write to NTFS Drives on a Mac](https://www.howtogeek.com/236055/how-to-write-to-ntfs-drives-on-a-mac/)
+  [How to Write to NTFS Drives on a Mac](https://www.howtogeek.com/236055/how-to-write-to-ntfs-drives-on-a-mac/)
 
 
 18. [How to Flush DNS on Mac – MacOS Clear DNS Cache](https://www.freecodecamp.org/news/how-to-flush-dns-on-mac-macos-clear-dns-cache/)
 
-[How to Flush DNS Cache on a Mac](https://www.lifewire.com/flush-dns-cache-on-a-mac-5209298)
+  [How to Flush DNS Cache on a Mac](https://www.lifewire.com/flush-dns-cache-on-a-mac-5209298)
 
-`sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder`
+  `sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder`
 
-17.[How to Allow Apps to be Downloaded & Opened from Anywhere on MacOS Ventura](https://osxdaily.com/2022/11/17/allow-apps-downloaded-open-anywhere-macos/)
+17. [How to Allow Apps to be Downloaded & Opened from Anywhere on MacOS Ventura](https://osxdaily.com/2022/11/17/allow-apps-downloaded-open-anywhere-macos/)
 
-`sudo spctl --master-disable`    “System Settings” --> “Privacy & Security” 
+`sudo spctl --master-disable`      “System Settings” --> “Privacy & Security” 
 `sudo spctl --master-enable`
 
 16. [Getting the bundle identifier of an OS X application in a shell script](https://superuser.com/questions/346369/getting-the-bundle-identifier-of-an-os-x-application-in-a-shell-script)
