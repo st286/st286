@@ -1,4 +1,8 @@
 ---
+
+[The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
+
+---
 ### Nice series introducing cryptography concepts for beginners
 
 
