@@ -3,8 +3,11 @@
 
 
 [Introduction to encryption for embedded Linux developers](https://sergioprado.blog/introduction-to-encryption-for-embedded-linux-developers/)
+
 [A hands-on approach to symmetric-key encryption](https://sergioprado.blog/a-hands-on-approach-to-symmetric-key-encryption/)
+
 [symmetric-Key Encryption and Digital Signatures in Practice](https://sergioprado.blog/asymmetric-key-encryption-and-digital-signatures-in-practice/)
+
 ---
 [How to Boot Kali rolling into consol mode](https://forums.kali.org/showthread.php?53951-How-to-Boot-Kali-rolling-into-consol-mode&p=101222)
 
