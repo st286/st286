@@ -13,7 +13,9 @@ There are several tutorials on the Go website at https://go.dev such as the foll
 Go has a “playground” accessible from the main page that can be used to run code (https://go.dev/play/).
 
 
-the Go Standard Library (https://pkg.go.dev/std).
+### the Go Standard Library (https://pkg.go.dev/std).
+
+The Go team also built a further set of packages as “subrepositories,” which often do not have the same support as the Standard Library. These are occasionally used. They will need to be installed using the go get command. These have package names including an “x,” such as golang.org/x/net/ipv4.
  
 
 
