@@ -13,6 +13,10 @@ There are several tutorials on the Go website at https://go.dev such as the foll
 Go has a “playground” accessible from the main page that can be used to run code (https://go.dev/play/).
 
 
+the Go Standard Library (https://pkg.go.dev/std).
+ 
+
+
 ## GO 代理
 
 **通过go env 设置环境变量：**
