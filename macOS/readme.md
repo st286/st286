@@ -73,8 +73,6 @@
 ####  [VirtualBox - a general-purpose full virtualizer](https://www.virtualbox.org)
 
 
-####  [iTerm2 - a replacement for Terminal](https://iterm2.com)
-
 ---
 ####  [iPhone Wiki - Apple Devices硬件与软件信息收集](https://www.theiphonewiki.com) and [Baseband device 基带设备](https://www.theiphonewiki.com/wiki/Baseband_Device)
 
