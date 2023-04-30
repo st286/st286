@@ -1,6 +1,12 @@
+[iTerm2](https://iterm2.com)
 
+iTerm2 is a replacement for Terminal and the successor to iTerm.
 
-### iTerm2 shell integration was installed!
+[iTerm2 Utilities](https://iterm2.com/documentation-utilities.html)
+
+---
+
+__iTerm2 shell integration was installed!__
 
 A script was installed to /Users/st/.iterm2_shell_integration.zsh
 
@@ -11,8 +17,6 @@ To make it work right now, do:
   source /Users/st/.iterm2_shell_integration.zsh
 
 This line was also added to /Users/st/.zshrc, so the next time you log in it will be loaded automatically.
-
---------------------------------------------------------------------------------
 
 __You will also have these commands:__
 
