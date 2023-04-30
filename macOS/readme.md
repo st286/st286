@@ -1,3 +1,7 @@
+#### [WindowSwap Blog](https://www.window-swap.com/Window)
+
+WindowSwap is here to fill that deep void in our wanderlust hearts by allowing us to look through someone else's window, somewhere in the world.
+
 ####   [macOS sudo免密设置](https://blog.csdn.net/cengjingcanghai123/article/details/119797480)
 
 ` chmod u+w /etc/sudoers, sudo vim /etc/sudoers, chmod u-w /etc/sudoers`
