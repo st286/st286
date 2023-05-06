@@ -21,6 +21,14 @@ The Go team also built a further set of packages as “subrepositories,” which
 
 ## GO 代理
 
+[一个全球代理为 Go 模块而生](https://goproxy.io/zh/)
+```
+# 配置 GOPROXY 环境变量
+export GOPROXY=https://proxy.golang.com.cn,direct
+# 还可以设置不走 proxy 的私有仓库或组，多个用逗号相隔（可选）
+export GOPRIVATE=git.mycompany.com,github.com/my/private
+```
+
 **通过go env 设置环境变量：**
 
 `go env -w GOPROXY=https://goproxy.io,direct`
