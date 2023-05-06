@@ -2,13 +2,13 @@
 
 There are several tutorials on the Go website at https://go.dev such as the following:
 
-• Getting started – https://go.dev/learn/
+Getting started – https://go.dev/learn/
 
-• A tutorial for the Go programming language – https://go.dev/doc/tutorial/getting-started
+A tutorial for the Go programming language – https://go.dev/doc/tutorial/getting-started
 
-• Online and interactive tutorial – https://go.dev/tour/list
+Online and interactive tutorial – https://go.dev/tour/list
 
-• Effective Go – https://go.dev/doc/effective_go
+Effective Go – https://go.dev/doc/effective_go
 
 Go has a “playground” accessible from the main page that can be used to run code (https://go.dev/play/).
 
