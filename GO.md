@@ -17,8 +17,7 @@ Go has a “playground” accessible from the main page that can be used to run 
 
 The Go team also built a further set of packages as “subrepositories,” which often do not have the same support as the Standard Library. These are occasionally used. They will need to be installed using the go get command. These have package names including an “x,” such as golang.org/x/net/ipv4.
  
-
-
+ 
 ## GO 代理
 
 [一个全球代理为 Go 模块而生](https://goproxy.io/zh/)
@@ -40,6 +39,8 @@ export GOPRIVATE=git.mycompany.com,github.com/my/private
 `go env -u GOPROXY`  
 
 ## GO something
+
+### [将VIM打造成go语言的ide](https://learnku.com/articles/24924)
 
 `go version`  `go env`
 
