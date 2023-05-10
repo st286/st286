@@ -6,5 +6,6 @@
 
 [This is go-mode, the Emacs mode for editing Go code.](https://github.com/dominikh/go-mode.el)
 
+[Writing Go in Emacs](https://honnef.co/articles/writing-go-in-emacs/)
 
 
