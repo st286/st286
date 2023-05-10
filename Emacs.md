@@ -1,5 +1,7 @@
 # Emacs
 
+[Emacs wiki 首页](https://www.emacswiki.org/emacs?interface=zh-cn)
+
 [Emacs For macOS](https://emacsformacosx.com)
 
 [一年成为Emacs高手](https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org)
