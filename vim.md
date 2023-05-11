@@ -39,52 +39,90 @@
     set tabstop=4
     
 #### Here are some other helpful ones
+```   
+"==============================================================================
+" vim 内置配置 
+"==============================================================================
 
-    " You want Vim, not vi. When Vim finds a vimrc, 'nocompatible' is set anyway. We set it explicitely to make our position clear!
-    set nocompatible
+" 设置 vimrc 修改保存后立刻生效，不用在重新打开
+" 建议配置完成后将这个关闭
+" autocmd BufWritePost $MYVIMRC source $MYVIMRC
+
+" You want Vim, not vi. When Vim finds a vimrc, 'nocompatible' is set anyway. We set it explicitely to make our position clear!
+" 关闭兼容模式
+set nocompatible
+
+"中文乱码vim字符集设置
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8
+
+set mouse=a
+set selection=exclusive
+set selectmode=mouse,key
+
+set nu " 设置行号
+set cursorline "突出显示当前行
+" set cursorcolumn " 突出显示当前列
+set showmatch " 显示括号匹配
+
+set showmode
+
+set laststatus=2         " Always show statusline.
+set display=lastline     " Show as much as possible of the last line.
+
+" tab 缩进
+set tabstop=4 " 设置Tab长度为4空格
+set shiftwidth=4 " 设置自动缩进长度为4空格
+set autoindent " 继承前一行的缩进方式，适用于多行注释
+set softtabstop=4
+set smarttab " Autotabs for certain code
+set smartindent
+
+set ruler " Always shows location in file (line#)
+set showmatch " Shows matching brackets
+set number
+
+inoremap jj <Esc>
+
+
+"set termguicolors
+"colorscheme meta5
+set background=dark
+
+
+" 定义快捷键的前缀，即<Leader>
+let mapleader=";" 
+
+" ==== 系统剪切板复制粘贴 ====
+" v 模式下复制内容到系统剪切板
+vmap <Leader>c "+yy
+" n 模式下复制一行到系统剪切板
+nmap <Leader>c "+yy
+" n 模式下粘贴系统剪切板的内容
+nmap <Leader>v "+p
+
+" 开启实时搜索
+set incsearch
+" 搜索时大小写不敏感
+set ignorecase
+syntax enable
+syntax on                    " 开启文件类型侦测
+" syntax on " Syntax highlighting
+
+filetype plugin indent on    " 启用自动补全
+
+" 退出插入模式指定类型的文件自动保存
+" au InsertLeave *.go,*.sh,*.php write
+
+
+" 插件开始的位置
+call plug#begin('~/.vim/plugged')
+
+call plug#end()
     
-    "中文乱码vim字符集设置
-    set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
-    set termencoding=utf-8
-    set encoding=utf-8
-
-    set mouse=a
-    set selection=exclusive
-    set selectmode=mouse,key
-    
-    set cursorline  "突出显示当前行
-    
-    set showmode
-    
-    set laststatus=2         " Always show statusline.
-    set display=lastline     " Show as much as possible of the last line.
-
-    inoremap jj <Esc>
-
-    set tabstop=4
-    set softtabstop=4
-    set number
-
-    set showmatch " Shows matching brackets
-    set ruler " Always shows location in file (line#)
-    set smarttab " Autotabs for certain code
-    set shiftwidth=4
-
-    set autoindent
-    set smartindent
-
-    set termguicolors
-    colorscheme meta5
-    set background=dark
-
-    syntax on " Syntax highlighting
-
     nnoremap <leader>ev :vsp $MYVIMRC<CR>
     nnoremap <leader>sv :source $MYVIMRC<CR>
+```
     
-    
-    
-
-
-
 [How to set tab to 4 spaces in vim?](https://superuser.com/questions/505937/how-to-set-tab-to-4-spaces-in-vim)
