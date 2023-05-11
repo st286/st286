@@ -1,5 +1,7 @@
 # Emacs
 
+[专业 Emacs 入门（四）：基本配置](https://zhuanlan.zhihu.com/p/432552171)
+
 [Emacs wiki 首页](https://www.emacswiki.org/emacs?interface=zh-cn)
 
 [Emacs For macOS](https://emacsformacosx.com)
