@@ -1,6 +1,6 @@
 # Emacs
 
-[专业 Emacs 入门（四）：基本配置](https://zhuanlan.zhihu.com/p/432552171)
+[专业 Emacs 入门](https://zhuanlan.zhihu.com/p/385214753)
 
 [Emacs wiki 首页](https://www.emacswiki.org/emacs?interface=zh-cn)
 
