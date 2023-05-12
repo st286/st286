@@ -2,6 +2,8 @@
 
 [专业 Emacs 入门](https://zhuanlan.zhihu.com/p/385214753)
 
+[GNU Emacs Reference Cards](https://www.gnu.org/software/emacs/refcards/index.html)
+
 [Emacs wiki 首页](https://www.emacswiki.org/emacs?interface=zh-cn)
 
 [Emacs For macOS](https://emacsformacosx.com)
