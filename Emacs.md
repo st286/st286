@@ -10,6 +10,8 @@
 
 [MELPA (Milkypostman’s Emacs Lisp Package Archive)](https://melpa.org/#/)
 
+[Using Doom Emacs for Go Development](https://nayak.io/posts/golang-development-doom-emacs/)
+
 [一年成为Emacs高手](https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org)
 
 [This is go-mode, the Emacs mode for editing Go code.](https://github.com/dominikh/go-mode.el)
