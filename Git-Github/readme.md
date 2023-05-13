@@ -8,27 +8,27 @@ Git代理有两种设置方式，分别是全局代理和只对Github代理，�
 
 代理协议也有两种，分别是使用http代理和使用socks5代理，建议使用socks5代理。
 
-注意下面代码的端口号需要根据你自己的代理端口设定，比如我的代理socks端口是51837。
+注意下面代码的端口号需要根据你自己的代理端口设定，比如我的代理socks端口是1080。
 
 ```
 #全局设置（不推荐）
 
 #使用http代理 
-git config --global http.proxy http://127.0.0.1:58591
-git config --global https.proxy https://127.0.0.1:58591
+git config --global http.proxy http://127.0.0.1:1080
+git config --global https.proxy https://127.0.0.1:1080
 
 #使用socks5代理
-git config --global http.proxy socks5://127.0.0.1:51837
-git config --global https.proxy socks5://127.0.0.1:51837
+git config --global http.proxy socks5://127.0.0.1:1080
+git config --global https.proxy socks5://127.0.0.1:1080
 
 
 #只对Github代理（推荐）
 
 #使用socks5代理（推荐）
-git config --global http.https://github.com.proxy socks5://127.0.0.1:51837
+git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 
 #使用http代理（不推荐）
-git config --global http.https://github.com.proxy http://127.0.0.1:58591
+git config --global http.https://github.com.proxy http://127.0.0.1:1080
 ```
 
 **取消代理**
