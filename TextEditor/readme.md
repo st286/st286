@@ -1,5 +1,11 @@
 # TextEditor
 
+## [Emacs](./emacs.md)
+
+[GNU Emacs](https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html)
+
+[Emacs--维基百科](https://zh.wikipedia.org/zh-cn/Emacs)
+
 ## [Vim](./vim.md)
 
 [Vim - the ubiquitous text editor](https://www.vim.org/)
@@ -50,7 +56,4 @@ B1D4C178 2F9DDB16 ABAA74E5 95304BEF
   To install Atom on Debian, Ubuntu, or related distributions, add our official package repository to your system by running the following commands. [See here](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
 
 
-## [GNU Emacs](https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html)
-
-[Emacs--维基百科](https://zh.wikipedia.org/zh-cn/Emacs)
 
