@@ -16,8 +16,11 @@
 
 [一年成为Emacs高手](https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org)
 
-[This is go-mode, the Emacs mode for editing Go code.](https://github.com/dominikh/go-mode.el)
+[Go-mode, the Emacs mode for editing Go code.](https://github.com/dominikh/go-mode.el)
 
 [Writing Go in Emacs](https://honnef.co/articles/writing-go-in-emacs/)
+
+[CEO的Emacs秘籍](https://juejin.cn/post/6844903750155403271)
+
 
 
