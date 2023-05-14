@@ -1,6 +1,6 @@
 # TextEditor
 
-## [Vim]./vim.md)
+## [Vim](./vim.md)
 
 [Vim - the ubiquitous text editor](https://www.vim.org/)
 
