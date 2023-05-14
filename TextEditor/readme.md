@@ -1,6 +1,6 @@
 # TextEditor
 
-## [Vim](https://github.com/st286/st286.github.io/blob/master/vim.md)
+## [Vim]./vim.md)
 
 [Vim - the ubiquitous text editor](https://www.vim.org/)
 
