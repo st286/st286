@@ -28,5 +28,6 @@
 
 [Emacs Golang 开发环境配置](https://404cn.github.io/2021-08-13-Emacs-Golang-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html)
 
+[Flycheck — Syntax checking for GNU Emacs](https://www.flycheck.org/en/latest/)
 
 
