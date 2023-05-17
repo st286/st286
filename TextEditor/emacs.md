@@ -22,5 +22,11 @@
 
 [CEO的Emacs秘籍](https://juejin.cn/post/6844903750155403271)
 
+---
+
+[golang快速入门[6.2]-集成开发环境-emacs详解](https://zhuanlan.zhihu.com/p/110003756)
+
+[Emacs Golang 开发环境配置](https://404cn.github.io/2021-08-13-Emacs-Golang-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html)
+
 
 
