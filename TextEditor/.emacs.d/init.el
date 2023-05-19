@@ -1,10 +1,10 @@
-;;; init.el --- Load the full configuration -*- lexical-binding: t -*-
+;;; 2023-5-19
+;;; init.el --- Load the full configuration -*- lexical-binding: t -*-   
 
-;;;使用代理(23-5-14没有作用？？)
-;(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3") ; 不加这一句可能有问题，建议读者尝试一下
-;(setq url-proxy-services '(("no_proxy" . "^\\(192\\.168\\..*\\)")
-;                           ("http" . "127.0.0.1:1080")
-;      			   ("https" . "127.0.0.1:1080")))
+;;;设置代理
+;(setq url-gateway-method 'socks)
+;(setq socks-server
+;      '("Default server" "localhost" 1080 5))
 
 
 ;;; Melpa 插件仓库,包管理
@@ -18,6 +18,13 @@
 ;;;use-package 进行管理插件
 (eval-when-compile
   (require 'use-package))
+
+;;;Flycheck — Syntax checking for GNU Emacs
+;https://www.flycheck.org/en/latest/
+(use-package flycheck
+  :ensure t
+  :init (global-flycheck-mode))
+
 
 ;;;DOOM THEMES
 (use-package doom-themes
@@ -66,6 +73,9 @@
 
 (add-hook 'prog-mode-hook #'hs-minor-mode)   ; 编程模式下，可以折叠代码块
 (add-hook 'prog-mode-hook #'show-paren-mode) ; 编程模式下，光标在括号上时高亮另一个括号
+
+;;;golang Gopls integration
+(add-hook 'go-mode-hook 'lsp-deferred)
 
 ;;; 自定义函数
 ;; Faster move cursor
