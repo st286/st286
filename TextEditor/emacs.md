@@ -29,6 +29,8 @@ Consult provides search and navigation commands based on the Emacs completion fu
 
 [Eglot](https://github.com/joaotavora/eglot)
 
+      go install golang.org/x/tools/gopls@latest
+
 ---
 
 [专业 Emacs 入门](https://zhuanlan.zhihu.com/p/385214753)
