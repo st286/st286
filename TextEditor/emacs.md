@@ -10,6 +10,7 @@
 ---
 
 Consult provides search and navigation commands based on the Emacs completion function completing-read. 
+
 [Consult](https://github.com/minad/consult)
 
 
@@ -21,6 +22,8 @@ Consult provides search and navigation commands based on the Emacs completion fu
 [lsp-ui](https://emacs-lsp.github.io/lsp-ui/)
 
 [Go (gopls)](https://emacs-lsp.github.io/lsp-mode/manual-language-docs/lsp-gopls/)
+
+[Eglot](https://github.com/joaotavora/eglot)
 
 ---
 
