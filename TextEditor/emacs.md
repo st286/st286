@@ -13,7 +13,11 @@ Consult provides search and navigation commands based on the Emacs completion fu
 
 [Consult](https://github.com/minad/consult)
 
+---
 
+[Go tool - gopls](https://github.com/golang/tools/tree/master/gopls)
+
+[go-mode.el](https://github.com/dominikh/go-mode.el)
 
 ---
 
