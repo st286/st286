@@ -6,6 +6,8 @@
 
 [Emacs--维基百科](https://zh.wikipedia.org/zh-cn/Emacs)
 
+[Lisp相关知识](https://juejin.cn/column/7229462763949047863)
+
 ## [Vim](./vim.md)
 
 [Vim - the ubiquitous text editor](https://www.vim.org/)
