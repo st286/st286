@@ -7,8 +7,14 @@
 
 [emacs-newbie](https://github.com/condy0919/emacs-newbie/tree/master)
 
+---
+
+Consult provides search and navigation commands based on the Emacs completion function completing-read. 
+[Consult](https://github.com/minad/consult)
 
 
+
+---
 
 [LSP Mode - LSP](https://emacs-lsp.github.io/lsp-mode/)
 
