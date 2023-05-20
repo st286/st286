@@ -1,4 +1,13 @@
 # Emacs
+---
+
+[use-package](https://github.com/jwiegley/use-package)
+
+[Emacs builtin modes 功能介绍](https://github.com/condy0919/emacs-newbie/blob/master/introduction-to-builtin-modes.md)
+
+[emacs-newbie](https://github.com/condy0919/emacs-newbie/tree/master)
+
+---
 
 [专业 Emacs 入门](https://zhuanlan.zhihu.com/p/385214753)
 
