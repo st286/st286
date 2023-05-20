@@ -12,6 +12,8 @@
 
 [LSP Mode - LSP](https://emacs-lsp.github.io/lsp-mode/)
 
+[lsp-ui](https://emacs-lsp.github.io/lsp-ui/)
+
 [Go (gopls)](https://emacs-lsp.github.io/lsp-mode/manual-language-docs/lsp-gopls/)
 
 ---
