@@ -7,6 +7,13 @@
 
 [emacs-newbie](https://github.com/condy0919/emacs-newbie/tree/master)
 
+
+
+
+[LSP Mode - LSP](https://emacs-lsp.github.io/lsp-mode/)
+
+[Go (gopls)](https://emacs-lsp.github.io/lsp-mode/manual-language-docs/lsp-gopls/)
+
 ---
 
 [专业 Emacs 入门](https://zhuanlan.zhihu.com/p/385214753)
