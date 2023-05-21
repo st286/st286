@@ -15,6 +15,10 @@ Go has a “playground” accessible from the main page that can be used to run 
 
 ### the Go Standard Library (https://pkg.go.dev/std).
 
+    go install golang.org/x/tools/cmd/goimports@latest
+    
+    go install golang.org/x/tools/gopls@latest
+
 The Go team also built a further set of packages as “subrepositories,” which often do not have the same support as the Standard Library. These are occasionally used. They will need to be installed using the go get command. These have package names including an “x,” such as golang.org/x/net/ipv4.
  
  
