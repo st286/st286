@@ -13,7 +13,7 @@ Effective Go – https://go.dev/doc/effective_go
 Go has a “playground” accessible from the main page that can be used to run code (https://go.dev/play/).
 
 
-### the Go Standard Library (https://pkg.go.dev/std).
+## the Go Standard Library (https://pkg.go.dev/std).
 
     go install golang.org/x/tools/cmd/goimports@latest
     
@@ -43,6 +43,8 @@ export GOPRIVATE=git.mycompany.com,github.com/my/private
 `go env -u GOPROXY`  
 
 ## GO something
+
+### [Emacs GO IDE-- go-init.el](https://github.com/st4swift/Lisp-Emacs/tree/main/.emacs.d)
 
 ### [将VIM打造成go语言的ide](https://learnku.com/articles/24924)
 
