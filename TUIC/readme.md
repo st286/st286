@@ -11,7 +11,15 @@
 
 [A Comprehensive Guide To HTTP/3 And QUIC](https://www.debugbear.com/blog/http3-quic-protocol-guide)
 
-# 配置TUIC代理
+---
+
+
+
+
+
+---
+---
+# 配置TUIC代理( version 0.8.5)
 
 tuic是一个基于quic协议的高性能代理，更多介绍：https://github.com/EAimTY/tuic
 
