@@ -133,6 +133,7 @@ WantedBy=multi-user.target
 
        systemctl enable --now tuic.service
 
+
 ## 二. 客户端
 
 下载页面： https://github.com/EAimTY/tuic/releases
@@ -190,6 +191,13 @@ wget https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0/tuic-cli
 }
 
 ```
+打开PC终端，运行tuic客户端：
+```
+./tuic-client-1.0.0-aarch64-apple-darwin  -c  clien.json
+
+./tuic-client-1.0.0-x86_64-unknown-linux-gnu  -c  client.json
+```
+设置PC的Socks5代理，则可。
 
 
 ---
