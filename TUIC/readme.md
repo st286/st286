@@ -44,7 +44,7 @@ mkdir /opt/tuic && cd /opt/tuic
 #!/bin/bash
 cat /etc/letsencrypt/live/DOMAIN.com/fullchain.pem > /opt/tuic/fullchain.pem
 cat /etc/letsencrypt/live/DOMAIN.com/privkey.pem > /opt/tuic/privkey.pem
-systemctl restart tuic.service
+systemctl restart tuic10.service
 ```
 给脚本执行权限：
 
