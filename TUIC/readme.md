@@ -133,7 +133,63 @@ WantedBy=multi-user.target
 
        systemctl enable --now tuic.service
 
-## 二.
+## 二. 客户端
+
+下载页面： https://github.com/EAimTY/tuic/releases
+```
+wget https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0/tuic-client-1.0.0-x86_64-unknown-linux-gnu
+
+wget https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0/tuic-client-1.0.0-aarch64-apple-darwin
+```
+
+新建客户端的client.json配置文件，在文件内写入如下配置：
+
+```
+{
+    "relay": {
+
+        "server": "XX.XX.com:102",
+
+        "uuid": "UUID,
+
+        "password": "PASSWD",
+
+        "udp_relay_mode": "quic",
+
+        "congestion_control": "bbr",
+
+        "alpn": ["h3", "spdy/3.1"],
+
+        "zero_rtt_handshake": false,
+
+        "disable_sni": false,
+
+        "timeout": "8s",
+
+        "heartbeat": "3s",
+
+        "disable_native_certs": false,
+
+        "send_window": 16777216,
+
+        "receive_window": 8388608,
+
+        "gc_interval": "3s",
+
+        "gc_lifetime": "15s"
+    },
+
+    "local": {
+
+        "server": "127.0.0.1:1080",
+
+        "max_packet_size": 1500
+    },
+
+    "log_level": "warn"
+}
+
+```
 
 
 ---
