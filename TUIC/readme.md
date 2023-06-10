@@ -68,9 +68,72 @@ cat /etc/letsencrypt/live/DONAIN/privkey.pem > /opt/tuic/privkey.pem
 
     wget  https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0/tuic-server-1.0.0-x86_64-unknown-linux-gnu
     
+    chmod +x tuic-server-1.0.0-x86_64-unknown-linux-gnu
     
+新建tuic server配置文件(sjxx.json)：
 
+写入如下配置:
+```
+{
+    "server": "0.0.0.0:102",
 
+    "users": {
+        "UUID1": "PASSWD1",
+        "UUID2": "PASSWD2"
+    },
+
+    "certificate": "/opt/tuic/fullchain.pem",
+
+    "private_key": "/opt/tuic/privkey.pem",
+
+    "congestion_control": "bbr",
+
+    "alpn": ["h3", "spdy/3.1"],
+
+    "zero_rtt_handshake": false,
+
+    "auth_timeout": "3s",
+
+    "task_negotiation_timeout": "3s",
+
+    "max_idle_time": "10s",
+
+    "max_external_packet_size": 1500,
+
+    "send_window": 16777216,
+
+    "receive_window": 8388608,
+
+    "gc_interval": "3s",
+
+    "gc_lifetime": "15s",
+
+    "log_level": "error"
+}
+```
+新建systemd配置文件(/lib/systemd/system/tuic10.service)
+```
+[Unit]
+Description=Delicately-TUICed high-performance proxy built on top of the QUIC protocol
+Documentation=https://github.com/EAimTY/tuic
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/opt/tuic
+ExecStart=/opt/tuic/tuic-server-1.0.0-x86_64-unknown-linux-gnu -c SJXX.json
+Restart=on-failure
+RestartPreventExitStatus=1
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+```
+启动tuic服务并设置开机自启：
+
+       systemctl enable --now tuic.service
+
+## 二.
 
 
 ---
