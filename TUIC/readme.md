@@ -16,8 +16,59 @@
 
 tuic是一个基于quic协议的高性能代理，更多介绍：https://github.com/EAimTY/tuic
 
+## 一、安装服务端：
 
+### 证书安装
+```
+apt -y update
 
+apt -y install wget certbot
+
+mkdir /opt/tuic && cd /opt/tuic
+```
+申请证书(自动)：
+
+    certbot certonly --standalone --agree-tos --no-eff-email --email EMAIL.com -d DONAIN.com
+    
+将证书保存到tuic配置文件内配置的位置：
+
+    cat /etc/letsencrypt/live/DOMAIN.com/fullchain.pem > /opt/tuic/fullchain.pem
+    cat /etc/letsencrypt/live/DOMAIN.com/privkey.pem > /opt/tuic/privkey.pem
+
+新建一个certbot的hook脚本文件，用于让tuic重新加载续期后的新证书：
+
+    /etc/letsencrypt/renewal-hooks/post/tuic.sh
+
+写入如下内容：
+```
+#!/bin/bash
+cat /etc/letsencrypt/live/DOMAIN.com/fullchain.pem > /opt/tuic/fullchain.pem
+cat /etc/letsencrypt/live/DOMAIN.com/privkey.pem > /opt/tuic/privkey.pem
+systemctl restart tuic.service
+```
+给脚本执行权限：
+
+    chmod +x /etc/letsencrypt/renewal-hooks/post/tuic.sh
+
+测试续期的情况以及脚本能否正常运行：
+
+    certbot renew --cert-name DOMAIN.com --dry-run
+    
+更新证书(手动)：
+```
+# certbot renew 过程中， 用到 80/443 端口。 需要开放 80/443. 
+
+certbot renew --cert-name $YOUR_DOMAIN 
+
+cat /etc/letsencrypt/live/DONAIN/fullchain.pem > /opt/tuic/fullchain.pem
+cat /etc/letsencrypt/live/DONAIN/privkey.pem > /opt/tuic/privkey.pem
+```
+
+### 安装tuic server
+
+    wget  https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0/tuic-server-1.0.0-x86_64-unknown-linux-gnu
+    
+    
 
 
 
