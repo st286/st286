@@ -1,4 +1,10 @@
 ---
+
+# [NaïveProxy](https://github.com/klzgrad/naiveproxy)
+
+
+---
+---
 # NaiveProxy
 
 NaïveProxy是一个基于谷歌浏览器的网络组建，进行数据包转发的套件，它最大的优势是TLS的流量指纹，是谷歌浏览器Chrome的，那个叫啥“泯然众人”，是的，流量就是特征就跟普通浏览器的一模一样了。
