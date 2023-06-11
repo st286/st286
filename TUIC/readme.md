@@ -131,7 +131,7 @@ WantedBy=multi-user.target
 ```
 启动tuic服务并设置开机自启：
 
-       systemctl enable --now tuic.service
+       systemctl enable --now tuic10.service
 
 
 ## 二. 客户端
