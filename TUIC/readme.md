@@ -12,7 +12,7 @@
 [A Comprehensive Guide To HTTP/3 And QUIC](https://www.debugbear.com/blog/http3-quic-protocol-guide)
 
 ---
-# 配置TUIC代理( version 1.0.0)
+# A. 配置TUIC代理( version 1.0.0)
 
 tuic是一个基于quic协议的高性能代理，更多介绍：https://github.com/EAimTY/tuic
 
@@ -202,7 +202,7 @@ wget https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0/tuic-cli
 
 ---
 ---
-# 配置TUIC代理( version 0.8.5)
+# B. 配置TUIC代理( version 0.8.5)
 
 tuic是一个基于quic协议的高性能代理，更多介绍：https://github.com/EAimTY/tuic
 
