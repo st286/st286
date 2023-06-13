@@ -4,3 +4,8 @@
 
 ### [Rust教學](https://tw511.com/2/28/1043.html)
 
+
+[Configuring Emacs for Rust development](https://robert.kra.hn/posts/rust-emacs-setup/)
+
+
+
