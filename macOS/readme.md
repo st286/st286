@@ -1,3 +1,17 @@
+---
+### [沉浸式翻译：](https://immersivetranslate.com)
+
+1⃣能自定义ChatGPT、DeepL 等作为翻译源，我现在用的是 GPT 
+
+2⃣ 可以对照翻译网页，格式排版都很好
+
+3⃣支持快捷翻译输入框内容
+
+4⃣还支持对照翻译 SRT 字幕、PDF、EPUB 文档
+
+用了就回不去了，强烈推荐：https://immersivetranslate.com
+
+---
 #### [WindowSwap Blog](https://www.window-swap.com/Window)
 
 WindowSwap is here to fill that deep void in our wanderlust hearts by allowing us to look through someone else's window, somewhere in the world.
