@@ -1,4 +1,9 @@
 ---
+### [macOS轻量级纯文本编辑器](https://apps.apple.com/app/coteditor/id1024640650?ls=1)
+
+CotEditor is a light-weight, neat, yet powerful text editor designed for editing plain-text files such as web pages (HTML, CSS), program source codes (Python, Ruby, Perl, etc.), structured texts (Markdown, Textile, TeX, etc.), or any other kind of plain-text.
+
+---
 ### [沉浸式翻译：](https://immersivetranslate.com)
 
 1⃣能自定义ChatGPT、DeepL 等作为翻译源，我现在用的是 GPT 
