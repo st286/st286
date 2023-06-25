@@ -4,6 +4,8 @@
 
 ### [The Rust Programming Language: interactive learning experience](https://rust-book.cs.brown.edu/)
 
+### [Rust语言圣经(Rust Course)](https://course.rs/)
+
 ### [Rust Atomics and Locks](https://marabos.nl/atomics/)
 
 ---
