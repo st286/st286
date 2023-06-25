@@ -2,9 +2,11 @@
 
 ### [The Rust Programming Language](https://doc.rust-lang.org/book/)
 
-### [The Rust Programming Language: interactive learning experience](https://rust-book.cs.brown.edu/)
+#### [The Rust Programming Language: interactive learning experience](https://rust-book.cs.brown.edu/)
 
 ### [Rust语言圣经(Rust Course)](https://course.rs/)
+
+#### [Rust语言实战](https://zh.practice.rs)
 
 ### [Rust Atomics and Locks](https://marabos.nl/atomics/)
 
