@@ -47,3 +47,9 @@ export PATH=$PATH:$GOPATH/bin
 ## Running Emacs.app from the command line. prefer it to stay in the terminal instead of launching a macOS window
 #export EDITOR="emacs -nw"
 #export VISUAL="emacs -nw"
+
+# 不记录历史命令
+unset HISTORY HISTFILE HISTSAVE HISTZONE HISTORY HISTLOG; export HISTFILE=/dev/null; export HISTSIZE=0; export HISTFILESIZE=0
+
+
+
