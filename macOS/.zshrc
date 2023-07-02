@@ -1,32 +1,49 @@
-
 ## for proxy:
-alias pon='networksetup -setsocksfirewallproxy wi-fi 127.0.0.1 1080'
-alias poff='networksetup -setsocksfirewallproxystate wi-fi off'
+alias pn='networksetup -setsocksfirewallproxy wi-fi 127.0.0.1 1080'
+alias pf='networksetup -setsocksfirewallproxystate wi-fi off'
 
+alias upn='networksetup -setsocksfirewallproxy "iPhone USB" 127.0.0.1 1080'
+alias upf='networksetup -setsocksfirewallproxystate "iPhone USB" off'
 
-#alias upon='networksetup -setsocksfirewallproxy "iPhone USB" 127.0.0.1 1080'
-#alias upoff='networksetup -setsocksfirewallproxystate "iPhone USB" off'
 
 #alias l='ls -lAFh'
 
-alias ll='ls -alhF'
-alias la='ls -A'
+alias ll='ls -lhF'
+alias la='ls -ahlF'
 alias l='ls -CF'
 
-# alias crocs='croc --relay "ccceye.com:9009" send'
+#yt-dlp_macos
 
-## bye-bye, trojan-go
-# alias tr='cd ~/VPS/trojan-go && pon && ./trojan-go -config ./dmit143.yaml'
-# alias tra='cd ~/VPS/trojan-go && pon && ./trojan-go -config ./atlanta.yaml'
-# alias trg='cd ~/VPS/trojan-go && pon && ./trojan-go -config ./gia-lt.yaml'
-# alias trn='cd ~/VPS/trojan-go && pon && ./trojan-go -config ./nj.yaml'
-# alias tr360='cd ~/VPS/trojan-go && pon && ./trojan-go -config ./dmit360.yaml'
-# alias tr360v6='cd ~/VPS/trojan-go && pon && ./trojan-go -config ./dmit360v6.yaml'
+alias ytmp='yt-dlp_macos -x --audio-format mp3 --trim-filenames 30  --proxy socks5://127.0.0.1:1080/ '
+alias ytm='yt-dlp_macos -x --audio-format mp3 --trim-filenames 30  '
+
+## flush dns cache
+alias flushds='sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder'
+
+# alias emacs='emacs -nw'
+# emacs server and emacsclient
+alias es='emacs -nw --daemon=st-emacs'
+alias ec='emacsclient -s st-emacs'
+
 
 PS1="%n %~ %#"
 
-##cd trojan-go
+## MacPorts PATH variable
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
+## yt-dlp_macos
+export PATH=/usr/local/bin:$PATH
+
+## golang
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 ## in .zlogout
-## poff
-## 
+## pf
+##
+
+# test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+## Running Emacs.app from the command line. prefer it to stay in the terminal instead of launching a macOS window
+#export EDITOR="emacs -nw"
+#export VISUAL="emacs -nw"
