@@ -1,3 +1,5 @@
+## [rage: Rust implementation of age](https://github.com/str4d/rage)
+
 ---
 ### [macOS轻量级纯文本编辑器](https://apps.apple.com/app/coteditor/id1024640650?ls=1)
 
