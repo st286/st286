@@ -198,6 +198,8 @@ sudo apt update && sudo apt upgrade -y && sudo apt install exiftool
 
 [age是一种简单，现代且安全的文件加密工具](https://github.com/FiloSottile/age)
 
+[rage](https://github.com/str4d/rage)
+
    age is a simple, modern and secure file encryption tool, format, and Go library.
 
    It features small explicit keys, no config options, and UNIX-style composability.
