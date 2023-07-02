@@ -1,9 +1,9 @@
-## Packae Managers
+# Packae Managers
 
 ---
 ### [Homebrew vs. MacPorts package managers](https://www.scivision.dev/homebrew-macports-fink/)
 
-### [一、MacPorts](https://www.macports.org/)
+## [一、MacPorts](https://www.macports.org/)
 
 #### [Macport Guide](https://guide.macports.org/)
 
@@ -61,7 +61,7 @@ sudo port activate python311
 
 ===
 
-#### Network-Tools:
+### Network-Tools:
 
 [netwox](https://ports.macports.org/port/netwox/) ` sudo port install netwox `
 
@@ -72,7 +72,7 @@ sudo port activate python311
 
 `sudo port install goldendict    ## M1 etc apple silicon Not Supported`
         
-### [二、Homebrew](https://brew.sh)
+## [二、Homebrew](https://brew.sh)
 
 The Missing Package Manager for macOS (or Linux)
 ```
