@@ -1,7 +1,8 @@
 ## [rage: Rust implementation of age](https://github.com/str4d/rage)
-
-
-
+```
+$ rage -R ~/.ssh/id_ed25519.pub example.png > example.png.age
+$ rage -d -i ~/.ssh/id_ed25519 example.png.age > example.png
+```
 ## [How to Use ssh-keygen to Generate a New SSH Key](https://www.ssh.com/academy/ssh/keygen)
 
 ---
