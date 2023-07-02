@@ -13,12 +13,6 @@ alias ll='ls -alhF'
 alias la='ls -A'
 alias l='ls -CF'
 
-## Youtube-DL 
-alias youtube-dl='youtube-dl -f best'
-alias youtube-dl-proxy='youtube-dl  --proxy socks5://127.0.0.1:1080/'
-alias yt-dl-mp3='youtube-dl -i --extract-audio --audio-format mp3 --audio-quality 0'
-alias yt-dl-mp3-proxy='yt-dl-mp3 --proxy socks5://127.0.0.1:1080/'
-
 # alias crocs='croc --relay "ccceye.com:9009" send'
 
 ## bye-bye, trojan-go
