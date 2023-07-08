@@ -1,5 +1,7 @@
 ## [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
+老 macbook 成功吃上macOS 12（已支持13），使用了OpenCore Legacy Patcher ，它基于Python的项目，原理是在内存中注入修补数据，让老MacBook安装新版的Mac OS，并运行和解锁新OS的相关功能，实现近乎原生的体验。
+
 Main goal is to breathe new life into Macs no longer supported by Apple, allowing for the installation and usage of macOS Big Sur and newer on machines as old as 2007.
 
 [Supported Models](https://dortania.github.io/OpenCore-Legacy-Patcher/MODELS.html)
