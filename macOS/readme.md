@@ -1,3 +1,10 @@
+## [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
+
+Main goal is to breathe new life into Macs no longer supported by Apple, allowing for the installation and usage of macOS Big Sur and newer on machines as old as 2007.
+
+[Supported Models](https://dortania.github.io/OpenCore-Legacy-Patcher/MODELS.html)
+
+---
 ## [rage: Rust implementation of age](https://github.com/str4d/rage)
 ```
 $ rage -R file1.pub example.png > example.png.age
