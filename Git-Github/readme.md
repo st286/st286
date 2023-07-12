@@ -1,4 +1,13 @@
+### .gitconfig
 
+```
+[socks5]
+        proxy = http://127.0.0.1:1080
+[user]
+        email = xxxx@gmail.com
+        name = xxxx
+
+```
 
 ### git 设置和取消代理
 
