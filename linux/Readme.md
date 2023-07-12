@@ -19,6 +19,15 @@
 ```
 dpkg-reconfigure console-setup
 setupcon
+
+setupcon --help
+setupcon -v
+
+# console-setup
+if w | grep tty[1-6]; then
+    setupcon 
+fi
+
 ```
 
 [How I configure Vim as my default editor on Linux](https://opensource.com/article/22/2/configure-vim-default-editor)
