@@ -20,5 +20,24 @@
 
 [Configuring Emacs for Rust development](https://robert.kra.hn/posts/rust-emacs-setup/)
 
+---
+# Install
+
+Using rustup (Recommended)
+
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+In the Rust development environment, all tools are installed to the ~/.cargo/bin directory, and this is where you will find the Rust toolchain, including rustc, cargo, and rustup. 
+
+Uninstall Rust
+
+    rustup self uninstall
+
+rust-analyzer (emacs)
+
+    rustup component add rust-src 
+    rustup component add rust-analyzer 
+
+
 
 
