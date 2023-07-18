@@ -38,6 +38,10 @@ rust-analyzer (emacs)
     rustup component add rust-src 
     rustup component add rust-analyzer 
 
+Tools
+
+    cargo install tuic-client
+    cargo install rage
 
 
 
