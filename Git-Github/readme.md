@@ -14,6 +14,8 @@ You can use additionally the ssh option “IdentityFile” to use a specific ssh
 
 [ncat Proxying](https://nmap.org/ncat/guide/ncat-proxy.html)
 
+#### [为 git 和 ssh 设置 socks5 协议的代理](https://blog.systemctl.top/2017/2017-09-28_set-proxy-for-git-and-ssh-with-socks5/)
+
  Ncat can route its connections through a SOCKS 4, SOCKS 5 or HTTP proxy. A basic connection looks like
 ```
 ncat --proxy <proxyhost>[:<proxyport>] --proxy-type  { http  |   socks4  |   socks5 } <host> [<port>]
