@@ -1,3 +1,33 @@
+
+### [Using github ssh behind http proxy](https://adangel.org/2020/10/15/github-behind-proxy/)
+
+netcat from OpenBSD doesn’t seem to have an option to specify the password. But there is another netcat variant, this time from nmap, the network scanner. The proxy settings are described in the proxying chapter of Ncat User’s Guide: Proxying. Note that this tool is available in Debian as package ncat.
+
+The complete file `~/.ssh/config` looks now:
+```
+Host github.com
+  Hostname ssh.github.com
+  Port 443
+  ProxyCommand ncat --proxy-type http --proxy 192.168.x.y:8080 --proxy-auth proxyuser:password %h %p
+```
+You can use additionally the ssh option “IdentityFile” to use a specific ssh key if you want.
+
+[ncat Proxying](https://nmap.org/ncat/guide/ncat-proxy.html)
+
+ Ncat can route its connections through a SOCKS 4, SOCKS 5 or HTTP proxy. A basic connection looks like
+```
+ncat --proxy <proxyhost>[:<proxyport>] --proxy-type  { http  |   socks4  |   socks5 } <host> [<port>]
+```
+`--proxy-type` may be omitted; it defaults to http. If <proxyport> is omitted, it defaults to the well-known port for the chosen proxy type: 1080 for SOCKS and 3128 for HTTP. An exception to this rule is when the proxy host is given by a IPv6 address; in this case the port is required because otherwise it would be ambiguous whether the digits after the last colon are the port number or part of the address.
+
+If the proxy server requires authentication, use the `--proxy-auth` option. Use `--proxy-auth <username>:<password>` for HTTP and SOCKS5 proxies and `--proxy-auth <username>` for SOCKS4 proxies.
+
+Ncat can act as a proxy server itself in listen mode. The only proxy type supported in this case is http.
+```
+ncat -l 3128 --proxy-type http
+ncat -l 3128 --proxy-type http --proxy-auth <user>:<pass>
+```
+
 ### .gitconfig
 
 ```
