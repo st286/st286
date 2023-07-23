@@ -40,6 +40,7 @@ WindowSwap is here to fill that deep void in our wanderlust hearts by allowing u
 ####   [macOS sudo免密设置](https://blog.csdn.net/cengjingcanghai123/article/details/119797480)
 
 ` chmod u+w /etc/sudoers, sudo vim /etc/sudoers, chmod u-w /etc/sudoers`
+`user    ALL = (ALL)NOPASSWD: ALL`
 
 
 ####   [Silicon - Identify Intel-Only Apps on your Mac with ease](https://github.com/DigiDNA/Silicon)
