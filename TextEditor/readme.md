@@ -1,5 +1,14 @@
-# TextEditor
+## [Vim](./vim.md)
 
+[Vim - the ubiquitous text editor](https://www.vim.org/)
+
+[1.Set up Vim as your Rust IDE](https://opensource.com/article/20/7/vim-rust-ide)
+
+[2.Rust + vim + code completion](https://medium.com/rust-sections/rust-vim-code-completion-b6a36a177340)
+
+[3.Configuring Vim for Rust development](https://blog.logrocket.com/configuring-vim-rust-development/)
+
+---
 ## [Emacs](./emacs.md)
 
 [GNU Emacs](https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html)
@@ -8,13 +17,10 @@
 
 [Lisp相关知识](https://juejin.cn/column/7229462763949047863)
 
-## [Vim](./vim.md)
-
-[Vim - the ubiquitous text editor](https://www.vim.org/)
-
+---
 ## [Vscode--Visual Studio Code](https://code.visualstudio.com/)
 
-
+---
 ## [Sublime Text](https://www.sublimetext.com)
 
 [Install for Linux](https://www.sublimetext.com/docs/linux_repositories.html)
@@ -22,6 +28,7 @@
 **Path:** 
 Install:   `/opt/sublime_text/`   Package and config:  `~/.config/sublime-text/`
 
+---
 **Gosublime:**
 
 [Gosublime - github](https://github.com/DisposaBoy/GoSublime)
@@ -31,8 +38,7 @@ Install:   `/opt/sublime_text/`   Package and config:  `~/.config/sublime-text/`
 **goproxy:**
 `go env -w GOPROXY="https://goproxy.io,direct"`
 
-
-
+---
 ## [Atom ](https://atom.io/)
    
   **Installing Atom on Linux**
