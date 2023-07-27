@@ -1,11 +1,11 @@
 ## [Vim](./vim.md)
 
-
-
 [Vim - the ubiquitous text editor](https://www.vim.org/)
 
 
 [Classic SysAdmin: Vim 101: A Beginner’s Guide to Vim](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim)
+
+[0.Vimrc Configuration Guide - How to Customize Your Vim Code Editor with Mappings, Vimscript, Status Line, and More](https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/)
 
 [1.Set up Vim as your Rust IDE](https://opensource.com/article/20/7/vim-rust-ide)
 
