@@ -3,6 +3,8 @@
 
 [Vim - the ubiquitous text editor](https://www.vim.org/)
 
+[5 ways to level up your Vim skills](https://opensource.com/article/20/3/vim-skills)
+
 [Classic SysAdmin: Vim 101: A Beginner’s Guide to Vim](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim)
 
 [0.Vimrc Configuration Guide - How to Customize Your Vim Code Editor with Mappings, Vimscript, Status Line, and More](https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/)
