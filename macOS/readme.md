@@ -6,29 +6,29 @@ $ set -o vi
 Vi mode allows for the use of vi like commands when at the bash prompt. When set to this mode initially you will be in insert mode (be able to type at the prompt unlike when you enter vi). Hitting the escape key takes you into command mode.
 Commands to take advantage of bash's Vi Mode:
 
-h Move cursor left
+h - Move cursor left
 
-l Move cursor right
+l - Move cursor right
 
-A Move cursor to end of line and put in insert mode
+A - Move cursor to end of line and put in insert mode
 
-0 (zero) Move cursor to beginning of line (doesn't put in insert mode)
+0 - (zero) Move cursor to beginning of line (doesn't put in insert mode)
 
-i Put into insert mode at current position
+i - Put into insert mode at current position
 
-a Put into insert mode after current position
+a - Put into insert mode after current position
 
-dd Delete line (saved for pasting)
+dd - Delete line (saved for pasting)
 
-D Delete text after current cursor position (saved for pasting)
+D - Delete text after current cursor position (saved for pasting)
 
-p Paste text that was deleted
+p - Paste text that was deleted
 
-j Move up through history commands
+j - Move up through history commands
 
-k Move down through history commands
+k - Move down through history commands
 
-u Undo
+u - Undo
 
 
 ---
