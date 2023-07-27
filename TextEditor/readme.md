@@ -1,20 +1,7 @@
-## [Vim](./vim.md)
-
-[Vim - the ubiquitous text editor](https://www.vim.org/)
-
-
-[Classic SysAdmin: Vim 101: A Beginner’s Guide to Vim](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim)
-
-[0.Vimrc Configuration Guide - How to Customize Your Vim Code Editor with Mappings, Vimscript, Status Line, and More](https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/)
-
-[1.Set up Vim as your Rust IDE](https://opensource.com/article/20/7/vim-rust-ide)
-
-[2.Rust + vim + code completion](https://medium.com/rust-sections/rust-vim-code-completion-b6a36a177340)
-
-[3.Configuring Vim for Rust development](https://blog.logrocket.com/configuring-vim-rust-development/)
+# [Vim](./vim.md)
 
 ---
-## [Emacs](./emacs.md)
+# [Emacs](./emacs.md)
 
 [GNU Emacs](https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html)
 
@@ -23,10 +10,10 @@
 [Lisp相关知识](https://juejin.cn/column/7229462763949047863)
 
 ---
-## [Vscode--Visual Studio Code](https://code.visualstudio.com/)
+# [Vscode--Visual Studio Code](https://code.visualstudio.com/)
 
 ---
-## [Sublime Text](https://www.sublimetext.com)
+# [Sublime Text](https://www.sublimetext.com)
 
 [Install for Linux](https://www.sublimetext.com/docs/linux_repositories.html)
 
@@ -44,7 +31,7 @@ Install:   `/opt/sublime_text/`   Package and config:  `~/.config/sublime-text/`
 `go env -w GOPROXY="https://goproxy.io,direct"`
 
 ---
-## [Atom ](https://atom.io/)
+# [Atom ](https://atom.io/)
    
   **Installing Atom on Linux**
          
