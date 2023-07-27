@@ -1,3 +1,37 @@
+## [Emacs and Vi modes in Bash](https://mywiki.wooledge.org/set-o-vi-emacs)
+
+#### Vi Mode
+
+$ set -o vi
+Vi mode allows for the use of vi like commands when at the bash prompt. When set to this mode initially you will be in insert mode (be able to type at the prompt unlike when you enter vi). Hitting the escape key takes you into command mode.
+Commands to take advantage of bash's Vi Mode:
+
+h Move cursor left
+
+l Move cursor right
+
+A Move cursor to end of line and put in insert mode
+
+0 (zero) Move cursor to beginning of line (doesn't put in insert mode)
+
+i Put into insert mode at current position
+
+a Put into insert mode after current position
+
+dd Delete line (saved for pasting)
+
+D Delete text after current cursor position (saved for pasting)
+
+p Paste text that was deleted
+
+j Move up through history commands
+
+k Move down through history commands
+
+u Undo
+
+
+---
 ## [Old mac, New macOS : OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
 老 macbook 成功吃上macOS 12（已支持13），使用了OpenCore Legacy Patcher ，它基于Python的项目，原理是在内存中注入修补数据，让老MacBook安装新版的Mac OS，并运行和解锁新OS的相关功能，实现近乎原生的体验。
