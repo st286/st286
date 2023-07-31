@@ -13,6 +13,8 @@
 
 [2.Rust + vim + code completion](https://medium.com/rust-sections/rust-vim-code-completion-b6a36a177340)
 
+[3.Vim-OrgMode ](https://github.com/jceb/vim-orgmode)
+
 
 ---
 ## setup vim
