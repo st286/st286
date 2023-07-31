@@ -13,7 +13,6 @@
 
 [2.Rust + vim + code completion](https://medium.com/rust-sections/rust-vim-code-completion-b6a36a177340)
 
-[3.Configuring Vim for Rust development](https://blog.logrocket.com/configuring-vim-rust-development/)
 
 ---
 ## setup vim
