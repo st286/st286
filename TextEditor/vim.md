@@ -13,6 +13,8 @@
 
 [2.Rust + vim + code completion](https://medium.com/rust-sections/rust-vim-code-completion-b6a36a177340)
 
+[Rust-analyzer User Manual](https://rust-analyzer.github.io/manual.html#installation)
+
 [3.Vim-OrgMode ](https://github.com/jceb/vim-orgmode)
 
 [4. vimcolorschemes](https://vimcolorschemes.com)
