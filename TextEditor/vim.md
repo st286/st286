@@ -19,6 +19,10 @@
 
 [4. vimcolorschemes](https://vimcolorschemes.com)
 
+[5. How to change the cursor between Normal and Insert modes in Vim?](https://stackoverflow.com/questions/6488683/how-to-change-the-cursor-between-normal-and-insert-modes-in-vim/42118416#42118416)
+
+[Change Your Vim Cursor from a Block to Line in Normal and Insert Mode](https://nickjanetakis.com/blog/change-your-vim-cursor-from-a-block-to-line-in-normal-and-insert-mode)
+
 
 ---
 ## setup vim
