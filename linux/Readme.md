@@ -102,6 +102,16 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 
 A basic view of the CUPS Printing system. Aimed at Debian 11 (bullseye) but it should fit most of what is provided by Debian 10 (buster). 
 
+### [How to install and configure printers on Kali Linux](https://subba-lakshmi.medium.com/how-to-install-and-configure-printers-on-kali-linux-78a0476b3cfe)
+```
+apt-get install cups cups-client "foomatic-db"
+/usr/sbin/adduser root lpadmin
+systemctl enable cups
+systemctl restart cups
+
+http://127.0.0.1:631/
+```
+
 ### CUPS
 
 CUPS (formerly an acronym for Common UNIX Printing System) is a modular printing system for Unix-like computer operating systems which allows a computer to act as a print server. A computer running CUPS is a host that can accept print jobs from client computers, process them, and send them to the appropriate printer. 
