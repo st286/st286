@@ -23,6 +23,8 @@
 
 [Change Your Vim Cursor from a Block to Line in Normal and Insert Mode](https://nickjanetakis.com/blog/change-your-vim-cursor-from-a-block-to-line-in-normal-and-insert-mode)
 
+[6. Auto Pairs](https://github.com/jiangmiao/auto-pairs)
+
 
 ---
 ## setup vim
