@@ -34,11 +34,14 @@ ncat -l 3128 --proxy-type http --proxy-auth <user>:<pass>
 ### .gitconfig
 
 ```
-[socks5]
-        proxy = http://127.0.0.1:1080
 [user]
-        email = xxxx@gmail.com
-        name = xxxx
+        email = xxx@gmail.com
+        name = xxx
+[http]
+       proxy = socks5://127.0.0.1:1080
+
+[https]
+       proxy = socks5://127.0.0.1:1080
 
 ```
 
