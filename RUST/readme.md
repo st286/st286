@@ -18,6 +18,8 @@
 ### [Rust教學](https://tw511.com/2/28/1043.html)
 
 ---
+[The rustup book](https://rust-lang.github.io/rustup/)
+
 [3 Rust tooling](https://livebook.manning.com/book/code-like-a-pro-in-rust/chapter-3/v-10/)
 
 [Configuring Emacs for Rust development](https://robert.kra.hn/posts/rust-emacs-setup/)
