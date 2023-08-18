@@ -1,3 +1,13 @@
+## Virtual machine
+
+[Orbstack](https://orbstack.dev/)
+
+Say goodbye to slow, clunky containers and VMs
+
+Seamless and efficient Docker and Linux on your Mac. Glide through your work faster with our Docker Desktop alternative.
+
+
+
 ## [Emacs and Vi modes in Bash](https://mywiki.wooledge.org/set-o-vi-emacs)
 
 #### Vi Mode
