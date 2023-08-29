@@ -43,6 +43,9 @@ DebugPoint.com is a portal covering Technology, Software News and stuff that mat
 
 [linux源码的编译安装和卸载](https://segmentfault.com/a/1190000016073952)
 
+
+[Bypass paywalls chrome ](https://github.com/iamadamdev/bypass-paywalls-chrome)
+
 ---
 ## [Openwrt 固件编译](./openwrt-lead)
 
