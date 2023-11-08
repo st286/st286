@@ -82,10 +82,11 @@ CotEditor is a light-weight, neat, yet powerful text editor designed for editing
 WindowSwap is here to fill that deep void in our wanderlust hearts by allowing us to look through someone else's window, somewhere in the world.
 
 ####   [macOS sudo免密设置](https://blog.csdn.net/cengjingcanghai123/article/details/119797480)
+```
+chmod u+w /etc/sudoers, sudo vim /etc/sudoers, chmod u-w /etc/sudoers
 
-` chmod u+w /etc/sudoers, sudo vim /etc/sudoers, chmod u-w /etc/sudoers`
-`user    ALL = (ALL)NOPASSWD: ALL`
-
+user    ALL = (ALL)NOPASSWD: ALL
+```
 
 ####   [Silicon - Identify Intel-Only Apps on your Mac with ease](https://github.com/DigiDNA/Silicon)
 
