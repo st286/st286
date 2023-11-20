@@ -24,6 +24,8 @@
 
 [sing-box 网络代理平台的“瑞士军刀”，搭建shadowtls节点](https://bulianglin.com/archives/sing-box.html)
 
+[Sing-box 全家桶](https://github.com/fscarmen/sing-box)
+
  ~~[SNELL](./SNELL)~~
 
 [科学上网 2.0 时代](https://blog.forecho.com/science-internet-guide.html)
