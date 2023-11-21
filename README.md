@@ -16,7 +16,8 @@
 
  [GOST](./GOST)
 
- sing-box:
+<detail>
+ <summary>sing-box: </summary>
 
 [sing-box site](https://sing-box.sagernet.org)
 
@@ -26,7 +27,11 @@
 
 [Sing-box 全家桶](https://github.com/fscarmen/sing-box)
 
+[sing-box进阶](https://yugogo.xyz/?p=1999)
+
  ~~[SNELL](./SNELL)~~
+
+</detail>
 
 [科学上网 2.0 时代](https://blog.forecho.com/science-internet-guide.html)
 
