@@ -16,7 +16,7 @@
 
  [GOST](./GOST)
 
-<detail>
+<details>
  <summary>sing-box: </summary>
 
 [sing-box site](https://sing-box.sagernet.org)
@@ -31,7 +31,7 @@
 
  ~~[SNELL](./SNELL)~~
 
-</detail>
+</details>
 
 [科学上网 2.0 时代](https://blog.forecho.com/science-internet-guide.html)
 
