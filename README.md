@@ -29,6 +29,8 @@
 
 [最全协议sing-box一键脚本, 支持支持多协议多节点共存](https://github.com/TinrLin/sing-box)
 
+[sing-box安装shadowtls和reality并共用443端口](https://mareep.net/posts/55957/)
+
 [sing-box进阶](https://yugogo.xyz/?p=1999)
 
  ~~[SNELL](./SNELL)~~
