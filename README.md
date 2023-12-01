@@ -23,6 +23,10 @@
 
 [sing-box github](https://github.com/SagerNet/sing-box)
 
+[节点自建 Shadowsocks篇】AEAD 2022抗审查加密隧道搭建教程 ](https://pincong.rocks/article/66046)
+
+[sing-box官方文档](https://sing-box.sagernet.org/zh/)
+
 [sing-box 网络代理平台的“瑞士军刀”，搭建shadowtls节点](https://bulianglin.com/archives/sing-box.html)
 
 [Sing-box 全家桶](https://github.com/fscarmen/sing-box)
