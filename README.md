@@ -27,6 +27,8 @@
 
 [Sing-box 全家桶](https://github.com/fscarmen/sing-box)
 
+[最全协议sing-box一键脚本, 支持支持多协议多节点共存](https://github.com/TinrLin/sing-box)
+
 [sing-box进阶](https://yugogo.xyz/?p=1999)
 
  ~~[SNELL](./SNELL)~~
