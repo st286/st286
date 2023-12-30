@@ -104,10 +104,16 @@ A basic view of the CUPS Printing system. Aimed at Debian 11 (bullseye) but it s
 
 ### [How to install and configure printers on Kali Linux](https://subba-lakshmi.medium.com/how-to-install-and-configure-printers-on-kali-linux-78a0476b3cfe)
 ```
+# by root \ st
+
 apt-get install cups cups-client "foomatic-db"
+
 /usr/sbin/adduser root lpadmin
+adduser  st lpadmin
+
 systemctl enable cups
 systemctl restart cups
+systemctl status cups
 
 http://127.0.0.1:631/
 ```
