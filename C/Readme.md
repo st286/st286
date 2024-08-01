@@ -1,6 +1,7 @@
 
 ### [The LLVM Compiler Infrastructure](https://llvm.org)
 
+[Clang Format在Mac上的安装与使用](https://juejin.cn/post/6844903886390558733)
 
 ### [Ninja is a small build system with a focus on speed](https://github.com/ninja-build/ninja)
 
