@@ -7,6 +7,21 @@
 
 
 ---
+
+## C language
+
+  0. [The C Book](https://publications.gbdirect.co.uk/c_book/)
+
+  1. [笨办法学C 中文版](https://wizardforcel.gitbooks.io/lcthw/content/)
+  
+  2. [C语言学习资源整理](https://zhuanlan.zhihu.com/p/23677249)
+  
+  3. [GNU make](https://www.gnu.org/software/make/manual/html_node/index.html#Top0)     
+     [Make 命令教程](http://www.ruanyifeng.com/blog/2015/02/make.html)    
+     [Makefile使用(简书)](https://www.jianshu.com/p/8dc048ae1e11)   
+     [ Valgrind](http://valgrind.org/)
+
+---
 ## [Advanced Programming in the UNIX® Environment](http://www.apuebook.com/)
 
 编译器的(头)文件搜索（include）路径:
@@ -42,19 +57,6 @@ echo | gcc -v -x c++ -E -
 ####  [Getline function in C](https://linuxhint.com/getline-function-c/)
 
 ###  [malloc( )](https://www.tutorialspoint.com/c_standard_library/c_function_malloc.htm)
-
----
-
-## C language
-
-  1. [笨办法学C 中文版](https://wizardforcel.gitbooks.io/lcthw/content/)
-  
-  2. [C语言学习资源整理](https://zhuanlan.zhihu.com/p/23677249)
-  
-  3. [GNU make](https://www.gnu.org/software/make/manual/html_node/index.html#Top0)     
-     [Make 命令教程](http://www.ruanyifeng.com/blog/2015/02/make.html)    
-     [Makefile使用(简书)](https://www.jianshu.com/p/8dc048ae1e11)   
-     [ Valgrind](http://valgrind.org/)
      
 ---
 ## 在linux上，使用clang (clang++) or gcc (g++) compiler
