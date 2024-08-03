@@ -1,3 +1,14 @@
+## Fedaro linux & SELinux
+
+[淺顯易懂的 SELinux 政策實施指南](https://darkranger.no-ip.org/content/淺顯易懂的-selinux-政策實施指南)
+
+[SELinux 入门](https://zhuanlan.zhihu.com/p/30483108)
+
+[]()
+
+
+
+---
 ---
 
 [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
