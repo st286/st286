@@ -3,6 +3,8 @@
 
 [Clang Format在Mac上的安装与使用](https://juejin.cn/post/6844903886390558733)
 
+[How To Search and Replace Using The Vim Text Editor](https://www.namehero.com/blog/how-to-search-and-replace-using-the-vim-text-editor/)
+
 ### [Ninja is a small build system with a focus on speed](https://github.com/ninja-build/ninja)
 
 
