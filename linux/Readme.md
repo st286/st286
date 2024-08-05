@@ -6,6 +6,9 @@
 
 []()
 
+###  fcitx5 input method
+
+    sudo dnf install fcitx5 fcitx5-autostart fcitx5-chinese-addons fcitx5-configtool fcitx5-gtk fcitx5-qt
 
 
 ---
