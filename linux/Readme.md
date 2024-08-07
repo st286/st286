@@ -6,7 +6,7 @@
 
 []()
 
-### [Fedora 40 安装配置手册](https://www.google.com/search?q=fedora+fedora40%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B&sca_esv=c1c83ae130d39436&biw=1717&bih=916&ei=XR2zZsLICaPckPIPvYOdmQM&oq=fedora+40%E4%BD%BF%E7%94%A8&gs_lp=Egxnd3Mtd2l6LXNlcnAiD2ZlZG9yYSA0MOS9v-eUqCoCCAAyCRAhGKABGAoYKkjOqAFQoQdY95EBcAV4AJABAZgB9QGgAcsaqgEEMi0xNbgBAcgBAPgBAZgCDKAC9g7CAg4QABiABBiRAhixAxiKBcICChAAGIAEGEMYigXCAgUQABiABMICCBAAGIAEGKIEwgIFECEYoAHCAggQABgIGA0YHsICCxAAGIAEGIYDGIoFwgIIEAAYogQYiQWYAwCIBgGSBwU0LjAuOKAH7yk&sclient=gws-wiz-serp)
+### [Fedora 40 安装配置手册](https://plumz.me/archives/13722/)
 
 ###  fcitx5 input method
 
