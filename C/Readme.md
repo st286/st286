@@ -12,6 +12,8 @@
 
 ## C language
 
+[C语言该从哪开始学习](https://www.zhihu.com/question/450982219/answer/1902031532)
+
   0. [The C Book](https://publications.gbdirect.co.uk/c_book/)
 
   1. [笨办法学C 中文版](https://wizardforcel.gitbooks.io/lcthw/content/)
