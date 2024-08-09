@@ -23,6 +23,8 @@
      [Makefile使用(简书)](https://www.jianshu.com/p/8dc048ae1e11)   
      [ Valgrind](http://valgrind.org/)
 
+[如何使用 C 语言中的 volatile 关键字?](https://steemit.com/cn/@cifer/c-volatile)
+
 ---
 ## [Advanced Programming in the UNIX® Environment](http://www.apuebook.com/)
 
