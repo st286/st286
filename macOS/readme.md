@@ -1,4 +1,4 @@
-## Virtual machine
+# Virtual machine
 
 [Orbstack](https://orbstack.dev/)
 
@@ -8,7 +8,12 @@ Seamless and efficient Docker and Linux on your Mac. Glide through your work fas
 
 
 
-## [Emacs and Vi modes in Bash](https://mywiki.wooledge.org/set-o-vi-emacs)
+# Editor
+
+[Emacs and Vi modes in Bash](https://mywiki.wooledge.org/set-o-vi-emacs)
+
+<details>
+  <summary> [Emacs and Vi modes in Bash](https://mywiki.wooledge.org/set-o-vi-emacs) </summary>
 
 #### Vi Mode
 
@@ -40,9 +45,10 @@ k - Move down through history commands
 
 u - Undo
 
+</details>
 
 ---
-## [Old mac, New macOS : OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
+# [Old mac, New macOS : OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
 老 macbook 成功吃上macOS 12（已支持13），使用了OpenCore Legacy Patcher ，它基于Python的项目，原理是在内存中注入修补数据，让老MacBook安装新版的Mac OS，并运行和解锁新OS的相关功能，实现近乎原生的体验。
 
@@ -51,20 +57,15 @@ Main goal is to breathe new life into Macs no longer supported by Apple, allowin
 [Supported Models](https://dortania.github.io/OpenCore-Legacy-Patcher/MODELS.html)
 
 ---
-## [rage: Rust implementation of age](https://github.com/str4d/rage)
+# [rage: Rust implementation of age](https://github.com/str4d/rage)
 ```
 $ rage -R file1.pub example.png > example.png.age
 $ rage -d -i file2 example.png.age > example.png
 ```
-## [How to Use ssh-keygen to Generate a New SSH Key](https://www.ssh.com/academy/ssh/keygen)
+# [How to Use ssh-keygen to Generate a New SSH Key](https://www.ssh.com/academy/ssh/keygen)
 
 ---
-### [macOS轻量级纯文本编辑器](https://apps.apple.com/app/coteditor/id1024640650?ls=1)
-
-CotEditor is a light-weight, neat, yet powerful text editor designed for editing plain-text files such as web pages (HTML, CSS), program source codes (Python, Ruby, Perl, etc.), structured texts (Markdown, Textile, TeX, etc.), or any other kind of plain-text.
-
----
-### [沉浸式翻译：](https://immersivetranslate.com)
+# [沉浸式翻译：](https://immersivetranslate.com)
 
 1⃣能自定义ChatGPT、DeepL 等作为翻译源，我现在用的是 GPT 
 
@@ -81,7 +82,9 @@ CotEditor is a light-weight, neat, yet powerful text editor designed for editing
 
 WindowSwap is here to fill that deep void in our wanderlust hearts by allowing us to look through someone else's window, somewhere in the world.
 
-####   [macOS sudo免密设置](https://blog.csdn.net/cengjingcanghai123/article/details/119797480)
+
+
+#  [macOS sudo免密设置](https://blog.csdn.net/cengjingcanghai123/article/details/119797480)
 ```
 chmod u+w /etc/sudoers, sudo vim /etc/sudoers, chmod u-w /etc/sudoers
 
