@@ -10,7 +10,7 @@ Seamless and efficient Docker and Linux on your Mac. Glide through your work fas
 
 # Editor
 
-[Emacs and Vi modes in Bash](https://mywiki.wooledge.org/set-o-vi-emacs)
+[MacVim -- Vim - the text editor - for macOS](https://github.com/macvim-dev/macvim)
 
 <details>
   <summary> [Emacs and Vi modes in Bash](https://mywiki.wooledge.org/set-o-vi-emacs) </summary>
