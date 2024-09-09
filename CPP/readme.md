@@ -3,7 +3,7 @@
 编译器的(头)文件搜索（include）路径,  header file copy to /usr/local/include/
 
 ```
-echo | clang -v -x c -E -
+echo | clang -v -x c++  -E -
 echo | gcc -v -x c++ -E -
 ```
 
