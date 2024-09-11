@@ -18,6 +18,8 @@
 
        go to https://developer.apple.com/download/all/  download command line tools
 
+       brew install gcc clang
+
 # Virtual machine
 
 [Orbstack](https://orbstack.dev/)
