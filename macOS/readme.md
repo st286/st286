@@ -6,6 +6,18 @@
       
       https://developer.apple.com/download/all/
 
+  developer tools:  
+
+      xcode-select 
+      
+      /Library/Developer/CommandLineTools
+
+   重装:  
+   
+       sudo rm -rf /Library/Developer/
+
+       go to https://developer.apple.com/download/all/  download command line tools
+
 # Virtual machine
 
 [Orbstack](https://orbstack.dev/)
