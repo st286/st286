@@ -1,3 +1,7 @@
+# Install the Command Line Tools for Xcode 16 from:
+      
+      https://developer.apple.com/download/all/
+
 # Virtual machine
 
 [Orbstack](https://orbstack.dev/)
