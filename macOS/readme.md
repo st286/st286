@@ -18,6 +18,14 @@
 
        go to https://developer.apple.com/download/all/  download command line tools, and install.  // with clang: c, c++, etc.
 
+
+Command Line Tools for Xcode 16 Release Candidate
+
+September 9, 2024
+
+This package enables UNIX-style development via Terminal by installing command line developer tools, as well as macOS SDK frameworks and headers. Many useful tools are included, such as the Apple LLVM compiler, linker, and Make. If you use Xcode, these tools are also embedded within the Xcode IDE.
+
+[Command Line Tools for Xcode 16.dmg](https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_16/Command_Line_Tools_for_Xcode_16.dmg)
        
 
 # Virtual machine
