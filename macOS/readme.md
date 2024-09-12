@@ -16,9 +16,9 @@
    
        sudo rm -rf /Library/Developer/
 
-       go to https://developer.apple.com/download/all/  download command line tools
+       go to https://developer.apple.com/download/all/  download command line tools, and install.  // with clang: c, c++, etc.
 
-       brew install gcc clang
+       
 
 # Virtual machine
 
